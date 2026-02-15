@@ -4,15 +4,7 @@
         "language": 3,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "91aa7846-f801-419a-960f-cd3621261717",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fbe19d31-d31a-49e5-bc80-7323795f46c4",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fe1c140d-60b9-4f3d-a785-ff6050b5e9c7",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a0a40a9e-aeee-4e0f-ae53-83ba32610887",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "04f9245b-8ada-49b0-9149-13470e777a29",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7aaeac8b-e7bf-45c6-8c9e-7a3b3729d983",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "43400c08-1d42-4fe0-a25e-0d70f5156dff",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5a2f5dfa-b4d0-4809-8b2c-d9e9183169b5",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "6ac122a6-2d64-4727-b286-d8272c47d692",
             "family": "Arial",
@@ -7951,7 +8055,7 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Los documentos del usuario se almacenan en el sitio y su lista se muestra en la sección Documentos. Actualmente, el número máximo de ",
+                                "elements": "Los documentos del usuario se almacenan en el sitio y su lista se muestra en la sección Documentos. Actualmente, el número máximo de documentos por usuario es de 50, con un tamaño máximo de 1 MB ",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -7963,7 +8067,7 @@
                             {
                                 "id": "0,0,1,0",
                                 "type": 4,
-                                "elements": "documentos por usuario es de 50, con un tamaño máximo de 1 MB por documento.",
+                                "elements": "por documento.",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -7983,19 +8087,7 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "Tras iniciar sesión correctamente, estarán disponibles las siguientes opciones para trabajar con documentos y los botones correspondientes en ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "la barra de herramientas:",
+                                "elements": "Tras iniciar sesión correctamente, estarán disponibles las siguientes opciones para trabajar con documentos y los botones correspondientes en la barra de herramientas:",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8099,7 +8191,7 @@
                             {
                                 "id": "0,5,0,1",
                                 "type": 4,
-                                "elements": " - (solo para versión web) guardar el documento con un nuevo nombre.",
+                                "elements": " - guardar el documento con un nuevo nombre.",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8125,7 +8217,7 @@
                             {
                                 "id": "0,6,0,1",
                                 "type": 4,
-                                "elements": " - (solo para versión web) descargar el documento al ordenador del usuario; se puede abrir con la aplicación Yutovo para PC.",
+                                "elements": " - descargar el documento al ordenador del usuario; se puede abrir con la aplicación Yutovo para PC.",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8151,7 +8243,7 @@
                             {
                                 "id": "0,7,0,1",
                                 "type": 4,
-                                "elements": " - (solo para versión web) cambiar el nombre del documento.",
+                                "elements": " - cambiar el nombre del documento.",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8177,7 +8269,7 @@
                             {
                                 "id": "0,8,0,1",
                                 "type": 4,
-                                "elements": " - (solo para versión web) eliminar el documento.",
+                                "elements": " - eliminar el documento.",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8197,7 +8289,7 @@
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
-                                "elements": "Un documento almacenado en el sitio se abre haciendo clic en su nombre en la sección Documentos. Después, se puede compartir con otras ",
+                                "elements": "Un documento almacenado en el sitio se abre haciendo clic en su nombre en la sección Documentos. Después, se puede compartir con otras personas; para ello, se debe proporcionar su dirección desde el ",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8209,19 +8301,7 @@
                             {
                                 "id": "0,9,1,0",
                                 "type": 4,
-                                "elements": "personas; para ello, se debe proporcionar su dirección desde el navegador. Podrán ver y editar este documento, pero solo podrán guardarlo en ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,2,0",
-                                "type": 4,
-                                "elements": "su cuenta.",
+                                "elements": "navegador. Podrán ver y editar este documento, pero solo podrán guardarlo en su cuenta.",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8241,7 +8321,7 @@
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
-                                "elements": "Los documentos de la biblioteca también pueden guardarse en su sección; tras guardarlos, aparecerán en el panel correspondiente. De esta ",
+                                "elements": "Los documentos de la biblioteca también pueden guardarse en su sección; tras guardarlos, aparecerán en el panel correspondiente. De esta forma, podrán usar ejemplos y diversos materiales de la ",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8253,7 +8333,19 @@
                             {
                                 "id": "0,10,1,0",
                                 "type": 4,
-                                "elements": "forma, podrán usar ejemplos y diversos materiales de la biblioteca como punto de partida para sus cálculos. Cada documento tiene un idioma ",
+                                "elements": "biblioteca como punto de partida para sus cálculos. Cada documento tiene un idioma asociado (configuración regional), que se configura en la configuración del documento haciendo clic en el botón ",
+                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
+                            },
+                            {
+                                "id": "0,10,1,1",
+                                "type": 34,
+                                "elements": [],
+                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIie2VPW6EMBCFvVEOQEmHO0rmBvgGcARzLw4BJwBkkKCDjgIJu6Kho6Nxik0sMD9hI4ot8qphPP5svdGYxzzP6FY9pJT3Ej/uxb0HMY5jzvmdxCiKzomrzmRZlqbpbh0AeJ6HEAqCACGEMX7mCSGu6y4rP5cflmVpy0qmaarYcRwAUFu0yhURY6wOPxEAEEIOl+WLYowNw3BScEgchiHP81fPk1Ie9rpt2zAMf3Vgq5WPTdPUda2IKl8URdd1u/sBwHGcQ+K3ET/xbl7TTv7IjiRJKKV/8PGsM4yxO4lL5Xk+TdNF4qW5DsNwHMcrlXpnhBDLV8A0Tdu2n3FVVUKI7X6MsTaIKyLnfPlSAIAilmVpGMaWSAjRR/uKNZTSvu/v9NH3/d0L7ur/z/WuxC8I5z2x/wRBvQAAAABJRU5ErkJggg=="
+                            },
+                            {
+                                "id": "0,10,1,2",
+                                "type": 4,
+                                "elements": ". El ",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8265,31 +8357,7 @@
                             {
                                 "id": "0,10,2,0",
                                 "type": 4,
-                                "elements": "asociado (configuración regional), que se configura en la configuración del documento haciendo clic en el botón ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            },
-                            {
-                                "id": "0,10,2,1",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIie2VPW6EMBCFvVEOQEmHO0rmBvgGcARzLw4BJwBkkKCDjgIJu6Kho6Nxik0sMD9hI4ot8qphPP5svdGYxzzP6FY9pJT3Ej/uxb0HMY5jzvmdxCiKzomrzmRZlqbpbh0AeJ6HEAqCACGEMX7mCSGu6y4rP5cflmVpy0qmaarYcRwAUFu0yhURY6wOPxEAEEIOl+WLYowNw3BScEgchiHP81fPk1Ie9rpt2zAMf3Vgq5WPTdPUda2IKl8URdd1u/sBwHGcQ+K3ET/xbl7TTv7IjiRJKKV/8PGsM4yxO4lL5Xk+TdNF4qW5DsNwHMcrlXpnhBDLV8A0Tdu2n3FVVUKI7X6MsTaIKyLnfPlSAIAilmVpGMaWSAjRR/uKNZTSvu/v9NH3/d0L7ur/z/WuxC8I5z2x/wRBvQAAAABJRU5ErkJggg=="
-                            },
-                            {
-                                "id": "0,10,2,2",
-                                "type": 4,
-                                "elements": ". El idioma determina el ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,10,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,3,0",
-                                "type": 4,
-                                "elements": "conjunto de variables, funciones y dimensiones integradas que se utilizarán en los cálculos.",
+                                "elements": "idioma determina el conjunto de variables, funciones y dimensiones integradas que se utilizarán en los cálculos.",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]

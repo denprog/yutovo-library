@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "e76899f3-f50a-4df6-b537-29213483cf71",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dba62679-8e10-41b5-b31c-bdc39203c7e9",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "054136b7-ecf5-4a32-8d19-1aaf52b767ad",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a1465409-ff1a-4822-bf69-db5b8421f8d0",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "30367f04-a066-4a84-a8cf-34bfc882d9e1",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7d24c4eb-c82e-41f3-a1d8-d2e333caacd1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1d86efd1-fc12-4ce3-afbe-1cb8f239fcfc",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b586a658-bbab-407e-9369-bae8641ef3c4",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "c52faf4d-e87f-4731-8754-96c85f30b7fc",
             "family": "Arial",
             "size": 14,
@@ -8291,7 +8403,7 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "Предназначена для работы с файлами и для редактирования текста. Открытие, сохранение, скачивание, переименовывание и удаление файлов доступно ",
+                                "elements": "Предназначена для работы с файлами и для редактирования текста. Открытие, сохранение, скачивание, переименовывание и удаление файлов доступно только после логина. Кнопка ",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]
@@ -8303,7 +8415,7 @@
                             {
                                 "id": "0,2,1,0",
                                 "type": 4,
-                                "elements": "только после логина. Кнопка \"Настройки\" ",
+                                "elements": "\"Настройки\" ",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             },
                             {
@@ -8315,7 +8427,7 @@
                             {
                                 "id": "0,2,1,2",
                                 "type": 4,
-                                "elements": " предназначена для установки параметров вычисления выражений, языка документа и подключаемых ",
+                                "elements": " предназначена для установки параметров вычисления выражений, языка документа и подключаемых документов. От языка документа зависит набор используемых встроенных ",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]
@@ -8327,7 +8439,19 @@
                             {
                                 "id": "0,2,2,0",
                                 "type": 4,
-                                "elements": "документов. От языка документа зависит набор используемых встроенных переменных, функций и размерностей. Вы можете изменять масштаб документа с ",
+                                "elements": "переменных, функций и размерностей. Вы можете изменять масштаб документа с помощью элемента масштабирования: ",
+                                "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
+                            },
+                            {
+                                "id": "0,2,2,1",
+                                "type": 34,
+                                "elements": [],
+                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAAEYAAAATCAIAAACiD+yXAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADc0lEQVRIie1XX2gTdxz/Jp7wK/hwVzqWAx/6Kx0sAR8uWEZPIphRpden3vDF2Y0tLVtJXzTpwxbpg0YF6Z8HE2SSKmxEQW2EsUbGaApjlzKERMjIPVTyE+ySDAt3wUJ+0HjnQ08XNbVGg1Lx83R8v9/7/D4ffl8+3NlM04T3C/Z3LaD1+GBpO6B5SzVd/SMalPcNnM3SumL28tjnrnbbzrau/UenbhGrVSulTn3h+shm29nuOjg2m9Wt4QtH3Xx718Fg4i5teMhLYBjGv8WSYRibTpjNQPtzUu5GGy8KE5mqVa4WLsm4Q/BdUgpEiQxh5JBjatU0zeK1L7FDDPyaL6rzIQ/H90fyVbOamZT6/HNqQZmWxdG54rpplhZiFxeK66+koVKpfO37vlKpbDbQ7C2x7uNzGaKEPfz/NUoSV5fQ4fDkkIg7Rd9ESGKyizkNKEleT6PB0Il+J/+pFPzhCJtLpJaptkKoQxS6sWuvE62Q8pqeOn86UUZtTLMX1hjN0bAeX8gDsJZNPsOB5dM3vLybZQAAEOLaEEANgJbUe4D7nIgBAGA/ETCTIquU6+BhJUNWJfqPqu2SIBedui34fxbZ1jhqSTwwCPeIwm5rIcliIg2C1MsBLetrwLHIaiCOY2h5tYp6/JOH9aDAD9zEJ8bd6fNJfsQvOVogxJITmjj5YlXqP7Sv97PXoKO52eBEkv/2N6kTwQrQ9fqjAACgBsCwwmgsMxoDAHJ1OMocifTjl9MqS38nb/2+8fzIMADgzLnpHXZ7Q7UtDfFyKvzd+NKeU5FjIgsvLHUNAABQ/XwyernkHRHVswNdXLv7q2h6tRUymko8Cw8zYQ9fl3hW7MWHMCf45+8/qWgLgR4sXSxYYyQudwuBlPa0rZyUvD/O5xN+72BYIfm5Y17p3LOcbyXxNkFNT88MBxedoZ/C0u4nRcTjDkpuq1oNAEC/ny+3udzYSgGai08t8v4REe4RcB5wdTp7ezFdJhvDb4LWWCI3g8PTJWk6Euipyy2EpUGh/MvY2ExKzaVmZ65oe+UDlmGq/qXy3wSkThY5OE3NlnRdvUMQxtybR3kLFm+9EB/knucVQopmmg/zsVGRB4AOQR6PZR40YnughPt4tAtxe3zx5S33buvFs5nb7efCMIxS+T/e8bHd3njFtp+lLfHhS3w74DEbWP2j8YCeTgAAAABJRU5ErkJggg=="
+                            },
+                            {
+                                "id": "0,2,2,2",
+                                "type": 4,
+                                "elements": ". Также изменение масштаба возможно колесиком мыши с ",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]
@@ -8339,19 +8463,19 @@
                             {
                                 "id": "0,2,3,0",
                                 "type": 4,
-                                "elements": "помощью элемента масштабирования: ",
+                                "elements": "нажатой клавишей Ctrl. Кнопка \"Пересчитать документ\" ",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             },
                             {
                                 "id": "0,2,3,1",
                                 "type": 34,
                                 "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAAEYAAAATCAIAAACiD+yXAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADc0lEQVRIie1XX2gTdxz/Jp7wK/hwVzqWAx/6Kx0sAR8uWEZPIphRpden3vDF2Y0tLVtJXzTpwxbpg0YF6Z8HE2SSKmxEQW2EsUbGaApjlzKERMjIPVTyE+ySDAt3wUJ+0HjnQ08XNbVGg1Lx83R8v9/7/D4ffl8+3NlM04T3C/Z3LaD1+GBpO6B5SzVd/SMalPcNnM3SumL28tjnrnbbzrau/UenbhGrVSulTn3h+shm29nuOjg2m9Wt4QtH3Xx718Fg4i5teMhLYBjGv8WSYRibTpjNQPtzUu5GGy8KE5mqVa4WLsm4Q/BdUgpEiQxh5JBjatU0zeK1L7FDDPyaL6rzIQ/H90fyVbOamZT6/HNqQZmWxdG54rpplhZiFxeK66+koVKpfO37vlKpbDbQ7C2x7uNzGaKEPfz/NUoSV5fQ4fDkkIg7Rd9ESGKyizkNKEleT6PB0Il+J/+pFPzhCJtLpJaptkKoQxS6sWuvE62Q8pqeOn86UUZtTLMX1hjN0bAeX8gDsJZNPsOB5dM3vLybZQAAEOLaEEANgJbUe4D7nIgBAGA/ETCTIquU6+BhJUNWJfqPqu2SIBedui34fxbZ1jhqSTwwCPeIwm5rIcliIg2C1MsBLetrwLHIaiCOY2h5tYp6/JOH9aDAD9zEJ8bd6fNJfsQvOVogxJITmjj5YlXqP7Sv97PXoKO52eBEkv/2N6kTwQrQ9fqjAACgBsCwwmgsMxoDAHJ1OMocifTjl9MqS38nb/2+8fzIMADgzLnpHXZ7Q7UtDfFyKvzd+NKeU5FjIgsvLHUNAABQ/XwyernkHRHVswNdXLv7q2h6tRUymko8Cw8zYQ9fl3hW7MWHMCf45+8/qWgLgR4sXSxYYyQudwuBlPa0rZyUvD/O5xN+72BYIfm5Y17p3LOcbyXxNkFNT88MBxedoZ/C0u4nRcTjDkpuq1oNAEC/ny+3udzYSgGai08t8v4REe4RcB5wdTp7ezFdJhvDb4LWWCI3g8PTJWk6Euipyy2EpUGh/MvY2ExKzaVmZ65oe+UDlmGq/qXy3wSkThY5OE3NlnRdvUMQxtybR3kLFm+9EB/knucVQopmmg/zsVGRB4AOQR6PZR40YnughPt4tAtxe3zx5S33buvFs5nb7efCMIxS+T/e8bHd3njFtp+lLfHhS3w74DEbWP2j8YCeTgAAAABJRU5ErkJggg=="
+                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABEAAAAXCAIAAABiVjOwAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABOElEQVQ4jc2Tv6uCUBTHb/qgKf8DHUWdncUhjIbAf8DR1b/A3cFNXBqiwa29Bkfd2wryx6BLQw4qJILgafC9B9XLigeP9xkv58M593vuHQAAehPsXeF3zuFw0HU9juOmaZ5LAAAAu92OJElRFE3TPJ1O0MvVbJZlbbfb2Wzmed6rfQCgrmvbthmG0XU9TdO2be/73Dod+/1e07TJZLJcLvM8f8kBgPP57HmeIAiyLMdx/JLTEYahKIosyyZJ8n348eieVVWt12vHcWiaNk2ToqiHGXQcj0dFUXie32w2ZVn2ZY0QKopitVpJkkQQhOu60+l0NBrd1FzN5vv+YrGoqsowjPF4PBwOn++H47j5fJ5l2X0YP+QWBIGqqlEU9Vd3DAAAIdQ0DYZhOI73PZkvPp23+OM/9y+dCyZ6ksuSAqBKAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,2,3,2",
                                 "type": 4,
-                                "elements": ". Также изменение масштаба возможно колесиком мыши с нажатой клавишей Ctrl. Кнопка \"Пересчитать ",
+                                "elements": " вызывает вычисление всех выражений в документе. Кнопки выбора формата параграфа, шрифта, его размера и стиля эквивалентны ",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]
@@ -8363,31 +8487,7 @@
                             {
                                 "id": "0,2,4,0",
                                 "type": 4,
-                                "elements": "документ\" ",
-                                "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
-                            },
-                            {
-                                "id": "0,2,4,1",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABEAAAAXCAIAAABiVjOwAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABOElEQVQ4jc2Tv6uCUBTHb/qgKf8DHUWdncUhjIbAf8DR1b/A3cFNXBqiwa29Bkfd2wryx6BLQw4qJILgafC9B9XLigeP9xkv58M593vuHQAAehPsXeF3zuFw0HU9juOmaZ5LAAAAu92OJElRFE3TPJ1O0MvVbJZlbbfb2Wzmed6rfQCgrmvbthmG0XU9TdO2be/73Dod+/1e07TJZLJcLvM8f8kBgPP57HmeIAiyLMdx/JLTEYahKIosyyZJ8n348eieVVWt12vHcWiaNk2ToqiHGXQcj0dFUXie32w2ZVn2ZY0QKopitVpJkkQQhOu60+l0NBrd1FzN5vv+YrGoqsowjPF4PBwOn++H47j5fJ5l2X0YP+QWBIGqqlEU9Vd3DAAAIdQ0DYZhOI73PZkvPp23+OM/9y+dCyZ6ksuSAqBKAAAAAElFTkSuQmCC"
-                            },
-                            {
-                                "id": "0,2,4,2",
-                                "type": 4,
-                                "elements": " вызывает вычисление всех выражений в документе. Кнопки выбора формата параграфа, шрифта, его размера и стиля эквивалентны обычному ",
-                                "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,2,5",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,5,0",
-                                "type": 4,
-                                "elements": "редактору.",
+                                "elements": "обычному редактору.",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]
@@ -8467,7 +8567,7 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "Панель документов (в веб версии)",
+                                "elements": "Панель документов",
                                 "format_id": "487901ec-7161-4565-a4af-41f29241ca5c"
                             }
                         ]
@@ -8487,19 +8587,7 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "Расположена слева и содержит документы текущего пользователя. Появляется после логина. При клике на документе он загружается, математические ",
-                                "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,7,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,7,1,0",
-                                "type": 4,
-                                "elements": "выражения в нем вычисляются.",
+                                "elements": "Расположена слева и содержит документы текущего пользователя. Появляется после логина. При клике на документе он загружается, математические выражения в нем вычисляются.",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]
@@ -8519,7 +8607,7 @@
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
-                                "elements": "Панель библиотеки (в веб версии)",
+                                "elements": "Панель библиотеки",
                                 "format_id": "487901ec-7161-4565-a4af-41f29241ca5c"
                             }
                         ]
@@ -8539,7 +8627,7 @@
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
-                                "elements": "Расположена слева и содержит примеры использования, справочную и различную вспомогательную информацию. Загруженный из библиотеки документ ",
+                                "elements": "Расположена слева и содержит примеры использования, справочную и различную вспомогательную информацию. Загруженный из библиотеки документ можно редактировать, однако сохранить ",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]
@@ -8551,7 +8639,7 @@
                             {
                                 "id": "0,9,1,0",
                                 "type": 4,
-                                "elements": "можно редактировать, однако сохранить в свои документы возможно только после логина.",
+                                "elements": "в свои документы возможно только после логина.",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]
@@ -8571,7 +8659,7 @@
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
-                                "elements": "Панель идентификаторов (в веб версии)",
+                                "elements": "Панель идентификаторов",
                                 "format_id": "487901ec-7161-4565-a4af-41f29241ca5c"
                             }
                         ]
@@ -8591,7 +8679,7 @@
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
-                                "elements": "Содержит встроенные и пользовательские переменные, функции и размерности, отсортированные по алфавиту и по физическому смыслу (размерности). ",
+                                "elements": "Содержит встроенные и пользовательские переменные, функции и размерности, отсортированные по алфавиту и по физическому смыслу (размерности). Пользовательские идентификаторы ",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]
@@ -8603,7 +8691,7 @@
                             {
                                 "id": "0,11,1,0",
                                 "type": 4,
-                                "elements": "Пользовательские идентификаторы появляются в этой панели при вводе их в текущем документе.",
+                                "elements": "появляются в этой панели при вводе их в текущем документе.",
                                 "format_id": "3333989f-b08b-4668-a6b1-c7c3e75f3118"
                             }
                         ]

@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "46502113-55ca-4d3c-87cf-86d00b2c8b86",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ab3619b2-617c-4383-bcb3-bac93f01baf2",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1997ae46-0fba-439b-ba6e-f6f80e4bf901",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ff001f2e-74ab-4b86-a33a-fa8f19c09bf2",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "04780b8a-4bba-49ba-ad1b-af83843b6dbc",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f1b98b5b-caae-48f2-8410-46e864841690",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "00d9012d-90b0-4bcd-9334-1d81fd0eb063",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8f8ab57a-1fbb-4745-9bbc-2766248f437c",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "a5e5dbe1-4e37-4a5a-9104-ec0477f393ba",
             "family": "Arial",
@@ -8511,19 +8615,7 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "The user's documents are stored on the site, their list is displayed in the Documents section. Currently, the maximum number of documents for ",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "one user is 50, the maximum size of each document is 1 MB.",
+                                "elements": "The user's documents are stored on the site, their list is displayed in the Documents section. Currently, the maximum number of documents for one user is 50, the maximum size of each document is 1 MB.",
                                 "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
                             }
                         ]
@@ -8647,7 +8739,7 @@
                             {
                                 "id": "0,5,0,1",
                                 "type": 4,
-                                "elements": " - (only for web version) save the document with a new name.",
+                                "elements": " - save the document with a new name.",
                                 "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
                             }
                         ]
@@ -8673,7 +8765,7 @@
                             {
                                 "id": "0,6,0,1",
                                 "type": 4,
-                                "elements": " - (only for web version) download the document to the user's computer; it can then be opened by the Yutovo application for PC.",
+                                "elements": " - download the document to the user's computer; it can then be opened by the Yutovo application for PC.",
                                 "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
                             }
                         ]
@@ -8699,7 +8791,7 @@
                             {
                                 "id": "0,7,0,1",
                                 "type": 4,
-                                "elements": " - (only for web version) rename the document.",
+                                "elements": " - rename the document.",
                                 "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
                             }
                         ]
@@ -8725,7 +8817,7 @@
                             {
                                 "id": "0,8,0,1",
                                 "type": 4,
-                                "elements": " - (only for web version) delete the document.",
+                                "elements": " - delete the document.",
                                 "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
                             }
                         ]
@@ -8745,7 +8837,7 @@
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
-                                "elements": "A document stored on the site opens by clicking on its name in the Documents section. After that, this document can be shared with other people ",
+                                "elements": "A document stored on the site opens by clicking on its name in the Documents section. After that, this document can be shared with other people - to do this, you need to give them its address from the ",
                                 "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
                             }
                         ]
@@ -8757,19 +8849,7 @@
                             {
                                 "id": "0,9,1,0",
                                 "type": 4,
-                                "elements": "- to do this, you need to give them its address from the browser line. They will be able to view and edit this document, but they will only be able to ",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,2,0",
-                                "type": 4,
-                                "elements": "save it to their account.",
+                                "elements": "browser line. They will be able to view and edit this document, but they will only be able to save it to their account.",
                                 "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
                             }
                         ]
@@ -8789,7 +8869,7 @@
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
-                                "elements": "Documents from the library can also be saved to their section - after saving, it will appear in the corresponding panel. Thus, examples and ",
+                                "elements": "Documents from the library can also be saved to their section - after saving, it will appear in the corresponding panel. Thus, examples and various materials from the library can be used as a starting point for ",
                                 "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
                             }
                         ]
@@ -8801,7 +8881,7 @@
                             {
                                 "id": "0,10,1,0",
                                 "type": 4,
-                                "elements": "various materials from the library can be used as a starting point for your calculations.",
+                                "elements": "your calculations.",
                                 "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
                             }
                         ]
@@ -8833,7 +8913,7 @@
                             {
                                 "id": "0,11,0,2",
                                 "type": 4,
-                                "elements": ". The locale determines the set of ",
+                                "elements": ". The locale determines the set of built-in variables, functions, and units that will be used in ",
                                 "format_id": "a1d49acb-7fa7-43e7-bbd4-50b6fc128420"
                             }
                         ]
@@ -8845,7 +8925,7 @@
                             {
                                 "id": "0,11,1,0",
                                 "type": 4,
-                                "elements": "built-in variables, functions, and units that will be used in calculations.",
+                                "elements": "calculations.",
                                 "format_id": "a1d49acb-7fa7-43e7-bbd4-50b6fc128420"
                             }
                         ]

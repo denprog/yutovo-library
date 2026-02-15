@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "bd3a2aa2-f3ec-4d7c-af76-11647125e0f7",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7d3b375b-23c6-4bd0-9b93-6f5082ac9aa4",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "723fd480-d137-402c-80b8-fb07987a1640",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "643e886d-9c69-464a-9221-496f0a7e3e63",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fb63f44c-c36c-4ea2-8376-247d6cbb6076",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7022cb49-e560-4c9b-a3e6-41c3d2f099dc",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "868115e7-263e-4d98-b104-df568df5c0a1",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ab2e35d4-7d24-43f6-8318-cefa13c39fa0",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "fa9e2db5-7839-4de4-a983-636d57a65577",
             "family": "Arial",
             "size": 14,
@@ -8529,7 +8641,7 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "Esta herramienta está diseñada para trabajar con archivos y editar texto. Abrir, guardar, descargar, renombrar y eliminar archivos solo está disponible después de ",
+                                "elements": "Esta herramienta está diseñada para trabajar con archivos y editar texto. Abrir, guardar, descargar, renombrar y eliminar archivos solo está disponible después de iniciar sesión. El botón \"Configuración\" ",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]
@@ -8541,7 +8653,7 @@
                             {
                                 "id": "0,2,1,0",
                                 "type": 4,
-                                "elements": "iniciar sesión. El botón \"Configuración\" permite configurar los parámetros de cálculo de expresiones, el idioma del documento y los documentos incluidos. El idioma del ",
+                                "elements": "permite configurar los parámetros de cálculo de expresiones, el idioma del documento y los documentos incluidos. El idioma del documento determina el conjunto de variables, funciones y unidades ",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]
@@ -8553,7 +8665,7 @@
                             {
                                 "id": "0,2,2,0",
                                 "type": 4,
-                                "elements": "documento determina el conjunto de variables, funciones y unidades integradas utilizadas. Puede cambiar la escala del documento con el control de zoom: ",
+                                "elements": "integradas utilizadas. Puede cambiar la escala del documento con el control de zoom: ",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             },
                             {
@@ -8565,7 +8677,7 @@
                             {
                                 "id": "0,2,2,2",
                                 "type": 4,
-                                "elements": ". ",
+                                "elements": ". También es posible cambiar la escala con la rueda del mouse con la tecla Ctrl presionada. El botón ",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]
@@ -8577,7 +8689,7 @@
                             {
                                 "id": "0,2,3,0",
                                 "type": 4,
-                                "elements": "También es posible cambiar la escala con la rueda del mouse con la tecla Ctrl presionada. El botón \"Recalcular documento\" recalcula todas las expresiones del ",
+                                "elements": "\"Recalcular documento\" recalcula todas las expresiones del documento. Los botones para seleccionar el formato de párrafo, la fuente, el tamaño de fuente y el estilo son equivalentes a los del editor ",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]
@@ -8589,7 +8701,7 @@
                             {
                                 "id": "0,2,4,0",
                                 "type": 4,
-                                "elements": "documento. Los botones para seleccionar el formato de párrafo, la fuente, el tamaño de fuente y el estilo son equivalentes a los del editor estándar.",
+                                "elements": "estándar.",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]
@@ -8669,7 +8781,7 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "Panel de Documentos (en la versión web)",
+                                "elements": "Panel de Documentos",
                                 "format_id": "42b6feb5-e063-4876-84f1-515a5360136d"
                             }
                         ]
@@ -8689,19 +8801,7 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "Ubicado a la izquierda, este panel contiene los documentos del usuario actual. Aparece después de iniciar sesión. Al hacer clic en un documento, este se carga y se ",
-                                "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,7,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,7,1,0",
-                                "type": 4,
-                                "elements": "calculan sus expresiones matemáticas.",
+                                "elements": "Ubicado a la izquierda, este panel contiene los documentos del usuario actual. Aparece después de iniciar sesión. Al hacer clic en un documento, este se carga y se calculan sus expresiones matemáticas.",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]
@@ -8721,7 +8821,7 @@
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
-                                "elements": "Panel de Biblioteca (en la versión web)",
+                                "elements": "Panel de Biblioteca",
                                 "format_id": "42b6feb5-e063-4876-84f1-515a5360136d"
                             }
                         ]
@@ -8741,7 +8841,7 @@
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
-                                "elements": "Ubicado a la izquierda, este panel contiene ejemplos de uso, información de referencia e información auxiliar diversa. Los documentos cargados desde la biblioteca se ",
+                                "elements": "Ubicado a la izquierda, este panel contiene ejemplos de uso, información de referencia e información auxiliar diversa. Los documentos cargados desde la biblioteca se pueden editar, pero solo se pueden ",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]
@@ -8753,7 +8853,7 @@
                             {
                                 "id": "0,9,1,0",
                                 "type": 4,
-                                "elements": "pueden editar, pero solo se pueden guardar en sus documentos después de iniciar sesión.",
+                                "elements": "guardar en sus documentos después de iniciar sesión.",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]
@@ -8773,7 +8873,7 @@
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
-                                "elements": "Panel de identificadores (en la versión web)",
+                                "elements": "Panel de identificadores",
                                 "format_id": "487901ec-7161-4565-a4af-41f29241ca5c"
                             }
                         ]
@@ -8793,7 +8893,7 @@
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
-                                "elements": "Contiene variables, funciones y unidades integradas y definidas por el usuario, ordenadas alfabéticamente y por significado físico (unidades). Los identificadores ",
+                                "elements": "Contiene variables, funciones y unidades integradas y definidas por el usuario, ordenadas alfabéticamente y por significado físico (unidades). Los identificadores definidos por el usuario aparecen en este ",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]
@@ -8805,7 +8905,7 @@
                             {
                                 "id": "0,11,1,0",
                                 "type": 4,
-                                "elements": "definidos por el usuario aparecen en este panel a medida que los introduce en el documento actual.",
+                                "elements": "panel a medida que los introduce en el documento actual.",
                                 "format_id": "5f2218a2-0eb8-4685-a94f-5d38a765a736"
                             }
                         ]

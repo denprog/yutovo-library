@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "38a0e867-8174-4ad4-aae3-b07301b500ea",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b370b5ed-7c84-4480-9597-5f9bf3887c44",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ada4bdf2-b979-4014-8cc4-d6612e76a3db",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a515ab1b-3814-4259-9d38-e790051e6c75",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3a763d3f-f6e4-4442-a0f6-b082a34656c2",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b333861b-1830-4e69-93ed-0643fc751098",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b651f234-2e85-47c8-ba37-b660eae2ebb1",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "749d2384-fc78-4ea5-a0f4-e388e0b87e19",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "44c23615-7c02-46b2-9bc7-422d88003fd6",
             "family": "Arial",
@@ -2449,13 +2553,13 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Для веб-приложения:",
-                                "format_id": "774e59a6-0504-465e-ae51-89c11131cbba"
+                                "elements": "• Поддерживаемые браузеры: Google Chrome начиная с версии 57, Mozilla Firefox - начиная с версии 52.",
+                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ]
                     }
                 ],
-                "format_name": "Header 4",
+                "format_name": "Text body",
                 "format_alignment": 0
             },
             {
@@ -2469,7 +2573,7 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "• Поддерживаемые браузеры: Google Chrome начиная с версии 57, Mozilla Firefox - начиная с версии 52.",
+                                "elements": "• Поддержка Javascript.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ]
@@ -2489,8 +2593,8 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "• Поддержка Javascript.",
-                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
+                                "elements": "• Поддержка cookies.",
+                                "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ]
                     }
@@ -2509,7 +2613,7 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Поддержка cookies.",
+                                "elements": "• Оперативная память от 4 Гб.",
                                 "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ]
@@ -2529,7 +2633,7 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• Оперативная память от 4 Гб.",
+                                "elements": "• Видеоадаптер и монитор: VGA/HDMI(720 x 1280).",
                                 "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ]
@@ -2549,13 +2653,13 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Видеоадаптер и монитор: VGA/HDMI(720 x 1280).",
+                                "elements": "• Свободное место на записывающем устройстве: 4 Гб.",
                                 "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ]
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Monospace",
                 "format_alignment": 0
             },
             {
@@ -2569,13 +2673,13 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "• Свободное место на записывающем устройстве: 4 Гб.",
+                                "elements": "• Клавиатура и мышь.",
                                 "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ]
                     }
                 ],
-                "format_name": "Monospace",
+                "format_name": "Text body",
                 "format_alignment": 0
             },
             {
@@ -2590,12 +2694,12 @@
                                 "id": "0,7,0,0",
                                 "type": 4,
                                 "elements": "",
-                                "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
+                                "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             }
                         ]
                     }
                 ],
-                "format_name": "Monospace",
+                "format_name": "Text body",
                 "format_alignment": 0
             },
             {
@@ -2608,179 +2712,19 @@
                         "elements": [
                             {
                                 "id": "0,8,0,0",
-                                "type": 4,
-                                "elements": "Для приложения для ПК:",
-                                "format_id": "9e088ae5-46ed-4a37-96c9-5e3b5c18957f"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Header 4",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,9",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,9,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,0,0",
-                                "type": 4,
-                                "elements": "• Операционная система Ubuntu 22.04 и выше (либо другие ОС на базе Linux при использовании FlatPak); Windows 10 и выше.",
-                                "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,10",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,10,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,0,0",
-                                "type": 4,
-                                "elements": "• Процессор 2 ГГц с 2 ядрами.",
-                                "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,11",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,11,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,0,0",
-                                "type": 4,
-                                "elements": "• Оперативная память от 4 Гб.",
-                                "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,12",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,12,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,12,0,0",
-                                "type": 4,
-                                "elements": "• Видеоадаптер и монитор: VGA/HDMI(720 x 1280).",
-                                "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,13",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,13,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,13,0,0",
-                                "type": 4,
-                                "elements": "• Свободное место на записывающем устройстве: 4 Гб.",
-                                "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,14",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,14,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,14,0,0",
-                                "type": 4,
-                                "elements": "• Клавиатура и мышь.",
-                                "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,15",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,15,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,15,0,0",
-                                "type": 4,
-                                "elements": "",
-                                "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,16",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,16,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,16,0,0",
                                 "type": 39,
                                 "elements": "<- О Ютово",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "./О Ютово"
                             },
                             {
-                                "id": "0,16,0,1",
+                                "id": "0,8,0,1",
                                 "type": 4,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
-                                "id": "0,16,0,2",
+                                "id": "0,8,0,2",
                                 "type": 39,
                                 "elements": "Правила использования ->",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",

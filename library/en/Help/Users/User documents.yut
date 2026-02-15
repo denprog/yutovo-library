@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "26e4b20e-2c81-41d1-819e-00a274076497",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fa399918-0d2c-4cb6-94be-77e5fca5a96c",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5e6191dd-8cdb-4fbe-bc69-9895823bdfb9",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e357bf91-fdb4-41ce-bca3-2297dc1054b0",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "aa6213fd-f86a-4422-a808-108cec66d0e7",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "60073453-d697-4dee-9235-cc5ac429799c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "19bcfcfe-2634-4ef9-8530-4289ce28a181",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f1e5f6b5-56d4-4ab8-9a08-cf6c23e02af7",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "a5e5dbe1-4e37-4a5a-9104-ec0477f393ba",
             "family": "Arial",
@@ -8511,20 +8615,8 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "The user's documents are stored on the site, their list is displayed in the Documents section. Currently, the maximum number of documents for ",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "one user is 50, the maximum size of each document is 1 MB.",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
+                                "elements": "User documents contain text and calculations and are stored on disk in files with the \".yut\" extension.",
+                                "format_id": "26e4b20e-2c81-41d1-819e-00a274076497"
                             }
                         ]
                     }
@@ -8543,8 +8635,8 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "After successful login, the following options for working with documents and the corresponding buttons on the toolbar become available.",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
+                                "elements": "The File menu is designed for working with document files. You can also use these toolbar buttons to:",
+                                "format_id": "26e4b20e-2c81-41d1-819e-00a274076497"
                             }
                         ]
                     }
@@ -8640,15 +8732,9 @@
                         "elements": [
                             {
                                 "id": "0,5,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACV0lEQVQ4jZ2Uu2vqUBzH8wIfUyuKxGZopIImQ/8Cl1KKSxepg7h0qFOXIA7ZagYnoQpOgc6CrlLoEBqoHboWBJ9oi4WQlhgwgil4cu6gt9dHb73ez3TC93zC73deKIQQ+V8IBEFM09R1HQDwwzy73e5yuTAMW5I/Pj7y+Xy73e71evv7+zabbTH+/Px8eXk5ODgAAHAcFw6Hl37J83wymWw2myRJSpI0WEaSJJIkX19f8/l8MBh8enqCCyChUOjx8RFCSFFUvV6Hy9TrdYqiIIQAgGw2GwwGHx4eAACzlDAMY2dnZ+PaYBjG87zT6SwUCqFQyO12IwiCbdQW/Wg0iuO4aZrzBVuMI5HIRh/H8a/PP/Ld3d2/V7Eqsyy7rfxNz8PhUBAElmVZlhUEYTgcbiEXi8VutyuKoiiKnU4nl8t9HWFVVd/f3zVNm09d316GYWq12mwsy7Lf79c0DULY7/ePj48dDsfp6amiKBDCDVuF/abb7V5eXt7f308mk9vb2+vra8uyiHUhFouJojgb39zcnJ2d6bouCMLz8zOGYZZl4Thut9tRFP2mbE3TMpkMwzAMw1xdXbVarXg8fnh4WC6Xj46OCIJIJBKqqkIIkcUO11EU5fz8nKbpUqkky3IgEGBZttPpzM/2V5G7u7vrLVSr1Wq1enFxAQBIpVKDwYDjOIqiZimqaVqxWKxUKqPRaF0ej8eGYbjd7ul0allWMplMp9Mej2ce/63gGaIo+nw+r9d7cnLSaDRWUvTnN+zt7a3X6yEIsre3R9P0yjO0Qf6ZLe7zOr8AgwqpPPM3/egAAAAASUVORK5CYII="
-                            },
-                            {
-                                "id": "0,5,0,1",
                                 "type": 4,
-                                "elements": " - (only for web version) save the document with a new name.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
+                                "elements": "Documents from the library can also be saved to your own document. This way, examples and various materials from the library can be used as a starting point for your calculations.",
+                                "format_id": "26e4b20e-2c81-41d1-819e-00a274076497"
                             }
                         ]
                     }
@@ -8666,15 +8752,33 @@
                         "elements": [
                             {
                                 "id": "0,6,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAvklEQVQ4je3UIQ7EIBAF0OlmJYJj1DW4ERVcgDNgyrk4AYJwBAyO1vU2rEC0DSxNaNbtV4SZF0KGMKSUoDevbvlLvK7rtm2NhnejZq0FgGmaek6+zR8DAIBSyhhz3jHGKKXKzsqopJRCiLNclsU5Vzk61eK9p5QiIiJSSr331bY6zp4QQgj5Jg+steacl76UnHOtdV63nuc8z40qPBzVkD+Dfd8ZY4h4C0IIMcZxHA+cfQjhFiNilhfckUd3/gCmuslyLxSI+wAAAABJRU5ErkJggg=="
+                                "type": 4,
+                                "elements": "Every document has an associated locale, which is set in the document settings by clicking the button ",
+                                "format_id": "a1d49acb-7fa7-43e7-bbd4-50b6fc128420"
                             },
                             {
                                 "id": "0,6,0,1",
+                                "type": 34,
+                                "elements": [],
+                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIie2VPW6EMBCFvVEOQEmHO0rmBvgGcARzLw4BJwBkkKCDjgIJu6Kho6Nxik0sMD9hI4ot8qphPP5svdGYxzzP6FY9pJT3Ej/uxb0HMY5jzvmdxCiKzomrzmRZlqbpbh0AeJ6HEAqCACGEMX7mCSGu6y4rP5cflmVpy0qmaarYcRwAUFu0yhURY6wOPxEAEEIOl+WLYowNw3BScEgchiHP81fPk1Ie9rpt2zAMf3Vgq5WPTdPUda2IKl8URdd1u/sBwHGcQ+K3ET/xbl7TTv7IjiRJKKV/8PGsM4yxO4lL5Xk+TdNF4qW5DsNwHMcrlXpnhBDLV8A0Tdu2n3FVVUKI7X6MsTaIKyLnfPlSAIAilmVpGMaWSAjRR/uKNZTSvu/v9NH3/d0L7ur/z/WuxC8I5z2x/wRBvQAAAABJRU5ErkJggg=="
+                            },
+                            {
+                                "id": "0,6,0,2",
                                 "type": 4,
-                                "elements": " - (only for web version) download the document to the user's computer; it can then be opened by the Yutovo application for PC.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
+                                "elements": ". The locale determines the set of built-in variables, functions, and units that will be used in ",
+                                "format_id": "a1d49acb-7fa7-43e7-bbd4-50b6fc128420"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,6,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,6,1,0",
+                                "type": 4,
+                                "elements": "calculations.",
+                                "format_id": "a1d49acb-7fa7-43e7-bbd4-50b6fc128420"
                             }
                         ]
                     }
@@ -8692,15 +8796,9 @@
                         "elements": [
                             {
                                 "id": "0,7,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAIAAAD0hOi5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB1UlEQVQ4je2UvarqQBSFd0wkQlQwiYgYfwOmUAR7X8BSH8DKR1AQRH0N6+CDiMTG3sJOlBwNCP4giiajt5hLjjcwRi8WpzirmrA2X/bsmVnU9XqFT4i63+8fATHP7el0CgAejyeTySCElsulZVksyyaTSa/X+0ZH8XgcACiKyuVyoVBo9fUV4vlEItHpdARB+Kf0/ppKpZIsy+PxmFTgsjVb9Xpd07RisUgq8LwIAgC/388wxB8zq9UKIUSyaZoWRRHP9Xg86rpus2iaDofD9idTq9V8Ph8JJAhCr9dLp9MAMBwOz+czRVEAcDqdDodDv9+XZfkvaDabjUajJx1FIhG8LhQK3W6X4zgAWK/XlUrlcrl8bw0AUqkUCfSoYDAYi8UwCPf1qDeG/Vy/IHcxAKDrOsnGFxLfut1uN5/P8akZhuEEKYrSarVIIJ7nm82mJEkAMJlMGo0GhiKEFEVhWfYbpKqq6xPB63K53G637Rh6tACAiUajJIpDgUBAkiRHntl6Y9j7/d40TaL9Sqptt9t8Pi+Koqqquq4bhmFZlqPGJWqr1SoAbDYbjuN4ntc07Xa7ZbPZwWDgmIkLCIc/TdOyLCOEFouFaZr/E/6v6+c9kY+B/gBJnRML/uQJxAAAAABJRU5ErkJggg=="
-                            },
-                            {
-                                "id": "0,7,0,1",
                                 "type": 4,
-                                "elements": " - (only for web version) rename the document.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
+                                "elements": "",
+                                "format_id": "35016022-acbd-409a-996e-20bc6693221d"
                             }
                         ]
                     }
@@ -8718,185 +8816,19 @@
                         "elements": [
                             {
                                 "id": "0,8,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAWCAIAAACg4UBvAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABhUlEQVQ4je2UsYoCMRRFkzUPFRsLFRQVRWEK7cRmvsDCcmystBNsLK0sLa39DXsR5wvsBMHCAQWLOCCCqG+GbBE2M+7KwGK37G2S3HDITcJ7VAhB3tDHOzAhhMnBdV3OOSLK5fl8brfbp9OJUiqEKJfLk8kklUrJ3VAolEwmGWOEECrzH4/HwWDgOA4AEEJs267X661WizGGiLPZbLVaRaNRyXPOp9NpqVTyzkfEx+MxHA4zmYx0EolEJBKRc03TbNtWL6Xr+v1+f8rPGOOc67qeTqcDbouInPNarSbDe/kRcbFYdDqd+XwewG+3216vt1wuC4VCOBz2zgeAXC4HAJVKJYCnlAKApmnKefF/6/U6n88HO0H8r/TP/y1eCMEY+1YFynnRbMSXLMsqFou73e52u202G+GTckzTrFar/i2Pdxyn2+02m03LssQr7fd7wzBGo5HfpP5I1+u13++bpqkakV8A0Gg0xuNxPB5X5hNPCHFd93A4XC6Xn3wsFstms6rypT4BOJf3oAWtp9UAAAAASUVORK5CYII="
-                            },
-                            {
-                                "id": "0,8,0,1",
-                                "type": 4,
-                                "elements": " - (only for web version) delete the document.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,9",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,9,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,0,0",
-                                "type": 4,
-                                "elements": "A document stored on the site opens by clicking on its name in the Documents section. After that, this document can be shared with other people ",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,1,0",
-                                "type": 4,
-                                "elements": "- to do this, you need to give them its address from the browser line. They will be able to view and edit this document, but they will only be able to ",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,2,0",
-                                "type": 4,
-                                "elements": "save it to their account.",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,10",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,10,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,0,0",
-                                "type": 4,
-                                "elements": "Documents from the library can also be saved to their section - after saving, it will appear in the corresponding panel. Thus, examples and ",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,10,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,1,0",
-                                "type": 4,
-                                "elements": "various materials from the library can be used as a starting point for your calculations.",
-                                "format_id": "69ad9bd4-428f-4f58-92a3-eb428e821558"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,11",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,11,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,0,0",
-                                "type": 4,
-                                "elements": "Every document has an associated locale, which is set in the document settings by clicking the button ",
-                                "format_id": "a1d49acb-7fa7-43e7-bbd4-50b6fc128420"
-                            },
-                            {
-                                "id": "0,11,0,1",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIie2VPW6EMBCFvVEOQEmHO0rmBvgGcARzLw4BJwBkkKCDjgIJu6Kho6Nxik0sMD9hI4ot8qphPP5svdGYxzzP6FY9pJT3Ej/uxb0HMY5jzvmdxCiKzomrzmRZlqbpbh0AeJ6HEAqCACGEMX7mCSGu6y4rP5cflmVpy0qmaarYcRwAUFu0yhURY6wOPxEAEEIOl+WLYowNw3BScEgchiHP81fPk1Ie9rpt2zAMf3Vgq5WPTdPUda2IKl8URdd1u/sBwHGcQ+K3ET/xbl7TTv7IjiRJKKV/8PGsM4yxO4lL5Xk+TdNF4qW5DsNwHMcrlXpnhBDLV8A0Tdu2n3FVVUKI7X6MsTaIKyLnfPlSAIAilmVpGMaWSAjRR/uKNZTSvu/v9NH3/d0L7ur/z/WuxC8I5z2x/wRBvQAAAABJRU5ErkJggg=="
-                            },
-                            {
-                                "id": "0,11,0,2",
-                                "type": 4,
-                                "elements": ". The locale determines the set of ",
-                                "format_id": "a1d49acb-7fa7-43e7-bbd4-50b6fc128420"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,1,0",
-                                "type": 4,
-                                "elements": "built-in variables, functions, and units that will be used in calculations.",
-                                "format_id": "a1d49acb-7fa7-43e7-bbd4-50b6fc128420"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,12",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,12,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,12,0,0",
-                                "type": 4,
-                                "elements": "",
-                                "format_id": "35016022-acbd-409a-996e-20bc6693221d"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,13",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,13,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,13,0,0",
                                 "type": 39,
                                 "elements": "<- User registration",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./User registration"
                             },
                             {
-                                "id": "0,13,0,1",
+                                "id": "0,8,0,1",
                                 "type": 4,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
-                                "id": "0,13,0,2",
+                                "id": "0,8,0,2",
                                 "type": 39,
                                 "elements": "User account ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",

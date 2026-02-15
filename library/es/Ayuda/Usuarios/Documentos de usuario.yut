@@ -4,15 +4,7 @@
         "language": 3,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "60911571-1695-4863-90ff-669e91cf7589",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "637973c9-fd55-4397-a754-657eac7829b2",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d10acf1d-be0c-4292-ae49-117a52ee6cb4",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8fb4e33f-8c18-456b-8ca5-6da04783d1e7",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "557e2a9e-36a0-4909-a482-0bc5f4d74e93",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4b913573-0560-4707-8217-1702f5ae5417",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "123411d8-7f47-4306-ad70-ca0591d826fc",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bdf329ef-0000-4de2-856a-e36b586d0e95",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "6ac122a6-2d64-4727-b286-d8272c47d692",
             "family": "Arial",
@@ -7951,20 +8055,8 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Los documentos del usuario se almacenan en el sitio y su lista se muestra en la sección Documentos. Actualmente, el número máximo de ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "documentos por usuario es de 50, con un tamaño máximo de 1 MB por documento.",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
+                                "elements": "Los documentos de usuario contienen texto y cálculos y se almacenan en el disco en archivos con la extensión \".yut\".",
+                                "format_id": "60911571-1695-4863-90ff-669e91cf7589"
                             }
                         ]
                     }
@@ -7983,20 +8075,8 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "Tras iniciar sesión correctamente, estarán disponibles las siguientes opciones para trabajar con documentos y los botones correspondientes en ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "la barra de herramientas:",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
+                                "elements": "El menú Archivo está diseñado para trabajar con documentos. También puede usar estos botones de la barra de herramientas para:",
+                                "format_id": "60911571-1695-4863-90ff-669e91cf7589"
                             }
                         ]
                     }
@@ -8092,15 +8172,9 @@
                         "elements": [
                             {
                                 "id": "0,5,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACV0lEQVQ4jZ2Uu2vqUBzH8wIfUyuKxGZopIImQ/8Cl1KKSxepg7h0qFOXIA7ZagYnoQpOgc6CrlLoEBqoHboWBJ9oi4WQlhgwgil4cu6gt9dHb73ez3TC93zC73deKIQQ+V8IBEFM09R1HQDwwzy73e5yuTAMW5I/Pj7y+Xy73e71evv7+zabbTH+/Px8eXk5ODgAAHAcFw6Hl37J83wymWw2myRJSpI0WEaSJJIkX19f8/l8MBh8enqCCyChUOjx8RFCSFFUvV6Hy9TrdYqiIIQAgGw2GwwGHx4eAACzlDAMY2dnZ+PaYBjG87zT6SwUCqFQyO12IwiCbdQW/Wg0iuO4aZrzBVuMI5HIRh/H8a/PP/Ld3d2/V7Eqsyy7rfxNz8PhUBAElmVZlhUEYTgcbiEXi8VutyuKoiiKnU4nl8t9HWFVVd/f3zVNm09d316GYWq12mwsy7Lf79c0DULY7/ePj48dDsfp6amiKBDCDVuF/abb7V5eXt7f308mk9vb2+vra8uyiHUhFouJojgb39zcnJ2d6bouCMLz8zOGYZZl4Thut9tRFP2mbE3TMpkMwzAMw1xdXbVarXg8fnh4WC6Xj46OCIJIJBKqqkIIkcUO11EU5fz8nKbpUqkky3IgEGBZttPpzM/2V5G7u7vrLVSr1Wq1enFxAQBIpVKDwYDjOIqiZimqaVqxWKxUKqPRaF0ej8eGYbjd7ul0allWMplMp9Mej2ce/63gGaIo+nw+r9d7cnLSaDRWUvTnN+zt7a3X6yEIsre3R9P0yjO0Qf6ZLe7zOr8AgwqpPPM3/egAAAAASUVORK5CYII="
-                            },
-                            {
-                                "id": "0,5,0,1",
                                 "type": 4,
-                                "elements": " - (solo para versión web) guardar el documento con un nuevo nombre.",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
+                                "elements": "Los documentos de la biblioteca también se pueden guardar en su propio documento. De esta manera, podrá usar ejemplos y diversos materiales de la biblioteca como punto de partida para sus cálculos.",
+                                "format_id": "60911571-1695-4863-90ff-669e91cf7589"
                             }
                         ]
                     }
@@ -8118,14 +8192,32 @@
                         "elements": [
                             {
                                 "id": "0,6,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAvklEQVQ4je3UIQ7EIBAF0OlmJYJj1DW4ERVcgDNgyrk4AYJwBAyO1vU2rEC0DSxNaNbtV4SZF0KGMKSUoDevbvlLvK7rtm2NhnejZq0FgGmaek6+zR8DAIBSyhhz3jHGKKXKzsqopJRCiLNclsU5Vzk61eK9p5QiIiJSSr331bY6zp4QQgj5Jg+steacl76UnHOtdV63nuc8z40qPBzVkD+Dfd8ZY4h4C0IIMcZxHA+cfQjhFiNilhfckUd3/gCmuslyLxSI+wAAAABJRU5ErkJggg=="
+                                "type": 4,
+                                "elements": "Cada documento tiene un idioma asociado (configuración regional), que se configura en la configuración del documento haciendo clic en el botón ",
+                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             },
                             {
                                 "id": "0,6,0,1",
+                                "type": 34,
+                                "elements": [],
+                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIie2VPW6EMBCFvVEOQEmHO0rmBvgGcARzLw4BJwBkkKCDjgIJu6Kho6Nxik0sMD9hI4ot8qphPP5svdGYxzzP6FY9pJT3Ej/uxb0HMY5jzvmdxCiKzomrzmRZlqbpbh0AeJ6HEAqCACGEMX7mCSGu6y4rP5cflmVpy0qmaarYcRwAUFu0yhURY6wOPxEAEEIOl+WLYowNw3BScEgchiHP81fPk1Ie9rpt2zAMf3Vgq5WPTdPUda2IKl8URdd1u/sBwHGcQ+K3ET/xbl7TTv7IjiRJKKV/8PGsM4yxO4lL5Xk+TdNF4qW5DsNwHMcrlXpnhBDLV8A0Tdu2n3FVVUKI7X6MsTaIKyLnfPlSAIAilmVpGMaWSAjRR/uKNZTSvu/v9NH3/d0L7ur/z/WuxC8I5z2x/wRBvQAAAABJRU5ErkJggg=="
+                            },
+                            {
+                                "id": "0,6,0,2",
                                 "type": 4,
-                                "elements": " - (solo para versión web) descargar el documento al ordenador del usuario; se puede abrir con la aplicación Yutovo para PC.",
+                                "elements": ". El idioma determina el conjunto de variables, funciones ",
+                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,6,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,6,1,0",
+                                "type": 4,
+                                "elements": "y unidades integradas que se utilizarán en los cálculos.",
                                 "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
                             }
                         ]
@@ -8144,15 +8236,9 @@
                         "elements": [
                             {
                                 "id": "0,7,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAIAAAD0hOi5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB1UlEQVQ4je2UvarqQBSFd0wkQlQwiYgYfwOmUAR7X8BSH8DKR1AQRH0N6+CDiMTG3sJOlBwNCP4giiajt5hLjjcwRi8WpzirmrA2X/bsmVnU9XqFT4i63+8fATHP7el0CgAejyeTySCElsulZVksyyaTSa/X+0ZH8XgcACiKyuVyoVBo9fUV4vlEItHpdARB+Kf0/ppKpZIsy+PxmFTgsjVb9Xpd07RisUgq8LwIAgC/388wxB8zq9UKIUSyaZoWRRHP9Xg86rpus2iaDofD9idTq9V8Ph8JJAhCr9dLp9MAMBwOz+czRVEAcDqdDodDv9+XZfkvaDabjUajJx1FIhG8LhQK3W6X4zgAWK/XlUrlcrl8bw0AUqkUCfSoYDAYi8UwCPf1qDeG/Vy/IHcxAKDrOsnGFxLfut1uN5/P8akZhuEEKYrSarVIIJ7nm82mJEkAMJlMGo0GhiKEFEVhWfYbpKqq6xPB63K53G637Rh6tACAiUajJIpDgUBAkiRHntl6Y9j7/d40TaL9Sqptt9t8Pi+Koqqquq4bhmFZlqPGJWqr1SoAbDYbjuN4ntc07Xa7ZbPZwWDgmIkLCIc/TdOyLCOEFouFaZr/E/6v6+c9kY+B/gBJnRML/uQJxAAAAABJRU5ErkJggg=="
-                            },
-                            {
-                                "id": "0,7,0,1",
                                 "type": 4,
-                                "elements": " - (solo para versión web) cambiar el nombre del documento.",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
+                                "elements": "",
+                                "format_id": "f8cc1acf-d5dd-4d44-b97d-7c857cffc393"
                             }
                         ]
                     }
@@ -8170,177 +8256,19 @@
                         "elements": [
                             {
                                 "id": "0,8,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAWCAIAAACg4UBvAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABhUlEQVQ4je2UsYoCMRRFkzUPFRsLFRQVRWEK7cRmvsDCcmystBNsLK0sLa39DXsR5wvsBMHCAQWLOCCCqG+GbBE2M+7KwGK37G2S3HDITcJ7VAhB3tDHOzAhhMnBdV3OOSLK5fl8brfbp9OJUiqEKJfLk8kklUrJ3VAolEwmGWOEECrzH4/HwWDgOA4AEEJs267X661WizGGiLPZbLVaRaNRyXPOp9NpqVTyzkfEx+MxHA4zmYx0EolEJBKRc03TbNtWL6Xr+v1+f8rPGOOc67qeTqcDbouInPNarSbDe/kRcbFYdDqd+XwewG+3216vt1wuC4VCOBz2zgeAXC4HAJVKJYCnlAKApmnKefF/6/U6n88HO0H8r/TP/y1eCMEY+1YFynnRbMSXLMsqFou73e52u202G+GTckzTrFar/i2Pdxyn2+02m03LssQr7fd7wzBGo5HfpP5I1+u13++bpqkakV8A0Gg0xuNxPB5X5hNPCHFd93A4XC6Xn3wsFstms6rypT4BOJf3oAWtp9UAAAAASUVORK5CYII="
-                            },
-                            {
-                                "id": "0,8,0,1",
-                                "type": 4,
-                                "elements": " - (solo para versión web) eliminar el documento.",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,9",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,9,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,0,0",
-                                "type": 4,
-                                "elements": "Un documento almacenado en el sitio se abre haciendo clic en su nombre en la sección Documentos. Después, se puede compartir con otras ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,1,0",
-                                "type": 4,
-                                "elements": "personas; para ello, se debe proporcionar su dirección desde el navegador. Podrán ver y editar este documento, pero solo podrán guardarlo en ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,2,0",
-                                "type": 4,
-                                "elements": "su cuenta.",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,10",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,10,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,0,0",
-                                "type": 4,
-                                "elements": "Los documentos de la biblioteca también pueden guardarse en su sección; tras guardarlos, aparecerán en el panel correspondiente. De esta ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,10,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,1,0",
-                                "type": 4,
-                                "elements": "forma, podrán usar ejemplos y diversos materiales de la biblioteca como punto de partida para sus cálculos. Cada documento tiene un idioma ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,10,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,2,0",
-                                "type": 4,
-                                "elements": "asociado (configuración regional), que se configura en la configuración del documento haciendo clic en el botón ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            },
-                            {
-                                "id": "0,10,2,1",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIie2VPW6EMBCFvVEOQEmHO0rmBvgGcARzLw4BJwBkkKCDjgIJu6Kho6Nxik0sMD9hI4ot8qphPP5svdGYxzzP6FY9pJT3Ej/uxb0HMY5jzvmdxCiKzomrzmRZlqbpbh0AeJ6HEAqCACGEMX7mCSGu6y4rP5cflmVpy0qmaarYcRwAUFu0yhURY6wOPxEAEEIOl+WLYowNw3BScEgchiHP81fPk1Ie9rpt2zAMf3Vgq5WPTdPUda2IKl8URdd1u/sBwHGcQ+K3ET/xbl7TTv7IjiRJKKV/8PGsM4yxO4lL5Xk+TdNF4qW5DsNwHMcrlXpnhBDLV8A0Tdu2n3FVVUKI7X6MsTaIKyLnfPlSAIAilmVpGMaWSAjRR/uKNZTSvu/v9NH3/d0L7ur/z/WuxC8I5z2x/wRBvQAAAABJRU5ErkJggg=="
-                            },
-                            {
-                                "id": "0,10,2,2",
-                                "type": 4,
-                                "elements": ". El idioma determina el ",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,10,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,3,0",
-                                "type": 4,
-                                "elements": "conjunto de variables, funciones y dimensiones integradas que se utilizarán en los cálculos.",
-                                "format_id": "8bcdf2e0-7e59-4f0a-b534-4d760ebac370"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,11",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,11,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,0,0",
-                                "type": 4,
-                                "elements": "",
-                                "format_id": "f8cc1acf-d5dd-4d44-b97d-7c857cffc393"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,12",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,12,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,12,0,0",
                                 "type": 39,
                                 "elements": "<- Registro de usuario",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Registro de usuario"
                             },
                             {
-                                "id": "0,12,0,1",
+                                "id": "0,8,0,1",
                                 "type": 4,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
-                                "id": "0,12,0,2",
+                                "id": "0,8,0,2",
                                 "type": 39,
                                 "elements": "Cuenta de usuario ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",

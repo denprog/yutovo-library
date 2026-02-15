@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "26cf6c96-ead7-4dd2-99e2-b7fd5edb4ea5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0e95dab7-4535-459d-943b-721c856b26f9",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "41418194-3aeb-4701-9ad3-146e0f8f8125",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9c7cfc3a-dfc3-42a7-96c8-da7dba3f4c96",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fe0cdadd-556a-47c2-97ae-9c0ccb3d2e7c",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "99deca5b-73ca-4156-bd97-ecd8e8eb7387",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2456af05-297e-44e4-a439-02bb69321b66",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a1c3780d-0107-4717-b240-1551994ab7cc",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "f2e59bc1-ace7-43a3-bec9-65a1fa73f17d",
             "family": "Arial",
@@ -7853,20 +7957,8 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Документы пользователя хранятся на сайте, их список отбражается в разделе Документы. В данное время максимальное количество ",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "документов одного пользователя - 50, максимальный размер каждого документа - 1 Мбайт.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
+                                "elements": "Документы пользователя содержат текст и вычисления и хранятся на диске в файлах с расширением \".yut\".",
+                                "format_id": "26cf6c96-ead7-4dd2-99e2-b7fd5edb4ea5"
                             }
                         ]
                     }
@@ -7885,19 +7977,7 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "После успешного логина становятся доступны следующие возможности для работы с документами и соответствующие кнопки на панели ",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "инструментов.",
+                                "elements": "Меню Файл предназначено для работы с файлами документов. Также этими кнопками на панели инструментов можно:",
                                 "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
                             }
                         ]
@@ -7949,19 +8029,7 @@
                             {
                                 "id": "0,3,0,1",
                                 "type": 4,
-                                "elements": " - загрузить документ с компьютера пользователя; в веб версии - в дальнейшем он может быть сохранен в разделе пользователя на ",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,3,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,1,0",
-                                "type": 4,
-                                "elements": "сайте.",
+                                "elements": " - загрузить документ с компьютера пользователя; в веб версии - в дальнейшем он может быть сохранен в разделе пользователя на сайте.",
                                 "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
                             }
                         ]
@@ -8006,14 +8074,8 @@
                         "elements": [
                             {
                                 "id": "0,5,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACV0lEQVQ4jZ2Uu2vqUBzH8wIfUyuKxGZopIImQ/8Cl1KKSxepg7h0qFOXIA7ZagYnoQpOgc6CrlLoEBqoHboWBJ9oi4WQlhgwgil4cu6gt9dHb73ez3TC93zC73deKIQQ+V8IBEFM09R1HQDwwzy73e5yuTAMW5I/Pj7y+Xy73e71evv7+zabbTH+/Px8eXk5ODgAAHAcFw6Hl37J83wymWw2myRJSpI0WEaSJJIkX19f8/l8MBh8enqCCyChUOjx8RFCSFFUvV6Hy9TrdYqiIIQAgGw2GwwGHx4eAACzlDAMY2dnZ+PaYBjG87zT6SwUCqFQyO12IwiCbdQW/Wg0iuO4aZrzBVuMI5HIRh/H8a/PP/Ld3d2/V7Eqsyy7rfxNz8PhUBAElmVZlhUEYTgcbiEXi8VutyuKoiiKnU4nl8t9HWFVVd/f3zVNm09d316GYWq12mwsy7Lf79c0DULY7/ePj48dDsfp6amiKBDCDVuF/abb7V5eXt7f308mk9vb2+vra8uyiHUhFouJojgb39zcnJ2d6bouCMLz8zOGYZZl4Thut9tRFP2mbE3TMpkMwzAMw1xdXbVarXg8fnh4WC6Xj46OCIJIJBKqqkIIkcUO11EU5fz8nKbpUqkky3IgEGBZttPpzM/2V5G7u7vrLVSr1Wq1enFxAQBIpVKDwYDjOIqiZimqaVqxWKxUKqPRaF0ej8eGYbjd7ul0allWMplMp9Mej2ce/63gGaIo+nw+r9d7cnLSaDRWUvTnN+zt7a3X6yEIsre3R9P0yjO0Qf6ZLe7zOr8AgwqpPPM3/egAAAAASUVORK5CYII="
-                            },
-                            {
-                                "id": "0,5,0,1",
                                 "type": 4,
-                                "elements": " - (только для веб версии) сохранить документ с новым именем.",
+                                "elements": "Документы из библиотеки также можно сохранить в свой документ. Таким образом, примеры и различные материалы из библиотеки можно использовать как начальная точка для ваших расчётов.",
                                 "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
                             }
                         ]
@@ -8032,15 +8094,21 @@
                         "elements": [
                             {
                                 "id": "0,6,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAVCAIAAADJt1n/AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAvklEQVQ4je3UIQ7EIBAF0OlmJYJj1DW4ERVcgDNgyrk4AYJwBAyO1vU2rEC0DSxNaNbtV4SZF0KGMKSUoDevbvlLvK7rtm2NhnejZq0FgGmaek6+zR8DAIBSyhhz3jHGKKXKzsqopJRCiLNclsU5Vzk61eK9p5QiIiJSSr331bY6zp4QQgj5Jg+steacl76UnHOtdV63nuc8z40qPBzVkD+Dfd8ZY4h4C0IIMcZxHA+cfQjhFiNilhfckUd3/gCmuslyLxSI+wAAAABJRU5ErkJggg=="
+                                "type": 4,
+                                "elements": "Каждый документ имеет связанный с ним язык (локаль), который задаётся в настройках документа по кнопке ",
+                                "format_id": "8931bd81-530f-4389-b002-a6ead32854ba"
                             },
                             {
                                 "id": "0,6,0,1",
+                                "type": 34,
+                                "elements": [],
+                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIie2VPW6EMBCFvVEOQEmHO0rmBvgGcARzLw4BJwBkkKCDjgIJu6Kho6Nxik0sMD9hI4ot8qphPP5svdGYxzzP6FY9pJT3Ej/uxb0HMY5jzvmdxCiKzomrzmRZlqbpbh0AeJ6HEAqCACGEMX7mCSGu6y4rP5cflmVpy0qmaarYcRwAUFu0yhURY6wOPxEAEEIOl+WLYowNw3BScEgchiHP81fPk1Ie9rpt2zAMf3Vgq5WPTdPUda2IKl8URdd1u/sBwHGcQ+K3ET/xbl7TTv7IjiRJKKV/8PGsM4yxO4lL5Xk+TdNF4qW5DsNwHMcrlXpnhBDLV8A0Tdu2n3FVVUKI7X6MsTaIKyLnfPlSAIAilmVpGMaWSAjRR/uKNZTSvu/v9NH3/d0L7ur/z/WuxC8I5z2x/wRBvQAAAABJRU5ErkJggg=="
+                            },
+                            {
+                                "id": "0,6,0,2",
                                 "type": 4,
-                                "elements": " - (только для веб версии) скачать документ на компьютер пользователя; в дальнейшем он может быть открыт приложением Ютово ",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
+                                "elements": ". Язык определяет набор встроенных переменных, функций и размерностей, ",
+                                "format_id": "8931bd81-530f-4389-b002-a6ead32854ba"
                             }
                         ]
                     },
@@ -8051,8 +8119,8 @@
                             {
                                 "id": "0,6,1,0",
                                 "type": 4,
-                                "elements": "для ПК.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
+                                "elements": "которые будут использоваться в вычислениях.",
+                                "format_id": "8931bd81-530f-4389-b002-a6ead32854ba"
                             }
                         ]
                     }
@@ -8070,15 +8138,9 @@
                         "elements": [
                             {
                                 "id": "0,7,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAIAAAD0hOi5AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB1UlEQVQ4je2UvarqQBSFd0wkQlQwiYgYfwOmUAR7X8BSH8DKR1AQRH0N6+CDiMTG3sJOlBwNCP4giiajt5hLjjcwRi8WpzirmrA2X/bsmVnU9XqFT4i63+8fATHP7el0CgAejyeTySCElsulZVksyyaTSa/X+0ZH8XgcACiKyuVyoVBo9fUV4vlEItHpdARB+Kf0/ppKpZIsy+PxmFTgsjVb9Xpd07RisUgq8LwIAgC/388wxB8zq9UKIUSyaZoWRRHP9Xg86rpus2iaDofD9idTq9V8Ph8JJAhCr9dLp9MAMBwOz+czRVEAcDqdDodDv9+XZfkvaDabjUajJx1FIhG8LhQK3W6X4zgAWK/XlUrlcrl8bw0AUqkUCfSoYDAYi8UwCPf1qDeG/Vy/IHcxAKDrOsnGFxLfut1uN5/P8akZhuEEKYrSarVIIJ7nm82mJEkAMJlMGo0GhiKEFEVhWfYbpKqq6xPB63K53G637Rh6tACAiUajJIpDgUBAkiRHntl6Y9j7/d40TaL9Sqptt9t8Pi+Koqqquq4bhmFZlqPGJWqr1SoAbDYbjuN4ntc07Xa7ZbPZwWDgmIkLCIc/TdOyLCOEFouFaZr/E/6v6+c9kY+B/gBJnRML/uQJxAAAAABJRU5ErkJggg=="
-                            },
-                            {
-                                "id": "0,7,0,1",
                                 "type": 4,
-                                "elements": " - (только для веб версии) переименовать документ.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
+                                "elements": "",
+                                "format_id": "f8cc1acf-d5dd-4d44-b97d-7c857cffc393"
                             }
                         ]
                     }
@@ -8096,185 +8158,19 @@
                         "elements": [
                             {
                                 "id": "0,8,0,0",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAWCAIAAACg4UBvAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABhUlEQVQ4je2UsYoCMRRFkzUPFRsLFRQVRWEK7cRmvsDCcmystBNsLK0sLa39DXsR5wvsBMHCAQWLOCCCqG+GbBE2M+7KwGK37G2S3HDITcJ7VAhB3tDHOzAhhMnBdV3OOSLK5fl8brfbp9OJUiqEKJfLk8kklUrJ3VAolEwmGWOEECrzH4/HwWDgOA4AEEJs267X661WizGGiLPZbLVaRaNRyXPOp9NpqVTyzkfEx+MxHA4zmYx0EolEJBKRc03TbNtWL6Xr+v1+f8rPGOOc67qeTqcDbouInPNarSbDe/kRcbFYdDqd+XwewG+3216vt1wuC4VCOBz2zgeAXC4HAJVKJYCnlAKApmnKefF/6/U6n88HO0H8r/TP/y1eCMEY+1YFynnRbMSXLMsqFou73e52u202G+GTckzTrFar/i2Pdxyn2+02m03LssQr7fd7wzBGo5HfpP5I1+u13++bpqkakV8A0Gg0xuNxPB5X5hNPCHFd93A4XC6Xn3wsFstms6rypT4BOJf3oAWtp9UAAAAASUVORK5CYII="
-                            },
-                            {
-                                "id": "0,8,0,1",
-                                "type": 4,
-                                "elements": " - (только для веб версии) удалить документ.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,9",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,9,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,0,0",
-                                "type": 4,
-                                "elements": "Документ, хранящийся на сайте открывается по клику на его имени в разделе Документы. После этого этим документом можно делиться ",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,1,0",
-                                "type": 4,
-                                "elements": "с другими людьми - для этого надо им передать его адрес из строки браузера. Они смогут просматривать и редактировать этот документ, ",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,2,0",
-                                "type": 4,
-                                "elements": "но сохранить смогут только в свой аккуаунт.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,10",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,10,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,0,0",
-                                "type": 4,
-                                "elements": "Документы из библиотеки также можно сохранить в свой раздел - после сохранения он появится в соответствующей панели. Таким ",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,10,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,1,0",
-                                "type": 4,
-                                "elements": "образом, примеры и различные материалы из библиотеки можно использовать как начальная точка для ваших расчётов.",
-                                "format_id": "6fa11dac-2d2c-4917-9d23-35fd63785a19"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,11",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,11,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,0,0",
-                                "type": 4,
-                                "elements": "Каждый документ имеет связанный с ним язык (локаль), который задаётся в настройках документа по кнопке ",
-                                "format_id": "8931bd81-530f-4389-b002-a6ead32854ba"
-                            },
-                            {
-                                "id": "0,11,0,1",
-                                "type": 34,
-                                "elements": [],
-                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIie2VPW6EMBCFvVEOQEmHO0rmBvgGcARzLw4BJwBkkKCDjgIJu6Kho6Nxik0sMD9hI4ot8qphPP5svdGYxzzP6FY9pJT3Ej/uxb0HMY5jzvmdxCiKzomrzmRZlqbpbh0AeJ6HEAqCACGEMX7mCSGu6y4rP5cflmVpy0qmaarYcRwAUFu0yhURY6wOPxEAEEIOl+WLYowNw3BScEgchiHP81fPk1Ie9rpt2zAMf3Vgq5WPTdPUda2IKl8URdd1u/sBwHGcQ+K3ET/xbl7TTv7IjiRJKKV/8PGsM4yxO4lL5Xk+TdNF4qW5DsNwHMcrlXpnhBDLV8A0Tdu2n3FVVUKI7X6MsTaIKyLnfPlSAIAilmVpGMaWSAjRR/uKNZTSvu/v9NH3/d0L7ur/z/WuxC8I5z2x/wRBvQAAAABJRU5ErkJggg=="
-                            },
-                            {
-                                "id": "0,11,0,2",
-                                "type": 4,
-                                "elements": ". Язык определяет ",
-                                "format_id": "8931bd81-530f-4389-b002-a6ead32854ba"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,1,0",
-                                "type": 4,
-                                "elements": "набор встроенных переменных, функций и размерностей, которые будут использоваться в вычислениях.",
-                                "format_id": "8931bd81-530f-4389-b002-a6ead32854ba"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,12",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,12,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,12,0,0",
-                                "type": 4,
-                                "elements": "",
-                                "format_id": "f8cc1acf-d5dd-4d44-b97d-7c857cffc393"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,13",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,13,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,13,0,0",
                                 "type": 39,
                                 "elements": "<- Регистрация пользователя",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Регистрация пользователя"
                             },
                             {
-                                "id": "0,13,0,1",
+                                "id": "0,8,0,1",
                                 "type": 4,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
-                                "id": "0,13,0,2",
+                                "id": "0,8,0,2",
                                 "type": 39,
                                 "elements": "Учетная запись пользователя ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",

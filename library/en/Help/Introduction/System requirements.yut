@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "c9d7cd8b-aa54-4dee-b72e-7f854857c871",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "534d0907-4c1f-46a0-ad8d-49d4fc3f97b3",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "88134fa4-fcbf-47c3-8d87-b280bc7c8847",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "da6706e0-378a-4bac-a7a6-c644fe7f678f",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5bca5118-171d-4cd4-8848-286181c6b5dd",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a9957f34-009d-45b3-a6b6-970dd9da60a8",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5625a7e7-0ea4-4f0d-908a-66157c954593",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "82ab1b8b-8b5b-405c-8a99-91f5805afb7c",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "02842461-b378-4cfe-ab8e-88113b4e1663",
             "family": "Arial",
@@ -3009,13 +3113,13 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "For web application:",
-                                "format_id": "d4ac4f0d-df1b-4e82-a65c-760230ee8877"
+                                "elements": "• Operating system Ubuntu 22.04 and above (or other Linux-based OS when using FlatPak); Windows 10 and above.",
+                                "format_id": "02842461-b378-4cfe-ab8e-88113b4e1663"
                             }
                         ]
                     }
                 ],
-                "format_name": "Header 4",
+                "format_name": "Text body",
                 "format_alignment": 0
             },
             {
@@ -3029,7 +3133,7 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "• Supported browsers: Google Chrome from version 57, Mozilla Firefox - from version 52.",
+                                "elements": "• 2 GHz processor with 2 cores.",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ]
@@ -3049,7 +3153,7 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "• Javascript support.",
+                                "elements": "• RAM from 4 GB.",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ]
@@ -3069,7 +3173,7 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Cookies support.",
+                                "elements": "• Video adapter and monitor: VGA/HDMI(720 x 1280).",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ]
@@ -3089,7 +3193,7 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• RAM from 4 GB.",
+                                "elements": "• Free space on the recording device: 4 GB.",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ]
@@ -3109,7 +3213,7 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Video adapter and monitor: VGA/HDMI(720 x 1280).",
+                                "elements": "• Keyboard and mouse.",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ]
@@ -3129,8 +3233,8 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "• Free space on the recording device: 4 GB.",
-                                "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
+                                "elements": "",
+                                "format_id": "6b785ef3-f665-43ec-9169-32ae22695332"
                             }
                         ]
                     }
@@ -3148,199 +3252,19 @@
                         "elements": [
                             {
                                 "id": "0,7,0,0",
-                                "type": 4,
-                                "elements": "",
-                                "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,8",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,8,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,8,0,0",
-                                "type": 4,
-                                "elements": "For PC application:",
-                                "format_id": "d4ac4f0d-df1b-4e82-a65c-760230ee8877"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Header 4",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,9",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,9,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,0,0",
-                                "type": 4,
-                                "elements": "• Operating system Ubuntu 22.04 and above (or other Linux-based OS when using FlatPak); Windows 10 and above.",
-                                "format_id": "02842461-b378-4cfe-ab8e-88113b4e1663"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,10",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,10,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,0,0",
-                                "type": 4,
-                                "elements": "• 2 GHz processor with 2 cores.",
-                                "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,11",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,11,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,0,0",
-                                "type": 4,
-                                "elements": "• RAM from 4 GB.",
-                                "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,12",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,12,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,12,0,0",
-                                "type": 4,
-                                "elements": "• Video adapter and monitor: VGA/HDMI(720 x 1280).",
-                                "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,13",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,13,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,13,0,0",
-                                "type": 4,
-                                "elements": "• Free space on the recording device: 4 GB.",
-                                "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,14",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,14,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,14,0,0",
-                                "type": 4,
-                                "elements": "• Keyboard and mouse.",
-                                "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,15",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,15,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,15,0,0",
-                                "type": 4,
-                                "elements": "",
-                                "format_id": "6b785ef3-f665-43ec-9169-32ae22695332"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,16",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,16,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,16,0,0",
                                 "type": 39,
                                 "elements": "<- About",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "./About"
                             },
                             {
-                                "id": "0,16,0,1",
+                                "id": "0,7,0,1",
                                 "type": 4,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
-                                "id": "0,16,0,2",
+                                "id": "0,7,0,2",
                                 "type": 39,
                                 "elements": "Terms of use ->",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",

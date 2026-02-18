@@ -4,15 +4,7 @@
         "language": 3,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "6196ca77-1b9c-48bf-aac9-cdc26e414f2b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3aab8993-e180-4529-9443-a67affd77916",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "83a62ed8-99dd-427c-9763-d7424e643fe8",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "32c76ed5-1693-425e-b0a6-3e3dd2c6f226",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "96af7914-4165-4dfe-b0af-e1d5252364f6",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e7f93165-e3a7-45fb-b23e-a1dda8c825e9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b979314e-2f2e-405f-aa56-12952d2dc076",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b6832b1e-b43e-479b-a7c2-bc8c329896c8",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4",
             "family": "Arial",
@@ -8315,7 +8419,19 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Para introducir expresiones matemáticas, simplemente escríbalas con el teclado, usando teclas de acceso rápido o la barra de herramientas matemáticas.",
+                                "elements": "Para introducir expresiones matemáticas, simplemente escríbalas con el teclado, usando teclas de acceso rápido o la barra de ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,0,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,0,1,0",
+                                "type": 4,
+                                "elements": "herramientas matemáticas.",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -8417,7 +8533,7 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "Las teclas de cursor permiten desplazarse por las fórmulas. El cursor se mueve a la izquierda y a la derecha (teclas [Flecha izquierda] y [Flecha derecha]) secuencialmente de una fórmula a otra. Al moverse ",
+                                "elements": "Las teclas de cursor permiten desplazarse por las fórmulas. El cursor se mueve a la izquierda y a la derecha (teclas [Flecha ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -8429,7 +8545,7 @@
                             {
                                 "id": "0,4,1,0",
                                 "type": 4,
-                                "elements": "hacia arriba ([Flecha arriba]) y hacia abajo ([Flecha abajo]), el cursor se desplaza a la rama superior o inferior más cercana. Las teclas [Ctrl]-[Flecha izquierda] y [Ctrl]-[Flecha derecha] permiten mover el ",
+                                "elements": "izquierda] y [Flecha derecha]) secuencialmente de una fórmula a otra. Al moverse hacia arriba ([Flecha arriba]) y hacia abajo ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -8441,7 +8557,31 @@
                             {
                                 "id": "0,4,2,0",
                                 "type": 4,
-                                "elements": "cursor sin introducir elementos anidados. La tecla [Inicio] se utiliza para mover el cursor a una rama más general o al principio de la línea.",
+                                "elements": "([Flecha abajo]), el cursor se desplaza a la rama superior o inferior más cercana. Las teclas [Ctrl]-[Flecha izquierda] y ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,4,3",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,4,3,0",
+                                "type": 4,
+                                "elements": "[Ctrl]-[Flecha derecha] permiten mover el cursor sin introducir elementos anidados. La tecla [Inicio] se utiliza para mover el cursor ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,4,4",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,4,4,0",
+                                "type": 4,
+                                "elements": "a una rama más general o al principio de la línea.",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -8563,7 +8703,7 @@
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
-                                "elements": "Al introducir un número (cadena), el cursor se mueve a la posición \"dentro de la cadena\" y adopta la forma de un cursor de texto. Puede mover el cursor a otra posición dentro de la cadena con las teclas de ",
+                                "elements": "Al introducir un número (cadena), el cursor se mueve a la posición \"dentro de la cadena\" y adopta la forma de un cursor de texto. ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -8575,7 +8715,31 @@
                             {
                                 "id": "0,9,1,0",
                                 "type": 4,
-                                "elements": "cursor. Pulse: [Izquierda][Izquierda][Izquierda][Izquierda][Izquierda]. El cursor se moverá cinco caracteres a la izquierda. La cadena se introducirá en la nueva posición. Introduzca: \"90\".",
+                                "elements": "Puede mover el cursor a otra posición dentro de la cadena con las teclas de cursor. Pulse: ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,9,2",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,9,2,0",
+                                "type": 4,
+                                "elements": "[Izquierda][Izquierda][Izquierda][Izquierda][Izquierda]. El cursor se moverá cinco caracteres a la izquierda. La cadena se ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,9,3",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,9,3,0",
+                                "type": 4,
+                                "elements": "introducirá en la nueva posición. Introduzca: \"90\".",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -8769,7 +8933,19 @@
                             {
                                 "id": "0,15,0,0",
                                 "type": 4,
-                                "elements": "Además del número introducido anteriormente, ha aparecido un nuevo símbolo de línea vacía, al que ahora apunta el cursor. Esto significa que puede introducir el valor de potencia deseado. Escriba \"2\".",
+                                "elements": "Además del número introducido anteriormente, ha aparecido un nuevo símbolo de línea vacía, al que ahora apunta el cursor. Esto ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,15,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,15,1,0",
+                                "type": 4,
+                                "elements": "significa que puede introducir el valor de potencia deseado. Escriba \"2\".",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -8861,7 +9037,7 @@
                             {
                                 "id": "0,17,0,0",
                                 "type": 4,
-                                "elements": "Ahora necesita agregar otra expresión a la obtenida. Para ello, coloque el cursor después del símbolo de elevación a una potencia. Presione [Derecha]. El cursor se colocará después de la operación ",
+                                "elements": "Ahora necesita agregar otra expresión a la obtenida. Para ello, coloque el cursor después del símbolo de elevación a una ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -8873,7 +9049,19 @@
                             {
                                 "id": "0,17,1,0",
                                 "type": 4,
-                                "elements": "introducida e indicará la posición donde aparecerá la nueva operación o línea. Esta será una suma. Escriba \"+\".",
+                                "elements": "potencia. Presione [Derecha]. El cursor se colocará después de la operación introducida e indicará la posición donde aparecerá la ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,17,2",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,17,2,0",
+                                "type": 4,
+                                "elements": "nueva operación o línea. Esta será una suma. Escriba \"+\".",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -8990,6 +9178,11 @@
                                                             },
                                                             {
                                                                 "id": "0,18,0,0,0,0,1,9",
+                                                                "type": 10,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,18,0,0,0,0,1,10",
                                                                 "type": 10,
                                                                 "elements": []
                                                             }
@@ -9144,6 +9337,11 @@
                                                             },
                                                             {
                                                                 "id": "0,20,0,0,0,0,1,10",
+                                                                "type": 10,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,20,0,0,0,0,1,11",
                                                                 "type": 10,
                                                                 "elements": []
                                                             }
@@ -9312,6 +9510,11 @@
                                                                 "id": "0,22,0,0,0,0,1,11",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,22,0,0,0,0,1,12",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "+"
@@ -9379,7 +9582,19 @@
                             {
                                 "id": "0,23,0,0",
                                 "type": 4,
-                                "elements": "El cursor se ha movido al denominador. Aquí ingresamos su valor. Sea la raíz 3 de 27.89. Ingrese la raíz presionando [Ctrl+Mayús+N].",
+                                "elements": "El cursor se ha movido al denominador. Aquí ingresamos su valor. Sea la raíz 3 de 27.89. Ingrese la raíz presionando ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,23,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,23,1,0",
+                                "type": 4,
+                                "elements": "[Ctrl+Mayús+R].",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -9511,6 +9726,11 @@
                                                             },
                                                             {
                                                                 "id": "0,24,0,0,0,0,1,12",
+                                                                "type": 10,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,24,0,0,0,0,1,13",
                                                                 "type": 10,
                                                                 "elements": []
                                                             }
@@ -9747,6 +9967,11 @@
                                                             },
                                                             {
                                                                 "id": "0,26,0,0,0,0,1,13",
+                                                                "type": 10,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,26,0,0,0,0,1,14",
                                                                 "type": 10,
                                                                 "elements": []
                                                             }
@@ -9990,6 +10215,11 @@
                                                                 "id": "0,28,0,0,0,0,1,14",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,28,0,0,0,0,1,15",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "+"
@@ -10107,7 +10337,19 @@
                             {
                                 "id": "0,30,0,0",
                                 "type": 4,
-                                "elements": "Los caracteres de una línea se eliminan de forma sencilla, como es habitual en los editores. Debe mover el cursor al carácter deseado y pulsar [Del] si está a la derecha o [Retroceso] si está a la izquierda.",
+                                "elements": "Los caracteres de una línea se eliminan de forma sencilla, como es habitual en los editores. Debe mover el cursor al carácter ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,30,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,30,1,0",
+                                "type": 4,
+                                "elements": "deseado y pulsar [Del] si está a la derecha o [Retroceso] si está a la izquierda.",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -10147,7 +10389,19 @@
                             {
                                 "id": "0,32,0,0",
                                 "type": 4,
-                                "elements": "En el ejemplo anterior, eliminaremos el último carácter de la expresión radical. Para ello, utilice las teclas del cursor o el ratón para colocar el cursor al final de la expresión radical y pulse [Del].",
+                                "elements": "En el ejemplo anterior, eliminaremos el último carácter de la expresión radical. Para ello, utilice las teclas del cursor o el ratón ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,32,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,32,1,0",
+                                "type": 4,
+                                "elements": "para colocar el cursor al final de la expresión radical y pulse [Del].",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -10296,6 +10550,11 @@
                                                                 "id": "0,33,0,0,0,0,1,15",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,33,0,0,0,0,1,16",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "+"
@@ -10393,7 +10652,7 @@
                             {
                                 "id": "0,34,0,0",
                                 "type": 4,
-                                "elements": "Se puede eliminar una operación previamente introducida. Eliminar una operación significa eliminar solo el símbolo de la operación, conservando sus parámetros. Para ello, pulse [Del] cuando el cursor esté ",
+                                "elements": "Se puede eliminar una operación previamente introducida. Eliminar una operación significa eliminar solo el símbolo de la ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -10405,7 +10664,7 @@
                             {
                                 "id": "0,34,1,0",
                                 "type": 4,
-                                "elements": "en la posición \"antes de la operación\".",
+                                "elements": "operación, conservando sus parámetros. Para ello, pulse [Del] cuando el cursor esté en la posición \"antes de la operación\".",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -10599,6 +10858,11 @@
                                                                 "id": "0,37,0,0,0,0,1,16",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,37,0,0,0,0,1,17",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "+"
@@ -10666,7 +10930,7 @@
                             {
                                 "id": "0,38,0,0",
                                 "type": 4,
-                                "elements": "Como puede ver, los parámetros (el grado de la raíz y la expresión radical) se conservan; solo se elimina la raíz. El símbolo de división se puede eliminar de forma similar. Desde la posición anterior, pulse ",
+                                "elements": "Como puede ver, los parámetros (el grado de la raíz y la expresión radical) se conservan; solo se elimina la raíz. El símbolo de ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -10678,7 +10942,19 @@
                             {
                                 "id": "0,38,1,0",
                                 "type": 4,
-                                "elements": "[Arriba] para mover el cursor hasta la posición anterior al símbolo de división y eliminarlo.",
+                                "elements": "división se puede eliminar de forma similar. Desde la posición anterior, pulse [Arriba] para mover el cursor hasta la posición ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,38,2",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,38,2,0",
+                                "type": 4,
+                                "elements": "anterior al símbolo de división y eliminarlo.",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -10837,6 +11113,11 @@
                                                                 "id": "0,39,0,0,0,0,1,17",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,39,0,0,0,0,1,18",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "+"
@@ -10874,7 +11155,19 @@
                             {
                                 "id": "0,40,0,0",
                                 "type": 4,
-                                "elements": "Y por último, eliminamos la exponenciación colocando el cursor sobre su símbolo (que está representado por un rectángulo vacío):",
+                                "elements": "Y por último, eliminamos la exponenciación colocando el cursor sobre su símbolo (que está representado por un rectángulo ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,40,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,40,1,0",
+                                "type": 4,
+                                "elements": "vacío):",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -11008,6 +11301,11 @@
                                                                 "id": "0,41,0,0,0,0,1,18",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,41,0,0,0,0,1,19",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "+"
@@ -11085,7 +11383,19 @@
                             {
                                 "id": "0,44,0,0",
                                 "type": 4,
-                                "elements": "Los parámetros de operación pueden usar una expresión que contenga otras operaciones. Para introducir estas operaciones, conviene seleccionar partes de la fórmula.",
+                                "elements": "Los parámetros de operación pueden usar una expresión que contenga otras operaciones. Para introducir estas operaciones, ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,44,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,44,1,0",
+                                "type": 4,
+                                "elements": "conviene seleccionar partes de la fórmula.",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -11125,7 +11435,7 @@
                             {
                                 "id": "0,46,0,0",
                                 "type": 4,
-                                "elements": "En la expresión del ejemplo anterior dividámosla por un número. Para ello, primero selecciónela con el ratón o las teclas del cursor. La selección con las teclas del cursor se realiza pulsando sucesivamente ",
+                                "elements": "En la expresión del ejemplo anterior dividámosla por un número. Para ello, primero selecciónela con el ratón o las teclas del ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -11137,7 +11447,19 @@
                             {
                                 "id": "0,46,1,0",
                                 "type": 4,
-                                "elements": "[Mayús+Arriba] o [Mayús+Abajo] hasta seleccionar toda la expresión. A continuación, pulse \"/\" para introducir la operación de división.",
+                                "elements": "cursor. La selección con las teclas del cursor se realiza pulsando sucesivamente [Mayús+Arriba] o [Mayús+Abajo] hasta ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,46,2",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,46,2,0",
+                                "type": 4,
+                                "elements": "seleccionar toda la expresión. A continuación, pulse \"/\" para introducir la operación de división.",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -11299,6 +11621,11 @@
                                                                                 "id": "0,47,0,0,0,0,0,0,1,16",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,47,0,0,0,0,0,0,1,17",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -11418,7 +11745,19 @@
                             {
                                 "id": "0,48,0,0",
                                 "type": 4,
-                                "elements": "Como puede ver, la expresión seleccionada está en el numerador. El denominador (donde se encuentra el cursor) tiene una línea vacía donde debe ingresar la expresión. Ingrese \"sin(3)+cos(5)\".",
+                                "elements": "Como puede ver, la expresión seleccionada está en el numerador. El denominador (donde se encuentra el cursor) tiene una línea ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,48,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,48,1,0",
+                                "type": 4,
+                                "elements": "vacía donde debe ingresar la expresión. Ingrese \"sin(3)+cos(5)\".",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -11585,6 +11924,11 @@
                                                                                 "id": "0,49,0,0,0,0,0,0,1,17",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,49,0,0,0,0,0,0,1,18",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -11722,6 +12066,11 @@
                                                                                 "id": "0,49,0,0,0,0,0,2,1,8",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,49,0,0,0,0,0,2,1,9",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -11781,6 +12130,11 @@
                                                                                 "id": "0,49,0,0,0,0,0,2,3,8",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,49,0,0,0,0,0,2,3,9",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": ")"
@@ -11831,6 +12185,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,49,0,0,0,0,0,2,4,8",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,49,0,0,0,0,0,2,4,9",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -11892,6 +12251,11 @@
                                                                                 "id": "0,49,0,0,0,0,0,2,6,8",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,49,0,0,0,0,0,2,6,9",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -11951,6 +12315,11 @@
                                                                                 "id": "0,49,0,0,0,0,0,2,8,8",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,49,0,0,0,0,0,2,8,9",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": ")"
@@ -11985,7 +12354,7 @@
                             {
                                 "id": "0,50,0,0",
                                 "type": 4,
-                                "elements": "Las líneas \"sin\" y \"cos\" se muestran en un color diferente al de los números. Esto se hace por comodidad. Ahora extraeremos la raíz cuadrada de la expresión en el denominador. Aquí también, la selección ",
+                                "elements": "Las líneas \"sin\" y \"cos\" se muestran en un color diferente al de los números. Esto se hace por comodidad. Ahora extraeremos la ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -11997,7 +12366,7 @@
                             {
                                 "id": "0,50,1,0",
                                 "type": 4,
-                                "elements": "será útil. Ahora el cursor está en el extremo derecho, así que para seleccionar el denominador, debe presionar [Mayús+Izquierda] hasta que la expresión esté completamente seleccionada, o [Mayús+Inicio] ",
+                                "elements": "raíz cuadrada de la expresión en el denominador. Aquí también, la selección será útil. Ahora el cursor está en el extremo derecho, ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -12009,7 +12378,31 @@
                             {
                                 "id": "0,50,2,0",
                                 "type": 4,
-                                "elements": "para seleccionar toda la línea. Luego, introduzca la operación de extracción de raíz presionando [Mayús+Ctrl+Q].",
+                                "elements": "así que para seleccionar el denominador, debe presionar [Mayús+Izquierda] hasta que la expresión esté completamente ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,50,3",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,50,3,0",
+                                "type": 4,
+                                "elements": "seleccionada, o [Mayús+Inicio] para seleccionar toda la línea. Luego, introduzca la operación de extracción de raíz presionando ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,50,4",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,50,4,0",
+                                "type": 4,
+                                "elements": "[Mayús+Ctrl+Q].",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -12181,6 +12574,11 @@
                                                                                 "id": "0,51,0,0,0,0,0,0,1,18",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,51,0,0,0,0,0,0,1,19",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -12335,6 +12733,11 @@
                                                                                                         "id": "0,51,0,0,0,0,0,2,0,1,0,1,8",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,51,0,0,0,0,0,2,0,1,0,1,9",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -12394,6 +12797,11 @@
                                                                                                         "id": "0,51,0,0,0,0,0,2,0,1,0,3,8",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,51,0,0,0,0,0,2,0,1,0,3,9",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": ")"
@@ -12444,6 +12852,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,51,0,0,0,0,0,2,0,1,0,4,8",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,51,0,0,0,0,0,2,0,1,0,4,9",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -12505,6 +12918,11 @@
                                                                                                         "id": "0,51,0,0,0,0,0,2,0,1,0,6,8",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,51,0,0,0,0,0,2,0,1,0,6,9",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -12562,6 +12980,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,51,0,0,0,0,0,2,0,1,0,8,8",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,51,0,0,0,0,0,2,0,1,0,8,9",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -12644,7 +13067,19 @@
                             {
                                 "id": "0,54,0,0",
                                 "type": 4,
-                                "elements": "Para facilitar la edición, se admiten operaciones con el portapapeles. Esto permite introducir rápidamente expresiones similares, copiar partes de expresiones y pegarlas en otras fórmulas.",
+                                "elements": "Para facilitar la edición, se admiten operaciones con el portapapeles. Esto permite introducir rápidamente expresiones similares, ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,54,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,54,1,0",
+                                "type": 4,
+                                "elements": "copiar partes de expresiones y pegarlas en otras fórmulas.",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -12664,7 +13099,19 @@
                             {
                                 "id": "0,55,0,0",
                                 "type": 4,
-                                "elements": "Para trabajar con el portapapeles, hay botones en el panel y teclas de acceso rápido que se describen en la sección \"Portapapeles\".",
+                                "elements": "Para trabajar con el portapapeles, hay botones en el panel y teclas de acceso rápido que se describen en la sección ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,55,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,55,1,0",
+                                "type": 4,
+                                "elements": "\"Portapapeles\".",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -12704,7 +13151,7 @@
                             {
                                 "id": "0,57,0,0",
                                 "type": 4,
-                                "elements": "En el ejemplo anterior, crearemos una nueva fórmula debajo de la existente. Para ello, pulse [Enter] cuando el cursor esté al final de la fórmula. Si pulsa [Enter] cuando el cursor esté al principio, creará una ",
+                                "elements": "En el ejemplo anterior, crearemos una nueva fórmula debajo de la existente. Para ello, pulse [Enter] cuando el cursor esté al final ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -12716,7 +13163,7 @@
                             {
                                 "id": "0,57,1,0",
                                 "type": 4,
-                                "elements": "nueva fórmula encima de la actual.",
+                                "elements": "de la fórmula. Si pulsa [Enter] cuando el cursor esté al principio, creará una nueva fórmula encima de la actual.",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -12893,6 +13340,11 @@
                                                                                 "id": "0,58,0,0,0,0,0,0,1,19",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,58,0,0,0,0,0,0,1,20",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -13052,6 +13504,11 @@
                                                                                                         "id": "0,58,0,0,0,0,0,2,0,1,0,1,9",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,58,0,0,0,0,0,2,0,1,0,1,10",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -13116,6 +13573,11 @@
                                                                                                         "id": "0,58,0,0,0,0,0,2,0,1,0,3,9",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,58,0,0,0,0,0,2,0,1,0,3,10",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": ")"
@@ -13171,6 +13633,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,58,0,0,0,0,0,2,0,1,0,4,9",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,58,0,0,0,0,0,2,0,1,0,4,10",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -13237,6 +13704,11 @@
                                                                                                         "id": "0,58,0,0,0,0,0,2,0,1,0,6,9",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,58,0,0,0,0,0,2,0,1,0,6,10",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -13301,6 +13773,11 @@
                                                                                                         "id": "0,58,0,0,0,0,0,2,0,1,0,8,9",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,58,0,0,0,0,0,2,0,1,0,8,10",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": ")"
@@ -13362,7 +13839,7 @@
                             {
                                 "id": "0,59,0,0",
                                 "type": 4,
-                                "elements": "El cursor se encuentra en una nueva fórmula, actualmente representada solo por una línea vacía. Mueva el cursor a la fórmula superior y seleccione la operación exponencial. Para ello, coloque el cursor ",
+                                "elements": "El cursor se encuentra en una nueva fórmula, actualmente representada solo por una línea vacía. Mueva el cursor a la fórmula ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -13374,7 +13851,7 @@
                             {
                                 "id": "0,59,1,0",
                                 "type": 4,
-                                "elements": "(con las teclas o el ratón) antes de la operación exponencial y pulse [Mayús+Derecha]. A continuación, copie la expresión seleccionada al búfer pulsando [Ctrl+Insert] o el botón de la barra de herramientas. ",
+                                "elements": "superior y seleccione la operación exponencial. Para ello, coloque el cursor (con las teclas o el ratón) antes de la operación ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -13386,7 +13863,31 @@
                             {
                                 "id": "0,59,2,0",
                                 "type": 4,
-                                "elements": "A continuación, mueva el cursor a la fórmula inferior y pegue allí la expresión copiada pulsando [Mayús+Insert] o el botón de pegar de la barra de herramientas. Obtendrá:",
+                                "elements": "exponencial y pulse [Mayús+Derecha]. A continuación, copie la expresión seleccionada al búfer pulsando [Ctrl+Insert] o el botón ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,59,3",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,59,3,0",
+                                "type": 4,
+                                "elements": "de la barra de herramientas. A continuación, mueva el cursor a la fórmula inferior y pegue allí la expresión copiada pulsando ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,59,4",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,59,4,0",
+                                "type": 4,
+                                "elements": "[Mayús+Insert] o el botón de pegar de la barra de herramientas. Obtendrá:",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -13568,6 +14069,11 @@
                                                                                 "id": "0,60,0,0,0,0,0,0,1,20",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,60,0,0,0,0,0,0,1,21",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -13732,6 +14238,11 @@
                                                                                                         "id": "0,60,0,0,0,0,0,2,0,1,0,1,10",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,60,0,0,0,0,0,2,0,1,0,1,11",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -13801,6 +14312,11 @@
                                                                                                         "id": "0,60,0,0,0,0,0,2,0,1,0,3,10",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,60,0,0,0,0,0,2,0,1,0,3,11",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": ")"
@@ -13861,6 +14377,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,60,0,0,0,0,0,2,0,1,0,4,10",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,60,0,0,0,0,0,2,0,1,0,4,11",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -13932,6 +14453,11 @@
                                                                                                         "id": "0,60,0,0,0,0,0,2,0,1,0,6,10",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,60,0,0,0,0,0,2,0,1,0,6,11",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -13999,6 +14525,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,60,0,0,0,0,0,2,0,1,0,8,10",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,60,0,0,0,0,0,2,0,1,0,8,11",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -14092,7 +14623,19 @@
                             {
                                 "id": "0,61,0,0",
                                 "type": 4,
-                                "elements": "Ahora, agreguemos la expresión radical de la fórmula anterior a la nueva expresión. Selecciónela, cópiela al portapapeles y péguela después de elevarla a la potencia:",
+                                "elements": "Ahora, agreguemos la expresión radical de la fórmula anterior a la nueva expresión. Selecciónela, cópiela al portapapeles y ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,61,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,61,1,0",
+                                "type": 4,
+                                "elements": "péguela después de elevarla a la potencia:",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -14279,6 +14822,11 @@
                                                                                 "id": "0,62,0,0,0,0,0,0,1,21",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,62,0,0,0,0,0,0,1,22",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -14448,6 +14996,11 @@
                                                                                                         "id": "0,62,0,0,0,0,0,2,0,1,0,1,11",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,62,0,0,0,0,0,2,0,1,0,1,12",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -14522,6 +15075,11 @@
                                                                                                         "id": "0,62,0,0,0,0,0,2,0,1,0,3,11",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,62,0,0,0,0,0,2,0,1,0,3,12",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": ")"
@@ -14587,6 +15145,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,62,0,0,0,0,0,2,0,1,0,4,11",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,62,0,0,0,0,0,2,0,1,0,4,12",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -14663,6 +15226,11 @@
                                                                                                         "id": "0,62,0,0,0,0,0,2,0,1,0,6,11",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,62,0,0,0,0,0,2,0,1,0,6,12",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -14735,6 +15303,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,62,0,0,0,0,0,2,0,1,0,8,11",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,62,0,0,0,0,0,2,0,1,0,8,12",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -14877,6 +15450,11 @@
                                                                 "id": "0,62,0,0,1,0,2,12",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,62,0,0,1,0,2,13",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "("
@@ -14956,6 +15534,11 @@
                                                                 "id": "0,62,0,0,1,0,4,12",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,62,0,0,1,0,4,13",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": ")"
@@ -15026,6 +15609,11 @@
                                                             },
                                                             {
                                                                 "id": "0,62,0,0,1,0,5,12",
+                                                                "type": 10,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,62,0,0,1,0,5,13",
                                                                 "type": 10,
                                                                 "elements": []
                                                             }
@@ -15107,6 +15695,11 @@
                                                                 "id": "0,62,0,0,1,0,7,12",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,62,0,0,1,0,7,13",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "("
@@ -15184,6 +15777,11 @@
                                                             },
                                                             {
                                                                 "id": "0,62,0,0,1,0,9,12",
+                                                                "type": 10,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,62,0,0,1,0,9,13",
                                                                 "type": 10,
                                                                 "elements": []
                                                             }
@@ -15408,6 +16006,11 @@
                                                                                 "id": "0,64,0,0,0,0,0,0,1,22",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,64,0,0,0,0,0,0,1,23",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -15582,6 +16185,11 @@
                                                                                                         "id": "0,64,0,0,0,0,0,2,0,1,0,1,12",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,64,0,0,0,0,0,2,0,1,0,1,13",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -15661,6 +16269,11 @@
                                                                                                         "id": "0,64,0,0,0,0,0,2,0,1,0,3,12",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,64,0,0,0,0,0,2,0,1,0,3,13",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": ")"
@@ -15731,6 +16344,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,64,0,0,0,0,0,2,0,1,0,4,12",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,64,0,0,0,0,0,2,0,1,0,4,13",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -15812,6 +16430,11 @@
                                                                                                         "id": "0,64,0,0,0,0,0,2,0,1,0,6,12",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,64,0,0,0,0,0,2,0,1,0,6,13",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "("
@@ -15891,6 +16514,11 @@
                                                                                                         "id": "0,64,0,0,0,0,0,2,0,1,0,8,12",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,64,0,0,0,0,0,2,0,1,0,8,13",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": ")"
@@ -15964,6 +16592,11 @@
                                                                 "id": "0,64,0,0,1,0,1,0",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,64,0,0,1,0,1,1",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "+"
@@ -15981,6 +16614,11 @@
                                                         "elements": [
                                                             {
                                                                 "id": "0,64,0,0,1,0,3,0",
+                                                                "type": 10,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,64,0,0,1,0,3,1",
                                                                 "type": 10,
                                                                 "elements": []
                                                             }
@@ -16002,6 +16640,11 @@
                                                                 "id": "0,64,0,0,1,0,5,0",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,64,0,0,1,0,5,1",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": ")"
@@ -16012,6 +16655,11 @@
                                                         "elements": [
                                                             {
                                                                 "id": "0,64,0,0,1,0,6,0",
+                                                                "type": 10,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,64,0,0,1,0,6,1",
                                                                 "type": 10,
                                                                 "elements": []
                                                             }
@@ -16033,6 +16681,11 @@
                                                                 "id": "0,64,0,0,1,0,8,0",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,64,0,0,1,0,8,1",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "("
@@ -16050,6 +16703,11 @@
                                                         "elements": [
                                                             {
                                                                 "id": "0,64,0,0,1,0,10,0",
+                                                                "type": 10,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,64,0,0,1,0,10,1",
                                                                 "type": 10,
                                                                 "elements": []
                                                             }
@@ -16122,7 +16780,7 @@
                             {
                                 "id": "0,67,0,0",
                                 "type": 4,
-                                "elements": "El editor permite deshacer y rehacer operaciones. Esto significa que, si se introduce un error, se pueden deshacer acciones anteriores y, si se desea, rehacer las deshechas. Para deshacer una acción, ",
+                                "elements": "El editor permite deshacer y rehacer operaciones. Esto significa que, si se introduce un error, se pueden deshacer acciones ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             }
                         ]
@@ -16134,7 +16792,7 @@
                             {
                                 "id": "0,67,1,0",
                                 "type": 4,
-                                "elements": "utilice la tecla [Ctrl+Z] o el botón ",
+                                "elements": "anteriores y, si se desea, rehacer las deshechas. Para deshacer una acción, utilice la tecla [Ctrl+Z] o el botón ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             },
                             {
@@ -16146,17 +16804,29 @@
                             {
                                 "id": "0,67,1,2",
                                 "type": 4,
-                                "elements": ". Para rehacer, utilice la tecla [Ctrl+Y] o el botón ",
+                                "elements": ". Para rehacer, ",
+                                "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,67,2",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,67,2,0",
+                                "type": 4,
+                                "elements": "utilice la tecla [Ctrl+Y] o el botón ",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"
                             },
                             {
-                                "id": "0,67,1,3",
+                                "id": "0,67,2,1",
                                 "type": 34,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAIAAADtKeFkAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABiUlEQVQ4jZ1UP+/BUBR9ryVdDBJsvoDxxdCxkRjZjF0kln4Dk62DqXkJBrM0sRl9BqKbdBFMiESiKdKq6xl+IlJtf/Ss5577J/fcixljKBwAwPN8RAAXwd1ut263O5vNYup5nhcEoV6vR6Vg/6HT6ZTL5fl8Hsji9/lt295ut57nvRdwHKff75umqWlasVj0lX/qT6cTpXQ4HFqWdb/ffUGu6x4Oh1KpNBqNUqmUv//FYiFJUrVaHY/H5/PZ16HrupRSQohpmp/9o9VqJUmSqqqWZX3SAEAprVQqhmEEzo/a7Xaj0XAcJ1CsqiohxDAMAAjUc9PpVFEUQRA+VwMA1+tV13VCCMeFbLpWq63X68Dc34DDGId64wtwGOP9fh9fL4pir9fzeeYHbDYbURRbrZbneTHmx4yx5XIpy3KhUFAUJZfLvQ42mUxms1mE0PF4TKfTgYf89O9ut9N1fTKZAEAikfjj8vl8s9lECA0GA1mWM5lMqB4hBAC2bV8ul5f/f6gfG1H/4xs8ABmd2TJ4iu0zAAAAAElFTkSuQmCC"
                             },
                             {
-                                "id": "0,67,1,4",
+                                "id": "0,67,2,2",
                                 "type": 4,
                                 "elements": ".",
                                 "format_id": "55aabe80-137a-4e24-92ac-ec4c4390cfc4"

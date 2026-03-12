@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "305a1822-3c82-4e5a-8100-884e2d3bf689",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1ca568df-a8aa-4656-b0d1-eca66532154b",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e2b2925c-4995-4e1c-b9e8-ee3ed4b2ac9f",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8fd57bfd-02d5-4818-89bf-d0b770a02fcc",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5b7a50cc-4f06-4d0e-9613-1dd97e31b1e3",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "938740dc-b068-45a0-ae98-a40893a91f3d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5dac7a93-d6d0-4f98-b459-f70f65897b31",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f1cfb41d-a25a-47eb-8ec9-fc5ff076147b",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "487143ea-2ac5-4e82-8ad7-7a4ca0ddc08e",
             "family": "Arial",
@@ -9643,19 +9755,7 @@
                             {
                                 "id": "0,6,0,2",
                                 "type": 4,
-                                "elements": " (клавиши [Ctrl+Shift+S]) с одним из обозначений системы ",
-                                "format_id": "dd33cfb9-1bf4-44bf-b3c2-d89a3be6db3e"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,6,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,6,1,0",
-                                "type": 4,
-                                "elements": "счисления (bin, oct, dec, hex).",
+                                "elements": " (клавиши [Ctrl+Shift+S]) с одним из обозначений системы счисления (bin, oct, dec, hex).",
                                 "format_id": "dd33cfb9-1bf4-44bf-b3c2-d89a3be6db3e"
                             }
                         ]
@@ -10129,7 +10229,7 @@
                             {
                                 "id": "0,27,0,0",
                                 "type": 4,
-                                "elements": "\"round\" - округление до ближайшего целого.",
+                                "elements": "\"round\" - округление до ближайшего целого;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
                         ]
@@ -10149,8 +10249,8 @@
                             {
                                 "id": "0,28,0,0",
                                 "type": 4,
-                                "elements": "",
-                                "format_id": "ea7cafe5-b982-4555-ad2f-9659b987c6a6"
+                                "elements": "\"reminder\" - взятие остатка от деления.",
+                                "format_id": "305a1822-3c82-4e5a-8100-884e2d3bf689"
                             }
                         ]
                     }
@@ -10168,19 +10268,39 @@
                         "elements": [
                             {
                                 "id": "0,29,0,0",
+                                "type": 4,
+                                "elements": "",
+                                "format_id": "ea7cafe5-b982-4555-ad2f-9659b987c6a6"
+                            }
+                        ]
+                    }
+                ],
+                "format_name": "Text body",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,30",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,30,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,30,0,0",
                                 "type": 39,
                                 "elements": "<- Дробные числа",
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "./Дробные числа"
                             },
                             {
-                                "id": "0,29,0,1",
+                                "id": "0,30,0,1",
                                 "type": 4,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
-                                "id": "0,29,0,2",
+                                "id": "0,30,0,2",
                                 "type": 39,
                                 "elements": "Комплексные числа ->",
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",

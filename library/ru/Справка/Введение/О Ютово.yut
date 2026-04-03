@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "b61218b1-f4fe-4c5a-803d-54e0c3da2c31",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c3459361-ef87-42ce-9c0c-6671e82b77b6",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "25815f7a-44f1-4d23-9f24-1b0224320be8",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a1af678c-0289-4131-814b-a61911ad8948",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "eab1e689-2176-4db5-8cfc-337665c7fdc7",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "50629f12-c065-4943-b6d3-d897b10917de",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1cab1f51-af7d-45c5-83a4-737bcfdb5635",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4ac15914-53fd-44ff-8b30-ac35b878b18e",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "b25c6bcd-777f-4984-8ef8-e1ffb884f7c1",
             "family": "Arial",
@@ -2049,7 +2161,7 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Ютово - это приложение для решения различных математических задач. Ютово имеет наглядный \"бумажный\" ",
+                                "elements": "Ютово - это приложение для решения различных математических задач. Ютово имеет наглядный \"бумажный\" вид ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ]
@@ -2061,7 +2173,7 @@
                             {
                                 "id": "0,0,1,0",
                                 "type": 4,
-                                "elements": "вид для вычислений. Оно использует общепризнанный математический синтаксис для отображения формул. ",
+                                "elements": "для вычислений. Оно использует общепризнанный математический синтаксис для отображения формул. Ютово ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ]
@@ -2073,7 +2185,7 @@
                             {
                                 "id": "0,0,2,0",
                                 "type": 4,
-                                "elements": "Ютово предназначено для решения повседневных и инженерных задач и может быть использовано ",
+                                "elements": "предназначено для решения как повседневных, так и инженерных задач и подходит для широкого круга ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ]
@@ -2085,7 +2197,7 @@
                             {
                                 "id": "0,0,3,0",
                                 "type": 4,
-                                "elements": "различными людьми и для различных работ.",
+                                "elements": "пользователей в самых разных сферах деятельности.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ]

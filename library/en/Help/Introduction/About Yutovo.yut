@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "83437ae5-c002-4cf2-ab21-85c197d46c22",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4aff9c29-354c-400c-9360-f7eb7901172f",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a2aa0cc8-319e-4f9c-8bb5-298713752b33",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "457a7db0-d605-4477-b197-df9770e9e802",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8444bb15-5529-4e2f-8ad8-7283aad56e93",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1a2414f9-0355-4cc0-b910-2106840603a1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "295a8ead-2e9f-42ec-98d9-8c879428393d",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "48c1c426-3125-4894-a385-2d7cf49cf5ec",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "cea700ef-8751-43ea-8114-9b69a9f96a60",
             "family": "Arial",
@@ -2595,7 +2707,7 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Yutovo is an application for solving various mathematical problems. Yutovo has a visual \"paper\" view for calculations. ",
+                                "elements": "Yutovo is an application for solving various mathematical problems. Yutovo has a visual \"paper\" view for calculations. It ",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
                         ]
@@ -2607,7 +2719,7 @@
                             {
                                 "id": "0,0,1,0",
                                 "type": 4,
-                                "elements": "It uses a generally accepted mathematical syntax to display formulas. Yutovo is designed to solve everyday and ",
+                                "elements": "uses a generally accepted mathematical syntax to display formulas. Yutovo is designed to solve both everyday and ",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
                         ]
@@ -2619,7 +2731,7 @@
                             {
                                 "id": "0,0,2,0",
                                 "type": 4,
-                                "elements": "engineering problems and can be used by different people and for different jobs.",
+                                "elements": "engineering tasks and is suitable for a wide range of users across various fields.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
                         ]

@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "dce78b04-8118-4ea2-b531-167d02ca71b6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ddea3f36-3dc1-4176-9f7d-6d960f5b598e",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "38ac3b35-07f7-4cf3-84d2-406b6c6ea427",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a8b4c27e-f4ec-4738-aa42-82ca37c7d49b",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4d7cc340-895d-4613-985f-b23b790ce10f",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8a515273-edd2-4b74-94b0-e3ddb5580c36",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "403e2baa-bff5-411a-afd6-0252bcf339df",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1fe67b91-6242-48b1-8fbb-afcf8644b391",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "94ad98f6-fc83-403f-903f-0bdb5edf02c0",
             "family": "Arial",
@@ -8321,22 +8433,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "The function name may coincide with the name of an already declared variable. In this case, the function differs from ",
+                                "elements": "The function name may coincide with the name of an already declared variable. In this case, the function differs from the variable by the presence of brackets. This refers to both built-in and user-defined variables and functions.",
                                 "format_id": "d177424f-30d7-4653-a938-3739f51c5650"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "the variable by the presence of brackets. This refers to both built-in and user-defined variables and functions.",
-                                "format_id": "d177424f-30d7-4653-a938-3739f51c5650"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8356,7 +8457,8 @@
                                 "elements": "Example:",
                                 "format_id": "327d2b14-f7ec-4b8f-8c9b-042c1ff34d77"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -8376,7 +8478,8 @@
                                 "elements": "Here, the declared variable coincides with the name of a built-in function.",
                                 "format_id": "d177424f-30d7-4653-a938-3739f51c5650"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8489,7 +8592,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -8514,6 +8618,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -8593,6 +8704,11 @@
                                                                                 "id": "0,3,0,0,2,0,0,0,1,7",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,3,0,0,2,0,0,0,1,8",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -8647,6 +8763,11 @@
                                                                                 "id": "0,3,0,0,2,0,0,0,3,7",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,3,0,0,2,0,0,0,3,8",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": ")"
@@ -8671,7 +8792,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -8696,6 +8818,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -8712,7 +8841,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -8732,7 +8862,8 @@
                                 "elements": "Example:",
                                 "format_id": "327d2b14-f7ec-4b8f-8c9b-042c1ff34d77"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -8749,22 +8880,11 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "In the following case, a function is declared with the same name as the variable previously named. Calculations are ",
+                                "elements": "In the following case, a function is declared with the same name as the variable previously named. Calculations are performed in rational numbers.",
                                 "format_id": "d177424f-30d7-4653-a938-3739f51c5650"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,5,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,1,0",
-                                "type": 4,
-                                "elements": "performed in rational numbers.",
-                                "format_id": "d177424f-30d7-4653-a938-3739f51c5650"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8930,6 +9050,11 @@
                                                                                 "id": "0,6,0,0,1,0,0,0,1,7",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,6,0,0,1,0,0,0,1,8",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -8982,6 +9107,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,6,0,0,1,0,0,0,3,7",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,6,0,0,1,0,0,0,3,8",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -9111,6 +9241,11 @@
                                                                                                 "id": "0,6,0,0,1,0,0,2,0,2,1,7",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,6,0,0,1,0,0,2,0,2,1,8",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": "+"
@@ -9228,6 +9363,11 @@
                                                                                 "id": "0,6,0,0,2,0,0,0,1,6",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,6,0,0,2,0,0,0,1,7",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -9277,6 +9417,11 @@
                                                                                 "id": "0,6,0,0,2,0,0,0,3,6",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,6,0,0,2,0,0,0,3,7",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": ")"
@@ -9312,7 +9457,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9332,7 +9478,8 @@
                                 "elements": "",
                                 "format_id": "626bf875-66e7-4a08-a30d-8688d837acdf"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9366,7 +9513,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Builtin units"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

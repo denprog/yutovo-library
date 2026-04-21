@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "0e105aa8-1f3d-4dc7-a9f3-9a8a1b163fbe",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "03af7b6a-07ac-4b17-9563-2addb5cc57e2",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3abf2e43-6135-4a0d-ba60-db9d6295926c",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a2c0fc48-be53-4cf5-b398-6907354d448f",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cd9ea3ed-a8cf-44c9-ab85-38658feac895",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "62f0170f-ad05-422b-88f5-ee0960147ab6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3a3a2687-ce13-44e6-984b-454cc6bc5453",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8f504e3b-8bfa-4f3a-9197-40ee3dd85ff2",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "195a5107-625d-422f-a604-2d06170603a5",
             "family": "Arial",
@@ -5773,34 +5885,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Initially, an expression is calculated using the automatic selection of the result type. However, for convenience of ",
+                                "elements": "Initially, an expression is calculated using the automatic selection of the result type. However, for convenience of presentation, the calculated result type after the equal symbol can be changed. To do this, right-click on the result and select the desired result type from the \"Presentation as\" submenu.",
                                 "format_id": "cf36a62a-b5d9-43e2-8d2b-66e3a84fed10"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "presentation, the calculated result type after the equal symbol can be changed. To do this, right-click on the result ",
-                                "format_id": "cf36a62a-b5d9-43e2-8d2b-66e3a84fed10"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,2,0",
-                                "type": 4,
-                                "elements": "and select the desired result type from the \"Presentation as\" submenu.",
-                                "format_id": "cf36a62a-b5d9-43e2-8d2b-66e3a84fed10"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -5820,7 +5909,8 @@
                                 "elements": "Example:",
                                 "format_id": "866d8093-18e9-4045-bed8-07ff0f453430"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -5840,7 +5930,8 @@
                                 "elements": "This expression is calculated in the real (exponential) number format:",
                                 "format_id": "cf36a62a-b5d9-43e2-8d2b-66e3a84fed10"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -5944,6 +6035,11 @@
                                                                                 "id": "0,3,0,0,0,0,0,0,1,5",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,3,0,0,0,0,0,0,1,6",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -6005,7 +6101,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -6030,6 +6127,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -6046,7 +6150,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -6066,7 +6171,8 @@
                                 "elements": "When selecting the rational number format in the context menu, the result is presented as follows:",
                                 "format_id": "cf36a62a-b5d9-43e2-8d2b-66e3a84fed10"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -6170,6 +6276,11 @@
                                                                                 "id": "0,5,0,0,0,0,0,0,1,5",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,5,0,0,0,0,0,0,1,6",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -6242,7 +6353,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -6262,7 +6374,8 @@
                                 "elements": "Then, when editing the expression, the result format is saved:",
                                 "format_id": "cf36a62a-b5d9-43e2-8d2b-66e3a84fed10"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -6371,6 +6484,11 @@
                                                                                 "id": "0,7,0,0,0,0,0,0,1,6",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,7,0,0,0,0,0,0,1,7",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -6443,7 +6561,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -6463,7 +6582,8 @@
                                 "elements": "",
                                 "format_id": "eb63d820-c4c2-4a0a-97d8-08cf8339ed39"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -6497,7 +6617,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Angle measure adjustment"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

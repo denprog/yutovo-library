@@ -4,7 +4,15 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "scale": 1.0,
+        "code_block_border_color": -16776961,
+        "numbers_color": -16776961,
+        "variables_color": -16755456,
+        "functions_color": -43776,
+        "units_color": -16755456,
+        "shapes_color": -16777216,
+        "error_marks_color": -65536,
+        "formula_bg_color": -1,
+        "bg_selection_color": -16776961,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -35,8 +43,7 @@
                 1,
                 2,
                 3,
-                4,
-                6
+                4
             ],
             "real_config": {
                 "precision": 3,
@@ -61,130 +68,11 @@
                 "show_angle_measure": true,
                 "form": 0,
                 "max_count": 10
-            },
-            "array_real_config": {
-                "precision": 3,
-                "exp": 10,
-                "default_angle_measure": 0,
-                "result_angle_measure": 0,
-                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
-        {
-            "id": "e6eea970-b196-4a0d-b083-905b3185f2ec",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "9d6fea71-5b38-4f98-92c3-88972b37a762",
-            "family": "Arial",
-            "size": 30,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "54e1a1f4-34db-4039-8baa-14435480b019",
-            "family": "Arial",
-            "size": 26,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "19c0bc09-add1-4db3-a57f-21ab9cba5e34",
-            "family": "Arial",
-            "size": 22,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "646c8d6f-e101-4220-a01e-c889c8147a3e",
-            "family": "Arial",
-            "size": 16,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "e6e2c8e9-bd63-415d-8120-c815e1b4e5a1",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": true,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "e86e36f3-2099-464d-8f12-7fc940941c74",
-            "family": "Courier New",
-            "size": 12,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "61b0f6b9-85e7-4c6b-950d-3f2beb9a3295",
-            "family": "FreeMono",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
         {
             "id": "ceacf736-20fd-4afc-a501-ba39f35ff982",
             "family": "Arial",
@@ -7604,20 +7492,6 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "6e477ec9-8b4f-42a8-89c0-f063982cfd52",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -7733,20 +7607,19 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Зарегистрированным на ",
+                                "elements": "При успешном логине пользователю доступны следующие возможности, находящиеся в диалоге, ",
                                 "format_id": "846c7ced-52d5-4c34-890c-0ed2736b7ba7"
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,0,1",
+                        "type": 3,
+                        "elements": [
                             {
-                                "id": "0,0,0,1",
-                                "type": 39,
-                                "elements": "сайте",
-                                "format_id": "4fcada90-3427-40c4-b8d4-f5463e42ea04",
-                                "url": "https://yutovo.ru"
-                            },
-                            {
-                                "id": "0,0,0,2",
+                                "id": "0,0,1,0",
                                 "type": 4,
-                                "elements": " пользователям при успешном логине доступны следующие возможности, находящиеся в диалоге, вызываемом при клике на логине:",
+                                "elements": "вызываемом при клике на логине:",
                                 "format_id": "846c7ced-52d5-4c34-890c-0ed2736b7ba7"
                             }
                         ]
@@ -7868,7 +7741,7 @@
                                 "type": 39,
                                 "elements": "<- Документы пользователя",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "./Документы пользователя"
+                                "url": "./Документы пользователя.yut"
                             }
                         ]
                     }

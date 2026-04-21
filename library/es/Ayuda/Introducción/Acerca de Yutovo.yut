@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "ce6d9e08-fe4f-47cf-8fb2-3a9dce8712c2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8252be77-f983-4811-a4ae-1ea6941d956e",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2f1a2718-fcc5-41fc-8508-c34550cbf7c9",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0f7d2521-3b0a-4582-89b7-49049265a57d",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "25f1812f-307a-46d3-85a0-1e6bfb41249c",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "28ad3147-ef33-4b46-8fd9-c75ed6030aab",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e47f492a-aa92-4e11-88d7-81d2180b0040",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "35bccbe3-556e-4199-b325-f011a431a8ff",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "523225c1-a7bd-4d02-9f52-df169f8d09ee",
             "family": "Arial",
@@ -2295,7 +2399,7 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Yutovo es una aplicación para resolver diversos problemas matemáticos. Yutovo ofrece una vista visual en papel para los cálculos. Utiliza una sintaxis ",
+                                "elements": "Yutovo es una aplicación para resolver diversos problemas matemáticos. Yutovo ofrece una vista visual en papel para los ",
                                 "format_id": "0d8c824d-33c1-4a6a-8ed0-15899e3cc5b2"
                             }
                         ]
@@ -2307,7 +2411,7 @@
                             {
                                 "id": "0,0,1,0",
                                 "type": 4,
-                                "elements": "matemática generalmente aceptada para mostrar las fórmulas. Yutovo está diseñado para resolver problemas cotidianos y de ingeniería, y puede ser utilizado ",
+                                "elements": "cálculos. Utiliza una sintaxis matemática generalmente aceptada para mostrar las fórmulas. Yutovo está diseñado para ",
                                 "format_id": "0d8c824d-33c1-4a6a-8ed0-15899e3cc5b2"
                             }
                         ]
@@ -2319,7 +2423,19 @@
                             {
                                 "id": "0,0,2,0",
                                 "type": 4,
-                                "elements": "por diferentes personas y para diferentes trabajos.",
+                                "elements": "resolver tanto tareas cotidianas como de ingeniería y es adecuado para una amplia variedad de usuarios en diferentes ",
+                                "format_id": "0d8c824d-33c1-4a6a-8ed0-15899e3cc5b2"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,0,3",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,0,3,0",
+                                "type": 4,
+                                "elements": "ámbitos.",
                                 "format_id": "0d8c824d-33c1-4a6a-8ed0-15899e3cc5b2"
                             }
                         ]
@@ -2665,7 +2781,7 @@
                                 "type": 39,
                                 "elements": "<- Yutovo",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
-                                "url": "../Yutovo"
+                                "url": "../Yutovo.yut"
                             },
                             {
                                 "id": "0,12,0,1",
@@ -2678,7 +2794,7 @@
                                 "type": 39,
                                 "elements": "Requisitos del sistema ->",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
-                                "url": "./Requisitos del sistema"
+                                "url": "./Requisitos del sistema.yut"
                             }
                         ]
                     }

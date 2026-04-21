@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "a8a4538b-5855-4732-b7be-6e00fae70656",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "02d432e9-a3e5-465a-ac75-9923a35cd386",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "620d5aa2-768f-42a2-9fc1-bba16dcf5cfa",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c3aaf65e-c60e-4a88-8189-63d825936f6d",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "29cd0ec1-f983-4e82-9155-a8e3b4dfc08d",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f1e42df3-de7b-48af-9da6-6706b9d06282",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3331bb08-0bf8-4f14-a030-dc16dd1d9600",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5d3ed8cc-6dfb-4cd6-b781-e93fb67f4f5c",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "16a8a98c-4046-49bd-9917-93e3b753317a",
             "family": "Arial",
             "size": 14,
@@ -413,7 +525,7 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Автоподбор результата - при вычислении выражения будут последовательно перебираться варианты типов результатов, перечисленные ",
+                                "elements": "• Вещественные, Целые, Дробные, Комплексные - на этих вкладках представлены параметры этих результатов по умолчанию. В ",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ]
@@ -425,19 +537,7 @@
                             {
                                 "id": "0,3,1,0",
                                 "type": 4,
-                                "elements": "в таблице ниже, до тех пор, пока выражение не будет успешно вычислено. Если все варианты выдали ошибки, вернется ошибка для ",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,3,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,2,0",
-                                "type": 4,
-                                "elements": "первого варианта вычислений.",
+                                "elements": "дальнейшем их можно менять для каждого результата путем выбора из контексного меню.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ]
@@ -457,37 +557,13 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• Порядок подбора результата - в таком порядке будут перебираться варианты вычисления текущего выражения. Чаще всего выражения ",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,4,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,4,1,0",
-                                "type": 4,
-                                "elements": "вычисляются в вещественных числах, поэтому этот вариант стоит первым по умолчанию. Например, чтобы в первую очередь ",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,4,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,4,2,0",
-                                "type": 4,
-                                "elements": "представлять выражение в виде правильной дроби, поставьте Дробные на первое место.",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
+                                "elements": "Вкладка Документ",
+                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
                             }
                         ]
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Header 4",
                 "format_alignment": 0
             },
             {
@@ -501,7 +577,7 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Вещественные, Целые, Дробные, Комплексные - на этих вкладках представлены параметры этих результатов по умолчанию. В ",
+                                "elements": "• Язык - текущий язык документа. От него зависят набор размерностей и некоторых переменных. Например, для английского языка ",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ]
@@ -513,7 +589,7 @@
                             {
                                 "id": "0,5,1,0",
                                 "type": 4,
-                                "elements": "дальнейшем их можно менять для каждого результата путем выбора из контексного меню.",
+                                "elements": "мнимая единица - это \"i\", а для русского - \"j\". Размерности пишутся на своем языке.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ]
@@ -533,13 +609,13 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "Вкладка Документ",
-                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
+                                "elements": "• Табуляция - использовать символы табуляции или определенное количество пробелов взамен этого.",
+                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ]
                     }
                 ],
-                "format_name": "Header 4",
+                "format_name": "Text body",
                 "format_alignment": 0
             },
             {
@@ -553,25 +629,13 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "• Язык - текущий язык документа. От него зависят набор размерностей и некоторых переменных. Например, для английского языка ",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,7,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,7,1,0",
-                                "type": 4,
-                                "elements": "мнимая единица - это \"i\", а для русского - \"j\". Размерности пишутся на своем языке.",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
+                                "elements": "Вкладка Подключенные документы",
+                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
                             }
                         ]
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Header 4",
                 "format_alignment": 0
             },
             {
@@ -585,58 +649,18 @@
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
-                                "elements": "• Табуляция - использовать символы табуляции или определенное количество пробелов взамен этого.",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,9",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,9,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,0,0",
-                                "type": 4,
-                                "elements": "Вкладка Подключенные документы",
-                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Header 4",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,10",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,10,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,0,0",
-                                "type": 4,
                                 "elements": "Здесь задается список ",
                                 "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
                             },
                             {
-                                "id": "0,10,0,1",
+                                "id": "0,8,0,1",
                                 "type": 39,
                                 "elements": "подключенных документов",
-                                "format_id": "1fa0c77f-a7b1-4a5c-901d-398660b40c31",
-                                "url": "../Вычисления/Подключаемые документы"
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
+                                "url": "../Вычисления/Подключаемые документы.yut"
                             },
                             {
-                                "id": "0,10,0,2",
+                                "id": "0,8,0,2",
                                 "type": 4,
                                 "elements": ", которые используются данным документом.",
                                 "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"

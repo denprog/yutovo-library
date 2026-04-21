@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "ac6ef02d-f021-41e3-b341-d4425e0333e1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "95b26795-b089-4aa6-a4cb-647e902d7a39",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6bf579f7-8b39-4377-ad19-a42fc9337e4a",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3f7f56ca-a800-4bf2-9743-5e8c899c200c",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "96e7ec33-37ae-47ea-8190-5bcb047e0d18",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3fc816a9-ce0e-4572-ade9-4754ac5ddf2f",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f500f78a-3ddf-48eb-8b6b-02adc9b9c800",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3721bb3c-d10e-42ec-a0f0-5e8abe6d1518",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "09f2de4d-d577-4785-87b1-ed91363c8cd1",
             "family": "Arial",
@@ -8268,7 +8380,8 @@
                                 "elements": "• A variable or function must be declared before it is used for the first time.",
                                 "format_id": "4fdd1b23-5fe6-46d0-8197-303b48dafb0f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8288,7 +8401,8 @@
                                 "elements": "• A variable or function can be defined more than once. This is called redefinition.",
                                 "format_id": "4fdd1b23-5fe6-46d0-8197-303b48dafb0f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8305,22 +8419,11 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "• When redefining a variable or function, the document order rule applies: the closest from the top variable or function ",
+                                "elements": "• When redefining a variable or function, the document order rule applies: the closest from the top variable or function is used in the expression.",
                                 "format_id": "4fdd1b23-5fe6-46d0-8197-303b48dafb0f"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,2,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,1,0",
-                                "type": 4,
-                                "elements": "is used in the expression.",
-                                "format_id": "4fdd1b23-5fe6-46d0-8197-303b48dafb0f"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8340,7 +8443,8 @@
                                 "elements": "• A function can have any number of parameters, separated by commas.",
                                 "format_id": "4fdd1b23-5fe6-46d0-8197-303b48dafb0f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8360,7 +8464,8 @@
                                 "elements": "• Built-in variables and functions can be redefined.",
                                 "format_id": "4fdd1b23-5fe6-46d0-8197-303b48dafb0f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8380,7 +8485,8 @@
                                 "elements": "• A function can be redefined to take a different number of arguments.",
                                 "format_id": "4fdd1b23-5fe6-46d0-8197-303b48dafb0f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8400,7 +8506,8 @@
                                 "elements": "",
                                 "format_id": "46f9d720-9984-49ac-92b2-89c7ea6af00d"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8434,7 +8541,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./User variables and functions"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

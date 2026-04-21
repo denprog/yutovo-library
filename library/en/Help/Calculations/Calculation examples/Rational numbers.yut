@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "7d3c2f08-c3f4-4745-bbe4-1e833170f252",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ea8b6a20-6a3b-4cb7-8414-ab5b37aae488",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1760a692-8a6d-4bb9-894c-b3b590dc8269",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fbfcba24-bc1b-4a7a-be37-cee1fdf19026",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bab15878-9abe-4d6f-bdb1-97833b0d613e",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c326425d-71fc-4760-a26c-e57353b11307",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "13404a76-21a0-45cf-b2f9-17cc18fb027d",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c8126e14-8302-4cb4-8641-91ab603d14e8",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "68b80213-5cce-4cc0-812f-c6613652ab35",
             "family": "Arial",
@@ -7834,7 +7946,8 @@
                                 "elements": "Example 1",
                                 "format_id": "2e4f408d-49fa-470c-b93a-ec6281b920c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -7851,22 +7964,11 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "A tangential force F = 19.6 N is applied to the rim of a disk with a mass of m = 5 kg. What kinetic energy W_k will the ",
+                                "elements": "A tangential force F = 19.6 N is applied to the rim of a disk with a mass of m = 5 kg. What kinetic energy W_k will the disk have after a time of t = 5 s after the force begins to act? The result is presented as a common fraction.",
                                 "format_id": "7a54fb86-bb7b-43be-97ee-b7cdcc4dc5d3"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "disk have after a time of t = 5 s after the force begins to act? The result is presented as a common fraction.",
-                                "format_id": "7a54fb86-bb7b-43be-97ee-b7cdcc4dc5d3"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -7886,7 +7988,8 @@
                                 "elements": "Solution:",
                                 "format_id": "7a54fb86-bb7b-43be-97ee-b7cdcc4dc5d3"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8143,7 +8246,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8163,7 +8267,8 @@
                                 "elements": "The impulse of force F*dt=m, but t0=0, v0=0, therefore:",
                                 "format_id": "7a54fb86-bb7b-43be-97ee-b7cdcc4dc5d3"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8255,6 +8360,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,5,0,0,0,0,0,2,0,0,0,1,3",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,5,0,0,0,0,0,2,0,0,0,1,4",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -8404,6 +8514,11 @@
                                                                                 "id": "0,5,0,0,1,0,0,2,2,3",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,5,0,0,1,0,0,2,2,4",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -8541,7 +8656,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8561,7 +8677,8 @@
                                 "elements": "Kinetic energy of disk rotation:",
                                 "format_id": "7a54fb86-bb7b-43be-97ee-b7cdcc4dc5d3"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8653,6 +8770,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,7,0,0,0,0,0,2,0,0,0,1,3",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,7,0,0,0,0,0,2,0,0,0,1,4",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -8785,7 +8907,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8805,7 +8928,8 @@
                                 "elements": "Or:",
                                 "format_id": "655d80b9-6330-4983-9d93-193b61b664c8"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8927,6 +9051,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,9,0,0,0,0,0,2,0,0,0,1,3",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,9,0,0,0,0,0,2,0,0,0,1,4",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -9066,7 +9195,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9086,7 +9216,8 @@
                                 "elements": "",
                                 "format_id": "943fcd71-cac2-435e-bf2c-dc9cb7c87864"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9120,7 +9251,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Integer numbers"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

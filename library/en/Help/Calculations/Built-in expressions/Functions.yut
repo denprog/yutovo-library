@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "d0d56426-f8b0-4ba2-9a1d-9e2824b69f5e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "57abc20a-b604-423c-a77a-2dc2cc4c7cf9",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "924d67f5-c75a-4a86-bf31-34422137d07c",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "55703da4-05b2-48ee-8743-1ce4e7c7d8a4",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "192b9a45-847e-49ce-8e6b-92d9f24e2c21",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a0f4c91f-7631-497b-9742-ca6919fec1bb",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b3b0193e-1ec6-4d9d-8a4e-354c51665cc0",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2d22ebbb-48cd-483f-ae1a-ce509208b458",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "d6d95dc0-d281-4ed2-a754-8587b0d6d622",
             "family": "Arial",
@@ -10449,22 +10561,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "All the functions listed are built-in, but can be redefined by the user. See also examples of using these functions with ",
+                                "elements": "All the functions listed are built-in, but can be redefined by the user. See also examples of using these functions with real, fractional, integer and complex numbers.",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "real, fractional, integer and complex numbers.",
-                                "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10484,7 +10585,8 @@
                                 "elements": "• sin - sine - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10504,7 +10606,8 @@
                                 "elements": "• cos - cosine - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10524,7 +10627,8 @@
                                 "elements": "• tan - tangent - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10544,7 +10648,8 @@
                                 "elements": "• cot - cotangent - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10564,7 +10669,8 @@
                                 "elements": "• sec - secant - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10584,7 +10690,8 @@
                                 "elements": "• csc - cosecant - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10604,7 +10711,8 @@
                                 "elements": "• arcsin - arcsine - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10624,7 +10732,8 @@
                                 "elements": "• arccos - arccosine - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10644,7 +10753,8 @@
                                 "elements": "• arctan - arctangent - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10664,7 +10774,8 @@
                                 "elements": "• arccot - arccotangent - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10684,7 +10795,8 @@
                                 "elements": "• arcsec - arcsecant - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10704,7 +10816,8 @@
                                 "elements": "• arccsc - arccosecant - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10724,7 +10837,8 @@
                                 "elements": "• sinh - hyperbolic sine - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10744,7 +10858,8 @@
                                 "elements": "• cosh - hyperbolic cosine - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10764,7 +10879,8 @@
                                 "elements": "• tanh - hyperbolic tangent - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10784,7 +10900,8 @@
                                 "elements": "• coth - hyperbolic cotangent - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10804,7 +10921,8 @@
                                 "elements": "• secch - hyperbolic secant - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10824,7 +10942,8 @@
                                 "elements": "• csch - hyperbolic cosecant - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10844,7 +10963,8 @@
                                 "elements": "• arsinh - hyperbolic area sine - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10864,7 +10984,8 @@
                                 "elements": "• arcosh - hyperbolic area cosine - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10884,7 +11005,8 @@
                                 "elements": "• artanh - hyperbolic area tangent - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10904,7 +11026,8 @@
                                 "elements": "• arcoth - hyperbolic area cotangent - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10924,7 +11047,8 @@
                                 "elements": "• arsech - hyperbolic area secant - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10944,7 +11068,8 @@
                                 "elements": "• arcsch - hyperbolic area cosecant - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10964,7 +11089,8 @@
                                 "elements": "• exp - exponent - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10984,7 +11110,8 @@
                                 "elements": "• ln - natural logarithm - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11004,7 +11131,8 @@
                                 "elements": "• lg - logarithm to 10 - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11024,7 +11152,8 @@
                                 "elements": "• log - logarithm to base - real, complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11056,7 +11185,8 @@
                                 "elements": "(pow) - raising to a power \t*",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11088,7 +11218,8 @@
                                 "elements": "(sqrt) - square root - real, complex",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11120,7 +11251,8 @@
                                 "elements": "(root) - root of a power - real, complex",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11152,7 +11284,8 @@
                                 "elements": "(sum) - summation - *",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11184,7 +11317,8 @@
                                 "elements": "(prod) - product - *",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11216,7 +11350,8 @@
                                 "elements": "(fact) - factorial - *",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11236,7 +11371,8 @@
                                 "elements": "• mod - module - *",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11256,7 +11392,8 @@
                                 "elements": "• abs - absolute value - *",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11276,7 +11413,8 @@
                                 "elements": "• int - integer part - real",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11296,7 +11434,8 @@
                                 "elements": "• fract - fraction part - real",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11316,7 +11455,8 @@
                                 "elements": "• round - rouding - real",
                                 "format_id": "09b51b09-b48c-4aeb-aa5d-92c75a75592f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11336,7 +11476,8 @@
                                 "elements": "• ceil - nearest integer not less than a given one - real",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11356,7 +11497,8 @@
                                 "elements": "• floor - nearest integer not greater than a given one - real",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11376,7 +11518,8 @@
                                 "elements": "• trunc - nearest integer not less in value than a given one - real",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11396,7 +11539,8 @@
                                 "elements": "• and - logical AND - integer",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11416,7 +11560,8 @@
                                 "elements": "• or - logical OR - integer",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11436,7 +11581,8 @@
                                 "elements": "• xor - exclusive OR - integer",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11456,7 +11602,8 @@
                                 "elements": "• not - logical NOT - integer",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11476,7 +11623,8 @@
                                 "elements": "• arg - argument of a complex number - complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11496,7 +11644,8 @@
                                 "elements": "• mod - modulus of a complex number - complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11516,7 +11665,8 @@
                                 "elements": "• re - real part of a complex number - complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11536,7 +11686,8 @@
                                 "elements": "• im - imaginary part complex number - complex",
                                 "format_id": "75e46a83-2d3b-44da-b251-90ed228650c9"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11556,7 +11707,8 @@
                                 "elements": "",
                                 "format_id": "f0fb8ef8-4d68-4ce1-af07-b2c402b903fb"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11590,7 +11742,8 @@
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "./Units/SI system"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

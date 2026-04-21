@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "04169262-bcd7-4efa-9ed1-984fd1cd5624",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ea7870e5-68bd-4a33-b2a5-3a243d10a30c",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "399a5ae6-2ce9-4513-9075-e10f9ceed494",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a47d033e-be04-4be7-97cf-f4401201f278",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b27c725f-aac6-46c8-9d4e-2c71349513e0",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "13143e5a-584f-4feb-814d-ed6d978b41d2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fe5b90bf-8b1f-4dfe-bbaf-678aa81c3d6d",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "31036c0e-a742-4320-bf28-1ab057edac96",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "8fa2a1c8-ee1a-4ac5-8a63-bbe632839096",
             "family": "Arial",
             "size": 14,
@@ -579,34 +691,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "The following currencies are presented in this version of the application: Brazilian real - R$, Chinese yuan - ¥, ",
+                                "elements": "The following currencies are presented in this version of the application: Brazilian real - R$, Chinese yuan - ¥, Euro - €, Indian rupee - ₹, Russian ruble - ₽, US dollar - $. Currencies for the application are standard units and any mathematical operations are possible within each of the currencies.",
                                 "format_id": "4217adf9-0737-4717-b067-4db179086a78"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "Euro - €, Indian rupee - ₹, Russian ruble - ₽, US dollar - $. Currencies for the application are standard units and ",
-                                "format_id": "4217adf9-0737-4717-b067-4db179086a78"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,2,0",
-                                "type": 4,
-                                "elements": "any mathematical operations are possible within each of the currencies.",
-                                "format_id": "4217adf9-0737-4717-b067-4db179086a78"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -670,6 +759,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,1,0,0,0,0,0,0,2,2",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,0,0,0,0,2,3",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -797,6 +891,11 @@
                                                                                 "id": "0,1,0,0,1,0,0,0,1,2",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,1,0,0,0,1,3",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "%"
@@ -884,7 +983,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -904,7 +1004,8 @@
                                 "elements": "",
                                 "format_id": "072d44e6-b151-4321-9fb6-727da977a9fd"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -938,7 +1039,8 @@
                                 "format_id": "f42b5d87-45d6-494e-b329-77f0da82a40c",
                                 "url": "./Arrays"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

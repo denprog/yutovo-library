@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "18b03de4-8a15-4c63-b311-61bb37e3b6aa",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dd57e91b-0bb8-43f9-beb0-a88d49f578a9",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "741d2156-8d36-42c0-89dd-e38604850f3e",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f91e04dc-64d5-48f1-b0c2-7b6a40b0dcab",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3a3edfd7-4ff9-4747-816f-cad87d4472af",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5e86a225-271d-483d-a89d-ad197145ff14",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0daad61e-d317-4814-9a3d-08c4c0840ab1",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "75d564b8-703d-451b-acc2-3c4fa4e7dea7",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "781b5f83-b641-4403-9586-e2239cb6b6da",
             "family": "Arial",
@@ -24589,34 +24701,23 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Yutovo contains a large number of built-in units. However, sometimes they are not enough. Custom units are formed from ",
-                                "format_id": "cf5daa11-a526-4b88-aa12-03e8df04e70e"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "built-in ones by declaring them in the document. They are declared by the button ",
+                                "elements": "Yutovo contains a large number of built-in units. However, sometimes they are not enough. Custom units are formed from built-in ones by declaring them in the document. They are declared by the button ",
                                 "format_id": "cf5daa11-a526-4b88-aa12-03e8df04e70e"
                             },
                             {
-                                "id": "0,0,1,1",
+                                "id": "0,0,0,1",
                                 "type": 34,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAIAAABGNLJTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABIElEQVQokdXRv+qCUBwF8Hu/9xbY4D9y08VFJJdwEqd8gMgHcHBxbehJ3HoPBx/AzQrfQAgFFwUJAiXt/oZeoKXhd+bPcDgHM8bQ14Hv6Y81ZYw9Ho/b7VZVFQCoqrrZbNbrNQAghF6v1/P5HMdRURQAoMMwZFl2Pp/zPCeE2LZ9OBwcx9E0jVJa13VZljzPy7IMALiua9/37/f7NE3v93scRwDwfT8IAkEQ0jS9Xq+n08l13eVyibIssywrjuPL5ZIkSRiGq9WK4zhJkmRZVhRlv9+3bTvPM2OMHI9HwzA8z9N1/VN6u932fd91HaV0t9tFUWSaJiEEIYS7rpvnWRTFxWKBEJqmqe/7oiiapsEY67puWZYgCJ9N8D/98pf6D3AGd8nX8DK+AAAAAElFTkSuQmCC"
                             },
                             {
-                                "id": "0,0,1,2",
+                                "id": "0,0,0,2",
                                 "type": 4,
                                 "elements": " or the \"~\" key.",
                                 "format_id": "cf5daa11-a526-4b88-aa12-03e8df04e70e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -24636,7 +24737,8 @@
                                 "elements": "Example:",
                                 "format_id": "3973bc01-15c6-47f5-8af7-e7c6e2cdbcc4"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -24653,22 +24755,11 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "Here the unit \"cube_m\" is declared, equal to fifty cubic meters. When calculating, it is substituted into the result automatically, ",
+                                "elements": "Here the unit \"cube_m\" is declared, equal to fifty cubic meters. When calculating, it is substituted into the result automatically, since in this example it is the simplest.",
                                 "format_id": "cf5daa11-a526-4b88-aa12-03e8df04e70e"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,2,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,1,0",
-                                "type": 4,
-                                "elements": "since in this example it is the simplest.",
-                                "format_id": "cf5daa11-a526-4b88-aa12-03e8df04e70e"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -24914,7 +25005,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -24939,6 +25031,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -24955,7 +25054,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -24975,7 +25075,8 @@
                                 "elements": "",
                                 "format_id": "9ab64c35-7e2d-490e-9bf5-3cbd12c779b7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -25009,7 +25110,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Units conversion"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

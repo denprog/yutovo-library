@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "fdb3cc3f-e9ae-4fda-a057-b113875f474b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "45199596-1148-4ee4-af54-474bf3163bd4",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "420632ec-2d99-4d70-9911-40ab8ff2e67e",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "357e7c90-3e57-4ad5-9b87-678ed2da83b0",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ab82fde9-02a0-4c83-8113-553d1c810c29",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f359b68d-ad1f-43a2-83dd-b70b91b93e66",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b27d0320-e3a1-414e-ab84-c51e05fd2ae5",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0071ca2b-e4c5-49f3-8a26-e14ff20fc697",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "4a2ef3f1-c04c-47d4-bfcc-180931af8eb7",
             "family": "Arial",
@@ -10578,7 +10690,8 @@
                                 "elements": "Complex numbers are represented by a real and imaginary part. They are a special class of numbers.",
                                 "format_id": "694648fa-6509-4cfd-b67b-cc13513d4913"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10598,7 +10711,8 @@
                                 "elements": "Arithmetic operations:",
                                 "format_id": "9d02d0c9-e3d4-4fef-843c-79c4a2aea73b"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -10624,7 +10738,8 @@
                                 "elements": " - addition and unary plus;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10650,7 +10765,8 @@
                                 "elements": " - subtraction and unary minus;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10676,7 +10792,8 @@
                                 "elements": " - multiplication;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10702,7 +10819,8 @@
                                 "elements": " - division.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10722,7 +10840,8 @@
                                 "elements": "Arithmetic functions:",
                                 "format_id": "9d02d0c9-e3d4-4fef-843c-79c4a2aea73b"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -10748,7 +10867,8 @@
                                 "elements": " - raising to a power;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10774,7 +10894,8 @@
                                 "elements": " - square root;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10800,7 +10921,8 @@
                                 "elements": " - root of a power;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10826,7 +10948,8 @@
                                 "elements": " - sum by index;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10852,7 +10975,8 @@
                                 "elements": " - product by index;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10878,7 +11002,8 @@
                                 "elements": " - factorial;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10898,7 +11023,8 @@
                                 "elements": "Functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -10918,7 +11044,8 @@
                                 "elements": "\"exp\" - exponent;",
                                 "format_id": "694648fa-6509-4cfd-b67b-cc13513d4913"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10938,7 +11065,8 @@
                                 "elements": "\"ln\" - natural logarithm;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10958,7 +11086,8 @@
                                 "elements": "\"lg\" - logarithm to base 10;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10978,7 +11107,8 @@
                                 "elements": "\"log\" - logarithm;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -10998,7 +11128,8 @@
                                 "elements": "\"abs\" - absolute value;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11018,7 +11149,8 @@
                                 "elements": "\"int\" - integer part;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11038,7 +11170,8 @@
                                 "elements": "\"fract\" - fractional part;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11058,7 +11191,8 @@
                                 "elements": "\"round\" - rounding to the nearest integer;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11078,7 +11212,8 @@
                                 "elements": "\"re\" - real part of a complex number;",
                                 "format_id": "876e9e13-4116-4619-b084-a939cdf777a7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11098,7 +11233,8 @@
                                 "elements": "\"im\" - imaginary part of a complex number.",
                                 "format_id": "876e9e13-4116-4619-b084-a939cdf777a7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11118,7 +11254,8 @@
                                 "elements": "Trigonometric functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -11138,7 +11275,8 @@
                                 "elements": "\"sin\" - sine",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11158,7 +11296,8 @@
                                 "elements": "\"cos\" - cosine",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11178,7 +11317,8 @@
                                 "elements": "\"tan\" - tangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11198,7 +11338,8 @@
                                 "elements": "\"cot\" - cotangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11218,7 +11359,8 @@
                                 "elements": "\"sec\" - secant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11238,7 +11380,8 @@
                                 "elements": "\"cosec\" - cosecant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11258,7 +11401,8 @@
                                 "elements": "\"arcsin\" - arcsine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11278,7 +11422,8 @@
                                 "elements": "\"arccos\" - arccosine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11298,7 +11443,8 @@
                                 "elements": "\"arctg\" - arctangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11318,7 +11464,8 @@
                                 "elements": "\"arcctg\" - arccotangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11338,7 +11485,8 @@
                                 "elements": "\"arcsec\" - arcsecant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11358,7 +11506,8 @@
                                 "elements": "\"arccosec\" - arccosecant.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11378,7 +11527,8 @@
                                 "elements": "Hyperbolic functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -11398,7 +11548,8 @@
                                 "elements": "\"sh\" - hyperbolic sine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11418,7 +11569,8 @@
                                 "elements": "\"ch\" - hyperbolic cosine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11438,7 +11590,8 @@
                                 "elements": "\"th\" - hyperbolic tangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11458,7 +11611,8 @@
                                 "elements": "\"cth\" - hyperbolic cotangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11478,7 +11632,8 @@
                                 "elements": "\"sch\" - hyperbolic secant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11498,7 +11653,8 @@
                                 "elements": "\"csch\" - hyperbolic cosecant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11518,7 +11674,8 @@
                                 "elements": "\"arsh\" - hyperbolic area sine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11538,7 +11695,8 @@
                                 "elements": "\"arch\" - hyperbolic area cosine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11558,7 +11716,8 @@
                                 "elements": "\"arth\" - hyperbolic area tangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11578,7 +11737,8 @@
                                 "elements": "\"arcth\" - hyperbolic area cotangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11598,7 +11758,8 @@
                                 "elements": "\"arsch\" - hyperbolic area secant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11618,7 +11779,8 @@
                                 "elements": "\"arcsch\" - hyperbolic area cosecant.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11638,7 +11800,8 @@
                                 "elements": "",
                                 "format_id": "9ca5e7a9-3cf2-48c5-8ac0-e9d83634000e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11672,7 +11835,8 @@
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "../Variables and functions/Basic info"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

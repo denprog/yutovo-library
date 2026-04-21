@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "e8a72e43-b143-4892-b673-464eb141950d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7486c1b4-68b6-48b5-bcac-68ff563932ab",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d0bbd8c3-af01-4422-86d3-2317e3ab8598",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "48ca6df1-0ae8-405d-abc9-fb0eaff0b6b7",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1807c695-c8d2-4218-bad5-85b7a0f8481b",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "95ba9386-369c-4d83-96de-74241e97004f",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c3ba33b9-ddf4-45f6-9c88-1b7945892a61",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "090c3ee7-6b07-4846-87cb-eb3b179eb3ee",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "5f613fe5-c91e-4f1f-9b5b-b6436df77b07",
             "family": "Arial",
@@ -25488,7 +25600,8 @@
                                 "elements": "Yutovo can convert units from one system of units to another, and also present the result in other units of the same system.",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -25505,22 +25618,11 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "The conversion of units within one system can occur automatically (if the unit is not specified explicitly) when calculating the ",
+                                "elements": "The conversion of units within one system can occur automatically (if the unit is not specified explicitly) when calculating the result of an expression. To convert the result to another system, you must explicitly specify it.",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "result of an expression. To convert the result to another system, you must explicitly specify it.",
-                                "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -25537,34 +25639,11 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "Automatic selection of a unit occurs when the result of an expression is calculated for the first time. The context menu of the ",
+                                "elements": "Automatic selection of a unit occurs when the result of an expression is calculated for the first time. The context menu of the calculation result is intended for selecting a specific unit and system of units. In this menu, the user selects the desired system of units and the unit to which he wants to convert the result.",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,2,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,1,0",
-                                "type": 4,
-                                "elements": "calculation result is intended for selecting a specific unit and system of units. In this menu, the user selects the desired ",
-                                "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,2,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,2,0",
-                                "type": 4,
-                                "elements": "system of units and the unit to which he wants to convert the result.",
-                                "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -25584,7 +25663,8 @@
                                 "elements": "Simple dimensions",
                                 "format_id": "b6db0683-8d2f-473e-8fd0-d8629e224332"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -25604,7 +25684,8 @@
                                 "elements": "Example:",
                                 "format_id": "ffaf6ff7-d866-4d8e-a158-2514e08963ad"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -25621,22 +25702,11 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "The following example uses length units. Since the system of units is not defined, the default metric system (SI) is used. The ",
+                                "elements": "The following example uses length units. Since the system of units is not defined, the default metric system (SI) is used. The most appropriate unit is automatically selected during calculations. All units used in the example are built-in.",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,5,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,1,0",
-                                "type": 4,
-                                "elements": "most appropriate unit is automatically selected during calculations. All units used in the example are built-in.",
-                                "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -25704,7 +25774,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -25729,6 +25800,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -25792,7 +25870,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -25817,6 +25896,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -25880,7 +25966,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -25905,6 +25992,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -25968,7 +26062,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -25993,6 +26088,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -26056,7 +26158,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -26081,6 +26184,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -26144,7 +26254,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -26169,6 +26280,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -26185,7 +26303,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -26202,22 +26321,11 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "Let's convert the first result (18 m) into centimeters. To do this, right-click on this result and select \"Unit\". In the dialog, select ",
+                                "elements": "Let's convert the first result (18 m) into centimeters. To do this, right-click on this result and select \"Unit\". In the dialog, select \"cm\". The expression will be recalculated and the result will be obtained using the selected unit:",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,7,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,7,1,0",
-                                "type": 4,
-                                "elements": "\"cm\". The expression will be recalculated and the result will be obtained using the selected unit:",
-                                "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -26285,7 +26393,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -26312,6 +26421,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -26328,7 +26444,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -26348,7 +26465,8 @@
                                 "elements": "Further, when editing the expression, only this unit will be used.",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -26424,6 +26542,11 @@
                                                                                 "id": "0,10,0,0,0,0,0,0,2,4",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,10,0,0,0,0,0,0,2,5",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -26455,7 +26578,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -26482,6 +26606,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -26498,7 +26629,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -26518,7 +26650,8 @@
                                 "elements": "Units can be defined through the power of another unit. In this case, automatic selection and user selection are also possible.",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -26538,7 +26671,8 @@
                                 "elements": "Example:",
                                 "format_id": "fd15aa29-0e34-4511-92e9-eafcc0c796cd"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -26555,22 +26689,11 @@
                             {
                                 "id": "0,13,0,0",
                                 "type": 4,
-                                "elements": "This example shows the conversion from liters, as well as the summation with cubic decimeters, which have the same unit as ",
+                                "elements": "This example shows the conversion from liters, as well as the summation with cubic decimeters, which have the same unit as liters. Then the result is converted to cubic meters.",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,13,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,13,1,0",
-                                "type": 4,
-                                "elements": "liters. Then the result is converted to cubic meters.",
-                                "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -26638,7 +26761,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -26663,6 +26787,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -26726,7 +26857,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -26751,6 +26883,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -26832,6 +26971,11 @@
                                                                                 "id": "0,14,0,0,2,0,0,0,2,6",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,14,0,0,2,0,0,0,2,7",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -26900,7 +27044,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -26925,6 +27070,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -26996,6 +27148,11 @@
                                                                                 "id": "0,14,0,0,3,0,0,0,2,4",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,14,0,0,3,0,0,0,2,5",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -27064,7 +27221,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -27091,6 +27249,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -27107,7 +27272,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -27127,7 +27293,8 @@
                                 "elements": "Complex units",
                                 "format_id": "fc9baea7-a714-4281-b68e-0cab40b2ef83"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -27144,22 +27311,11 @@
                             {
                                 "id": "0,16,0,0",
                                 "type": 4,
-                                "elements": "Complex units consist of a number of simple ones. When selecting unit options, the simplest possible combinations of simple ",
+                                "elements": "Complex units consist of a number of simple ones. When selecting unit options, the simplest possible combinations of simple units that make up the result unit will be offered.",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,16,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,16,1,0",
-                                "type": 4,
-                                "elements": "units that make up the result unit will be offered.",
-                                "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -27179,7 +27335,8 @@
                                 "elements": "Example:",
                                 "format_id": "fd15aa29-0e34-4511-92e9-eafcc0c796cd"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -27199,7 +27356,8 @@
                                 "elements": "The expression is calculated:",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -27310,7 +27468,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -27335,6 +27494,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -27351,7 +27517,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -27368,34 +27535,11 @@
                             {
                                 "id": "0,20,0,0",
                                 "type": 4,
-                                "elements": "The result unit in this case is meters per second. It turned out to be composite, since no unit equal to it was declared. Based ",
+                                "elements": "The result unit in this case is meters per second. It turned out to be composite, since no unit equal to it was declared. Based on this unit and on the built-in units based on meters and seconds, various combinations can be made, which will be presented in the Units dialog. Select, for example, \"cm/s\".",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,20,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,20,1,0",
-                                "type": 4,
-                                "elements": "on this unit and on the built-in units based on meters and seconds, various combinations can be made, which will be ",
-                                "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,20,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,20,2,0",
-                                "type": 4,
-                                "elements": "presented in the Units dialog. Select, for example, \"cm/s\".",
-                                "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -27506,7 +27650,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -27533,6 +27678,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -27549,7 +27701,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -27569,7 +27722,8 @@
                                 "elements": "The following are examples of more complex units.",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -27589,7 +27743,8 @@
                                 "elements": "Example:",
                                 "format_id": "fd15aa29-0e34-4511-92e9-eafcc0c796cd"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -27609,7 +27764,8 @@
                                 "elements": "The units \"J\", \"N\" are built-in. Then the calculation is performed and the most suitable option is selected:",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -27683,6 +27839,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,25,0,0,0,0,0,0,2,4",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,25,0,0,0,0,0,0,2,5",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -27826,7 +27987,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -27851,6 +28013,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -27867,7 +28036,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -27947,6 +28117,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,26,0,1,0,0,0,0,2,4",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,26,0,1,0,0,0,0,2,5",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -28090,7 +28265,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -28117,6 +28293,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -28206,6 +28389,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,26,0,1,1,0,0,0,2,8",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,26,0,1,1,0,0,0,2,9",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -28349,7 +28537,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -28376,6 +28565,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -28465,6 +28661,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,26,0,1,2,0,0,0,2,8",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,26,0,1,2,0,0,0,2,9",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -28608,7 +28809,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -28635,6 +28837,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -28724,6 +28933,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,26,0,1,3,0,0,0,2,8",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,26,0,1,3,0,0,0,2,9",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -28867,7 +29081,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -28894,6 +29109,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -28910,7 +29132,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -28930,7 +29153,8 @@
                                 "elements": "Example:",
                                 "format_id": "fd15aa29-0e34-4511-92e9-eafcc0c796cd"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -28950,7 +29174,8 @@
                                 "elements": "Here the translation to the Russian system is made:",
                                 "format_id": "ebae72e0-8f0a-42e7-9c59-acf2582fbc06"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -29018,7 +29243,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -29045,6 +29271,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -29108,7 +29341,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -29135,6 +29369,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -29151,7 +29392,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -29171,7 +29413,8 @@
                                 "elements": "",
                                 "format_id": "5f266f68-3e46-4505-a8dd-f394fd7e7a69"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -29205,7 +29448,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "../Calculation examples/Real numbers"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

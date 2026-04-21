@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "27e26e0c-3201-4f90-8937-476df3f9b2ab",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ce61b72b-9b02-4ea3-a12e-10a722517e16",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d845c321-65ae-4391-907d-972c5733f27b",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6223838f-9354-4b3a-bafe-70fa434b0afc",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d688e20d-56cc-47ad-bc88-57341a911548",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6bf7f6d7-dd7c-4a76-8634-0d7ae268d3b5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9100e142-ed09-46ad-83e5-b0cd9f51046a",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "11040179-a96f-4ce2-8632-f26db111c80f",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "fe654768-29b1-4b0a-a33a-45e3d5308be3",
             "family": "Arial",
@@ -18440,7 +18544,8 @@
                                 "elements": "The listed units will be used in calculations when setting the English language of the document.",
                                 "format_id": "5f78129c-8e2f-4396-9523-4b0151d81f85"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18460,7 +18565,8 @@
                                 "elements": "Distance",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18480,7 +18586,8 @@
                                 "elements": "• m - metre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18500,7 +18607,8 @@
                                 "elements": "• ang - angstrom",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18520,7 +18628,8 @@
                                 "elements": "• nm - nanometre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18540,7 +18649,8 @@
                                 "elements": "• mcm - micrometre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18560,7 +18670,8 @@
                                 "elements": "• mm - millimetre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18580,7 +18691,8 @@
                                 "elements": "• cm - centimetre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18600,7 +18712,8 @@
                                 "elements": "• dm - decimetre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18620,7 +18733,8 @@
                                 "elements": "• km - kilometre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18640,7 +18754,8 @@
                                 "elements": "Mass",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -18660,7 +18775,8 @@
                                 "elements": "• kg - kilogram",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18680,7 +18796,8 @@
                                 "elements": "• mcg - microgram",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18700,7 +18817,8 @@
                                 "elements": "• mg - milligram",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18720,7 +18838,8 @@
                                 "elements": "• g - gram",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18740,7 +18859,8 @@
                                 "elements": "• ton",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18760,7 +18880,8 @@
                                 "elements": "Temperature",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -18780,7 +18901,8 @@
                                 "elements": "• K - Kelvin",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18800,7 +18922,8 @@
                                 "elements": "• °C - Celsius",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18820,7 +18943,8 @@
                                 "elements": "Time",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -18840,7 +18964,8 @@
                                 "elements": "• s - second",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18860,7 +18985,8 @@
                                 "elements": "• ps - picosecond",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18880,7 +19006,8 @@
                                 "elements": "• ns - nanosecond",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18900,7 +19027,8 @@
                                 "elements": "• mks - microsecond",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18920,7 +19048,8 @@
                                 "elements": "• ms - millisecond",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18940,7 +19069,8 @@
                                 "elements": "• min - minute",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18960,7 +19090,8 @@
                                 "elements": "• hour",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -18980,7 +19111,8 @@
                                 "elements": "• day",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19000,7 +19132,8 @@
                                 "elements": "• week",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19020,7 +19153,8 @@
                                 "elements": "Electric current",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19040,7 +19174,8 @@
                                 "elements": "• A - ampere",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19060,7 +19195,8 @@
                                 "elements": "• mcA - microampere",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19080,7 +19216,8 @@
                                 "elements": "• mA - milliampere",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19100,7 +19237,8 @@
                                 "elements": "• kA - kiloampere",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19120,7 +19258,8 @@
                                 "elements": "• MA - megaampere",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19140,7 +19279,8 @@
                                 "elements": "Luminous intensity",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19160,7 +19300,8 @@
                                 "elements": "• cd - candela",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19180,7 +19321,8 @@
                                 "elements": "• mkcd - microcandela",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19200,7 +19342,8 @@
                                 "elements": "• mcd - millicandela",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19220,7 +19363,8 @@
                                 "elements": "• kcd - kilocandela",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19240,7 +19384,8 @@
                                 "elements": "• Mcd - megacandela",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19260,7 +19405,8 @@
                                 "elements": "Amount of matter",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19280,7 +19426,8 @@
                                 "elements": "• mol - mole",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19300,7 +19447,8 @@
                                 "elements": "Frequency",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19320,7 +19468,8 @@
                                 "elements": "• Hz - hertz",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19340,7 +19489,8 @@
                                 "elements": "• kHz - kilohertz",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19360,7 +19510,8 @@
                                 "elements": "• MHz - megahertz",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19380,7 +19531,8 @@
                                 "elements": "• GHz - gigahertz",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19400,7 +19552,8 @@
                                 "elements": "Force",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19420,7 +19573,8 @@
                                 "elements": "• N - newton",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19440,7 +19594,8 @@
                                 "elements": "• mcN - micronewton",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19460,7 +19615,8 @@
                                 "elements": "• mN - millinewton",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19480,7 +19636,8 @@
                                 "elements": "• kN - kilonewton",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19500,7 +19657,8 @@
                                 "elements": "• MN - meganewton",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19520,7 +19678,8 @@
                                 "elements": "Energy",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19540,7 +19699,8 @@
                                 "elements": "• J - joule",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19560,7 +19720,8 @@
                                 "elements": "• mcJ - microjoule",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19580,7 +19741,8 @@
                                 "elements": "• mJ - millijoule",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19600,7 +19762,8 @@
                                 "elements": "• kJ - kilojoule",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19620,7 +19783,8 @@
                                 "elements": "• MJ - megajoule",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19640,7 +19804,8 @@
                                 "elements": "Power",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19660,7 +19825,8 @@
                                 "elements": "• W - watt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19680,7 +19846,8 @@
                                 "elements": "• mcW - microwatt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19700,7 +19867,8 @@
                                 "elements": "• mW - milliwatt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19720,7 +19888,8 @@
                                 "elements": "• kW - kilowatt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19740,7 +19909,8 @@
                                 "elements": "• MW - megawatt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19760,7 +19930,8 @@
                                 "elements": "Pressure",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19780,7 +19951,8 @@
                                 "elements": "• Pa - pascal",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19800,7 +19972,8 @@
                                 "elements": "• mcPa - micropascal",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19820,7 +19993,8 @@
                                 "elements": "• mPa - millipascal",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19840,7 +20014,8 @@
                                 "elements": "• kPa - kilopascal",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19860,7 +20035,8 @@
                                 "elements": "• MPa - megapascal",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19880,7 +20056,8 @@
                                 "elements": "Luminous flux",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19900,7 +20077,8 @@
                                 "elements": "• lm - lumen",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19920,7 +20098,8 @@
                                 "elements": "• mclm - microlumen",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19940,7 +20119,8 @@
                                 "elements": "• mlm - millilumen",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19960,7 +20140,8 @@
                                 "elements": "• klm - kilolumen",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19980,7 +20161,8 @@
                                 "elements": "• Mlm - megalumen",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20000,7 +20182,8 @@
                                 "elements": "Illuminance",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -20020,7 +20203,8 @@
                                 "elements": "• lx - lux",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20040,7 +20224,8 @@
                                 "elements": "• mclx - microlux",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20060,7 +20245,8 @@
                                 "elements": "• mlx - millilux",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20080,7 +20266,8 @@
                                 "elements": "• klx - kilolux",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20100,7 +20287,8 @@
                                 "elements": "• Mlx - megalux",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20120,7 +20308,8 @@
                                 "elements": "Electrical charge",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -20140,7 +20329,8 @@
                                 "elements": "• C - coulomb",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20160,7 +20350,8 @@
                                 "elements": "• mcC - microcoulomb",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20180,7 +20371,8 @@
                                 "elements": "• mC - millicoulomb",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20200,7 +20392,8 @@
                                 "elements": "• kC - kilocoulomb",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20220,7 +20413,8 @@
                                 "elements": "• MC - megacoulomb",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20240,7 +20434,8 @@
                                 "elements": "Potential",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -20260,7 +20455,8 @@
                                 "elements": "• V - volt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20280,7 +20476,8 @@
                                 "elements": "• pV - pikovolt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20300,7 +20497,8 @@
                                 "elements": "• nV - nanovolt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20320,7 +20518,8 @@
                                 "elements": "• mcV - microvolt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20340,7 +20539,8 @@
                                 "elements": "• mV - millivolt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20360,7 +20560,8 @@
                                 "elements": "• kV - kilovolt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20380,7 +20581,8 @@
                                 "elements": "• MV - megavolt",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20400,7 +20602,8 @@
                                 "elements": "Electrical resistance",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -20420,7 +20623,8 @@
                                 "elements": "• Ohm",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20440,7 +20644,8 @@
                                 "elements": "• mcOhm - microohm",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20460,7 +20665,8 @@
                                 "elements": "• mOhm - milliohm",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20480,7 +20686,8 @@
                                 "elements": "• kOhm - kiloohm",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20500,7 +20707,8 @@
                                 "elements": "• MOhm - megaohm",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20520,7 +20728,8 @@
                                 "elements": "Electrical capacity",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -20540,7 +20749,8 @@
                                 "elements": "• F - farad",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20560,7 +20770,8 @@
                                 "elements": "• pF - pikofarad",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20580,7 +20791,8 @@
                                 "elements": "• nF - nanofarad",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20600,7 +20812,8 @@
                                 "elements": "• mcF - microfarad",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20620,7 +20833,8 @@
                                 "elements": "• mF - millifarad",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20640,7 +20854,8 @@
                                 "elements": "Magnetic flux",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -20660,7 +20875,8 @@
                                 "elements": "• Wb - weber",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20680,7 +20896,8 @@
                                 "elements": "• mcWb - microweber",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20700,7 +20917,8 @@
                                 "elements": "• mWb - milliweber",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20720,7 +20938,8 @@
                                 "elements": "• kWb - kiloweber",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20740,7 +20959,8 @@
                                 "elements": "• MWb - megaweber",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20760,7 +20980,8 @@
                                 "elements": "Magnetic field",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -20780,7 +21001,8 @@
                                 "elements": "• T - tesla",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20800,7 +21022,8 @@
                                 "elements": "• mcT - microtesla",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20820,7 +21043,8 @@
                                 "elements": "• mT - millitesla",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20840,7 +21064,8 @@
                                 "elements": "• kT - kilotesla",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20860,7 +21085,8 @@
                                 "elements": "• MT - megatesla",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20880,7 +21106,8 @@
                                 "elements": "Electrical inductance",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -20900,7 +21127,8 @@
                                 "elements": "• H - henry",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20920,7 +21148,8 @@
                                 "elements": "• pH - pikohenry",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20940,7 +21169,8 @@
                                 "elements": "• nH - nanohenry",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20960,7 +21190,8 @@
                                 "elements": "• mcH - microhenry",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20980,7 +21211,8 @@
                                 "elements": "• mH - millihenry",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21000,7 +21232,8 @@
                                 "elements": "Electric conductance",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -21020,7 +21253,8 @@
                                 "elements": "• S - siemens",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21040,7 +21274,8 @@
                                 "elements": "• mcS - microsiemens",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21060,7 +21295,8 @@
                                 "elements": "• mS - millisiemens",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21080,7 +21316,8 @@
                                 "elements": "• kS - kilosiemens",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21100,7 +21337,8 @@
                                 "elements": "• MS - megasiemens",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21120,7 +21358,8 @@
                                 "elements": "Ionizing radiation",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -21140,7 +21379,8 @@
                                 "elements": "• Gy - gray",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21160,7 +21400,8 @@
                                 "elements": "• mcGy - microgray",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21180,7 +21421,8 @@
                                 "elements": "• mGy - milligray",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21200,7 +21442,8 @@
                                 "elements": "• kGy - kilogray",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21220,7 +21463,8 @@
                                 "elements": "• MGy - megagray",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21240,7 +21484,8 @@
                                 "elements": "Square",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -21260,7 +21505,8 @@
                                 "elements": "• a - ar",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21280,7 +21526,8 @@
                                 "elements": "• ha - hectar",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21300,7 +21547,8 @@
                                 "elements": "Volume",
                                 "format_id": "02653ef3-773d-4fe1-840b-787695bd4a72"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -21320,7 +21568,8 @@
                                 "elements": "• l - litre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21340,7 +21589,8 @@
                                 "elements": "• ml - millilitre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21360,7 +21610,8 @@
                                 "elements": "• dl - decilitre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21380,7 +21631,8 @@
                                 "elements": "• dal",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21400,7 +21652,8 @@
                                 "elements": "• hl - hectolitre",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21420,7 +21673,8 @@
                                 "elements": "",
                                 "format_id": "7608024c-238b-4694-957c-1d58127d9c7f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -21466,7 +21720,8 @@
                                 "elements": "system ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

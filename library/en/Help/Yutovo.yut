@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "de0b7fb7-1f3f-41ed-a89f-d88a83e1a5e7",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a48c6a0e-2eb3-48b5-9f57-f44e53a34e48",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3840e85c-7c0c-48e4-a370-2dcea670d1ff",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9b6f6bf1-d9c4-4a83-a557-7be0ba58a7f8",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ed4c24ab-ea86-4126-baec-1ecac3f30b0f",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3ee39c82-8da2-4abb-8ee1-633707c570b4",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c055b716-3303-4265-8459-4585eaef856b",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "97325394-0dde-4318-9bed-0768e8fbeb23",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "8adb3511-3dc4-4561-a4a0-481744e8ae8b",
             "family": "Arial",
@@ -1497,34 +1601,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Yutovo is a website and a PC application for solving everyday and professional mathematical problems. This service ",
+                                "elements": "Yutovo is a website and a PC application for solving everyday and professional mathematical problems. This service combines a text editor with a convenient calculator built into it with a graphical (as on paper) display of the actions performed.",
                                 "format_id": "6432b7a2-bef3-4de8-8499-7ee4e6b39d2e"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "combines a text editor with a convenient calculator built into it with a graphical (as on paper) display of the actions ",
-                                "format_id": "6432b7a2-bef3-4de8-8499-7ee4e6b39d2e"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,2,0",
-                                "type": 4,
-                                "elements": "performed.",
-                                "format_id": "6432b7a2-bef3-4de8-8499-7ee4e6b39d2e"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1544,7 +1625,8 @@
                                 "elements": "",
                                 "format_id": "2b3062f8-6686-4289-808a-a0799af02d1f"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1562,10 +1644,11 @@
                                 "id": "0,2,0,0",
                                 "type": 39,
                                 "elements": "Introduction/About Yutovo ->",
-                                "format_id": "5ff1bc00-a4d7-4e8f-b9d7-6320a70178c6",
+                                "format_id": "dbddd1e6-5f56-44a4-92c9-4270faae3977",
                                 "url": "./Introduction/About Yutovo"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

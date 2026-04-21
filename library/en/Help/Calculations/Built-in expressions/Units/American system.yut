@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "c0c35b51-fe14-43d8-b84e-ea99c02428c1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "17db946e-a7e8-4e81-88c0-a90b4ef44ab0",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "27e38afa-eb6f-44dc-a3cf-44871533555c",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "be5aaece-3c88-47ad-a07a-0e99e66dca06",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d3d5abaa-f779-46d9-8548-85534496b514",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1bedea1d-7fdb-4927-9f0a-9a5262c216e6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ecd849e1-d4b3-4ca1-8fc0-89ffcb95b684",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6051ad71-5c38-4605-b309-e7aa1bdf754c",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "b096b9ca-2f1a-4010-afbf-083a50e770d0",
             "family": "Arial",
@@ -19000,7 +19104,8 @@
                                 "elements": "The listed units will be used in calculations when setting the English language of the document.",
                                 "format_id": "5f78129c-8e2f-4396-9523-4b0151d81f85"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19020,7 +19125,8 @@
                                 "elements": "Distance",
                                 "format_id": "57bade83-68c5-4090-84e3-56287705f1a6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19040,7 +19146,8 @@
                                 "elements": "• inch = in",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19060,7 +19167,8 @@
                                 "elements": "• foot = ft",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19080,7 +19188,8 @@
                                 "elements": "• yard = yd",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19100,7 +19209,8 @@
                                 "elements": "• mile = mi",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19120,7 +19230,8 @@
                                 "elements": "Mass",
                                 "format_id": "57bade83-68c5-4090-84e3-56287705f1a6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19140,7 +19251,8 @@
                                 "elements": "• ounce = oz",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19160,7 +19272,8 @@
                                 "elements": "• pound = lb",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19180,7 +19293,8 @@
                                 "elements": "• stone = st",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19200,7 +19314,8 @@
                                 "elements": "• hundredweight = cwt",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19220,7 +19335,8 @@
                                 "elements": "• ton",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19240,7 +19356,8 @@
                                 "elements": "Time",
                                 "format_id": "57bade83-68c5-4090-84e3-56287705f1a6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19260,7 +19377,8 @@
                                 "elements": "• s - second",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19280,7 +19398,8 @@
                                 "elements": "• min - minute",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19300,7 +19419,8 @@
                                 "elements": "• hour",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19320,7 +19440,8 @@
                                 "elements": "Volume",
                                 "format_id": "57bade83-68c5-4090-84e3-56287705f1a6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19340,7 +19461,8 @@
                                 "elements": "• teaspoon = tsp",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19360,7 +19482,8 @@
                                 "elements": "• tablespoon = tbsp",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19380,7 +19503,8 @@
                                 "elements": "• fluid_ounce = fl_oz",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19400,7 +19524,8 @@
                                 "elements": "• cup",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19420,7 +19545,8 @@
                                 "elements": "• pint = pt",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19440,7 +19566,8 @@
                                 "elements": "• quart = qt",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19460,7 +19587,8 @@
                                 "elements": "• gallon = gal",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19480,7 +19608,8 @@
                                 "elements": "• dry_pint = dry_pt",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19500,7 +19629,8 @@
                                 "elements": "• dry_quart = dry_qt",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19520,7 +19650,8 @@
                                 "elements": "• dry_gallon = dry_gal",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19540,7 +19671,8 @@
                                 "elements": "• bushel = bu",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19560,7 +19692,8 @@
                                 "elements": "• peck = pk",
                                 "format_id": "b096b9ca-2f1a-4010-afbf-083a50e770d0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19580,7 +19713,8 @@
                                 "elements": "",
                                 "format_id": "415c861d-6aa9-4720-9411-3e6bf072c92b"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19598,7 +19732,7 @@
                                 "id": "0,30,0,0",
                                 "type": 39,
                                 "elements": "<- Russian system",
-                                "format_id": "4fcada90-3427-40c4-b8d4-f5463e42ea04",
+                                "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Russian system"
                             },
                             {
@@ -19620,7 +19754,8 @@
                                 "elements": "->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

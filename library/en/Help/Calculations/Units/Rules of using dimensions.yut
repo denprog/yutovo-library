@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "d2234c88-1eca-426c-a31f-3c20ec7b6653",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d66e43b8-aadb-4885-9785-ec2efcb4e60a",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f2e40b3a-253b-4afb-b7a4-914ee2ad447c",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f9bbbaa4-eae8-412d-b211-255f044b13ce",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d51e9bf9-db72-4576-91f1-bf8667813010",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1a38f33d-75e7-4382-b8ef-a03cf4e3520c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "26602aa7-3761-4ac9-b53b-4f682db6f11c",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bfc3ba38-02f6-47dc-b4a9-7a9129811db8",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "d4cad50a-a286-4bf7-9424-a6d917a9d970",
             "family": "Arial",
@@ -8492,7 +8604,8 @@
                                 "elements": "• A unit can only be used after it has been declared.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8512,7 +8625,8 @@
                                 "elements": "• If a unit is not in the SI system, its system is written in the unit's index when it is defined and used.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8532,7 +8646,8 @@
                                 "elements": "• Unit system as such is not defined explicitly; it is declared when it is first used.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8552,7 +8667,8 @@
                                 "elements": "• A unit can be declared anywhere in the document.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8572,7 +8688,8 @@
                                 "elements": "• If a unit is written without mentioning the system, the SI system is used.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8589,22 +8706,11 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• In order to perform calculations in a certain system of units, all units used in a given expression must be declared in ",
+                                "elements": "• In order to perform calculations in a certain system of units, all units used in a given expression must be declared in this system.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,5,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,1,0",
-                                "type": 4,
-                                "elements": "this system.",
-                                "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8621,22 +8727,11 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "• If the same unit is defined more than once (redefined), then when it is used in expressions, the sequence rule is ",
+                                "elements": "• If the same unit is defined more than once (redefined), then when it is used in expressions, the sequence rule is used: in a specific expression, the unit value that is first above the given expression is used.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,6,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,6,1,0",
-                                "type": 4,
-                                "elements": "used: in a specific expression, the unit value that is first above the given expression is used.",
-                                "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8656,7 +8751,8 @@
                                 "elements": "• Built-in units can also be redefined.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8676,7 +8772,8 @@
                                 "elements": "",
                                 "format_id": "4d7cd6a6-1ad6-46e0-a9df-43528e7bd4dc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8710,7 +8807,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Unit systems"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

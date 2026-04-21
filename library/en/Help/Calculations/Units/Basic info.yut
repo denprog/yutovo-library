@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "32f759bf-a96e-4aaa-a928-f2bf4c58c1c8",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "230dac2a-34ee-44b1-9d4b-cbe9b422cb1a",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c0b6c0aa-3cfa-4ae7-a6e4-6f78b9b94fab",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0ad2c724-b14c-4492-a909-7f0711204f34",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0c58b763-2e26-4192-8c77-6314f778b22e",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9c7f4ad7-5302-4396-9c32-aacf90a474c1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9d72dbca-756c-4870-8a22-73e93aa65d7a",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b9b49584-1013-403a-8af5-e495d95ce7dd",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "dbcbb2c9-7651-45b4-b0f0-15ba8b03751a",
             "family": "Arial",
@@ -13045,22 +13149,11 @@
                             {
                                 "id": "0,0,0,2",
                                 "type": 4,
-                                "elements": " (the \"~\" key). A unit must be defined before its first use. You can define any ",
+                                "elements": " (the \"~\" key). A unit must be defined before its first use. You can define any composite units by assigning names to them. In the future, if units are used in the calculated expression, the result will be presented with the most appropriate unit.",
                                 "format_id": "003cf8d8-5209-45fe-a03f-766f27c94c31"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "composite units by assigning names to them. In the future, if units are used in the calculated expression, the result will be presented with the most appropriate unit.",
-                                "format_id": "003cf8d8-5209-45fe-a03f-766f27c94c31"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13080,7 +13173,8 @@
                                 "elements": "Units are presented for real, rational and complex numbers. There are no units for integer numbers.",
                                 "format_id": "003cf8d8-5209-45fe-a03f-766f27c94c31"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13100,7 +13194,8 @@
                                 "elements": "Built-in units are defined for the following systems: SI, russian, american and non-systemic.",
                                 "format_id": "003cf8d8-5209-45fe-a03f-766f27c94c31"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13132,7 +13227,8 @@
                                 "elements": ".",
                                 "format_id": "3b225f42-fd38-47aa-a93e-cc4d500ef1a2"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13152,7 +13248,8 @@
                                 "elements": "",
                                 "format_id": "02bc3276-7f5d-4a5f-954c-d8e76665c148"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13186,7 +13283,8 @@
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "./Rules of using dimensions"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

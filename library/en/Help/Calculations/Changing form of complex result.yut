@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "4aee9f4d-be3b-44cd-899d-a6615b7fc3b1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9ea98c2a-5c6d-4aa3-9cca-8609dee9f9a0",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5f5d5aa3-3de8-4958-8a8c-8c412f8b2b2e",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3cc76af5-4396-4126-9c94-ec14ce38f4aa",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ddef7852-1d89-4b67-99fb-30212aef4ee2",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ddb43952-386a-4ee1-9912-0db68788319e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "76dfb664-7834-4997-9c21-ca423e1485d9",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cb186610-96e6-4805-9e64-b1381a24b3fb",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "82a56b8a-ca91-442f-8672-e26d87a558e7",
             "family": "Arial",
             "size": 14,
@@ -453,22 +565,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "If the result is complex during calculations, then at the beginning it has algebraic form. Then the form can be changed to trigonometric or exponential. To do this, select ",
+                                "elements": "If the result is complex during calculations, then at the beginning it has algebraic form. Then the form can be changed to trigonometric or exponential. To do this, select \"Complex form\" in the context menu of the result. The following example shows the calculation of a complex variable in all three forms.",
                                 "format_id": "82a56b8a-ca91-442f-8672-e26d87a558e7"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "\"Complex form\" in the context menu of the result. The following example shows the calculation of a complex variable in all three forms.",
-                                "format_id": "82a56b8a-ca91-442f-8672-e26d87a558e7"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -533,6 +634,11 @@
                                                                                 "id": "0,1,0,0,0,0,0,2,0,1",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,0,0,0,2,0,2",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "-"
@@ -557,6 +663,11 @@
                                                                                 "id": "0,1,0,0,0,0,0,2,2,1",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,0,0,0,2,2,2",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "-"
@@ -579,6 +690,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,1,0,0,0,0,0,2,4,1",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,0,0,0,2,4,2",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -890,7 +1006,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

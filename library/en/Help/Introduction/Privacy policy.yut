@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "9135c095-754f-44b1-9f7a-98086b0ffa95",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dad07916-27c1-4675-96e1-4e3bd0fb3a15",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4b546a1d-d722-475d-92e9-7e2f3275f655",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6f7df34d-1c9e-4be9-9c71-f07f2b483f4e",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e5064118-927c-4534-9e69-e0f5a8de8aae",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4fc3b215-fd7e-4653-a927-5fe42f494704",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e0bef387-46af-4700-98a4-a2aac04f62f4",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0bb1d9a7-f8ca-4d33-a63f-5bb610e7cb4c",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "48a735be-aec9-437b-ae97-21889c8c040d",
             "family": "Arial",
@@ -3866,7 +3970,8 @@
                                 "elements": "1. Types of information to collect",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3886,7 +3991,8 @@
                                 "elements": "We might collect user’s personal information such as name, email, ip address and other information.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3906,7 +4012,8 @@
                                 "elements": "2. Ways to collect information",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3923,22 +4030,11 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "We might collect information when user register, unregister, login or logout to the site. We might collect personal information when user uses ",
+                                "elements": "We might collect information when user register, unregister, login or logout to the site. We might collect personal information when user uses any of the services of the site.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,3,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,1,0",
-                                "type": 4,
-                                "elements": "any of the services of the site.",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3958,7 +4054,8 @@
                                 "elements": "3. Using of information",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3978,7 +4075,8 @@
                                 "elements": "We may use information to verify your account at the website by sending verification email to your registered email address.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3995,34 +4093,11 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "We may use personal information to respond to user\\'s requests. We may use personal information to improve the services, the website and ",
+                                "elements": "We may use personal information to respond to user\\'s requests. We may use personal information to improve the services, the website and the desktop application. We may use personal information for security purposes to protect users and the website. We may use information as otherwise permitted by law.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,6,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,6,1,0",
-                                "type": 4,
-                                "elements": "the desktop application. We may use personal information for security purposes to protect users and the website. We may use information as ",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,6,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,6,2,0",
-                                "type": 4,
-                                "elements": "otherwise permitted by law.",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -4042,7 +4117,8 @@
                                 "elements": "4. User rights over his data",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -4059,22 +4135,11 @@
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
-                                "elements": "You can request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for ",
+                                "elements": "You can request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes. You can send your request for data deletion at: support@yutovo.ru.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,8,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,8,1,0",
-                                "type": 4,
-                                "elements": "administrative, legal, or security purposes. You can send your request for data deletion at: support@yutovo.ru.",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -4094,7 +4159,8 @@
                                 "elements": "5. Disclamer",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -4111,58 +4177,11 @@
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
-                                "elements": "You assume all responsibility and risk with respect to your use of the website, which is provided “as is” without warranties, representations or ",
+                                "elements": "You assume all responsibility and risk with respect to your use of the website, which is provided “as is” without warranties, representations or conditions of any kind, either express or implied, with regard to information accessed from or via the website, including without limitation, all content and materials, and functions and services provided on our website, all of which are provided without warranty of any kind, including but not limited to warranties concerning the availability, accuracy, completeness or usefulness of content or information, uninterrupted access, and any warranties of title, non-infringement, merchantability or fitness for a particular purpose.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,10,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,1,0",
-                                "type": 4,
-                                "elements": "conditions of any kind, either express or implied, with regard to information accessed from or via the website, including without limitation, all ",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,10,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,2,0",
-                                "type": 4,
-                                "elements": "content and materials, and functions and services provided on our website, all of which are provided without warranty of any kind, including ",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,10,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,3,0",
-                                "type": 4,
-                                "elements": "but not limited to warranties concerning the availability, accuracy, completeness or usefulness of content or information, uninterrupted access, ",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,10,4",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,4,0",
-                                "type": 4,
-                                "elements": "and any warranties of title, non-infringement, merchantability or fitness for a particular purpose.",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -4179,46 +4198,11 @@
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
-                                "elements": "We do not warrant that our website or its functioning or the content and material of the services made available thereby will be timely, secure, ",
+                                "elements": "We do not warrant that our website or its functioning or the content and material of the services made available thereby will be timely, secure, uninterrupted or error-free, that defects will be corrected, or that our websites or the servers that make our website available are free of viruses or other harmful components. The use of our website is at your sole risk and you assume full responsibility for any costs associated with your use of the website. We will not be liable for any damages of any kind related to the use of our website.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,11,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,1,0",
-                                "type": 4,
-                                "elements": "uninterrupted or error-free, that defects will be corrected, or that our websites or the servers that make our website available are free of ",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,2,0",
-                                "type": 4,
-                                "elements": "viruses or other harmful components. The use of our website is at your sole risk and you assume full responsibility for any costs associated ",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,3,0",
-                                "type": 4,
-                                "elements": "with your use of the website. We will not be liable for any damages of any kind related to the use of our website.",
-                                "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -4238,7 +4222,8 @@
                                 "elements": "",
                                 "format_id": "75627732-8030-4c55-a49d-e97df2fd5417"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -4272,7 +4257,8 @@
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Getting started/User interface"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

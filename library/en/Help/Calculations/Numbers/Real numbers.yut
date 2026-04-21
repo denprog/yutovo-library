@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "d08a5003-a4f5-4c92-aeb7-3da7769d4d4e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0ece4869-fca7-4707-85e7-0b8476eac5fd",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ac54a60b-583c-48ac-b8e7-daa6c06b8481",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "65e8a18e-5bad-4cbf-9976-7fda30e098a7",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ef9f9a55-d1c8-4cda-af95-dcf3a341b718",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "52d8abf7-1756-4d7f-8571-81bdc8bdda5b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "94faf1d1-53e8-4c8c-8ab8-105db1fada38",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3a65d56a-640f-4362-b97b-f0fd1b04c937",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "a0dfe38f-fbc9-4ec8-9dc7-bcc28c7b904b",
             "family": "Arial",
@@ -12823,22 +12927,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Real (exponential) numbers are represented by the product of the mantissa (fractional part) and the exponent (order). This is the most commonly used class ",
+                                "elements": "Real (exponential) numbers are represented by the product of the mantissa (fractional part) and the exponent (order). This is the most commonly used class of numbers.",
                                 "format_id": "4fa3371a-18f1-4f45-9585-ab2fba1b87fc"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "of numbers.",
-                                "format_id": "4fa3371a-18f1-4f45-9585-ab2fba1b87fc"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12858,7 +12951,8 @@
                                 "elements": "Arithmetic functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -12884,7 +12978,8 @@
                                 "elements": " - addition and unary plus;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12910,7 +13005,8 @@
                                 "elements": " - subtraction and unary minus;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12936,7 +13032,8 @@
                                 "elements": " - multiplication;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12962,7 +13059,8 @@
                                 "elements": " - division.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12982,7 +13080,8 @@
                                 "elements": "Arithmetic functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -13008,7 +13107,8 @@
                                 "elements": " - raising to a power;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13034,7 +13134,8 @@
                                 "elements": " - square root;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13060,7 +13161,8 @@
                                 "elements": " - root of a power;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13086,7 +13188,8 @@
                                 "elements": " - sum by index;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13112,7 +13215,8 @@
                                 "elements": " - product by index;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13138,7 +13242,8 @@
                                 "elements": " - factorial;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13158,7 +13263,8 @@
                                 "elements": "Functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -13178,7 +13284,8 @@
                                 "elements": "\"exp\" - exponent;",
                                 "format_id": "694648fa-6509-4cfd-b67b-cc13513d4913"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13198,7 +13305,8 @@
                                 "elements": "\"ln\" - natural logarithm;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13218,7 +13326,8 @@
                                 "elements": "\"lg\" - logarithm to base 10;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13238,7 +13347,8 @@
                                 "elements": "\"log\" - logarithm;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13258,7 +13368,8 @@
                                 "elements": "\"abs\" - absolute value;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13278,7 +13389,8 @@
                                 "elements": "\"int\" - integer part;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13298,7 +13410,8 @@
                                 "elements": "\"fract\" - fractional part;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13318,7 +13431,8 @@
                                 "elements": "\"round\" - rounding to the nearest integer.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13338,7 +13452,8 @@
                                 "elements": "Trigonometric functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -13358,7 +13473,8 @@
                                 "elements": "\"sin\" - sine",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13378,7 +13494,8 @@
                                 "elements": "\"cos\" - cosine",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13398,7 +13515,8 @@
                                 "elements": "\"tan\" - tangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13418,7 +13536,8 @@
                                 "elements": "\"cot\" - cotangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13438,7 +13557,8 @@
                                 "elements": "\"sec\" - secant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13458,7 +13578,8 @@
                                 "elements": "\"cosec\" - cosecant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13478,7 +13599,8 @@
                                 "elements": "\"arcsin\" - arcsine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13498,7 +13620,8 @@
                                 "elements": "\"arccos\" - arccosine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13518,7 +13641,8 @@
                                 "elements": "\"arctg\" - arctangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13538,7 +13662,8 @@
                                 "elements": "\"arcctg\" - arccotangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13558,7 +13683,8 @@
                                 "elements": "\"arcsec\" - arcsecant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13578,7 +13704,8 @@
                                 "elements": "\"arccosec\" - arccosecant.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13598,7 +13725,8 @@
                                 "elements": "Hyperbolic functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -13618,7 +13746,8 @@
                                 "elements": "\"sh\" - hyperbolic sine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13638,7 +13767,8 @@
                                 "elements": "\"ch\" - hyperbolic cosine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13658,7 +13788,8 @@
                                 "elements": "\"th\" - hyperbolic tangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13678,7 +13809,8 @@
                                 "elements": "\"cth\" - hyperbolic cotangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13698,7 +13830,8 @@
                                 "elements": "\"sch\" - hyperbolic secant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13718,7 +13851,8 @@
                                 "elements": "\"csch\" - hyperbolic cosecant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13738,7 +13872,8 @@
                                 "elements": "\"arsh\" - hyperbolic area sine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13758,7 +13893,8 @@
                                 "elements": "\"arch\" - hyperbolic area cosine;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13778,7 +13914,8 @@
                                 "elements": "\"arth\" - hyperbolic area tangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13798,7 +13935,8 @@
                                 "elements": "\"arcth\" - hyperbolic area cotangent;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13818,7 +13956,8 @@
                                 "elements": "\"arsch\" - hyperbolic area secant;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13838,7 +13977,8 @@
                                 "elements": "\"arcsch\" - hyperbolic area cosecant.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13858,7 +13998,8 @@
                                 "elements": "",
                                 "format_id": "eb15bcd3-2b28-4f49-995a-afb4ee799d81"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -13876,7 +14017,7 @@
                                 "id": "0,49,0,0",
                                 "type": 39,
                                 "elements": "<- Arrays",
-                                "format_id": "4fcada90-3427-40c4-b8d4-f5463e42ea04",
+                                "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "../Arrays"
                             },
                             {
@@ -13892,7 +14033,8 @@
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "./Rational numbers"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

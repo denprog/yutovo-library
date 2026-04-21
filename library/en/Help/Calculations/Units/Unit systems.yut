@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "12a99a37-152a-4851-8d27-8d356ff46702",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6a2de7d1-e22c-4704-92d3-d729e310adfd",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0ac29f39-303c-4c1f-830a-d6b11d23f697",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7957b0b7-a192-4d96-919b-0de2e5dbe026",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "96004402-f51e-44ed-adfc-d1b4da3e1e94",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "78390b88-059f-4838-a4f5-70dbd71468c1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e7574675-3176-42d9-9c61-6f8834d20d1d",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c50b267d-0528-4b1f-a087-09005092583a",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "3a57ef50-9688-4bf0-8201-1101164e038e",
             "family": "Arial",
@@ -8290,7 +8394,8 @@
                                 "elements": "There are many different systems of units.",
                                 "format_id": "d3382bac-1c7e-42a4-9e7d-8d091499b932"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8307,22 +8412,11 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "At the moment, only three systems of units are built-in - SI, russian and american. The metric system is accepted in the program by default. All other units, including those of other systems, are based on its ",
+                                "elements": "At the moment, only three systems of units are built-in - SI, russian and american. The metric system is accepted in the program by default. All other units, including those of other systems, are based on its units.",
                                 "format_id": "d3382bac-1c7e-42a4-9e7d-8d091499b932"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "units.",
-                                "format_id": "d3382bac-1c7e-42a4-9e7d-8d091499b932"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8339,34 +8433,23 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "The previous chapter showed the declaration of user-defined dimensions. All those examples refer to the metric system. To declare a unit of another system, the system name must be explicitly written in the ",
-                                "format_id": "d3382bac-1c7e-42a4-9e7d-8d091499b932"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,2,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,1,0",
-                                "type": 4,
-                                "elements": "subscript when declaring the unit (keys [Ctrl+Shift+S] or the button ",
+                                "elements": "The previous chapter showed the declaration of user-defined dimensions. All those examples refer to the metric system. To declare a unit of another system, the system name must be explicitly written in the subscript when declaring the unit (keys [Ctrl+Shift+S] or the button ",
                                 "format_id": "d3382bac-1c7e-42a4-9e7d-8d091499b932"
                             },
                             {
-                                "id": "0,2,1,1",
+                                "id": "0,2,0,1",
                                 "type": 34,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAIAAADgN5EjAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA4ElEQVQ4jeWUPcqEQAyGszsbSSOD2gjiIcTCO9h4BM/mMTyMjQgGBBERtXDGrxhY3K/YH6uFnWaSvDzkTRjmsu87nDrXcxgA3NZ1ZeZjiYh8339NMnNRFIhocq11GIZ5nr8mAQARoygycNu2Wuu33JoLEQ0phHiTPL+hXyFvT7SyLO+PhIiyLCOiB1IpVVWVEAIApmlyHMdozDzPs5RyWZa6rpVSDz1t247j+FhyXfceSymDIBiGoe/7/249z0vT9NMh4ft2CwBN03Rdt23bZ2SSJOM4mhgRLcs6qpfTv8kf4TBP31xHLeYAAAAASUVORK5CYII="
                             },
                             {
-                                "id": "0,2,1,2",
+                                "id": "0,2,0,2",
                                 "type": 4,
                                 "elements": "):",
                                 "format_id": "d3382bac-1c7e-42a4-9e7d-8d091499b932"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8499,7 +8582,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8519,7 +8603,8 @@
                                 "elements": "Example:",
                                 "format_id": "e1388006-c41f-44c8-bdf2-78926440fa55"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -8539,7 +8624,8 @@
                                 "elements": "The following example declares units related to the English metric system. When declaring the third unit, the previously defined unit is used.",
                                 "format_id": "d3382bac-1c7e-42a4-9e7d-8d091499b932"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8887,7 +8973,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8907,7 +8994,8 @@
                                 "elements": "As you can see, when declaring them, the system is explicitly specified. This is also necessary for subsequent use. The result is also obtained in the current system SI:",
                                 "format_id": "d3382bac-1c7e-42a4-9e7d-8d091499b932"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9154,6 +9242,11 @@
                                                                                 "id": "0,8,0,0,1,0,0,0,2,7",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,8,0,0,1,0,0,0,2,8",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -9271,7 +9364,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9291,7 +9385,8 @@
                                 "elements": "The result can be presented in fractional form:",
                                 "format_id": "d3382bac-1c7e-42a4-9e7d-8d091499b932"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9442,6 +9537,11 @@
                                                                                 "id": "0,10,0,0,0,0,0,0,2,7",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,10,0,0,0,0,0,0,2,8",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -9551,7 +9651,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9571,7 +9672,8 @@
                                 "elements": "",
                                 "format_id": "db279a9c-ea19-433c-8156-2061ed449ddb"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9605,7 +9707,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./User defined units declaration"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

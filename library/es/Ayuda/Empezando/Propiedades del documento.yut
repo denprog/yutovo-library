@@ -537,7 +537,7 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Seleccionar resultado automáticamente: al evaluar una expresión, se probarán secuencialmente los tipos de resultados que se enumeran en la ",
+                                "elements": "• Reales, Enteros, Racionales, Complejos: estas pestañas muestran los parámetros predeterminados para estos resultados. Se pueden cambiar ",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
                         ]
@@ -549,19 +549,7 @@
                             {
                                 "id": "0,3,1,0",
                                 "type": 4,
-                                "elements": "tabla siguiente hasta que la expresión se evalúe correctamente. Si todos los resultados arrojan errores, se devolverá un error para la primera ",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,3,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,2,0",
-                                "type": 4,
-                                "elements": "opción de cálculo.",
+                                "elements": "para cada resultado seleccionándolos en el menú contextual.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
                         ]
@@ -581,32 +569,8 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• Orden de selección de resultados: este es el orden en que se probarán las opciones de cálculo para la expresión actual. Las expresiones se ",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,4,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,4,1,0",
-                                "type": 4,
-                                "elements": "evalúan con mayor frecuencia como números reales, por lo que esta opción es la primera de forma predeterminada. Por ejemplo, para priorizar la ",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,4,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,4,2,0",
-                                "type": 4,
-                                "elements": "expresión como fracción propia, configure primero Racionales.",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
+                                "elements": "Pestaña Documento",
+                                "format_id": "0fa3749e-c2e5-4d92-8823-f993b95f1a09"
                             }
                         ]
                     }
@@ -625,7 +589,7 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Reales, Enteros, Racionales, Complejos: estas pestañas muestran los parámetros predeterminados para estos resultados. Se pueden cambiar ",
+                                "elements": "• Idioma: el idioma del documento actual. Determina el conjunto de unidades y algunas variables. Por ejemplo, en inglés, la unidad imaginaria es ",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
                         ]
@@ -637,7 +601,7 @@
                             {
                                 "id": "0,5,1,0",
                                 "type": 4,
-                                "elements": "para cada resultado seleccionándolos en el menú contextual.",
+                                "elements": "\"i\", mientras que en ruso es \"j\". Las unidades se escriben en su propio idioma.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
                         ]
@@ -657,8 +621,8 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "Pestaña Documento",
-                                "format_id": "0fa3749e-c2e5-4d92-8823-f993b95f1a09"
+                                "elements": "• Tabulación: utilice tabulaciones o un número específico de espacios.",
+                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
                         ]
                     }
@@ -677,20 +641,8 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "• Idioma: el idioma del documento actual. Determina el conjunto de unidades y algunas variables. Por ejemplo, en inglés, la unidad imaginaria es ",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,7,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,7,1,0",
-                                "type": 4,
-                                "elements": "\"i\", mientras que en ruso es \"j\". Las unidades se escriben en su propio idioma.",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
+                                "elements": "Pestaña Documentos incluidos",
+                                "format_id": "0fa3749e-c2e5-4d92-8823-f993b95f1a09"
                             }
                         ]
                     }
@@ -709,58 +661,18 @@
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
-                                "elements": "• Tabulación: utilice tabulaciones o un número específico de espacios.",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,9",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,9,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,0,0",
-                                "type": 4,
-                                "elements": "Pestaña Documentos incluidos",
-                                "format_id": "0fa3749e-c2e5-4d92-8823-f993b95f1a09"
-                            }
-                        ]
-                    }
-                ],
-                "format_name": "Text body",
-                "format_alignment": 0
-            },
-            {
-                "id": "0,10",
-                "type": 2,
-                "elements": [
-                    {
-                        "id": "0,10,0",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,10,0,0",
-                                "type": 4,
                                 "elements": "Esta pestaña especifica una lista de ",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             },
                             {
-                                "id": "0,10,0,1",
+                                "id": "0,8,0,1",
                                 "type": 39,
                                 "elements": "documentos incluidos",
                                 "format_id": "1fa0c77f-a7b1-4a5c-901d-398660b40c31",
                                 "url": "../Cálculos/Documentos incluidos.yut"
                             },
                             {
-                                "id": "0,10,0,2",
+                                "id": "0,8,0,2",
                                 "type": 4,
                                 "elements": " utilizados por este documento.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"

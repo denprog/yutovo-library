@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "41935756-dca1-490f-8252-14cbb36e4eb7",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9138ef41-cc72-43a6-869e-fd90ff64c10b",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "161acbc9-7ddc-401a-b931-8d98d9e77297",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3e19499f-9274-4f2c-82f8-6d10246c0715",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e91d6807-89d9-464a-84a4-1b36fcb69e0e",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "362538e7-7075-4f31-82bb-960756dc85cf",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d6d1e356-c2e5-4114-b385-1942a16592c1",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dc207086-0bea-473d-b8fd-80b2755de8f4",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "b2a0dbd3-3750-4187-b319-9f7059ec0e3e",
             "family": "Arial",
@@ -8716,7 +8828,8 @@
                                 "elements": "Real (exponential) numbers",
                                 "format_id": "e014183e-e310-44b1-85bc-3692071233e6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -8736,7 +8849,8 @@
                                 "elements": "Real numbers consist of digits and a decimal point.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8756,7 +8870,8 @@
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -8776,7 +8891,8 @@
                                 "elements": "Enter sequentially: \"12345.678\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8824,7 +8940,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8844,7 +8961,8 @@
                                 "elements": "Spaces between digits are added for readability.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8864,7 +8982,8 @@
                                 "elements": "Real numbers in scientific notation are entered by multiplying by the order.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8884,7 +9003,8 @@
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -8904,7 +9024,8 @@
                                 "elements": "Enter: \"7.89*10[Ctrl+Shift+^]5\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8991,6 +9112,11 @@
                                                                 "id": "0,9,0,1,0,0,1,8",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,9,0,1,0,0,1,9",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "·"
@@ -9041,7 +9167,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9061,7 +9188,8 @@
                                 "elements": "Integer numbers",
                                 "format_id": "e014183e-e310-44b1-85bc-3692071233e6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -9078,22 +9206,11 @@
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
-                                "elements": "Integer numbers do not have a fractional part. They can be in binary, decimal, octal, or hexadecimal notation. Logical ",
+                                "elements": "Integer numbers do not have a fractional part. They can be in binary, decimal, octal, or hexadecimal notation. Logical operations can be performed on them.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,11,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,1,0",
-                                "type": 4,
-                                "elements": "operations can be performed on them.",
-                                "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9113,7 +9230,8 @@
                                 "elements": "A notation is assigned to a number by an operation (the [Ctrl+Shift+S] keys), or by selecting it in the math panel.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9133,7 +9251,8 @@
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -9153,7 +9272,8 @@
                                 "elements": "Enter: \"10101110[Ctrl+Shift+S]bin\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9173,7 +9293,8 @@
                                 "elements": "Result: bin[10101110]",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9193,7 +9314,8 @@
                                 "elements": "Rational numbers",
                                 "format_id": "3c6aace5-c69a-4e80-b09e-62bed6ee6a7b"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -9210,34 +9332,11 @@
                             {
                                 "id": "0,17,0,0",
                                 "type": 4,
-                                "elements": "Rational numbers are represented by fraction. They are entered using the division symbol (the \"/\" key), or by ",
+                                "elements": "Rational numbers are represented by fraction. They are entered using the division symbol (the \"/\" key), or by selecting this symbol in the math panel. The integer part of the fraction, if any, can be entered together with the fraction itself, as shown in the following example, or through the addition symbol.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,17,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,17,1,0",
-                                "type": 4,
-                                "elements": "selecting this symbol in the math panel. The integer part of the fraction, if any, can be entered together with the ",
-                                "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,17,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,17,2,0",
-                                "type": 4,
-                                "elements": "fraction itself, as shown in the following example, or through the addition symbol.",
-                                "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9257,7 +9356,8 @@
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -9277,7 +9377,8 @@
                                 "elements": "Type: \"5672[Space]37/100\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9362,7 +9463,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9382,7 +9484,8 @@
                                 "elements": "Complex numbers",
                                 "format_id": "3c6aace5-c69a-4e80-b09e-62bed6ee6a7b"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -9399,34 +9502,11 @@
                             {
                                 "id": "0,22,0,0",
                                 "type": 4,
-                                "elements": "Complex numbers have a real and imaginary part. The constant \"i\" is used to denote the imaginary part. The \"i\" ",
+                                "elements": "Complex numbers have a real and imaginary part. The constant \"i\" is used to denote the imaginary part. The \"i\" symbol, like any variable, must be entered by explicit multiplication by a number, or through a space - implicit multiplication.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,22,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,22,1,0",
-                                "type": 4,
-                                "elements": "symbol, like any variable, must be entered by explicit multiplication by a number, or through a space - implicit ",
-                                "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,22,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,22,2,0",
-                                "type": 4,
-                                "elements": "multiplication.",
-                                "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9446,7 +9526,8 @@
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -9466,7 +9547,8 @@
                                 "elements": "Enter: \"23.56+1.56[Space]j\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9548,6 +9630,11 @@
                                                                 "id": "0,25,0,1,0,0,1,7",
                                                                 "type": 10,
                                                                 "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,25,0,1,0,0,1,8",
+                                                                "type": 10,
+                                                                "elements": []
                                                             }
                                                         ],
                                                         "symbol": "+"
@@ -9575,7 +9662,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9595,7 +9683,8 @@
                                 "elements": "",
                                 "format_id": "c2d2f6f1-31a1-48de-b5f4-da6a30244f04"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -9629,7 +9718,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "../Users/User registration"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

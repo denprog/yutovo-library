@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "bfa89900-8c65-4bd4-aa33-eb82493cb613",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f735aa33-54a4-4b9b-8792-043fb6426ee3",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "632753af-5d06-4e7a-bd3e-ffdcd21825f3",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0ea245c8-ee4a-49e5-aa80-332de5c9f208",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e4c17402-ae21-4976-9d11-f401efe74b5a",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2e3828ce-5c3f-4b76-9120-a58d496ad56e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ae72743d-ca9c-4874-9a59-e00c3099b134",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "68d686e6-85b2-4974-aff8-921b17983662",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "209cd4ff-ccba-42d8-8720-df26a2d54f37",
             "family": "Arial",
             "size": 14,
@@ -7610,7 +7722,8 @@
                                 "elements": "Changing the number system is only possible for integer numbers.",
                                 "format_id": "f7fe7dfb-1aae-4ded-889d-c818204837c0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -7630,7 +7743,8 @@
                                 "elements": "Four number systems are supported: binary (bin), octal (oct), decimal (dec), hexadecimal (hex).",
                                 "format_id": "209cd4ff-ccba-42d8-8720-df26a2d54f37"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -7647,22 +7761,11 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "In the settings of integer numbers, you can set the default number system and the number system for the result. For specific ",
+                                "elements": "In the settings of integer numbers, you can set the default number system and the number system for the result. For specific calculations, you can select the number system separately.",
                                 "format_id": "f7fe7dfb-1aae-4ded-889d-c818204837c0"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,2,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,1,0",
-                                "type": 4,
-                                "elements": "calculations, you can select the number system separately.",
-                                "format_id": "f7fe7dfb-1aae-4ded-889d-c818204837c0"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -7682,7 +7785,8 @@
                                 "elements": "Example:",
                                 "format_id": "47165d4d-d30e-47e6-8ab8-29e0e2e054e0"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -7702,7 +7806,8 @@
                                 "elements": "The following expression is initially calculated with the default decimal system:",
                                 "format_id": "f7fe7dfb-1aae-4ded-889d-c818204837c0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -7796,6 +7901,11 @@
                                                                                 "id": "0,5,0,0,0,0,0,0,1,3",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,5,0,0,0,0,0,0,1,4",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -7876,7 +7986,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -7893,22 +8004,11 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "The number \"1011\" can also be represented in the binary system. Use the context menu to change the expression's number ",
+                                "elements": "The number \"1011\" can also be represented in the binary system. Use the context menu to change the expression's number system to binary:",
                                 "format_id": "f7fe7dfb-1aae-4ded-889d-c818204837c0"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,6,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,6,1,0",
-                                "type": 4,
-                                "elements": "system to binary:",
-                                "format_id": "f7fe7dfb-1aae-4ded-889d-c818204837c0"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8002,6 +8102,11 @@
                                                                                 "id": "0,7,0,0,0,0,0,0,1,3",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,7,0,0,0,0,0,0,1,4",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -8082,7 +8187,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8102,7 +8208,8 @@
                                 "elements": "To change the result's number system, use the corresponding menu item.",
                                 "format_id": "f7fe7dfb-1aae-4ded-889d-c818204837c0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8122,7 +8229,8 @@
                                 "elements": "Example:",
                                 "format_id": "04edf4ef-a391-4e51-9acf-af22b95c8fb2"
                             }
-                        ]
+                        ],
+                        "format_name": "Example"
                     }
                 ],
                 "format_name": "Example",
@@ -8142,7 +8250,8 @@
                                 "elements": "The previous expression can be represented in all available number systems:",
                                 "format_id": "f7fe7dfb-1aae-4ded-889d-c818204837c0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8234,6 +8343,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,11,0,0,0,0,0,0,1,3",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,11,0,0,0,0,0,0,1,4",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -8389,6 +8503,11 @@
                                                                                 "id": "0,11,0,0,1,0,0,0,1,3",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,11,0,0,1,0,0,0,1,4",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -8540,6 +8659,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,11,0,0,2,0,0,0,1,3",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,11,0,0,2,0,0,0,1,4",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -8695,6 +8819,11 @@
                                                                                 "id": "0,11,0,0,3,0,0,0,1,3",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,11,0,0,3,0,0,0,1,4",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -8775,7 +8904,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8795,7 +8925,8 @@
                                 "elements": "",
                                 "format_id": "1dedc9b7-6ce9-40fe-a3a6-e24fd8554770"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8829,7 +8960,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Numbers/Real numbers"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

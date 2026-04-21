@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "e176de9e-4b2e-4bc4-8af4-8b47b5672d14",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2972195c-2143-4556-8374-2cf101c7cd5c",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "71541af1-b34d-4ce3-b2a6-25d7ec00387c",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cddad81b-4df8-4d70-97de-3d7b32070dd4",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2b230329-9909-4cea-bb95-95524d44466b",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "18442be0-b03d-4b75-9b07-769fa830dc42",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "467ee0ea-6e70-4732-8109-9cac02bb74e1",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "59fd8bdc-5dfb-4e26-bd5c-cc07988e4cee",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "405244fe-3e64-478c-bef7-32c235890c4d",
             "family": "Arial",
@@ -3421,22 +3533,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "yutovo.ru, yutovo.com service (hereinafter referred to as yutovo) and desktop application come with no warranty, ",
+                                "elements": "yutovo.ru, yutovo.com service (hereinafter referred to as yutovo) and desktop application come with no warranty, explicit or implied, of any purpose whatsoever.",
                                 "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "explicit or implied, of any purpose whatsoever.",
-                                "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3453,34 +3554,11 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "The provider of the yutovo service and desktop application takes no responsibility, financial or otherwise, for any ",
+                                "elements": "The provider of the yutovo service and desktop application takes no responsibility, financial or otherwise, for any damage or loss resulting from the use of the yutovo service or desktop application, including but not limited to damage to the user's hardware and software.",
                                 "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "damage or loss resulting from the use of the yutovo service or desktop application, including but not limited to ",
-                                "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,1,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,2,0",
-                                "type": 4,
-                                "elements": "damage to the user's hardware and software.",
-                                "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3500,7 +3578,8 @@
                                 "elements": "Documents saved on yutovo account are private to logged in account.",
                                 "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3517,34 +3596,11 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "The provider of the yutovo service reserves the right to use all uploaded documents, software logs, results of ",
+                                "elements": "The provider of the yutovo service reserves the right to use all uploaded documents, software logs, results of calculations, and input data within the yutovo service, for purposes of maintaining, developing and testing the yutovo service.",
                                 "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,3,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,1,0",
-                                "type": 4,
-                                "elements": "calculations, and input data within the yutovo service, for purposes of maintaining, developing and testing the yutovo ",
-                                "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,3,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,2,0",
-                                "type": 4,
-                                "elements": "service.",
-                                "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3564,7 +3620,8 @@
                                 "elements": "The provider of the yutovo service reserves the right to change these Terms of Use at any time.",
                                 "format_id": "1e0ac0d2-7c93-491c-baa6-512563c0498c"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3584,7 +3641,8 @@
                                 "elements": "",
                                 "format_id": "ae54464d-c062-44fa-8c4a-fb3a49982fde"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3618,7 +3676,8 @@
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "./Privacy policy"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "421b9238-b46f-4556-a1ae-e67e903e00be",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e0883fb4-64ea-435f-8bbc-6f7c5681f092",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "547faec7-acfc-4336-8d28-cd898c1f2eeb",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3a7a4062-2ebc-4ba2-8729-53ee6a5fa9db",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a420e63f-dacb-4089-8b8b-8a92e7892ae7",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6b250e53-3e7a-4a9f-b686-9243ba9e697d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1623ce51-936d-4562-8082-78dd400f8f95",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ca1d3842-c158-4e2f-a94e-07db00932183",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "a3aa89d4-373f-489b-9222-0c4efbe0ae19",
             "family": "Arial",
@@ -8371,34 +8475,23 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Include documents are used to add variables, functions, and units declared there to the current document. To include a document (or several), click the ",
-                                "format_id": "409b45aa-a9a8-409b-8d71-d7da1de45983"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "\"Properties\" ",
+                                "elements": "Include documents are used to add variables, functions, and units declared there to the current document. To include a document (or several), click the \"Properties\" ",
                                 "format_id": "409b45aa-a9a8-409b-8d71-d7da1de45983"
                             },
                             {
-                                "id": "0,0,1,1",
+                                "id": "0,0,0,1",
                                 "type": 34,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAIAAAAmKNuZAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABMUlEQVRIid2VMY6FIBCGeZt3AEs76SydG8gNfEfAe3EIPYEaMNFOOwsToaKx8wBuoUvMk1WzMXnJ/o1kZvhwZjLwmOcZ3aevG1kfxaVpKqW8DZckySnusbSiKIo8z60RABBFEUIojmOEEMZ4sRNCwjB8C34uH8/z9r5FruuadRAEAGC27INXHMbYHHsgACCEHEXMl8U511ofx1hwWmshxPVjtrJ0tus6xthp4lattWvbtmkagzPusiz7vrfuBIAgCOy4NfOftXFv7W+y2/f5Z1lGKf1b7eyt4JzfhttKCDFN03XcycwyxsZxPI6xtEIptR1v13V931/WdV0rpfY7Mcb7OVtxUsrtFQAABldVleM4exwhxDK2x7WglA7DcFvtXq+X9dd+03rf3aV/8/R8APcNEp8o1LeqNoEAAAAASUVORK5CYII="
                             },
                             {
-                                "id": "0,0,1,2",
+                                "id": "0,0,0,2",
                                 "type": 4,
                                 "elements": " button and select the \"Connected Documents\" tab. Then add documents to the list.",
                                 "format_id": "409b45aa-a9a8-409b-8d71-d7da1de45983"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8415,22 +8508,11 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "The search for an include document is as follows. If the user is not logged in, and the current document is a user document, then the search is from the library ",
+                                "elements": "The search for an include document is as follows. If the user is not logged in, and the current document is a user document, then the search is from the library root. If the user is logged in, then the user document with this name is first searched for, and then the search is performed in the library.",
                                 "format_id": "409b45aa-a9a8-409b-8d71-d7da1de45983"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "root. If the user is logged in, then the user document with this name is first searched for, and then the search is performed in the library.",
-                                "format_id": "409b45aa-a9a8-409b-8d71-d7da1de45983"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8450,7 +8532,8 @@
                                 "elements": "Then, after successfully including the document, the identifiers from the included one can be used in the current document.",
                                 "format_id": "409b45aa-a9a8-409b-8d71-d7da1de45983"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8470,7 +8553,8 @@
                                 "elements": "",
                                 "format_id": "a3aa89d4-373f-489b-9222-0c4efbe0ae19"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8504,7 +8588,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Сurrency calculations"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

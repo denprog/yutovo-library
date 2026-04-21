@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "96e4d27c-34b2-4300-b02d-61e0712ef4fa",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2f8b1761-5631-4739-a4db-369798aed6f6",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "12d67358-78f0-493a-848b-2f7936fd06b6",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0d60aff1-2858-433d-96ef-c37e351b8b51",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a7b7f5a2-8f6a-421a-8c7a-c27de710f36f",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a882e938-a0a3-4d2d-b519-902cd316455e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d5cd1218-acaf-460c-a139-2138d7663e2f",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "373e12ea-23e8-430c-838d-c56b418b860d",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "f1df0a2b-d612-42ef-8a0d-1b4b80b6a5bc",
             "family": "Arial",
@@ -19112,7 +19216,8 @@
                                 "elements": "The listed units will be used in calculations when setting the English language of the document.",
                                 "format_id": "5f78129c-8e2f-4396-9523-4b0151d81f85"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19132,7 +19237,8 @@
                                 "elements": "Distance",
                                 "format_id": "57bade83-68c5-4090-84e3-56287705f1a6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19152,7 +19258,8 @@
                                 "elements": "• tochka",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19172,7 +19279,8 @@
                                 "elements": "• liniya",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19192,7 +19300,8 @@
                                 "elements": "• sotka",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19212,7 +19321,8 @@
                                 "elements": "• dyum",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19232,7 +19342,8 @@
                                 "elements": "• vershok",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19252,7 +19363,8 @@
                                 "elements": "• chetvert",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19272,7 +19384,8 @@
                                 "elements": "• fut",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19292,7 +19405,8 @@
                                 "elements": "• arshin",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19312,7 +19426,8 @@
                                 "elements": "• sazhen",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19332,7 +19447,8 @@
                                 "elements": "• versta",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19352,7 +19468,8 @@
                                 "elements": "Mass",
                                 "format_id": "57bade83-68c5-4090-84e3-56287705f1a6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19372,7 +19489,8 @@
                                 "elements": "• funt",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19392,7 +19510,8 @@
                                 "elements": "• batman",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19412,7 +19531,8 @@
                                 "elements": "• pud",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19432,7 +19552,8 @@
                                 "elements": "• bezmen",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19452,7 +19573,8 @@
                                 "elements": "• kongar",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19472,7 +19594,8 @@
                                 "elements": "• pirog",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19492,7 +19615,8 @@
                                 "elements": "• zolotnik",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19512,7 +19636,8 @@
                                 "elements": "• dolya",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19532,7 +19657,8 @@
                                 "elements": "• pochka",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19552,7 +19678,8 @@
                                 "elements": "• lot",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19572,7 +19699,8 @@
                                 "elements": "Time",
                                 "format_id": "57bade83-68c5-4090-84e3-56287705f1a6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19592,7 +19720,8 @@
                                 "elements": "• s - second",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19612,7 +19741,8 @@
                                 "elements": "• min - minute",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19632,7 +19762,8 @@
                                 "elements": "• hour",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19652,7 +19783,8 @@
                                 "elements": "Volume",
                                 "format_id": "57bade83-68c5-4090-84e3-56287705f1a6"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -19672,7 +19804,8 @@
                                 "elements": "• stakan",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19692,7 +19825,8 @@
                                 "elements": "• polugarnets",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19712,7 +19846,8 @@
                                 "elements": "• garnets",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19732,7 +19867,8 @@
                                 "elements": "• chetveric",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19752,7 +19888,8 @@
                                 "elements": "• osmina",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19772,7 +19909,8 @@
                                 "elements": "• polosminy",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19792,7 +19930,8 @@
                                 "elements": "• chet",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19812,7 +19951,8 @@
                                 "elements": "• polovnik",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19832,7 +19972,8 @@
                                 "elements": "• kadka",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19852,7 +19993,8 @@
                                 "elements": "• shkalic",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19872,7 +20014,8 @@
                                 "elements": "• charka",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19892,7 +20035,8 @@
                                 "elements": "• kosushka",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19912,7 +20056,8 @@
                                 "elements": "• shtof",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19932,7 +20077,8 @@
                                 "elements": "• vedro",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19952,7 +20098,8 @@
                                 "elements": "• bochka",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19972,7 +20119,8 @@
                                 "elements": "",
                                 "format_id": "415c861d-6aa9-4720-9411-3e6bf072c92b"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20009,10 +20157,11 @@
                                 "id": "0,44,0,3",
                                 "type": 39,
                                 "elements": "American system ->",
-                                "format_id": "4fcada90-3427-40c4-b8d4-f5463e42ea04",
+                                "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./American system"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

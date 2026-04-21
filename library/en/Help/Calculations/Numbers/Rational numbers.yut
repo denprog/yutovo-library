@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "7c19bbd5-9763-4601-9e39-60d96d971755",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "43674618-7844-4878-b0ff-2b79dc0bae4b",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "17f69584-a49e-401f-9d93-32dbba815c6f",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c74b9878-aaaa-46b8-878e-debd87d9a28f",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c269e5bc-bfd5-4a26-ab8a-020be173480b",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0c72af7d-89aa-41ad-91ac-a0cb9f0b223b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "895cae5c-1d89-4047-a82a-7c4bbc57e571",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "01753404-51ec-4997-93fb-21e23fea91a0",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "832078a4-edeb-4d4f-8828-eb3653c0479c",
             "family": "Arial",
@@ -51542,7 +51654,8 @@
                                 "elements": "Fractional numbers are represented as a common fraction.",
                                 "format_id": "6b62c81b-b4d6-4a94-b0ce-23bde7daf6d7"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -51562,7 +51675,8 @@
                                 "elements": "Built-in operators:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -51588,7 +51702,8 @@
                                 "elements": " - addition and unary plus;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51614,7 +51729,8 @@
                                 "elements": " - subtraction and unary minus;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51640,7 +51756,8 @@
                                 "elements": " - multiplication;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51666,7 +51783,8 @@
                                 "elements": " - division.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51686,7 +51804,8 @@
                                 "elements": "Arithmetic functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -51712,7 +51831,8 @@
                                 "elements": " - raising to a power;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51738,7 +51858,8 @@
                                 "elements": " - sum by index;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51764,7 +51885,8 @@
                                 "elements": " - product by index;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51790,7 +51912,8 @@
                                 "elements": " - factorial.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51810,7 +51933,8 @@
                                 "elements": "Other functions:",
                                 "format_id": "366b8444-c308-4442-b52f-7b811291c2a4"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -51830,7 +51954,8 @@
                                 "elements": "\"abs\" - absolute value;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -51850,7 +51975,8 @@
                                 "elements": "\"int\" - integer part;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51870,7 +51996,8 @@
                                 "elements": "\"fract\" - fraction part.",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51890,7 +52017,8 @@
                                 "elements": "",
                                 "format_id": "bd610576-7658-41ae-969b-24971c617e8c"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -51924,7 +52052,8 @@
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "./Integer numbers"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

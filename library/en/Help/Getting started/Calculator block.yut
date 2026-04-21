@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "fbff80e9-58a8-4eed-b619-bcbd073ab7ce",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9f369897-2496-4491-b16a-0cd93461aea5",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ae32fa80-b889-4efc-8deb-e81e8a6fe32e",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "12aaebdd-61eb-409e-9cbe-ecea6c2739be",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9cacffb3-6e34-4506-930e-b48ff4c16b5b",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6d06ee67-75ad-4ec2-90b0-c2457a5d2a39",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cfd1dafc-8813-4abf-a9c0-78bbdc96c306",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e4782f60-b63c-4fc9-8639-cff92660bb49",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "e19888ba-cc31-443a-b392-38099dde7ca4",
             "family": "Arial",
@@ -8601,46 +8713,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "A calculator block is a rectangle in the text for performing calculations. It appears at the beginning of an empty ",
+                                "elements": "A calculator block is a rectangle in the text for performing calculations. It appears at the beginning of an empty document and then can be added anywhere in the document (except for the place inside another calculator block) using the \"Insert calculator\" button or the key combination [Ctrl+Shift+C]. A calculator block also appears when you start entering formulas using the math panel buttons, if the cursor is not in block at that moment.",
                                 "format_id": "848cca29-bd4d-4661-88e0-760d37b864f5"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "document and then can be added anywhere in the document (except for the place inside another calculator block) ",
-                                "format_id": "848cca29-bd4d-4661-88e0-760d37b864f5"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,2,0",
-                                "type": 4,
-                                "elements": "using the \"Insert calculator\" button or the key combination [Ctrl+Shift+C]. A calculator block also appears when you ",
-                                "format_id": "848cca29-bd4d-4661-88e0-760d37b864f5"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,3,0",
-                                "type": 4,
-                                "elements": "start entering formulas using the math panel buttons, if the cursor is not in block at that moment.",
-                                "format_id": "848cca29-bd4d-4661-88e0-760d37b864f5"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8657,22 +8734,11 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "There can be as many calculator blocks as you like and they form a single space for solving between themselves. ",
+                                "elements": "There can be as many calculator blocks as you like and they form a single space for solving between themselves. This means, in particular, that variables and functions declared in the block above can be used in the block below.",
                                 "format_id": "848cca29-bd4d-4661-88e0-760d37b864f5"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "This means, in particular, that variables and functions declared in the block above can be used in the block below.",
-                                "format_id": "848cca29-bd4d-4661-88e0-760d37b864f5"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8689,22 +8755,11 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "These blocks can be copied to the clipboard like any other symbols. If a mathematical expression from a block is ",
+                                "elements": "These blocks can be copied to the clipboard like any other symbols. If a mathematical expression from a block is copied to text, a calculator block will automatically appear.",
                                 "format_id": "848cca29-bd4d-4661-88e0-760d37b864f5"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,2,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,1,0",
-                                "type": 4,
-                                "elements": "copied to text, a calculator block will automatically appear.",
-                                "format_id": "848cca29-bd4d-4661-88e0-760d37b864f5"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8724,7 +8779,8 @@
                                 "elements": "Text outside these blocks does not affect calculations in any way.",
                                 "format_id": "848cca29-bd4d-4661-88e0-760d37b864f5"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8744,7 +8800,8 @@
                                 "elements": "",
                                 "format_id": "ce1e8e2a-def2-4df2-b20e-2cfef83af1e6"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8778,7 +8835,8 @@
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Cursor"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

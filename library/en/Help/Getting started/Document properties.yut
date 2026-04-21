@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "4207f2fc-87e4-4ab7-a105-06af4fbc01d2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "aede87b6-9e35-4c19-92e0-3a6d895d2610",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ff8d0985-775a-476c-92fc-54bb64688884",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7f1a252b-eac5-4827-b50e-fa3958e5fd09",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "14c08343-c752-4774-8110-8075a106846e",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "acda2657-b5e7-4fac-ba94-4d23f1a99d36",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8037177f-eb70-4a7d-9241-92890328864a",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dba1b2ae-48dc-4bf2-addb-024e1df8697a",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "7a0e63cc-8b71-483f-a401-89e17085ef7a",
             "family": "Arial",
             "size": 14,
@@ -468,7 +580,8 @@
                                 "elements": ".",
                                 "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -488,7 +601,8 @@
                                 "elements": "Result tab",
                                 "format_id": "5cbe4fdb-b245-4bc6-ac2e-68cd8252f8fd"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -508,7 +622,8 @@
                                 "elements": "This tab lists the default settings for evaluating expressions.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -525,22 +640,11 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Auto-Select Result - When evaluating an expression, the result types listed in the table below will be tried sequentially until the expression is ",
+                                "elements": "• Auto-Select Result - When evaluating an expression, the result types listed in the table below will be tried sequentially until the expression is successfully evaluated. If all the results return errors, an error will be returned for the first calculation option.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,3,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,1,0",
-                                "type": 4,
-                                "elements": "successfully evaluated. If all the results return errors, an error will be returned for the first calculation option.",
-                                "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -557,22 +661,11 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• Result Selection Order - This is the order in which the calculation options for the current expression will be tried. Expressions are most often ",
+                                "elements": "• Result Selection Order - This is the order in which the calculation options for the current expression will be tried. Expressions are most often evaluated as real numbers, so this option is first by default. For example, to prioritize the expression as a proper fraction, set Rational first.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,4,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,4,1,0",
-                                "type": 4,
-                                "elements": "evaluated as real numbers, so this option is first by default. For example, to prioritize the expression as a proper fraction, set Rational first.",
-                                "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -589,22 +682,11 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Real, Integer, Rational, Complex - these tabs display the default parameters for these results. They can be changed for each result by selecting ",
+                                "elements": "• Real, Integer, Rational, Complex - these tabs display the default parameters for these results. They can be changed for each result by selecting them from the context menu.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,5,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,1,0",
-                                "type": 4,
-                                "elements": "them from the context menu.",
-                                "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -624,7 +706,8 @@
                                 "elements": "Document tab",
                                 "format_id": "5cbe4fdb-b245-4bc6-ac2e-68cd8252f8fd"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -641,22 +724,11 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "• Locale - The current document language. It determines the set of units and some variables. For example, in English, the imaginary unit is \"i,\" while ",
+                                "elements": "• Locale - The current document language. It determines the set of units and some variables. For example, in English, the imaginary unit is \"i,\" while in Russian, it's \"j.\" Units are written in their own language.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,7,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,7,1,0",
-                                "type": 4,
-                                "elements": "in Russian, it's \"j.\" Units are written in their own language.",
-                                "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -676,7 +748,8 @@
                                 "elements": "• Tabulation - use tab characters or a specified number of spaces ",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -696,7 +769,8 @@
                                 "elements": "Include Documents tab",
                                 "format_id": "5cbe4fdb-b245-4bc6-ac2e-68cd8252f8fd"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -720,7 +794,7 @@
                                 "id": "0,10,0,1",
                                 "type": 39,
                                 "elements": "included documents",
-                                "format_id": "1fa0c77f-a7b1-4a5c-901d-398660b40c31",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
                                 "url": "../Calculations/Include documents.yut"
                             },
                             {
@@ -729,7 +803,8 @@
                                 "elements": " used by this document.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

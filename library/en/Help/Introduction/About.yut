@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "c68b6ea5-aa63-4ad2-8709-7a4644804a3d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6334d7e9-fd53-4231-b5b6-b8fe054df84b",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ad753062-eca3-4267-9d9c-449ddd205bdb",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3582226c-2a5e-42b6-b600-55108df601d3",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8cfb782f-555f-49c1-bf78-7cb2c88ad14f",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "138e19e6-fa1c-4d7b-a37b-437404097eea",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "04208b22-28e4-499f-a7f6-793e30bf92b9",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5393592b-95c4-486a-b6a4-c372fd1822b5",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "cea700ef-8751-43ea-8114-9b69a9f96a60",
             "family": "Arial",
@@ -2595,34 +2707,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Yutovo is an application for solving various mathematical problems. Yutovo has a visual \"paper\" view for calculations. ",
+                                "elements": "Yutovo is an application for solving various mathematical problems. Yutovo has a visual \"paper\" view for calculations. It uses a generally accepted mathematical syntax to display formulas. Yutovo is designed to solve everyday and engineering problems and can be used by different people and for different jobs.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "It uses a generally accepted mathematical syntax to display formulas. Yutovo is designed to solve everyday and ",
-                                "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,2,0",
-                                "type": 4,
-                                "elements": "engineering problems and can be used by different people and for different jobs.",
-                                "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2642,7 +2731,8 @@
                                 "elements": "• Yutovo uses a graphical representation of mathematical formulas.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2675,7 +2765,8 @@
                                 "elements": ".",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2747,7 +2838,8 @@
                                 "elements": ".",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2767,7 +2859,8 @@
                                 "elements": "• The measure of an angle can be changed.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2787,7 +2880,8 @@
                                 "elements": "• Commonly used mathematical functions and constants are supported.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2807,7 +2901,8 @@
                                 "elements": "• User variables and functions are supported.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2827,7 +2922,8 @@
                                 "elements": "• Yutovo uses units and unit systems and can translate values ​​between them.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2847,7 +2943,8 @@
                                 "elements": "• Automatic recalculation of expressions helps users observe the results of calculations when editing formulas.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2867,7 +2964,8 @@
                                 "elements": "• Syntax highlighting.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2887,7 +2985,8 @@
                                 "elements": "• A library of examples and visual documentation.",
                                 "format_id": "edda2549-1299-477f-99b9-471fb41795c7"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2907,7 +3006,8 @@
                                 "elements": "",
                                 "format_id": "e9bffcec-8ed8-4652-821b-ade7521838a3"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2941,7 +3041,8 @@
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "./System requirements"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

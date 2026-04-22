@@ -1,0 +1,2575 @@
+{
+  "file_guid": "38848ef0-3306-49d2-ae7b-1cb3cf90e0a0",
+  "config": {
+    "language": 4,
+    "use_tabs": true,
+    "tab_spaces": 4,
+    "scale": 1.0,
+    "real_result": {
+      "precision": 3,
+      "exp": 10,
+      "default_angle_measure": 0,
+      "result_angle_measure": 0,
+      "show_angle_measure": false
+    },
+    "integer_result": {
+      "result_notation": 2,
+      "default_notation": 2,
+      "show_notation": true
+    },
+    "rational_result": {
+      "fraction_form": 0
+    },
+    "complex_result": {
+      "precision": 3,
+      "exp": 10,
+      "default_angle_measure": 0,
+      "result_angle_measure": 0,
+      "show_angle_measure": false,
+      "form": 0,
+      "max_count": 10
+    },
+    "auto_result": {
+      "result_auto_advance": true,
+      "results_order": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "real_config": {
+        "precision": 3,
+        "exp": 10,
+        "default_angle_measure": 0,
+        "result_angle_measure": 0,
+        "show_angle_measure": false
+      },
+      "integer_config": {
+        "result_notation": 2,
+        "default_notation": 2,
+        "show_notation": true
+      },
+      "rational_config": {
+        "fraction_form": 0
+      },
+      "complex_config": {
+        "precision": 3,
+        "exp": 10,
+        "default_angle_measure": 0,
+        "result_angle_measure": 0,
+        "show_angle_measure": false,
+        "form": 0,
+        "max_count": 10
+      },
+      "array_real_config": {
+        "precision": 3,
+        "exp": 10,
+        "default_angle_measure": 0,
+        "result_angle_measure": 0,
+        "show_angle_measure": true
+      }
+    },
+    "include_documents": []
+  },
+  "string_formats": [
+    {
+      "id": "2a83708f-4b39-4534-b596-b160dc3b969b",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "8dbcf307-8c5a-4ecb-8a26-2b02a3416a79",
+      "family": "Arial",
+      "size": 30,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "8ca528c5-a009-451d-b8d2-81ca3e8b57a4",
+      "family": "Arial",
+      "size": 26,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "f9f9d2c7-6962-4600-bd1e-d7fa608a8596",
+      "family": "Arial",
+      "size": 22,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "bda38d45-5a4f-44be-898f-cd41890eec5d",
+      "family": "Arial",
+      "size": 16,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "122b09ff-a0a2-44bb-83be-2a8ff4ddd38d",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "d19e6f29-be43-45d4-b389-5d7a29a33930",
+      "family": "Courier New",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "7307d258-5852-4f52-ac15-1312b56b1011",
+      "family": "FreeMono",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "2bd332a5-d7bc-4651-8a0b-7966c0555b3e",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "77f66efd-f693-401d-a392-8664630460b0",
+      "family": "Arial",
+      "size": 30,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "e0b58498-3a27-4fb6-a124-6e78c370d99a",
+      "family": "Arial",
+      "size": 26,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "13d0e3c1-0853-4919-ae98-ce3a20a06ee2",
+      "family": "Arial",
+      "size": 22,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "be82cdad-5500-4986-8bf6-e886adc6e478",
+      "family": "Arial",
+      "size": 16,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "aee2e673-1658-4112-be10-f3883cb5a8c3",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "26349bde-5d99-4d47-ad8e-2b883c81c87f",
+      "family": "FreeMono",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "5b99ae7b-780b-44ff-a442-668585bb9d3f",
+      "family": "FreeMono",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "53267b9f-889a-4ad4-bbc8-b7a09b9014c3",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "bc3a4ee1-8ca4-4544-bb55-5e8db84a378a",
+      "family": "Arial",
+      "size": 30,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "5689509a-efb9-419d-a28b-1ce64490390f",
+      "family": "Arial",
+      "size": 26,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "d327144c-2ea5-412c-b856-07fd7fcdd53f",
+      "family": "Arial",
+      "size": 22,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "4ef576ed-4e47-4415-a0e4-180d407c3fe8",
+      "family": "Arial",
+      "size": 16,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "551661c2-941e-4ddc-88c3-fbd090c5fc93",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "2bcd2ad0-7454-46e7-a7b6-20be9c0e9462",
+      "family": "FreeMono",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "6e50a2df-7c92-42ab-9910-b08c14d81ded",
+      "family": "FreeMono",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "1c495270-624d-47ef-9f52-9a69a16db193",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "1021a2a8-7753-420f-af5e-ac3a87a56150",
+      "family": "Arial",
+      "size": 30,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "73f4d7ed-474a-432f-948f-6cca8bb5bfd5",
+      "family": "Arial",
+      "size": 26,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "067ab6c5-adcc-4023-9e21-3312c41fe1f0",
+      "family": "Arial",
+      "size": 22,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "4fc3b3b7-8bc1-4ddd-bb2b-3113bd34a06b",
+      "family": "Arial",
+      "size": 16,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "617e33ea-27fa-4197-8394-b9a69572fd74",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "282cf6f8-017b-466f-bce5-470a2453945c",
+      "family": "FreeMono",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "dfdcf345-ce43-4ca3-8f0f-4597fcf057df",
+      "family": "FreeMono",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "9e8cf222-6782-41c2-827c-cbcf220768a3",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "2544b677-6196-4718-8721-ca9abe0a2a41",
+      "family": "Arial",
+      "size": 30,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "f05b7fd2-a37e-4056-8b11-d34d66b047d8",
+      "family": "Arial",
+      "size": 26,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "f8b30bcf-76db-437b-b0a1-b6e890563807",
+      "family": "Arial",
+      "size": 22,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "c2a5dc02-453f-4f56-8098-20ab09b5a8ac",
+      "family": "Arial",
+      "size": 16,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "5a5c8fa6-23cf-4507-b7ff-df91f56e3962",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "65e80465-84da-486a-8404-81863555c7da",
+      "family": "FreeMono",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "d604eb92-4b69-4c17-8f1d-7eb58eafd345",
+      "family": "FreeMono",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "8cbeac56-4fe7-4c4a-81c7-b324de4d0b97",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "eb4558b5-19d1-4b64-919a-ece0c23df563",
+      "family": "Arial",
+      "size": 30,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "62ec23e0-3575-42c8-8fd7-b601bb9b3dcb",
+      "family": "Arial",
+      "size": 26,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "23e93047-6a9b-472f-9b9f-8e6eaeacc2db",
+      "family": "Arial",
+      "size": 22,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "499e13d1-4ca3-42db-b4f5-f29343b25e05",
+      "family": "Arial",
+      "size": 16,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "d05a8c07-de37-49dc-a9d1-326761b17b15",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "b2b71f87-3b18-4437-9d28-913ab11a54dc",
+      "family": "FreeMono",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "61db287e-8943-4518-91b5-bd294d0d233a",
+      "family": "FreeMono",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "31aa2719-b64d-4753-b302-b1a10bc3e5e9",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "1091ecb0-676b-4f2a-a554-a4b0d5f2434f",
+      "family": "Arial",
+      "size": 30,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "7d09edb7-5db7-410e-8a0e-aa076505f424",
+      "family": "Arial",
+      "size": 26,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "4767fa56-4593-460a-9570-0ffceae803c6",
+      "family": "Arial",
+      "size": 22,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "c614931c-1548-4de3-93f7-bb304eb606ee",
+      "family": "Arial",
+      "size": 16,
+      "bold": true,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "5952e85b-3585-4381-a7f6-f3392f0eaece",
+      "family": "Arial",
+      "size": 14,
+      "bold": false,
+      "italic": true,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "0b537e0c-2be6-4a30-b8e0-24f0218419c6",
+      "family": "FreeMono",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+      "family": "FreeMono",
+      "size": 14,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "6d1068fa-15f4-4ba7-b89c-c06a7532cd79",
+      "family": "Arial",
+      "size": 22,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "5e2d2a63-551b-4220-8e8f-1a5e2473287b",
+      "family": "Arial",
+      "size": 60,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "40da6b0e-f69d-4142-944a-bbbc009ac360",
+      "family": "Arial",
+      "size": 57,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "29c5db08-cdd6-4a58-b155-743d17162eaf",
+      "family": "FreeMono",
+      "size": 12,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "2db53a59-fedb-4242-aa7d-7946ea1101bb",
+      "family": "Arial",
+      "size": 20,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    },
+    {
+      "id": "ef63f90d-0be5-4a74-93a8-a0ed5edece5d",
+      "family": "Arial",
+      "size": 53,
+      "bold": false,
+      "italic": false,
+      "underline": false,
+      "strikethrough": false,
+      "subscript": false,
+      "superscript": false,
+      "text_color": 4278190080,
+      "text_bg_color": 4294967295,
+      "text_bg_selection_color": 4278190335
+    }
+  ],
+  "paragraph_formats": [
+    {
+      "name": "Text body",
+      "alignment": 0,
+      "word_wrap": 1,
+      "line_spacing": 5,
+      "indent_before": 10,
+      "indent_after": 10,
+      "indent_first_line": 0,
+      "spacing_before": 10,
+      "spacing_after": 10,
+      "default_string_format": "53267b9f-889a-4ad4-bbc8-b7a09b9014c3"
+    },
+    {
+      "name": "Header 1",
+      "alignment": 0,
+      "word_wrap": 1,
+      "line_spacing": 5,
+      "indent_before": 10,
+      "indent_after": 10,
+      "indent_first_line": 0,
+      "spacing_before": 10,
+      "spacing_after": 10,
+      "default_string_format": "bc3a4ee1-8ca4-4544-bb55-5e8db84a378a"
+    },
+    {
+      "name": "Header 2",
+      "alignment": 0,
+      "word_wrap": 1,
+      "line_spacing": 5,
+      "indent_before": 10,
+      "indent_after": 10,
+      "indent_first_line": 0,
+      "spacing_before": 10,
+      "spacing_after": 10,
+      "default_string_format": "5689509a-efb9-419d-a28b-1ce64490390f"
+    },
+    {
+      "name": "Header 3",
+      "alignment": 0,
+      "word_wrap": 1,
+      "line_spacing": 5,
+      "indent_before": 10,
+      "indent_after": 10,
+      "indent_first_line": 0,
+      "spacing_before": 10,
+      "spacing_after": 10,
+      "default_string_format": "d327144c-2ea5-412c-b856-07fd7fcdd53f"
+    },
+    {
+      "name": "Header 4",
+      "alignment": 0,
+      "word_wrap": 1,
+      "line_spacing": 5,
+      "indent_before": 10,
+      "indent_after": 10,
+      "indent_first_line": 0,
+      "spacing_before": 10,
+      "spacing_after": 10,
+      "default_string_format": "4ef576ed-4e47-4415-a0e4-180d407c3fe8"
+    },
+    {
+      "name": "Example",
+      "alignment": 0,
+      "word_wrap": 1,
+      "line_spacing": 5,
+      "indent_before": 10,
+      "indent_after": 10,
+      "indent_first_line": 0,
+      "spacing_before": 10,
+      "spacing_after": 10,
+      "default_string_format": "551661c2-941e-4ddc-88c3-fbd090c5fc93"
+    },
+    {
+      "name": "Monospace",
+      "alignment": 0,
+      "word_wrap": 1,
+      "line_spacing": 5,
+      "indent_before": 10,
+      "indent_after": 10,
+      "indent_first_line": 0,
+      "spacing_before": 10,
+      "spacing_after": 10,
+      "default_string_format": "2bcd2ad0-7454-46e7-a7b6-20be9c0e9462"
+    },
+    {
+      "name": "Code",
+      "alignment": 0,
+      "word_wrap": 0,
+      "line_spacing": 2,
+      "indent_before": 2,
+      "indent_after": 2,
+      "indent_first_line": 0,
+      "spacing_before": 2,
+      "spacing_after": 2,
+      "default_string_format": "6e50a2df-7c92-42ab-9910-b08c14d81ded"
+    }
+  ],
+  "text": {
+    "id": "0",
+    "type": 1,
+    "elements": [
+      {
+        "id": "0,0",
+        "type": 2,
+        "elements": [
+          {
+            "id": "0,0,0",
+            "type": 3,
+            "elements": [
+              {
+                "id": "0,0,0,0",
+                "type": 4,
+                "elements": "Capacitância:",
+                "format_id": "53267b9f-889a-4ad4-bbc8-b7a09b9014c3"
+              }
+            ],
+            "format_name": "Text body"
+          }
+        ],
+        "format_name": "Text body",
+        "format_alignment": 0
+      },
+      {
+        "id": "0,1",
+        "type": 2,
+        "elements": [
+          {
+            "id": "0,1,0",
+            "type": 3,
+            "elements": [
+              {
+                "id": "0,1,0,0",
+                "type": 5,
+                "elements": [
+                  {
+                    "id": "0,1,0,0,0",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,1,0,0,0,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,1,0,0,0,0,0",
+                            "type": 27,
+                            "elements": [
+                              {
+                                "id": "0,1,0,0,0,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,0,0,0,0,0",
+                                    "type": 8,
+                                    "elements": "I",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,1,0,0,0,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,1,0,0,0,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,0,0,0,2,0",
+                                    "type": 8,
+                                    "elements": "1",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,1,0,0,0,0,0,2,1",
+                                    "type": 8,
+                                    "elements": "A",
+                                    "format_id": "6e50a2df-7c92-42ab-9910-b08c14d81ded",
+                                    "can_merge": false
+                                  }
+                                ]
+                              }
+                            ],
+                            "auto_solve": true
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  },
+                  {
+                    "id": "0,1,0,0,1",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,1,0,0,1,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,1,0,0,1,0,0",
+                            "type": 27,
+                            "elements": [
+                              {
+                                "id": "0,1,0,0,1,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,1,0,0,0,0",
+                                    "type": 8,
+                                    "elements": "ω",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,1,0,0,1,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,1,0,0,1,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,1,0,0,2,0",
+                                    "type": 8,
+                                    "elements": "1",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,1,0,0,1,0,0,2,1",
+                                    "type": 8,
+                                    "elements": "Hz",
+                                    "format_id": "6e50a2df-7c92-42ab-9910-b08c14d81ded",
+                                    "can_merge": false
+                                  }
+                                ]
+                              }
+                            ],
+                            "auto_solve": true
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  },
+                  {
+                    "id": "0,1,0,0,2",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,1,0,0,2,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,1,0,0,2,0,0",
+                            "type": 27,
+                            "elements": [
+                              {
+                                "id": "0,1,0,0,2,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,2,0,0,0,0",
+                                    "type": 8,
+                                    "elements": "C",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,1,0,0,2,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,1,0,0,2,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,2,0,0,2,0",
+                                    "type": 8,
+                                    "elements": "1",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,1,0,0,2,0,0,2,1",
+                                    "type": 8,
+                                    "elements": "F",
+                                    "format_id": "6e50a2df-7c92-42ab-9910-b08c14d81ded",
+                                    "can_merge": false
+                                  }
+                                ]
+                              }
+                            ],
+                            "auto_solve": true
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  },
+                  {
+                    "id": "0,1,0,0,3",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,1,0,0,3,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,1,0,0,3,0,0",
+                            "type": 27,
+                            "elements": [
+                              {
+                                "id": "0,1,0,0,3,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,3,0,0,0,0",
+                                    "type": 28,
+                                    "elements": [
+                                      {
+                                        "id": "0,1,0,0,3,0,0,0,0,0",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,1,0,0,3,0,0,0,0,0,0",
+                                            "type": 8,
+                                            "elements": "x",
+                                            "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "0,1,0,0,3,0,0,0,0,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,1,0,0,3,0,0,0,0,2",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,1,0,0,3,0,0,0,0,2,0",
+                                            "type": 8,
+                                            "elements": "C",
+                                            "format_id": "26349bde-5d99-4d47-ad8e-2b883c81c87f",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,1,0,0,3,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,1,0,0,3,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,3,0,0,2,0",
+                                    "type": 14,
+                                    "elements": [
+                                      {
+                                        "id": "0,1,0,0,3,0,0,2,0,0",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,1,0,0,3,0,0,2,0,0,0",
+                                            "type": 8,
+                                            "elements": "1",
+                                            "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "0,1,0,0,3,0,0,2,0,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,1,0,0,3,0,0,2,0,2",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,1,0,0,3,0,0,2,0,2,0",
+                                            "type": 8,
+                                            "elements": "ω",
+                                            "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                            "can_merge": true
+                                          },
+                                          {
+                                            "id": "0,1,0,0,3,0,0,2,0,2,1",
+                                            "type": 13,
+                                            "elements": [
+                                              {
+                                                "id": "0,1,0,0,3,0,0,2,0,2,1,0",
+                                                "type": 10,
+                                                "elements": []
+                                              },
+                                              {
+                                                "id": "0,1,0,0,3,0,0,2,0,2,1,1",
+                                                "type": 10,
+                                                "elements": []
+                                              },
+                                              {
+                                                "id": "0,1,0,0,3,0,0,2,0,2,1,2",
+                                                "type": 10,
+                                                "elements": []
+                                              },
+                                              {
+                                                "id": "0,1,0,0,3,0,0,2,0,2,1,3",
+                                                "type": 10,
+                                                "elements": []
+                                              },
+                                              {
+                                                "id": "0,1,0,0,3,0,0,2,0,2,1,4",
+                                                "type": 10,
+                                                "elements": []
+                                              },
+                                              {
+                                                "id": "0,1,0,0,3,0,0,2,0,2,1,5",
+                                                "type": 10,
+                                                "elements": []
+                                              }
+                                            ],
+                                            "symbol": "·"
+                                          },
+                                          {
+                                            "id": "0,1,0,0,3,0,0,2,0,2,2",
+                                            "type": 8,
+                                            "elements": "C",
+                                            "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "auto_solve": true
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  },
+                  {
+                    "id": "0,1,0,0,4",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,1,0,0,4,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,1,0,0,4,0,0",
+                            "type": 18,
+                            "elements": [
+                              {
+                                "id": "0,1,0,0,4,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,4,0,0,0,0",
+                                    "type": 28,
+                                    "elements": [
+                                      {
+                                        "id": "0,1,0,0,4,0,0,0,0,0",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,1,0,0,4,0,0,0,0,0,0",
+                                            "type": 8,
+                                            "elements": "x",
+                                            "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "0,1,0,0,4,0,0,0,0,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,1,0,0,4,0,0,0,0,2",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,1,0,0,4,0,0,0,0,2,0",
+                                            "type": 8,
+                                            "elements": "C",
+                                            "format_id": "26349bde-5d99-4d47-ad8e-2b883c81c87f",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,1,0,0,4,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,1,0,0,4,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,1,0,0,4,0,0,2,0",
+                                    "type": 25,
+                                    "elements": [],
+                                    "result_auto_advance": true,
+                                    "results_order": [
+                                      1,
+                                      2,
+                                      3,
+                                      4,
+                                      6
+                                    ],
+                                    "real_config": {
+                                      "precision": 3,
+                                      "exp": 10,
+                                      "default_angle_measure": 0,
+                                      "result_angle_measure": 0,
+                                      "show_angle_measure": false
+                                    },
+                                    "integer_config": {
+                                      "result_notation": 2,
+                                      "default_notation": 2,
+                                      "show_notation": true
+                                    },
+                                    "rational_config": {
+                                      "fraction_form": 0
+                                    },
+                                    "complex_config": {
+                                      "precision": 3,
+                                      "exp": 10,
+                                      "default_angle_measure": 0,
+                                      "result_angle_measure": 0,
+                                      "show_angle_measure": false,
+                                      "form": 0,
+                                      "max_count": 10
+                                    },
+                                    "array_real_config": {
+                                      "precision": 3,
+                                      "exp": 10,
+                                      "default_angle_measure": 0,
+                                      "result_angle_measure": 0,
+                                      "show_angle_measure": true
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "result_type": 5
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  }
+                ],
+                "code_id": 1
+              }
+            ],
+            "format_name": "Text body"
+          }
+        ],
+        "format_name": "Text body",
+        "format_alignment": 0
+      },
+      {
+        "id": "0,2",
+        "type": 2,
+        "elements": [
+          {
+            "id": "0,2,0",
+            "type": 3,
+            "elements": [
+              {
+                "id": "0,2,0,0",
+                "type": 4,
+                "elements": "Instantaneous power:",
+                "format_id": "53267b9f-889a-4ad4-bbc8-b7a09b9014c3"
+              }
+            ],
+            "format_name": "Text body"
+          }
+        ],
+        "format_name": "Text body",
+        "format_alignment": 0
+      },
+      {
+        "id": "0,3",
+        "type": 2,
+        "elements": [
+          {
+            "id": "0,3,0",
+            "type": 3,
+            "elements": [
+              {
+                "id": "0,3,0,0",
+                "type": 5,
+                "elements": [
+                  {
+                    "id": "0,3,0,0,0",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,3,0,0,0,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,3,0,0,0,0,0",
+                            "type": 27,
+                            "elements": [
+                              {
+                                "id": "0,3,0,0,0,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,0,0,0,0,0",
+                                    "type": 28,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,0,0,0,0,0,0",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,0,0,0,0,0,0,0",
+                                            "type": 8,
+                                            "elements": "u",
+                                            "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "0,3,0,0,0,0,0,0,0,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,0,0,0,0,0,2",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,0,0,0,0,0,2,0",
+                                            "type": 8,
+                                            "elements": "m",
+                                            "format_id": "26349bde-5d99-4d47-ad8e-2b883c81c87f",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,3,0,0,0,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,3,0,0,0,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,0,0,0,2,0",
+                                    "type": 8,
+                                    "elements": "1",
+                                    "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,3,0,0,0,0,0,2,1",
+                                    "type": 8,
+                                    "elements": "V",
+                                    "format_id": "6e50a2df-7c92-42ab-9910-b08c14d81ded",
+                                    "can_merge": false
+                                  }
+                                ]
+                              }
+                            ],
+                            "auto_solve": true
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  },
+                  {
+                    "id": "0,3,0,0,1",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,3,0,0,1,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,3,0,0,1,0,0",
+                            "type": 27,
+                            "elements": [
+                              {
+                                "id": "0,3,0,0,1,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,1,0,0,0,0",
+                                    "type": 28,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,1,0,0,0,0,0",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,1,0,0,0,0,0,0",
+                                            "type": 8,
+                                            "elements": "i",
+                                            "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "0,3,0,0,1,0,0,0,0,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,1,0,0,0,0,2",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,1,0,0,0,0,2,0",
+                                            "type": 8,
+                                            "elements": "m",
+                                            "format_id": "26349bde-5d99-4d47-ad8e-2b883c81c87f",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,3,0,0,1,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,3,0,0,1,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,1,0,0,2,0",
+                                    "type": 8,
+                                    "elements": "1",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,3,0,0,1,0,0,2,1",
+                                    "type": 8,
+                                    "elements": "A",
+                                    "format_id": "6e50a2df-7c92-42ab-9910-b08c14d81ded",
+                                    "can_merge": false
+                                  }
+                                ]
+                              }
+                            ],
+                            "auto_solve": true
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  },
+                  {
+                    "id": "0,3,0,0,2",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,3,0,0,2,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,3,0,0,2,0,0",
+                            "type": 27,
+                            "elements": [
+                              {
+                                "id": "0,3,0,0,2,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,2,0,0,0,0",
+                                    "type": 8,
+                                    "elements": "t",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,3,0,0,2,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,3,0,0,2,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,2,0,0,2,0",
+                                    "type": 8,
+                                    "elements": "1",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,3,0,0,2,0,0,2,1",
+                                    "type": 8,
+                                    "elements": "s",
+                                    "format_id": "6e50a2df-7c92-42ab-9910-b08c14d81ded",
+                                    "can_merge": false
+                                  }
+                                ]
+                              }
+                            ],
+                            "auto_solve": true
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  },
+                  {
+                    "id": "0,3,0,0,3",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,3,0,0,3,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,3,0,0,3,0,0",
+                            "type": 27,
+                            "elements": [
+                              {
+                                "id": "0,3,0,0,3,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,3,0,0,0,0",
+                                    "type": 8,
+                                    "elements": "P",
+                                    "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                    "can_merge": true
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,3,0,0,3,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,3,0,0,3,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,0",
+                                    "type": 28,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,0,0",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,3,0,0,2,0,0,0",
+                                            "type": 8,
+                                            "elements": "u",
+                                            "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,0,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,0,2",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,3,0,0,2,0,2,0",
+                                            "type": 8,
+                                            "elements": "m",
+                                            "format_id": "26349bde-5d99-4d47-ad8e-2b883c81c87f",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,1",
+                                    "type": 13,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,1,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,1,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,1,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,1,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,1,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,1,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,1,6",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": "·"
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,2",
+                                    "type": 28,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,2,0",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,3,0,0,2,2,0,0",
+                                            "type": 8,
+                                            "elements": "i",
+                                            "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,2,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,2,2",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,3,0,0,2,2,2,0",
+                                            "type": 8,
+                                            "elements": "m",
+                                            "format_id": "26349bde-5d99-4d47-ad8e-2b883c81c87f",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,3",
+                                    "type": 13,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,3,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,3,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,3,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,3,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,3,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,3,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,3,6",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": "·"
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,4",
+                                    "type": 8,
+                                    "elements": "sin",
+                                    "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,5",
+                                    "type": 19,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,5,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,5,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,5,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,5,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,5,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,5,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,5,6",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": "("
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,6",
+                                    "type": 8,
+                                    "elements": "ω",
+                                    "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,7",
+                                    "type": 13,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,7,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,7,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,7,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,7,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,7,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,7,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,7,6",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": "·"
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,8",
+                                    "type": 8,
+                                    "elements": "t",
+                                    "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,9",
+                                    "type": 20,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,9,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,9,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,9,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,9,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,9,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,9,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,9,6",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": ")"
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,10",
+                                    "type": 13,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,10,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,10,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,10,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,10,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,10,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,10,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,10,6",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,10,7",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": "·"
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,11",
+                                    "type": 8,
+                                    "elements": "sin",
+                                    "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,12",
+                                    "type": 19,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,12,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,12,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,12,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,12,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,12,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,12,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,12,6",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,12,7",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,12,8",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": "("
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,13",
+                                    "type": 8,
+                                    "elements": "ω",
+                                    "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,14",
+                                    "type": 13,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,14,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,14,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,14,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,14,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,14,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,14,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,14,6",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,14,7",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,14,8",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": "·"
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,15",
+                                    "type": 8,
+                                    "elements": "t",
+                                    "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                    "can_merge": true
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,16",
+                                    "type": 11,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,16,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,16,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,16,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,16,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,16,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,16,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,16,6",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,16,7",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": "+"
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,17",
+                                    "type": 14,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,17,0",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,3,0,0,2,17,0,0",
+                                            "type": 8,
+                                            "elements": "π",
+                                            "format_id": "0b537e0c-2be6-4a30-b8e0-24f0218419c6",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,17,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,17,2",
+                                        "type": 7,
+                                        "elements": [
+                                          {
+                                            "id": "0,3,0,0,3,0,0,2,17,2,0",
+                                            "type": 8,
+                                            "elements": "2",
+                                            "format_id": "db6a3dc3-2ddd-499b-ba76-07e1eed81a4a",
+                                            "can_merge": true
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "id": "0,3,0,0,3,0,0,2,18",
+                                    "type": 20,
+                                    "elements": [
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,18,0",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,18,1",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,18,2",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,18,3",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,18,4",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,18,5",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,18,6",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,18,7",
+                                        "type": 10,
+                                        "elements": []
+                                      },
+                                      {
+                                        "id": "0,3,0,0,3,0,0,2,18,8",
+                                        "type": 10,
+                                        "elements": []
+                                      }
+                                    ],
+                                    "symbol": ")"
+                                  }
+                                ]
+                              }
+                            ],
+                            "auto_solve": true
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  },
+                  {
+                    "id": "0,3,0,0,4",
+                    "type": 6,
+                    "elements": [
+                      {
+                        "id": "0,3,0,0,4,0",
+                        "type": 7,
+                        "elements": [
+                          {
+                            "id": "0,3,0,0,4,0,0",
+                            "type": 18,
+                            "elements": [
+                              {
+                                "id": "0,3,0,0,4,0,0,0",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,4,0,0,0,0",
+                                    "type": 8,
+                                    "elements": "P",
+                                    "format_id": "61db287e-8943-4518-91b5-bd294d0d233a",
+                                    "can_merge": true
+                                  }
+                                ]
+                              },
+                              {
+                                "id": "0,3,0,0,4,0,0,1",
+                                "type": 10,
+                                "elements": []
+                              },
+                              {
+                                "id": "0,3,0,0,4,0,0,2",
+                                "type": 7,
+                                "elements": [
+                                  {
+                                    "id": "0,3,0,0,4,0,0,2,0",
+                                    "type": 25,
+                                    "elements": [],
+                                    "result_auto_advance": true,
+                                    "results_order": [
+                                      1,
+                                      2,
+                                      3,
+                                      4,
+                                      6
+                                    ],
+                                    "real_config": {
+                                      "precision": 3,
+                                      "exp": 10,
+                                      "default_angle_measure": 0,
+                                      "result_angle_measure": 0,
+                                      "show_angle_measure": false
+                                    },
+                                    "integer_config": {
+                                      "result_notation": 2,
+                                      "default_notation": 2,
+                                      "show_notation": true
+                                    },
+                                    "rational_config": {
+                                      "fraction_form": 0
+                                    },
+                                    "complex_config": {
+                                      "precision": 3,
+                                      "exp": 10,
+                                      "default_angle_measure": 0,
+                                      "result_angle_measure": 0,
+                                      "show_angle_measure": false,
+                                      "form": 0,
+                                      "max_count": 10
+                                    },
+                                    "array_real_config": {
+                                      "precision": 3,
+                                      "exp": 10,
+                                      "default_angle_measure": 0,
+                                      "result_angle_measure": 0,
+                                      "show_angle_measure": true
+                                    }
+                                  }
+                                ]
+                              }
+                            ],
+                            "result_type": 5
+                          }
+                        ]
+                      }
+                    ],
+                    "format_name": "Code",
+                    "format_alignment": 0
+                  }
+                ],
+                "code_id": 1
+              }
+            ],
+            "format_name": "Text body"
+          }
+        ],
+        "format_name": "Text body",
+        "format_alignment": 0
+      }
+    ]
+  },
+  "caret": {
+    "id": "0,0,0,0"
+  },
+  "selection": []
+}

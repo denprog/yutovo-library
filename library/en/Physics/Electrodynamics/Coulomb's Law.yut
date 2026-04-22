@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "5b822b38-1b2a-4203-ae1a-0fd708b29b2b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8d742dbb-0882-4a18-b520-7519bbba7be8",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7ba78e56-b952-47e5-8dd6-bc84bb636ced",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "450b8d8c-ff5a-40b4-8d80-1bd3e95ad9ec",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "127a0f29-df7d-437e-9408-ccd2ea0fa88d",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5e292351-900a-42b9-a8c8-9c37cc1cc446",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5f825e5f-26ca-4c55-aab5-6b88d4564c92",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3fda66be-b6ae-4983-8181-1d5a2f622893",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "44c58392-3417-445f-a831-39f28eccb3dc",
             "family": "Arial",
@@ -19815,22 +19927,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "The force of interaction F between two stationary point charges located in a vacuum is proportional to the charges q1 and q2 ",
+                                "elements": "The force of interaction F between two stationary point charges located in a vacuum is proportional to the charges q1 and q2 and inversely proportional to the square of the distance r between them.",
                                 "format_id": "2bd78e26-1366-4e67-a8a1-0478015f2754"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "and inversely proportional to the square of the distance r between them.",
-                                "format_id": "2bd78e26-1366-4e67-a8a1-0478015f2754"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -19989,6 +20090,11 @@
                                                                                                 "id": "0,1,0,1,0,0,0,2,0,2,1,6",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,1,0,0,0,2,0,2,1,7",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": "·"
@@ -20118,7 +20224,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -20143,6 +20250,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -20242,7 +20356,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -20267,6 +20382,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -20289,7 +20411,8 @@
                                 "elements": ".",
                                 "format_id": "2bd78e26-1366-4e67-a8a1-0478015f2754"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -20593,6 +20716,11 @@
                                                                                 "id": "0,2,0,0,3,0,0,2,1,6",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,2,0,0,3,0,0,2,1,7",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -20652,6 +20780,11 @@
                                                                                                     },
                                                                                                     {
                                                                                                         "id": "0,2,0,0,3,0,0,2,2,0,0,1,6",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,2,0,0,3,0,0,2,2,0,0,1,7",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -20773,7 +20906,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -20798,6 +20932,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -20814,7 +20955,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

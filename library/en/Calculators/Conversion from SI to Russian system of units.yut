@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "a154468c-8c24-41d0-83d3-43070c835e95",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6e148109-1942-4f4f-bfb0-adfc6db344d9",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e2709712-714e-4fb5-a9a7-bdbc51b0628f",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0dfd470b-ecd1-4a08-874b-ac2c3b515db0",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "078a7166-177c-4a0b-95b7-6f598b6448a5",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a35ae3ae-8bcd-431b-b911-b99a8ec27be5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2dbd4016-aa80-42fd-ac69-8f48e070bf8f",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c919a1f5-67a5-4221-b0ff-ca1c83887f0d",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "2232a226-18f5-4047-94bc-6bf580921d2e",
             "family": "Arial",
@@ -618,7 +722,8 @@
                                 "elements": "Here is the conversion from SI units to the Russian system of units. Edit the number on the left. To select the unit to convert to, right-click on the result and select \"Unit\".",
                                 "format_id": "2232a226-18f5-4047-94bc-6bf580921d2e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -638,7 +743,8 @@
                                 "elements": "Length",
                                 "format_id": "741b57a9-03a0-4d12-837d-a0ca2dcb4f24"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1639,7 +1745,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1659,7 +1766,8 @@
                                 "elements": "Mass",
                                 "format_id": "741b57a9-03a0-4d12-837d-a0ca2dcb4f24"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -2660,7 +2768,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2680,7 +2789,8 @@
                                 "elements": "Volume",
                                 "format_id": "741b57a9-03a0-4d12-837d-a0ca2dcb4f24"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -4073,7 +4183,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",

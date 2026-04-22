@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -43649,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": true,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "26578ae1-34f9-4014-a2a0-4efd899bf97f",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0f066f63-aca0-4e9a-8aa8-13f39bfb10cb",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a7d39921-56cd-4f81-a9df-8daa32b77d6e",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d19f6fb4-6cf5-43ec-80f3-2868ec07791b",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dc041b79-763d-4aad-8e22-9559eb4f7859",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e3839921-7e44-4377-80b5-9320667dbe7f",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "93b29479-ee17-468f-b34b-5a5ef0b5b27e",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f015e6dd-7611-42f9-b1ed-969411a80a1f",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "a4a8c475-1145-42ad-b15b-1ef106a5d647",
             "family": "Arial",
@@ -1094,6 +1206,11 @@
                                                                                                         "id": "0,0,0,1,0,0,0,2,1,0,0,1,4",
                                                                                                         "type": 10,
                                                                                                         "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,0,0,1,0,0,0,2,1,0,0,1,5",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
                                                                                                     }
                                                                                                 ],
                                                                                                 "symbol": "·"
@@ -1261,7 +1378,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1354,6 +1472,11 @@
                                                                                 "id": "0,1,0,1,0,0,0,2,1,4",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,1,0,0,0,2,1,5",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -1391,6 +1514,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,1,0,1,0,0,0,2,3,4",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,1,0,0,0,2,3,5",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -1432,6 +1560,11 @@
                                                                                 "id": "0,1,0,1,0,0,0,2,5,4",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,1,0,0,0,2,5,5",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -1469,6 +1602,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,1,0,1,0,0,0,2,7,4",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,1,0,0,0,2,7,5",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -1529,7 +1667,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -1554,6 +1693,13 @@
                                                                             "show_angle_measure": true,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -1570,7 +1716,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1648,6 +1795,11 @@
                                                                                 "id": "0,2,0,1,0,0,0,2,1,1",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,2,0,1,0,0,0,2,1,2",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -1713,7 +1865,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -1738,6 +1891,13 @@
                                                                             "show_angle_measure": true,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -1754,7 +1914,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "79fab569-3c94-4ff5-8aa2-24a9ba4f07e0",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "900cd1e8-9391-4731-be8c-4e759787f394",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fbc50549-c288-43af-b64b-00dbe74aad35",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d38010ee-82f9-48fb-b239-c9f4dde95714",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "74268968-b660-47aa-92f7-db0bfa020dae",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4dc3bf03-4c56-4168-b3da-781ffb4b0bdc",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a042f605-aea9-4768-a698-0429206cbadd",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f1309baa-1ce6-41f6-b900-bd8cdf15fd73",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "6efcba19-2c1c-4f73-83fd-1db82ebe7af6",
             "family": "Arial",
@@ -635,22 +747,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "The amount of heat Q generated in a conductor by an electric current is proportional to the square of the current I, ",
+                                "elements": "The amount of heat Q generated in a conductor by an electric current is proportional to the square of the current I, the resistance of the conductor R, and the time t.",
                                 "format_id": "6efcba19-2c1c-4f73-83fd-1db82ebe7af6"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "the resistance of the conductor R, and the time t.",
-                                "format_id": "6efcba19-2c1c-4f73-83fd-1db82ebe7af6"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -946,6 +1047,11 @@
                                                                                 "id": "0,1,0,0,3,0,0,2,2,3",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,3,0,0,2,2,4",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -1011,7 +1117,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -1036,6 +1143,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -1052,7 +1166,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

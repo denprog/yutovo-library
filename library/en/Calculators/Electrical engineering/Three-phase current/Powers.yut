@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "b0011dbc-cdc9-4c56-b74a-43c7cec7fb51",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "336d1955-1861-4d84-81ab-cd4b6bb60714",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a3c140e3-d3ff-4f4c-a99b-2c5e2258c584",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bfa0c755-6aac-4120-a4ca-d3399b2b4a9c",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "02a8383e-4575-4fb2-9338-18c0a55ff96f",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5750892e-4721-4cda-baa6-2a9a7d50b074",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1ff7f251-4706-4aae-9147-515d9aae9c87",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d7f5e752-7c05-4f73-82a2-04de4acca4e2",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "dd835fd3-4cda-46fb-b841-8697a47483f0",
             "family": "Arial",
@@ -422,6 +534,20 @@
             "text_color": 4278190080,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2fe0595a-3040-4f44-aa21-f849f657f647",
+            "family": "Arial",
+            "size": 20,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -540,7 +666,8 @@
                                 "elements": "Instantaneous powers of phases p, expressed through instantaneous current i and voltage u:",
                                 "format_id": "dd835fd3-4cda-46fb-b841-8697a47483f0"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -845,6 +972,11 @@
                                                                                 "id": "0,1,0,0,2,0,0,2,1,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,2,0,0,2,1,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -970,7 +1102,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -995,6 +1128,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -1302,6 +1442,11 @@
                                                                                 "id": "0,1,0,1,2,0,0,2,1,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,1,2,0,0,2,1,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -1427,7 +1572,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -1452,6 +1598,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -1759,6 +1912,11 @@
                                                                                 "id": "0,1,0,2,2,0,0,2,1,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,2,2,0,0,2,1,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -1884,7 +2042,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -1909,6 +2068,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -1925,7 +2091,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1945,7 +2112,8 @@
                                 "elements": "\"Star\" connection",
                                 "format_id": "7c4bad61-6ab2-4a99-abce-2649295d0632"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -2150,7 +2318,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2524,7 +2693,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -2549,6 +2719,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -2635,7 +2812,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -2660,6 +2838,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -2676,7 +2861,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -2868,6 +3054,11 @@
                                                                                 "id": "0,5,0,1,1,0,0,2,1,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,5,0,1,1,0,0,2,1,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -2917,6 +3108,11 @@
                                                                                 "id": "0,5,0,1,1,0,0,2,3,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,5,0,1,1,0,0,2,3,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -2936,6 +3132,11 @@
                                                                                 "id": "0,5,0,1,1,0,0,2,5,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,5,0,1,1,0,0,2,5,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -2953,6 +3154,11 @@
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,5,0,1,1,0,0,2,7,0",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,5,0,1,1,0,0,2,7,1",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -3043,7 +3249,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -3068,6 +3275,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -3084,7 +3298,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3240,7 +3455,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -3265,6 +3481,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -3281,7 +3504,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3354,6 +3578,11 @@
                                                                                 "id": "0,7,0,1,0,0,0,2,1,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,7,0,1,0,0,0,2,1,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -3401,6 +3630,11 @@
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,7,0,1,0,0,0,2,3,0",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,7,0,1,0,0,0,2,3,1",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -3452,6 +3686,11 @@
                                                                                 "id": "0,7,0,1,0,0,0,2,5,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,7,0,1,0,0,0,2,5,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -3471,6 +3710,11 @@
                                                                                 "id": "0,7,0,1,0,0,0,2,7,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,7,0,1,0,0,0,2,7,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -3488,6 +3732,11 @@
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,7,0,1,0,0,0,2,9,0",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,7,0,1,0,0,0,2,9,1",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -3548,7 +3797,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -3573,6 +3823,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -3589,7 +3846,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3705,6 +3963,11 @@
                                                                                                 "id": "0,8,0,1,0,0,0,2,0,1,1,0",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,8,0,1,0,0,0,2,0,1,1,1",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": "+"
@@ -3804,7 +4067,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -3829,6 +4093,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -3845,7 +4116,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -3865,7 +4137,8 @@
                                 "elements": "\"Triangle\" connection",
                                 "format_id": "7c4bad61-6ab2-4a99-abce-2649295d0632"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -4245,7 +4518,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -4270,6 +4544,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -4356,7 +4637,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -4381,6 +4663,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -4397,7 +4686,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -4589,6 +4879,11 @@
                                                                                 "id": "0,11,0,1,1,0,0,2,1,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,11,0,1,1,0,0,2,1,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -4638,6 +4933,11 @@
                                                                                 "id": "0,11,0,1,1,0,0,2,3,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,11,0,1,1,0,0,2,3,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -4657,6 +4957,11 @@
                                                                                 "id": "0,11,0,1,1,0,0,2,5,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,11,0,1,1,0,0,2,5,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -4674,6 +4979,11 @@
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,11,0,1,1,0,0,2,7,0",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,11,0,1,1,0,0,2,7,1",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -4764,7 +5074,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -4789,6 +5100,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -4805,7 +5123,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -4961,7 +5280,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -4986,6 +5306,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -5002,7 +5329,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -5075,6 +5403,11 @@
                                                                                 "id": "0,13,0,1,0,0,0,2,1,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,13,0,1,0,0,0,2,1,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -5122,6 +5455,11 @@
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,13,0,1,0,0,0,2,3,0",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,13,0,1,0,0,0,2,3,1",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -5173,6 +5511,11 @@
                                                                                 "id": "0,13,0,1,0,0,0,2,5,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,13,0,1,0,0,0,2,5,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -5192,6 +5535,11 @@
                                                                                 "id": "0,13,0,1,0,0,0,2,7,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,13,0,1,0,0,0,2,7,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -5209,6 +5557,11 @@
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,13,0,1,0,0,0,2,9,0",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,13,0,1,0,0,0,2,9,1",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -5269,7 +5622,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -5294,6 +5648,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -5310,7 +5671,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -5426,6 +5788,11 @@
                                                                                                 "id": "0,14,0,1,0,0,0,2,0,1,1,0",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,14,0,1,0,0,0,2,0,1,1,1",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": "+"
@@ -5525,7 +5892,8 @@
                                                                             1,
                                                                             2,
                                                                             3,
-                                                                            4
+                                                                            4,
+                                                                            6
                                                                         ],
                                                                         "real_config": {
                                                                             "precision": 3,
@@ -5550,6 +5918,13 @@
                                                                             "show_angle_measure": false,
                                                                             "form": 0,
                                                                             "max_count": 10
+                                                                        },
+                                                                        "array_real_config": {
+                                                                            "precision": 3,
+                                                                            "exp": 10,
+                                                                            "default_angle_measure": 0,
+                                                                            "result_angle_measure": 0,
+                                                                            "show_angle_measure": true
                                                                         }
                                                                     }
                                                                 ]
@@ -5566,7 +5941,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

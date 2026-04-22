@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "75fbc8a3-596b-4a20-a675-b3401f6cfe30",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "584a23f7-59c7-4910-8338-d3951aaebcb4",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9e07c753-a5af-4997-84a2-18818aa16d00",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "111325bd-159b-4f90-8a78-34ee67670959",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bf345032-c681-42ff-bc98-01d47b05ca21",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bec9e7e9-c001-4edd-93ac-40576337c5ee",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8de22b2a-2fc0-41f8-bc9e-1b1757212816",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "29678ce9-5ef7-47e2-91eb-cf0428fefcd4",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "66a6e1be-a902-4a7a-b70b-6417389da031",
             "family": "Arial",
             "size": 14,
@@ -467,22 +579,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Here you can perform any arithmetic and trigonometric operations with complex numbers. Change the expressions ",
+                                "elements": "Here you can perform any arithmetic and trigonometric operations with complex numbers. Change the expressions and the result will be recalculated. Or add your own calculations.",
                                 "format_id": "66a6e1be-a902-4a7a-b70b-6417389da031"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "and the result will be recalculated. Or add your own calculations.",
-                                "format_id": "66a6e1be-a902-4a7a-b70b-6417389da031"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -502,7 +603,8 @@
                                 "elements": "Simple arithmetic:",
                                 "format_id": "66a6e1be-a902-4a7a-b70b-6417389da031"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -559,6 +661,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,2,0,0,0,0,0,0,1,2",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,2,0,0,0,0,0,0,1,3",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -925,6 +1032,11 @@
                                                                                                 "id": "0,2,0,0,3,0,0,0,0,2,1,1",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,2,0,0,3,0,0,0,0,2,1,2",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": "+"
@@ -1009,7 +1121,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1029,7 +1142,8 @@
                                 "elements": "The real, imaginary part of a number; the modulus:",
                                 "format_id": "66a6e1be-a902-4a7a-b70b-6417389da031"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1101,6 +1215,11 @@
                                                                                 "id": "0,4,0,0,0,0,0,2,1,1",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,0,0,0,2,1,2",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -1159,6 +1278,11 @@
                                                                                 "id": "0,4,0,0,1,0,0,0,1,1",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,1,0,0,0,1,2",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -1181,6 +1305,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,1,0,0,0,3,1",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,1,0,0,0,3,2",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -1289,6 +1418,11 @@
                                                                                 "id": "0,4,0,0,2,0,0,0,1,1",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,2,0,0,0,1,2",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -1311,6 +1445,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,0,3,1",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,2,0,0,0,3,2",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -1419,6 +1558,11 @@
                                                                                 "id": "0,4,0,0,3,0,0,0,1,1",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,3,0,0,0,1,2",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "("
@@ -1441,6 +1585,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,3,0,0,0,3,1",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,3,0,0,0,3,2",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -1516,7 +1665,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1533,22 +1683,11 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "Representation of a complex number in arithmetic, trigonometric and exponential forms. To translate, use the context ",
+                                "elements": "Representation of a complex number in arithmetic, trigonometric and exponential forms. To translate, use the context menu on the result:",
                                 "format_id": "66a6e1be-a902-4a7a-b70b-6417389da031"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,5,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,1,0",
-                                "type": 4,
-                                "elements": "menu on the result:",
-                                "format_id": "66a6e1be-a902-4a7a-b70b-6417389da031"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1836,7 +1975,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

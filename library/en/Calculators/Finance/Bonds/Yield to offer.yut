@@ -78,6 +78,118 @@
     },
     "string_formats": [
         {
+            "id": "1a268e07-863d-4525-b4e7-80e0897d2449",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0747d80c-2094-4348-ad51-0e5a1af1e11f",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bdbd222d-355d-4763-9b80-45cf147050a8",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "19ef1af6-1e75-496c-a6df-01fd1da0701a",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d198a3e5-671d-4238-9135-4c5cc00ffa58",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8c4ccbe4-08bc-4373-99e7-3dd344378832",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "42c02a7a-2183-4ead-81a1-e8d3efe75433",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1e1d12c6-a66e-4038-bfcf-5fa45d8feb0d",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "fd433f2e-5ac4-445e-9748-78ae040d7cf3",
             "family": "Arial",
             "size": 14,
@@ -695,22 +807,11 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "The yield to offer calculator calculates the total annual yield of a bond if purchased at the current price, held until the call date, and reinvesting all coupon payments at the same rate. Change the parameters, ",
+                                "elements": "The yield to offer calculator calculates the total annual yield of a bond if purchased at the current price, held until the call date, and reinvesting all coupon payments at the same rate. Change the parameters, and the result will be recalculated.",
                                 "format_id": "fd433f2e-5ac4-445e-9748-78ae040d7cf3"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,2,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,1,0",
-                                "type": 4,
-                                "elements": "and the result will be recalculated.",
-                                "format_id": "fd433f2e-5ac4-445e-9748-78ae040d7cf3"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1250,7 +1351,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

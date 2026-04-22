@@ -4,6 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -72,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "97871e9b-6bc2-430c-a1fd-5bfdf16cf965",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6abb532c-38cf-4901-919d-05e8ec04405e",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c8c7207f-51a8-438b-be3f-4819fe4e0502",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "37b1e830-bee1-4bd0-a912-c37fa00bd2a2",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e9b7689e-3d59-47e9-8365-97ed436485f4",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cd62d1ae-fcbf-4067-aa68-f31c3b33fd89",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "87263e11-3546-40d4-96a7-baf22f9532ef",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "126a5785-2bc3-4c88-96e7-fc1b1572967b",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "fa1856cc-aad9-48c8-96dc-c30fb3f90384",
             "family": "Arial",
@@ -410,22 +523,11 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "A solid turns into a liquid at a constant melting point. The energy Q is spent not on heating, but on the destruction of the crystal structure. λ is the ",
+                                "elements": "A solid turns into a liquid at a constant melting point. The energy Q is spent not on heating, but on the destruction of the crystal structure. λ is the specific heat of melting of the substance J/kg; m is the mass of the substance, kg.",
                                 "format_id": "fa1856cc-aad9-48c8-96dc-c30fb3f90384"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "specific heat of melting of the substance J/kg; m is the mass of the substance, kg.",
-                                "format_id": "fa1856cc-aad9-48c8-96dc-c30fb3f90384"
-                            }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -645,6 +747,11 @@
                                                                                 "id": "0,1,0,0,2,0,0,2,1,1",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,2,0,0,2,1,2",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -759,7 +866,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

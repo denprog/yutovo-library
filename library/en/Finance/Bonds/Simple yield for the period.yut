@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "0676ae72-cc5b-4657-9fa8-56cab3226f07",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "57ce2c99-2dc3-4608-bb09-06d5e4207ce8",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e39692f3-1fa3-41ba-a9b0-75c9ec47e105",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7f725810-8c32-4eab-a5f4-7471122ee1f0",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "20046797-a748-4580-9c62-f175b71e7361",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c4736342-941e-4219-bbcd-0b9336fa348c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cd348e16-33af-479b-bb3f-0aebd5e6a672",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0c2b165e-9f99-4067-b0e1-6b456707279f",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "b3d337c6-baa4-4cc9-81a4-bad426264fb1",
             "family": "Arial",
             "size": 14,
@@ -456,7 +568,8 @@
                                 "elements": "Simple yield over the period is a measure of the total return a bond has earned over its entire holding period, taking into account the difference in the purchase and sale prices and the payments received.",
                                 "format_id": "b3d337c6-baa4-4cc9-81a4-bad426264fb1"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -829,6 +942,11 @@
                                                                                                 "id": "0,1,0,0,3,0,2,2,0,0,1,1",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,3,0,2,2,0,0,1,2",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": "+"
@@ -881,6 +999,11 @@
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,3,0,2,2,0,0,3,1",
+                                                                                                "type": 10,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,3,0,2,2,0,0,3,2",
                                                                                                 "type": 10,
                                                                                                 "elements": []
                                                                                             }
@@ -987,6 +1110,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,1,0,0,3,0,2,2,1,1",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,3,0,2,2,1,2",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -1124,7 +1252,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1144,7 +1273,8 @@
                                 "elements": "Simple yield in dollars.",
                                 "format_id": "b3d337c6-baa4-4cc9-81a4-bad426264fb1"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1296,6 +1426,11 @@
                                                                                 "id": "0,3,0,0,1,0,1,2,1,1",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,3,0,0,1,0,1,2,1,2",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "+"
@@ -1353,6 +1488,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,3,0,0,1,0,1,2,3,2",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,3,0,0,1,0,1,2,3,3",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -1520,7 +1660,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

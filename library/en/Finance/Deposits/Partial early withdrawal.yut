@@ -4,15 +4,7 @@
         "language": 1,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -21889,
-        "functions_color": -22016,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "a6d1fd17-59e1-4e7b-9f75-4e691fc07b15",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2ce44432-a20d-43c8-99fc-11c54a0602da",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ee0b4038-fb6d-4ab5-84c7-1fdd94f1e264",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7141f6e8-01e7-482e-acac-b921ef675b87",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "62679abb-1f21-4779-9246-84d4a315828f",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "095d590d-772c-4e84-b5c3-0bbaf458591c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "78e29527-26de-4acf-9071-c0e93f42d729",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0d58b8a6-d1ea-4957-bb47-a2dd63984fb9",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "73bd8837-ba0d-418f-b06d-e2f5e1a0a9a1",
             "family": "Arial",
@@ -884,7 +988,8 @@
                                 "elements": "A deposit with a one-time partial withdrawal and capitalization. Withdrawal occurs at the end of the day after interest for that day has been accrued.",
                                 "format_id": "d74ed998-3fee-423b-8298-a48796d56e02"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -1253,6 +1358,11 @@
                                                                                 "id": "0,1,0,0,5,0,0,2,2,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,5,0,0,2,2,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -1273,6 +1383,11 @@
                                                                                                 "id": "0,1,0,0,5,0,0,2,3,0,0,0",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,5,0,0,2,3,0,0,1",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": "("
@@ -1290,6 +1405,11 @@
                                                                                         "elements": [
                                                                                             {
                                                                                                 "id": "0,1,0,0,5,0,0,2,3,0,2,0",
+                                                                                                "type": 10,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,5,0,0,2,3,0,2,1",
                                                                                                 "type": 10,
                                                                                                 "elements": []
                                                                                             }
@@ -1371,6 +1491,11 @@
                                                                                                 "id": "0,1,0,0,5,0,0,2,3,0,4,0",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,5,0,0,2,3,0,4,1",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": ")"
@@ -1441,6 +1566,11 @@
                                                                                 "id": "0,1,0,0,5,0,0,2,4,0",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,5,0,0,2,4,1",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "-"
@@ -1458,6 +1588,11 @@
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,1,0,0,5,0,0,2,6,0",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,5,0,0,2,6,1",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -1480,6 +1615,11 @@
                                                                                                 "id": "0,1,0,0,5,0,0,2,7,0,0,0",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,5,0,0,2,7,0,0,1",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": "("
@@ -1497,6 +1637,11 @@
                                                                                         "elements": [
                                                                                             {
                                                                                                 "id": "0,1,0,0,5,0,0,2,7,0,2,0",
+                                                                                                "type": 10,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,5,0,0,2,7,0,2,1",
                                                                                                 "type": 10,
                                                                                                 "elements": []
                                                                                             }
@@ -1578,6 +1723,11 @@
                                                                                                 "id": "0,1,0,0,5,0,0,2,7,0,4,0",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,5,0,0,2,7,0,4,1",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": ")"
@@ -1646,6 +1796,11 @@
                                                                                                 "elements": [
                                                                                                     {
                                                                                                         "id": "0,1,0,0,5,0,0,2,7,2,1,0,0",
+                                                                                                        "type": 10,
+                                                                                                        "elements": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                        "id": "0,1,0,0,5,0,0,2,7,2,1,0,1",
                                                                                                         "type": 10,
                                                                                                         "elements": []
                                                                                                     }
@@ -1775,7 +1930,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

@@ -72,11 +72,459 @@
         },
         "include_documents": [
             {
-                "file_name": "/Finance/Bonds/Yield to offer.yut"
+                "file_name": "/Finanças/Títulos/Rendimento até a oferta.yut"
             }
         ]
     },
     "string_formats": [
+        {
+            "id": "1acb09ca-c789-4c86-869d-0e93eeeb1692",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "da831c48-0091-4aa8-acc7-4a4578a825c1",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b30770fa-2f34-4c54-97c8-69d428693511",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0b1be0aa-c7c3-4158-b015-da3bb53b0c11",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1da5b7fe-6815-4734-a779-99116e8510b5",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8ad6b62f-2969-49e6-9321-192102b51980",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "591080a7-cb0d-4665-ae4b-ed9076fcf7c6",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cfffef3f-2da3-43bd-bce2-644d540f23b2",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ab2a92bd-8ddb-4270-bcea-dea21a6d92ae",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0750861f-f013-4a64-9b47-d561a442f550",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e61dee33-d468-41c5-8a2e-f74131fff08c",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e71f5453-82e8-4a0b-8d09-92734b71dd8e",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3800bf4f-dcba-4fa7-b6d3-0ed4a572aac1",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9e596e03-987a-4ff5-a826-a32be79f4e49",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c92bd626-d615-4e4e-8247-e239f41306ef",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a2cfc300-81bd-42fa-acc2-5d713e2952d5",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "95bbc944-afac-4660-8710-5cb8cf529e86",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "087132c1-c125-4101-a612-94d726320925",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "90655907-271f-4c88-9ebe-aa6d1fec9740",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "caaa612a-45c3-45f6-a9c1-ed4b2962e433",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5974cadd-3288-4148-a8ce-a785097e23c9",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "379b4934-a2d4-42b7-8953-a9c61204dc97",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f30358c3-cbc7-4b3b-a8d5-5d9f44b9f5e8",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9d69e914-a75d-4d3c-aed7-4591a75e55cb",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7c072ef3-0479-4bef-b29f-3885c3608460",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "80568941-a043-4960-b18e-29ef1ab848d2",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9981ec0c-4969-4283-ad28-09801567aaa7",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "caa0cae7-b538-4f5f-bc63-41816d481261",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6c24127a-83db-4212-b0fb-6d318b723548",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ebf6b792-f0dd-49e3-b308-7d804e12ba0e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "90928b90-bbeb-4602-b3f2-7ad705a4aa90",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fcc19f07-e521-4708-8478-c8feb56ccbec",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "1a268e07-863d-4525-b4e7-80e0897d2449",
             "family": "Arial",
@@ -692,6 +1140,132 @@
             "text_color": 4278190080,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0248a91f-656f-4817-8838-35adbf5c04f2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8c244c2e-1632-47ba-a8c9-fdb0f03699b6",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2224d678-b876-417c-ba9a-ce2e56d440a6",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c7ba9a6f-d228-41f0-87b6-1c0e33a4064c",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f94fed9d-50f7-45dc-9e1e-5e10fca21182",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "10f15d1c-3e8d-4560-8a65-86c3913c5e35",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e4a25a49-2055-4a7b-b34f-c749a8998317",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "68ea4a98-0eb1-4c09-b5c7-bdc76cf91f5b",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7b9a371a-49d8-471c-856e-ec798a6f3c92",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -807,7 +1381,7 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "A calculadora de rendimento até a oferta calcula o rendimento anual total de um título se comprado pelo preço atual, mantido até a data de resgate e reinvestindo todos os pagamentos de cupom na mesma taxa. Altere os parâmetros e o resultado será recalculado.parameters, and the result will be recalculated.",
+                                "elements": "A calculadora de rendimento até a oferta calcula o rendimento anual total de um título se comprado pelo preço atual, mantido até a data de resgate e reinvestindo todos os pagamentos de cupom na mesma taxa. Altere os parâmetros do depósito e o resultado será recalculado.",
                                 "format_id": "fd433f2e-5ac4-445e-9748-78ae040d7cf3"
                             }
                         ],
@@ -840,14 +1414,14 @@
                                                     {
                                                         "id": "0,3,0,0,0,0,0",
                                                         "type": 8,
-                                                        "elements": "Annual",
+                                                        "elements": "Anual",
                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,3,0,0,0,0,1",
                                                         "type": 8,
-                                                        "elements": "coupon",
+                                                        "elements": "cupom",
                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                         "can_merge": false
                                                     },
@@ -887,7 +1461,7 @@
                                                                     {
                                                                         "id": "0,3,0,0,0,0,2,2,1",
                                                                         "type": 8,
-                                                                        "elements": "$",
+                                                                        "elements": "R$",
                                                                         "format_id": "8a48c397-9764-4659-b7b0-06383ab5f4cc",
                                                                         "can_merge": false
                                                                     }
@@ -913,27 +1487,34 @@
                                                     {
                                                         "id": "0,3,0,0,1,0,0",
                                                         "type": 8,
-                                                        "elements": "Bondde",
+                                                        "elements": "Título",
                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,3,0,0,1,0,1",
                                                         "type": 8,
-                                                        "elements": "nomination",
+                                                        "elements": "de",
                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                         "can_merge": false
                                                     },
                                                     {
                                                         "id": "0,3,0,0,1,0,2",
+                                                        "type": 8,
+                                                        "elements": "nominal",
+                                                        "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
+                                                        "can_merge": false
+                                                    },
+                                                    {
+                                                        "id": "0,3,0,0,1,0,3",
                                                         "type": 27,
                                                         "elements": [
                                                             {
-                                                                "id": "0,3,0,0,1,0,2,0",
+                                                                "id": "0,3,0,0,1,0,3,0",
                                                                 "type": 7,
                                                                 "elements": [
                                                                     {
-                                                                        "id": "0,3,0,0,1,0,2,0,0",
+                                                                        "id": "0,3,0,0,1,0,3,0,0",
                                                                         "type": 8,
                                                                         "elements": "N",
                                                                         "format_id": "032071ec-c297-4d73-ab0d-d80337434d40",
@@ -942,25 +1523,25 @@
                                                                 ]
                                                             },
                                                             {
-                                                                "id": "0,3,0,0,1,0,2,1",
+                                                                "id": "0,3,0,0,1,0,3,1",
                                                                 "type": 10,
                                                                 "elements": []
                                                             },
                                                             {
-                                                                "id": "0,3,0,0,1,0,2,2",
+                                                                "id": "0,3,0,0,1,0,3,2",
                                                                 "type": 7,
                                                                 "elements": [
                                                                     {
-                                                                        "id": "0,3,0,0,1,0,2,2,0",
+                                                                        "id": "0,3,0,0,1,0,3,2,0",
                                                                         "type": 8,
                                                                         "elements": "1000",
                                                                         "format_id": "032071ec-c297-4d73-ab0d-d80337434d40",
                                                                         "can_merge": true
                                                                     },
                                                                     {
-                                                                        "id": "0,3,0,0,1,0,2,2,1",
+                                                                        "id": "0,3,0,0,1,0,3,2,1",
                                                                         "type": 8,
-                                                                        "elements": "$",
+                                                                        "elements": "R$",
                                                                         "format_id": "8a48c397-9764-4659-b7b0-06383ab5f4cc",
                                                                         "can_merge": false
                                                                     }
@@ -986,14 +1567,14 @@
                                                     {
                                                         "id": "0,3,0,0,2,0,0",
                                                         "type": 8,
-                                                        "elements": "Purchase",
+                                                        "elements": "Compra",
                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,3,0,0,2,0,1",
                                                         "type": 8,
-                                                        "elements": "price",
+                                                        "elements": "preço",
                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                         "can_merge": false
                                                     },
@@ -1033,7 +1614,7 @@
                                                                     {
                                                                         "id": "0,3,0,0,2,0,2,2,1",
                                                                         "type": 8,
-                                                                        "elements": "$",
+                                                                        "elements": "R$",
                                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                                         "can_merge": false
                                                                     }
@@ -1059,21 +1640,21 @@
                                                     {
                                                         "id": "0,3,0,0,3,0,0",
                                                         "type": 8,
-                                                        "elements": "Before",
+                                                        "elements": "Antes",
                                                         "format_id": "8a48c397-9764-4659-b7b0-06383ab5f4cc",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,3,0,0,3,0,1",
                                                         "type": 8,
-                                                        "elements": "the",
+                                                        "elements": "o",
                                                         "format_id": "8a48c397-9764-4659-b7b0-06383ab5f4cc",
                                                         "can_merge": false
                                                     },
                                                     {
                                                         "id": "0,3,0,0,3,0,2",
                                                         "type": 8,
-                                                        "elements": "offer",
+                                                        "elements": "oferta",
                                                         "format_id": "8a48c397-9764-4659-b7b0-06383ab5f4cc",
                                                         "can_merge": false
                                                     },
@@ -1118,7 +1699,7 @@
                                                     {
                                                         "id": "0,3,0,0,3,0,4",
                                                         "type": 8,
-                                                        "elements": "years",
+                                                        "elements": "anos",
                                                         "format_id": "8a48c397-9764-4659-b7b0-06383ab5f4cc",
                                                         "can_merge": true
                                                     }
@@ -1139,21 +1720,21 @@
                                                     {
                                                         "id": "0,3,0,0,4,0,0",
                                                         "type": 8,
-                                                        "elements": "Result",
+                                                        "elements": "Resultado",
                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,3,0,0,4,0,1",
                                                         "type": 8,
-                                                        "elements": "in",
+                                                        "elements": "em",
                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                         "can_merge": false
                                                     },
                                                     {
                                                         "id": "0,3,0,0,4,0,2",
                                                         "type": 8,
-                                                        "elements": "percentage",
+                                                        "elements": "porcentagem",
                                                         "format_id": "09ddc4ec-4840-49d9-8e3d-f4dd3a55d175",
                                                         "can_merge": false
                                                     },
@@ -1249,22 +1830,22 @@
                                                     {
                                                         "id": "0,3,0,0,5,0,0",
                                                         "type": 8,
-                                                        "elements": "Result",
+                                                        "elements": "Resultado",
                                                         "format_id": "8a48c397-9764-4659-b7b0-06383ab5f4cc",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,3,0,0,5,0,1",
                                                         "type": 8,
-                                                        "elements": "in",
+                                                        "elements": "em",
                                                         "format_id": "8a48c397-9764-4659-b7b0-06383ab5f4cc",
                                                         "can_merge": false
                                                     },
                                                     {
                                                         "id": "0,3,0,0,5,0,2",
                                                         "type": 8,
-                                                        "elements": "dollars",
-                                                        "format_id": "8a48c397-9764-4659-b7b0-06383ab5f4cc",
+                                                        "elements": "reais",
+                                                        "format_id": "7b9a371a-49d8-471c-856e-ec798a6f3c92",
                                                         "can_merge": false
                                                     },
                                                     {

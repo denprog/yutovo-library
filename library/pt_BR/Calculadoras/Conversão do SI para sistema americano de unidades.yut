@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "5d67d28d-a71a-46c5-9e18-eab85ab0c2a2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4985a77c-40f7-47a4-8c45-d675dfe801ab",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "355a271b-5574-4c5c-acb0-cee8d67ea8e5",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "aaf5d951-9317-4dc9-8dd0-9dfe75dcc18d",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3fea6f09-4737-4d22-ba17-2e8652394076",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f8d0029c-bdd5-4cd1-9290-d8b10a7fca8b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0fd1b9c9-1ec2-4100-8d17-91efbb363429",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "84bd1909-737b-4e01-931d-f435a36a02c8",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "88e229ad-9649-4a66-acef-45576f44fc95",
             "family": "Arial",
             "size": 14,
@@ -1045,7 +1157,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(inch){us}"
+                                                                            "unit": "(in){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -1054,7 +1166,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(inch){us}"
+                                                                            "unit": "(in){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -1143,7 +1255,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(foot){us}"
+                                                                            "unit": "(ft){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -1152,7 +1264,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(foot){us}"
+                                                                            "unit": "(ft){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -1241,7 +1353,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(yard){us}"
+                                                                            "unit": "(yd){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -1250,7 +1362,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(yard){us}"
+                                                                            "unit": "(yd){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -1339,7 +1451,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(mile){us}"
+                                                                            "unit": "(mi){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -1348,7 +1460,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(mile){us}"
+                                                                            "unit": "(mi){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -1480,7 +1592,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(ounce){us}"
+                                                                            "unit": "(oz){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -1489,7 +1601,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(ounce){us}"
+                                                                            "unit": "(oz){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -1578,7 +1690,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(pound){us}"
+                                                                            "unit": "(lb){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -1587,7 +1699,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(pound){us}"
+                                                                            "unit": "(lb){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -1774,7 +1886,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(hundredweight){us}"
+                                                                            "unit": "(centena_curta){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -1783,7 +1895,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(hundredweight){us}"
+                                                                            "unit": "(centena_curta){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -2013,7 +2125,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(teaspoon){us}"
+                                                                            "unit": "(colher_de_chá){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -2022,7 +2134,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(teaspoon){us}"
+                                                                            "unit": "(colher_de_chá){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -2111,7 +2223,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(tablespoon){us}"
+                                                                            "unit": "(colher_de_sopa){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -2120,7 +2232,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(tablespoon){us}"
+                                                                            "unit": "(colher_de_sopa){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -2209,7 +2321,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(fluid_ounce){us}"
+                                                                            "unit": "(onça_líquida){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -2218,7 +2330,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(fluid_ounce){us}"
+                                                                            "unit": "(onça_líquida){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -2405,7 +2517,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(pint){us}"
+                                                                            "unit": "(pinta){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -2414,7 +2526,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(pint){us}"
+                                                                            "unit": "(pinta){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -2503,7 +2615,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(quart){us}"
+                                                                            "unit": "(quarto){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -2512,7 +2624,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(quart){us}"
+                                                                            "unit": "(quarto){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -2601,7 +2713,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(gallon){us}"
+                                                                            "unit": "(gal){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -2610,7 +2722,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(gallon){us}"
+                                                                            "unit": "(gal){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -2699,7 +2811,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(dry_pint){us}"
+                                                                            "unit": "(dry_pt){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -2708,7 +2820,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(dry_pint){us}"
+                                                                            "unit": "(dry_pt){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,
@@ -2895,7 +3007,7 @@
                                                                             "default_angle_measure": 0,
                                                                             "result_angle_measure": 0,
                                                                             "show_angle_measure": false,
-                                                                            "unit": "(dry_gallon){us}"
+                                                                            "unit": "(dry_gal){us}"
                                                                         },
                                                                         "integer_config": {
                                                                             "result_notation": 2,
@@ -2904,7 +3016,7 @@
                                                                         },
                                                                         "rational_config": {
                                                                             "fraction_form": 0,
-                                                                            "unit": "(dry_gallon){us}"
+                                                                            "unit": "(dry_gal){us}"
                                                                         },
                                                                         "complex_config": {
                                                                             "precision": 3,

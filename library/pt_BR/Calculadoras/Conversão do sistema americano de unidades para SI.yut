@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "d1553805-04f8-4746-9439-8642a3372d3c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4a8ae960-3afe-4856-a58e-e3b6048ffe13",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ba13a551-a078-448c-8a50-4010e8329fc5",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2d4a3a91-e592-445c-8ca1-a9783e9d4fe2",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "eb063c59-8257-430d-99c5-1b9ef34e7678",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "12d305f4-86f7-4200-aa7c-cc2b462e0915",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d856bb7a-8700-4397-97b2-90bc90ac4d09",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "027a5695-710a-4fb4-a0f5-c32ee0328e6f",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "c6d1b261-4076-4dbd-af4e-ab56c5bb7ea2",
             "family": "Arial",
             "size": 14,
@@ -992,7 +1104,7 @@
                                                                                     {
                                                                                         "id": "0,2,0,0,0,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "inch",
+                                                                                        "elements": "polegada",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -1120,7 +1232,7 @@
                                                                                     {
                                                                                         "id": "0,2,0,0,1,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "foot",
+                                                                                        "elements": "pé",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -1248,7 +1360,7 @@
                                                                                     {
                                                                                         "id": "0,2,0,0,2,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "yard",
+                                                                                        "elements": "jarda",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -1376,7 +1488,7 @@
                                                                                     {
                                                                                         "id": "0,2,0,0,3,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "mile",
+                                                                                        "elements": "milha",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -1547,7 +1659,7 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,0,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "ounce",
+                                                                                        "elements": "onça",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -1675,7 +1787,7 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,1,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "pound",
+                                                                                        "elements": "libra",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -1931,8 +2043,8 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,3,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "hundredweight",
-                                                                                        "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
+                                                                                        "elements": "centena_curta",
+                                                                                        "format_id": "d1553805-04f8-4746-9439-8642a3372d3c",
                                                                                         "can_merge": true
                                                                                     }
                                                                                 ]
@@ -2059,8 +2171,8 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,4,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "ton",
-                                                                                        "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
+                                                                                        "elements": "tonelada_curta",
+                                                                                        "format_id": "d1553805-04f8-4746-9439-8642a3372d3c",
                                                                                         "can_merge": true
                                                                                     }
                                                                                 ]
@@ -2230,8 +2342,8 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,0,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "teaspoon",
-                                                                                        "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
+                                                                                        "elements": "colher_de_chá",
+                                                                                        "format_id": "d1553805-04f8-4746-9439-8642a3372d3c",
                                                                                         "can_merge": true
                                                                                     }
                                                                                 ]
@@ -2358,8 +2470,8 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,1,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "tablespoon",
-                                                                                        "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
+                                                                                        "elements": "colher_de_sopa",
+                                                                                        "format_id": "d1553805-04f8-4746-9439-8642a3372d3c",
                                                                                         "can_merge": true
                                                                                     }
                                                                                 ]
@@ -2486,8 +2598,8 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,2,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "fluid_ounce",
-                                                                                        "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
+                                                                                        "elements": "onça_líquida",
+                                                                                        "format_id": "d1553805-04f8-4746-9439-8642a3372d3c",
                                                                                         "can_merge": true
                                                                                     }
                                                                                 ]
@@ -2614,7 +2726,7 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,3,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "cup",
+                                                                                        "elements": "xícara",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -2742,7 +2854,7 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,4,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "pint",
+                                                                                        "elements": "pinta",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -2870,7 +2982,7 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,5,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "quart",
+                                                                                        "elements": "quarto",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -2998,7 +3110,7 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,6,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "gallon",
+                                                                                        "elements": "galão",
                                                                                         "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
                                                                                         "can_merge": true
                                                                                     }
@@ -3126,8 +3238,8 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,7,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "dry_pint",
-                                                                                        "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
+                                                                                        "elements": "pinta_seca",
+                                                                                        "format_id": "d1553805-04f8-4746-9439-8642a3372d3c",
                                                                                         "can_merge": true
                                                                                     }
                                                                                 ]
@@ -3254,8 +3366,8 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,8,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "dry_quart",
-                                                                                        "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
+                                                                                        "elements": "quarto_seco",
+                                                                                        "format_id": "d1553805-04f8-4746-9439-8642a3372d3c",
                                                                                         "can_merge": true
                                                                                     }
                                                                                 ]
@@ -3382,8 +3494,8 @@
                                                                                     {
                                                                                         "id": "0,6,0,0,9,0,0,0,1,0,0",
                                                                                         "type": 8,
-                                                                                        "elements": "dry_gallon",
-                                                                                        "format_id": "57a29ad7-df96-44fa-82b9-9c147d56b535",
+                                                                                        "elements": "galão_seco",
+                                                                                        "format_id": "d1553805-04f8-4746-9439-8642a3372d3c",
                                                                                         "can_merge": true
                                                                                     }
                                                                                 ]

@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "2a0f0252-4a34-4b67-9409-387f6fd80906",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1b075b90-66e6-4025-9175-491200c43aa0",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "986c7469-617a-4d0c-abf1-c125527ce47c",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e277510a-f8b7-4289-9c3e-3ae3ea5feb59",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "484743d3-f01f-48d0-9212-f4fa2eeb9215",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "67766156-bd20-4225-94f3-eb614b73a3e5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a6b968e4-c7a2-4f37-bf2a-ee5c7cf514ab",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e6c38f1b-b83d-40e5-9256-7eb02b9e45dc",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "0676ae72-cc5b-4657-9fa8-56cab3226f07",
             "family": "Arial",
             "size": 14,
@@ -605,7 +717,7 @@
                                                     {
                                                         "id": "0,1,0,0,0,0,1",
                                                         "type": 8,
-                                                        "elements": "income",
+                                                        "elements": "renda",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": false
                                                     },
@@ -645,7 +757,7 @@
                                                                     {
                                                                         "id": "0,1,0,0,0,0,2,2,1",
                                                                         "type": 8,
-                                                                        "elements": "$",
+                                                                        "elements": "R$",
                                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                                         "can_merge": false
                                                                     }
@@ -671,14 +783,14 @@
                                                     {
                                                         "id": "0,1,0,0,1,0,0",
                                                         "type": 8,
-                                                        "elements": "Purchase",
+                                                        "elements": "Compra",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,1,0,0,1,0,1",
                                                         "type": 8,
-                                                        "elements": "price",
+                                                        "elements": "preço",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": false
                                                     },
@@ -748,7 +860,7 @@
                                                                     {
                                                                         "id": "0,1,0,0,1,0,2,2,1",
                                                                         "type": 8,
-                                                                        "elements": "$",
+                                                                        "elements": "R$",
                                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                                         "can_merge": false
                                                                     }
@@ -774,14 +886,14 @@
                                                     {
                                                         "id": "0,1,0,0,2,0,0",
                                                         "type": 8,
-                                                        "elements": "Selling",
+                                                        "elements": "Venda",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,1,0,0,2,0,1",
                                                         "type": 8,
-                                                        "elements": "price",
+                                                        "elements": "preço",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": false
                                                     },
@@ -851,7 +963,7 @@
                                                                     {
                                                                         "id": "0,1,0,0,2,0,2,2,1",
                                                                         "type": 8,
-                                                                        "elements": "$",
+                                                                        "elements": "R$",
                                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                                         "can_merge": false
                                                                     }
@@ -884,7 +996,7 @@
                                                     {
                                                         "id": "0,1,0,0,3,0,1",
                                                         "type": 8,
-                                                        "elements": "yield",
+                                                        "elements": "rendimento",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": false
                                                     },
@@ -947,6 +1059,11 @@
                                                                                                 "id": "0,1,0,0,3,0,2,2,0,0,1,2",
                                                                                                 "type": 10,
                                                                                                 "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,3,0,2,2,0,0,1,3",
+                                                                                                "type": 10,
+                                                                                                "elements": []
                                                                                             }
                                                                                         ],
                                                                                         "symbol": "+"
@@ -1004,6 +1121,11 @@
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,3,0,2,2,0,0,3,2",
+                                                                                                "type": 10,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,3,0,2,2,0,0,3,3",
                                                                                                 "type": 10,
                                                                                                 "elements": []
                                                                                             }
@@ -1117,6 +1239,11 @@
                                                                                 "id": "0,1,0,0,3,0,2,2,1,2",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,3,0,2,2,1,3",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "·"
@@ -1150,21 +1277,21 @@
                                                     {
                                                         "id": "0,1,0,0,4,0,0",
                                                         "type": 8,
-                                                        "elements": "Result",
+                                                        "elements": "Resultado",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,1,0,0,4,0,1",
                                                         "type": 8,
-                                                        "elements": "in",
+                                                        "elements": "em",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": false
                                                     },
                                                     {
                                                         "id": "0,1,0,0,4,0,2",
                                                         "type": 8,
-                                                        "elements": "percentage",
+                                                        "elements": "porcentagem",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": false
                                                     },
@@ -1303,7 +1430,7 @@
                                                     {
                                                         "id": "0,3,0,0,0,0,0",
                                                         "type": 8,
-                                                        "elements": "Received",
+                                                        "elements": "Recebido",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": true
                                                     },
@@ -1350,7 +1477,7 @@
                                                                     {
                                                                         "id": "0,3,0,0,0,0,2,2,1",
                                                                         "type": 8,
-                                                                        "elements": "$",
+                                                                        "elements": "R$",
                                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                                         "can_merge": false
                                                                     }
@@ -1376,7 +1503,7 @@
                                                     {
                                                         "id": "0,3,0,0,1,0,0",
                                                         "type": 8,
-                                                        "elements": "Income",
+                                                        "elements": "Rendimento",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": true
                                                     },
@@ -1429,6 +1556,11 @@
                                                                             },
                                                                             {
                                                                                 "id": "0,3,0,0,1,0,1,2,1,2",
+                                                                                "type": 10,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,3,0,0,1,0,1,2,1,3",
                                                                                 "type": 10,
                                                                                 "elements": []
                                                                             }
@@ -1495,6 +1627,11 @@
                                                                                 "id": "0,3,0,0,1,0,1,2,3,3",
                                                                                 "type": 10,
                                                                                 "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,3,0,0,1,0,1,2,3,4",
+                                                                                "type": 10,
+                                                                                "elements": []
                                                                             }
                                                                         ],
                                                                         "symbol": "-"
@@ -1558,21 +1695,21 @@
                                                     {
                                                         "id": "0,3,0,0,2,0,0",
                                                         "type": 8,
-                                                        "elements": "Result",
+                                                        "elements": "Resultado",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": true
                                                     },
                                                     {
                                                         "id": "0,3,0,0,2,0,1",
                                                         "type": 8,
-                                                        "elements": "in",
+                                                        "elements": "em",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": false
                                                     },
                                                     {
                                                         "id": "0,3,0,0,2,0,2",
                                                         "type": 8,
-                                                        "elements": "dollars",
+                                                        "elements": "dólares",
                                                         "format_id": "2038c02e-f44f-437a-b333-a30d1909d2f0",
                                                         "can_merge": false
                                                     },

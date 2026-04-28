@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "32458455-1ffe-4412-8b9a-c09a706b8bc1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0beb0196-baff-4bd7-9e8b-c52f92e34840",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3e00a137-3582-4246-b492-ff9522653749",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "50a2406b-7ea9-4a08-a696-27946ec1eef2",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "90ff7257-b3c0-4dfd-8f97-b7ef9fbc6042",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b2eda26d-3dfc-409d-a6a5-12f94cad737c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8f6f855c-fe79-4558-8b10-683a25be4f3d",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c8c77bbd-4aa1-4258-8472-79eb09673725",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "97d4e9bb-2beb-455b-bd8f-73edc2409e82",
             "family": "Arial",
@@ -10676,7 +10788,8 @@
                                 "elements": "Перечисленные размерности будут использоваться при вычислениях при установке русского языка документа.",
                                 "format_id": "5f78129c-8e2f-4396-9523-4b0151d81f85"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10696,7 +10809,8 @@
                                 "elements": "Расстояние",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -10716,7 +10830,8 @@
                                 "elements": "• м - метр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10736,7 +10851,8 @@
                                 "elements": "• анг - ангстрем",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10756,7 +10872,8 @@
                                 "elements": "• нм - нанометр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10776,7 +10893,8 @@
                                 "elements": "• мкм - микрометр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10796,7 +10914,8 @@
                                 "elements": "• мм - миллиметр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10816,7 +10935,8 @@
                                 "elements": "• см - сантиметр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10836,7 +10956,8 @@
                                 "elements": "• дм - дециметр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10856,7 +10977,8 @@
                                 "elements": "• км - километр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10876,7 +10998,8 @@
                                 "elements": "Масса",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -10896,7 +11019,8 @@
                                 "elements": "• кг - килограмм \tвстроенная",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10916,7 +11040,8 @@
                                 "elements": "• мкг - микрограмм",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10936,7 +11061,8 @@
                                 "elements": "• мг - миллиграмм",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10956,7 +11082,8 @@
                                 "elements": "• г - грамм",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10976,7 +11103,8 @@
                                 "elements": "• т - тонна",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -10996,7 +11124,8 @@
                                 "elements": "Температура",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11016,7 +11145,8 @@
                                 "elements": "• К - кельвин",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11036,7 +11166,8 @@
                                 "elements": "• °C - цельсий",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11056,7 +11187,8 @@
                                 "elements": "Время",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11076,7 +11208,8 @@
                                 "elements": "• с - секунда",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11096,7 +11229,8 @@
                                 "elements": "• пс - пикосекунда",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11116,7 +11250,8 @@
                                 "elements": "• нс - наносекунда",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11136,7 +11271,8 @@
                                 "elements": "• мкс - микросекунда",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11156,7 +11292,8 @@
                                 "elements": "• мс - миллисекунда",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11176,7 +11313,8 @@
                                 "elements": "• мин - минута",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11196,7 +11334,8 @@
                                 "elements": "• час - час",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11216,7 +11355,8 @@
                                 "elements": "• сутки - сутки",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11236,7 +11376,8 @@
                                 "elements": "• неделя - неделя",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11256,7 +11397,8 @@
                                 "elements": "Сила тока",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11276,7 +11418,8 @@
                                 "elements": "• А - ампер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11296,7 +11439,8 @@
                                 "elements": "• мкА - микроампер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11316,7 +11460,8 @@
                                 "elements": "• мА - миллиампер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11336,7 +11481,8 @@
                                 "elements": "• кА - килоампер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11356,7 +11502,8 @@
                                 "elements": "• МА - мегаампер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11376,7 +11523,8 @@
                                 "elements": "Сила света",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11396,7 +11544,8 @@
                                 "elements": "• Кд - кандела",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11416,7 +11565,8 @@
                                 "elements": "• мкКд - микрокандела",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11436,7 +11586,8 @@
                                 "elements": "• мКд - милликандела",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11456,7 +11607,8 @@
                                 "elements": "• кКд - килокандела",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11476,7 +11628,8 @@
                                 "elements": "• МКд - мегакандела",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11496,7 +11649,8 @@
                                 "elements": "Количество вещества",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11516,7 +11670,8 @@
                                 "elements": "• моль - моль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11536,7 +11691,8 @@
                                 "elements": "Частота",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11556,7 +11712,8 @@
                                 "elements": "• Гц - герц",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11576,7 +11733,8 @@
                                 "elements": "• кГц - килогерц",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11596,7 +11754,8 @@
                                 "elements": "• МГц - мегагерц",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11616,7 +11775,8 @@
                                 "elements": "• ГГц - гигагерц",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11636,7 +11796,8 @@
                                 "elements": "Сила",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11656,7 +11817,8 @@
                                 "elements": "• Н - ньютон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11676,7 +11838,8 @@
                                 "elements": "• мкН - микроньютон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11696,7 +11859,8 @@
                                 "elements": "• мН - миллиньютон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11716,7 +11880,8 @@
                                 "elements": "• кН - килоньютон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11736,7 +11901,8 @@
                                 "elements": "• МН - меганьютон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11756,7 +11922,8 @@
                                 "elements": "Энергия",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11776,7 +11943,8 @@
                                 "elements": "• Дж - джоуль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11796,7 +11964,8 @@
                                 "elements": "• мкДж - микроджоуль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11816,7 +11985,8 @@
                                 "elements": "• мДж - миллиджоуль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11836,7 +12006,8 @@
                                 "elements": "• кДж - килоджоуль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11856,7 +12027,8 @@
                                 "elements": "• МДж - мегаджоуль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11876,7 +12048,8 @@
                                 "elements": "Мощность",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11896,7 +12069,8 @@
                                 "elements": "• Вт - ватт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11916,7 +12090,8 @@
                                 "elements": "• мкВт - микроватт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11936,7 +12111,8 @@
                                 "elements": "• мВт - милливатт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11956,7 +12132,8 @@
                                 "elements": "• кВт - киловатт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11976,7 +12153,8 @@
                                 "elements": "• МВт - мегаватт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11996,7 +12174,8 @@
                                 "elements": "Давление",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -12016,7 +12195,8 @@
                                 "elements": "• Па - паскаль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12036,7 +12216,8 @@
                                 "elements": "• мкПа - микропаскаль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12056,7 +12237,8 @@
                                 "elements": "• мПа - миллипаскаль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12076,7 +12258,8 @@
                                 "elements": "• кПа - килопаскаль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12096,7 +12279,8 @@
                                 "elements": "• МПа - мегапаскаль",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12116,7 +12300,8 @@
                                 "elements": "Световой поток",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -12136,7 +12321,8 @@
                                 "elements": "• лм - люмен",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12156,7 +12342,8 @@
                                 "elements": "• мклм - микролюмен",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12176,7 +12363,8 @@
                                 "elements": "• млм - миллилюмен",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12196,7 +12384,8 @@
                                 "elements": "• клм - килолюмен",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12216,7 +12405,8 @@
                                 "elements": "• Млм - мегалюмен",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12236,7 +12426,8 @@
                                 "elements": "Освещенность",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -12256,7 +12447,8 @@
                                 "elements": "• лк - люкс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12276,7 +12468,8 @@
                                 "elements": "• мклк - микролюкс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12296,7 +12489,8 @@
                                 "elements": "• млк - миллилюкс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12316,7 +12510,8 @@
                                 "elements": "• клк - килолюкс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12336,7 +12531,8 @@
                                 "elements": "• Млк - мегалюкс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12356,7 +12552,8 @@
                                 "elements": "Электрический заряд",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -12376,7 +12573,8 @@
                                 "elements": "• Кл - кулон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12396,7 +12594,8 @@
                                 "elements": "• мкКл - микрокулон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12416,7 +12615,8 @@
                                 "elements": "• мКл - милликулон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12436,7 +12636,8 @@
                                 "elements": "• кКл - килокулон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12456,7 +12657,8 @@
                                 "elements": "• Мкл - мегакулон",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12476,7 +12678,8 @@
                                 "elements": "Разность потенциалов",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -12496,7 +12699,8 @@
                                 "elements": "• В - вольт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12516,7 +12720,8 @@
                                 "elements": "• пВ - пиковольт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12536,7 +12741,8 @@
                                 "elements": "• нВ - нановольт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12556,7 +12762,8 @@
                                 "elements": "• мкВ - микровольт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12576,7 +12783,8 @@
                                 "elements": "• мВ - милливольт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12596,7 +12804,8 @@
                                 "elements": "• кВ - киловольт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12616,7 +12825,8 @@
                                 "elements": "• МВ - мегавольт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12636,7 +12846,8 @@
                                 "elements": "Электрическое сопротивление",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -12656,7 +12867,8 @@
                                 "elements": "• Ом - ом",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12676,7 +12888,8 @@
                                 "elements": "• мкОм - микроом",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12696,7 +12909,8 @@
                                 "elements": "• мОм - миллиом",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12716,7 +12930,8 @@
                                 "elements": "• кОм - килоом",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12736,7 +12951,8 @@
                                 "elements": "• МОм - мегаом",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12756,7 +12972,8 @@
                                 "elements": "Электроёмкость",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -12776,7 +12993,8 @@
                                 "elements": "• Ф - фарад",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12796,7 +13014,8 @@
                                 "elements": "• пФ - пикофарад",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12816,7 +13035,8 @@
                                 "elements": "• нФ - нанофарад",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12836,7 +13056,8 @@
                                 "elements": "• мкФ - микрофарад",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12856,7 +13077,8 @@
                                 "elements": "• мФ - миллифарад",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12876,7 +13098,8 @@
                                 "elements": "Магнитный поток",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -12896,7 +13119,8 @@
                                 "elements": "• Вб - вебер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12916,7 +13140,8 @@
                                 "elements": "• мкВб - микровебер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12936,7 +13161,8 @@
                                 "elements": "• мВб - милливебер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12956,7 +13182,8 @@
                                 "elements": "• кВб - киловебер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12976,7 +13203,8 @@
                                 "elements": "• МВб - мегавебер",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12996,7 +13224,8 @@
                                 "elements": "Магнитная индукция",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -13016,7 +13245,8 @@
                                 "elements": "• Тл - тесла",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13036,7 +13266,8 @@
                                 "elements": "• мкТл - микротексла",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13056,7 +13287,8 @@
                                 "elements": "• мТл - миллитесла",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13076,7 +13308,8 @@
                                 "elements": "• кТл - килотесла",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13096,7 +13329,8 @@
                                 "elements": "• МТл - мегатесла",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13116,7 +13350,8 @@
                                 "elements": "Индуктивность",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -13136,7 +13371,8 @@
                                 "elements": "• Гн - генри",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13156,7 +13392,8 @@
                                 "elements": "• пГн - пикогенри",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13176,7 +13413,8 @@
                                 "elements": "• нГн - наногенри",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13196,7 +13434,8 @@
                                 "elements": "• мкГн - микрогенри",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13216,7 +13455,8 @@
                                 "elements": "• мГн - миллигенри",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13236,7 +13476,8 @@
                                 "elements": "Электрическая проводимость",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -13256,7 +13497,8 @@
                                 "elements": "• См - сименс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13276,7 +13518,8 @@
                                 "elements": "• мкСм - микросименс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13296,7 +13539,8 @@
                                 "elements": "• мСм - миллисименс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13316,7 +13560,8 @@
                                 "elements": "• кСм - килосименс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13336,7 +13581,8 @@
                                 "elements": "• МСм - мегасименс",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13356,7 +13602,8 @@
                                 "elements": "Поглощенная доза ионизирующего излучения",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -13376,7 +13623,8 @@
                                 "elements": "• Гр - грэй",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13396,7 +13644,8 @@
                                 "elements": "• мкГр - микрогрэй",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13416,7 +13665,8 @@
                                 "elements": "• мГр - миллигрэй",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13436,7 +13686,8 @@
                                 "elements": "• кГр - килогрэй",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13456,7 +13707,8 @@
                                 "elements": "• МГр - мегагрэй",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13476,7 +13728,8 @@
                                 "elements": "Площадь",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -13496,7 +13749,8 @@
                                 "elements": "• ар - ар",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13516,7 +13770,8 @@
                                 "elements": "• га - гектар",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13536,7 +13791,8 @@
                                 "elements": "Объем",
                                 "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -13556,7 +13812,8 @@
                                 "elements": "• л - литр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13576,7 +13833,8 @@
                                 "elements": "• мкл - микролитр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13596,7 +13854,8 @@
                                 "elements": "• мл - миллилитр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13616,7 +13875,8 @@
                                 "elements": "• дл - децилитр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13636,7 +13896,8 @@
                                 "elements": "• дал - декалитр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13656,7 +13917,8 @@
                                 "elements": "• гл - гектолитр",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13676,7 +13938,8 @@
                                 "elements": "",
                                 "format_id": "14da2b8a-cae3-4ab5-8de9-5f3bd83288d8"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -13707,10 +13970,11 @@
                                 "id": "0,151,0,2",
                                 "type": 39,
                                 "elements": "Русская система мер ->",
-                                "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
+                                "format_id": "4fcada90-3427-40c4-b8d4-f5463e42ea04",
                                 "url": "./Русская система мер.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

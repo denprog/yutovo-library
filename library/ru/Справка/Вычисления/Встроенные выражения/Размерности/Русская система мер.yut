@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "960dbf98-694d-4749-a33d-473855f672cb",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "db12647b-c363-44d5-b0de-2f22f37ca701",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "14df1424-3516-45dd-9e88-fce29899f177",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1841cb9a-5937-4a0e-a58d-177d2af09d6c",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1d6aa1af-51eb-4d5c-8625-f2d7223ae624",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b50e4764-1f5e-4b09-b8c4-934a24c62b96",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4f23f219-2abe-46a9-b899-d28a70e78761",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4ee966f7-d405-4802-aaf2-915d0c8b9885",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "d4e503f6-1980-48b8-a7bf-e783a956a4c5",
             "family": "Arial",
@@ -11244,7 +11348,8 @@
                                 "elements": "Перечисленные размерности будут использоваться при вычислениях при установке русского языка документа.",
                                 "format_id": "5f78129c-8e2f-4396-9523-4b0151d81f85"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11264,7 +11369,8 @@
                                 "elements": "Расстояние",
                                 "format_id": "af1e3006-ba75-4e4a-9f34-5f7ee643020a"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11284,7 +11390,8 @@
                                 "elements": "• точка",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11304,7 +11411,8 @@
                                 "elements": "• линия",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11324,7 +11432,8 @@
                                 "elements": "• сотка",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11344,7 +11453,8 @@
                                 "elements": "• дюйм",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11364,7 +11474,8 @@
                                 "elements": "• вершок",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11384,7 +11495,8 @@
                                 "elements": "• четверть",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11404,7 +11516,8 @@
                                 "elements": "• фут",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11424,7 +11537,8 @@
                                 "elements": "• аршин",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11444,7 +11558,8 @@
                                 "elements": "• сажень",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11464,7 +11579,8 @@
                                 "elements": "• верста",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11484,7 +11600,8 @@
                                 "elements": "Масса",
                                 "format_id": "af1e3006-ba75-4e4a-9f34-5f7ee643020a"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11504,7 +11621,8 @@
                                 "elements": "• фунт",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11524,7 +11642,8 @@
                                 "elements": "• батман",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11544,7 +11663,8 @@
                                 "elements": "• пуд",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11564,7 +11684,8 @@
                                 "elements": "• безмен",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11584,7 +11705,8 @@
                                 "elements": "• конгарь",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11604,7 +11726,8 @@
                                 "elements": "• пирог",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11624,7 +11747,8 @@
                                 "elements": "• золотник",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11644,7 +11768,8 @@
                                 "elements": "• доля",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11664,7 +11789,8 @@
                                 "elements": "• почка",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11684,7 +11810,8 @@
                                 "elements": "• лот",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11704,7 +11831,8 @@
                                 "elements": "Время",
                                 "format_id": "af1e3006-ba75-4e4a-9f34-5f7ee643020a"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11724,7 +11852,8 @@
                                 "elements": "• с - секунда",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11744,7 +11873,8 @@
                                 "elements": "• мин - минута",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11764,7 +11894,8 @@
                                 "elements": "• час - час",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11784,7 +11915,8 @@
                                 "elements": "Объём",
                                 "format_id": "af1e3006-ba75-4e4a-9f34-5f7ee643020a"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11804,7 +11936,8 @@
                                 "elements": "• стакан",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11824,7 +11957,8 @@
                                 "elements": "• полигарнец",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11844,7 +11978,8 @@
                                 "elements": "• гарнец",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11864,7 +11999,8 @@
                                 "elements": "• четверик",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11884,7 +12020,8 @@
                                 "elements": "• осмина",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11904,7 +12041,8 @@
                                 "elements": "• полосмины",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11924,7 +12062,8 @@
                                 "elements": "• чет",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11944,7 +12083,8 @@
                                 "elements": "• половник",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11964,7 +12104,8 @@
                                 "elements": "• кадка",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11984,7 +12125,8 @@
                                 "elements": "• шкалик",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12004,7 +12146,8 @@
                                 "elements": "• чарка",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12024,7 +12167,8 @@
                                 "elements": "• косушка",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12044,7 +12188,8 @@
                                 "elements": "• штоф",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12064,7 +12209,8 @@
                                 "elements": "• ведро",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12084,7 +12230,8 @@
                                 "elements": "• бочка",
                                 "format_id": "10e44d8c-f76a-46ac-9807-942720727dfc"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12104,7 +12251,8 @@
                                 "elements": "",
                                 "format_id": "119c0824-e326-4a33-9af5-6461f0dbfa6b"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -12122,7 +12270,7 @@
                                 "id": "0,44,0,0",
                                 "type": 39,
                                 "elements": "<- Система СИ",
-                                "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
+                                "format_id": "4fcada90-3427-40c4-b8d4-f5463e42ea04",
                                 "url": "./Система СИ.yut"
                             },
                             {
@@ -12135,10 +12283,11 @@
                                 "id": "0,44,0,2",
                                 "type": 39,
                                 "elements": "Американская система мер ->",
-                                "format_id": "4fcada90-3427-40c4-b8d4-f5463e42ea04",
+                                "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "./Американская система мер.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

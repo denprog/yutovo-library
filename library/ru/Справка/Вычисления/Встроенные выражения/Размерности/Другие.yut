@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,8 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +61,130 @@
                 "show_angle_measure": true,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "20e14655-0b4d-41a9-86fa-447b5e760023",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ba109586-efc4-41c5-a8bd-4ba80e4a9462",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e78dbe5f-d654-46e7-bf15-79a021a33086",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "90a3fd2d-d468-46c8-bce9-ddc62a4bdf00",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "919d0fe8-2af8-44f1-88f9-6979ff2eff62",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cbcc2e32-43aa-4f06-a768-043caca903ef",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "61778091-08e2-4c1a-beba-0e6eb50ea348",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "75d007ca-4d78-4382-811a-20249dc11c7b",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "3bf4cc0a-87d1-45a9-bbc5-de2a54cc55da",
             "family": "Arial",
@@ -11684,7 +11796,8 @@
                                 "elements": "Информация",
                                 "format_id": "a0554463-7e2e-4745-b984-f77a5be97d82"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -11704,7 +11817,8 @@
                                 "elements": "• бит",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11724,7 +11838,8 @@
                                 "elements": "• байт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11744,7 +11859,8 @@
                                 "elements": "• кбайт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11764,7 +11880,8 @@
                                 "elements": "• Мбайт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11784,7 +11901,8 @@
                                 "elements": "• Гбайт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11804,7 +11922,8 @@
                                 "elements": "• Тбайт",
                                 "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11824,7 +11943,8 @@
                                 "elements": "",
                                 "format_id": "6e674cfd-448d-4647-acf1-2abd27c6d116"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -11841,9 +11961,9 @@
                             {
                                 "id": "0,8,0,0",
                                 "type": 39,
-                                "elements": "<- Русская система мер",
+                                "elements": "<- Американская система мер",
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
-                                "url": "./Русская система мер.yut"
+                                "url": "./Американская система мер.yut"
                             },
                             {
                                 "id": "0,8,0,1",
@@ -11858,7 +11978,8 @@
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "../../Размерности/Основные сведения.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

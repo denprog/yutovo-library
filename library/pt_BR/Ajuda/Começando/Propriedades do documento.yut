@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "9020ebb7-617e-4274-85e4-301c2ec86e37",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8471598c-ab9f-432a-98c8-9a1a0d88ee6d",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2e5df23d-98e3-4590-8ad9-163d7890c4cd",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a20b203c-8822-401a-b3d6-e482e763fcd4",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9a29dd9d-a890-4c09-918c-fc2b866fef4a",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fabd2232-2663-476e-9a2d-8ef9e8ef1239",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f7ca6f6d-c637-490a-92b6-5e38bda803bb",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "00de71b1-e476-424c-bda1-f7aea1d13706",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "7a0e63cc-8b71-483f-a401-89e17085ef7a",
             "family": "Arial",
             "size": 14,
@@ -468,7 +580,8 @@
                                 "elements": ".",
                                 "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -488,7 +601,8 @@
                                 "elements": "Aba Resultado",
                                 "format_id": "5cbe4fdb-b245-4bc6-ac2e-68cd8252f8fd"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -508,7 +622,8 @@
                                 "elements": "Esta aba lista as configurações padrão para avaliar expressões.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -525,22 +640,11 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Real, Inteiro, Racional, Complexo - estas abas exibem os parâmetros padrão para estes resultados. Eles podem ser alterados para cada resultado ",
+                                "elements": "• Real, Inteiro, Racional, Complexo - estas abas exibem os parâmetros padrão para estes resultados. Eles podem ser alterados para cada resultado eles pelo menu de contexto.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,3,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,1,0",
-                                "type": 4,
-                                "elements": "eles pelo menu de contexto.",
-                                "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
-                            }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -560,7 +664,8 @@
                                 "elements": "Aba Documento",
                                 "format_id": "5cbe4fdb-b245-4bc6-ac2e-68cd8252f8fd"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -577,22 +682,11 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Localidade - O idioma atual do documento. Determina o conjunto de unidades e algumas variáveis. Por exemplo, e",
+                                "elements": "• Localidade - O idioma atual do documento. Determina o conjunto de unidades e algumas variáveis. Por exemplo, em inglês, a unidade imaginária é \"i,\" enquanto",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,5,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,1,0",
-                                "type": 4,
-                                "elements": "m inglês, a unidade imaginária é \"i,\" enquanto",
-                                "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
-                            }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -612,7 +706,8 @@
                                 "elements": "Aba Documento",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -632,7 +727,8 @@
                                 "elements": "Aba Documentos Incluídos",
                                 "format_id": "5cbe4fdb-b245-4bc6-ac2e-68cd8252f8fd"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -656,7 +752,7 @@
                                 "id": "0,8,0,1",
                                 "type": 39,
                                 "elements": "Documentos incluídos",
-                                "format_id": "1fa0c77f-a7b1-4a5c-901d-398660b40c31",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
                                 "url": "../Cálculos/Documentos incluídos.yut"
                             },
                             {
@@ -665,7 +761,64 @@
                                 "elements": "usado por este documento.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
+                    }
+                ],
+                "format_name": "Corpo do texto",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,9",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,9,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,9,0,0",
+                                "type": 4,
+                                "elements": "",
+                                "format_id": "9020ebb7-617e-4274-85e4-301c2ec86e37"
+                            }
+                        ],
+                        "format_name": "Corpo do texto"
+                    }
+                ],
+                "format_name": "Corpo do texto",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,10",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,10,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,10,0,0",
+                                "type": 39,
+                                "elements": "<- Cursor",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
+                                "url": "./Cursor.yut"
+                            },
+                            {
+                                "id": "0,10,0,1",
+                                "type": 4,
+                                "elements": " ",
+                                "format_id": "9020ebb7-617e-4274-85e4-301c2ec86e37"
+                            },
+                            {
+                                "id": "0,10,0,2",
+                                "type": 39,
+                                "elements": "Cálculos/Realização de cálculos ->",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
+                                "url": "../Cálculos/Realização de cálculos.yut"
+                            }
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",

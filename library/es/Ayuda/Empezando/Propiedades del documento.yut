@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "643de1c9-caf5-449f-ab3d-e21557fd026b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7db99fe4-bf69-41ad-9eaa-728e8c3db850",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "819d3d79-4b39-4e4f-b4d5-025534d5d957",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "226ee9ea-6e4d-46e4-a503-aade941b63dc",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "865160c0-6e66-4b76-b59c-81db7b4ed457",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e3ad5330-ee47-4ff5-9c0e-683af1e88c75",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0c8e5997-f0b2-4237-a49a-2b5001669b34",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dc388df5-6b03-46cd-9090-1e96ba19e652",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8",
             "family": "Arial",
             "size": 14,
@@ -453,34 +565,23 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Cada documento tiene un conjunto de ajustes que se configuran en el cuadro de diálogo Propiedades del documento, al que se accede haciendo ",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "clic en el botón ",
+                                "elements": "Cada documento tiene un conjunto de ajustes que se configuran en el cuadro de diálogo Propiedades del documento, al que se accede haciendo clic en el botón ",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             },
                             {
-                                "id": "0,0,1,1",
+                                "id": "0,0,0,1",
                                 "type": 34,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABNUlEQVQ4jWO8dukCAwWAiRLNdNT/7du3vgkTv337Rqb+v//+PXr0+O/fv2jiLHBWT1//w0ePMHXa29mGBAUxMDA8e/G8rLKKhYWFgYFBTk6utKgQRX9JUSF+J0hJSDY31vPy8pLjflYWFj09XVZWVjRxRsz4//vv35MnT2RkZJiZCJuORcW3b9+mTpuOGdRYAcL/x46f+PjxIwMDw/fv39++e8fw/z8DA8O169cfPsQSqPz8/FaWFij6GRgY/jP8x1SKVRCL/RDzGBgYPn/5cuLkSQZGRgYGBi1NTS1NTTz6aRB+zExM8nJyEM3r1m/48OEDafqRwfWbN3/8+IFHAfb0KyEuXlSQz8nJycDAUNfQxM7BjqZNXk6uhMj029RQJyEhQab7pSQlMdMsMsAS/iQBSssfAFdrcpXVOgcnAAAAAElFTkSuQmCC"
                             },
                             {
-                                "id": "0,0,1,2",
+                                "id": "0,0,0,2",
                                 "type": 4,
                                 "elements": ".",
                                 "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -500,7 +601,8 @@
                                 "elements": "Pestaña Resultado",
                                 "format_id": "0fa3749e-c2e5-4d92-8823-f993b95f1a09"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -520,7 +622,8 @@
                                 "elements": "Esta pestaña muestra los ajustes predeterminados para evaluar expresiones.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -537,22 +640,11 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Reales, Enteros, Racionales, Complejos: estas pestañas muestran los parámetros predeterminados para estos resultados. Se pueden cambiar ",
+                                "elements": "• Reales, Enteros, Racionales, Complejos: estas pestañas muestran los parámetros predeterminados para estos resultados. Se pueden cambiar para cada resultado seleccionándolos en el menú contextual.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,3,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,1,0",
-                                "type": 4,
-                                "elements": "para cada resultado seleccionándolos en el menú contextual.",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
-                            }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -572,7 +664,8 @@
                                 "elements": "Pestaña Documento",
                                 "format_id": "0fa3749e-c2e5-4d92-8823-f993b95f1a09"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -589,22 +682,11 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Idioma: el idioma del documento actual. Determina el conjunto de unidades y algunas variables. Por ejemplo, en inglés, la unidad imaginaria es ",
+                                "elements": "• Idioma: el idioma del documento actual. Determina el conjunto de unidades y algunas variables. Por ejemplo, en inglés, la unidad imaginaria es \"i\", mientras que en ruso es \"j\". Las unidades se escriben en su propio idioma.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,5,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,1,0",
-                                "type": 4,
-                                "elements": "\"i\", mientras que en ruso es \"j\". Las unidades se escriben en su propio idioma.",
-                                "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
-                            }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -624,7 +706,8 @@
                                 "elements": "• Tabulación: utilice tabulaciones o un número específico de espacios.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -644,7 +727,8 @@
                                 "elements": "Pestaña Documentos incluidos",
                                 "format_id": "0fa3749e-c2e5-4d92-8823-f993b95f1a09"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -668,7 +752,7 @@
                                 "id": "0,8,0,1",
                                 "type": 39,
                                 "elements": "documentos incluidos",
-                                "format_id": "1fa0c77f-a7b1-4a5c-901d-398660b40c31",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
                                 "url": "../Cálculos/Documentos incluidos.yut"
                             },
                             {
@@ -677,7 +761,64 @@
                                 "elements": " utilizados por este documento.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
+                    }
+                ],
+                "format_name": "Cuerpo de texto",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,9",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,9,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,9,0,0",
+                                "type": 4,
+                                "elements": "",
+                                "format_id": "643de1c9-caf5-449f-ab3d-e21557fd026b"
+                            }
+                        ],
+                        "format_name": "Cuerpo de texto"
+                    }
+                ],
+                "format_name": "Cuerpo de texto",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,10",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,10,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,10,0,0",
+                                "type": 39,
+                                "elements": "<- Cursor",
+                                "format_id": "1fa0c77f-a7b1-4a5c-901d-398660b40c31",
+                                "url": "./Cursor.yut"
+                            },
+                            {
+                                "id": "0,10,0,1",
+                                "type": 4,
+                                "elements": " ",
+                                "format_id": "643de1c9-caf5-449f-ab3d-e21557fd026b"
+                            },
+                            {
+                                "id": "0,10,0,2",
+                                "type": 39,
+                                "elements": "Cálculos/Realización de cálculos ->",
+                                "format_id": "1fa0c77f-a7b1-4a5c-901d-398660b40c31",
+                                "url": "../Cálculos/Realización de cálculos.yut"
+                            }
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",

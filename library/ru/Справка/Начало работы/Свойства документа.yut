@@ -74,6 +74,118 @@
     },
     "string_formats": [
         {
+            "id": "85d9298a-e02f-449e-8469-2029d4dd374d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7e7eb237-ea21-497e-a4c1-cb63b388a211",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3130fb39-5d48-4dde-9f0b-6df26bbee0cc",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "32a4140f-d01a-46e7-beee-d09b4d2a77bf",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3f30fa01-df14-43a4-97b5-51b517c9e453",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e1cc640c-0a08-4be2-b41f-4da9555e70b0",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e059577c-d214-45cc-bbb0-18098672a205",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "40faad84-c135-43b8-be82-7b73e37404a9",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
             "id": "a8a4538b-5855-4732-b7be-6e00fae70656",
             "family": "Arial",
             "size": 14,
@@ -338,6 +450,34 @@
             "text_color": 4294928820,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0c3688db-d1f2-4330-9694-3653c680211d",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d7dbc119-d4ee-4a78-8699-7002385c3e62",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -468,7 +608,8 @@
                                 "elements": ".",
                                 "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -488,7 +629,8 @@
                                 "elements": "Вкладка Результат",
                                 "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -508,7 +650,8 @@
                                 "elements": "Здесь перечислены настройки по умолчанию для вычисления выражений.",
                                 "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -525,22 +668,11 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Вещественные, Целые, Дробные, Комплексные - на этих вкладках представлены параметры этих результатов по умолчанию. В ",
+                                "elements": "• Автоподбор результата - при вычислении выражения будут последовательно перебираться варианты типов результатов, перечисленные в таблице ниже, до тех пор, пока выражение не будет успешно вычислено. Если все варианты выдали ошибки, вернется ошибка для первого варианта вычислений.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,3,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,1,0",
-                                "type": 4,
-                                "elements": "дальнейшем их можно менять для каждого результата путем выбора из контексного меню.",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -557,13 +689,14 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "Вкладка Документ",
-                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
+                                "elements": "• Порядок подбора результата - в таком порядке будут перебираться варианты вычисления текущего выражения. Чаще всего выражения вычисляются в вещественных числах, поэтому этот вариант стоит первым по умолчанию. Например, чтобы в первую очередь представлять выражение в виде правильной дроби, поставьте Дробные на первое место.",
+                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
-                "format_name": "Заголовок 4",
+                "format_name": "Основной текст",
                 "format_alignment": 0
             },
             {
@@ -577,22 +710,11 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Язык - текущий язык документа. От него зависят набор размерностей и некоторых переменных. Например, для английского языка ",
+                                "elements": "• Вещественные, Целые, Дробные, Комплексные - на этих вкладках представлены параметры этих результатов по умолчанию. В дальнейшем их можно менять для каждого результата путем выбора из контексного меню.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,5,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,1,0",
-                                "type": 4,
-                                "elements": "мнимая единица - это \"i\", а для русского - \"j\". Размерности пишутся на своем языке.",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -609,13 +731,14 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "• Табуляция - использовать символы табуляции или определенное количество пробелов взамен этого.",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
+                                "elements": "Вкладка Документ",
+                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
-                "format_name": "Основной текст",
+                "format_name": "Заголовок 4",
                 "format_alignment": 0
             },
             {
@@ -629,13 +752,14 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "Вкладка Подключенные документы",
-                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
+                                "elements": "• Язык - текущий язык документа. От него зависят набор размерностей и некоторых переменных. Например, для английского языка мнимая единица - это \"i\", а для русского - \"j\". Размерности пишутся на своем языке.",
+                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
-                "format_name": "Заголовок 4",
+                "format_name": "Основной текст",
                 "format_alignment": 0
             },
             {
@@ -649,23 +773,122 @@
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
+                                "elements": "• Табуляция - использовать символы табуляции или определенное количество пробелов взамен этого.",
+                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
+                            }
+                        ],
+                        "format_name": "Основной текст"
+                    }
+                ],
+                "format_name": "Основной текст",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,9",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,9,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,9,0,0",
+                                "type": 4,
+                                "elements": "Вкладка Подключенные документы",
+                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
+                            }
+                        ],
+                        "format_name": "Заголовок 4"
+                    }
+                ],
+                "format_name": "Заголовок 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,10",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,10,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,10,0,0",
+                                "type": 4,
                                 "elements": "Здесь задается список ",
                                 "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
                             },
                             {
-                                "id": "0,8,0,1",
+                                "id": "0,10,0,1",
                                 "type": 39,
                                 "elements": "подключенных документов",
                                 "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
                                 "url": "../Вычисления/Подключаемые документы.yut"
                             },
                             {
-                                "id": "0,8,0,2",
+                                "id": "0,10,0,2",
                                 "type": 4,
                                 "elements": ", которые используются данным документом.",
                                 "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
+                    }
+                ],
+                "format_name": "Основной текст",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,11",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,11,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,11,0,0",
+                                "type": 4,
+                                "elements": "",
+                                "format_id": "85d9298a-e02f-449e-8469-2029d4dd374d"
+                            }
+                        ],
+                        "format_name": "Основной текст"
+                    }
+                ],
+                "format_name": "Основной текст",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,12",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,12,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,12,0,0",
+                                "type": 39,
+                                "elements": "<- Курсор",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
+                                "url": "./Курсор.yut"
+                            },
+                            {
+                                "id": "0,12,0,1",
+                                "type": 4,
+                                "elements": " ",
+                                "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
+                            },
+                            {
+                                "id": "0,12,0,2",
+                                "type": 39,
+                                "elements": "Вычисления/Выполнение вычислений ->",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
+                                "url": "../Вычисления/Выполнение вычислений.yut"
+                            }
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

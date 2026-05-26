@@ -4,15 +4,7 @@
         "language": 4,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,11 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +64,149 @@
                 "show_angle_measure": true,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "a55a4345-6acd-4f41-a931-7dabdaf8445a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "584cc609-6b33-4acb-bab1-0792980d403b",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e1f554c0-3b96-4a65-9a90-5b65212b5775",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4c020c5c-15a4-4fb5-8784-e916c3113b02",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "480f8200-527d-4ebf-ab20-6a5b436eea56",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "24590b26-de0f-46c4-aa87-614fdf6fbd6c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5d33427d-a0b1-4b63-a765-c8faf8713513",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "41b9e7b8-6def-4605-96ae-b04733cbc5b9",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "9f7088fa-7d46-48c9-bccc-01e973dc0ad0",
             "family": "Arial",
@@ -8500,6 +8634,202 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "504e68fe-82db-45aa-aec2-89aac48d5c9c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "21afa144-5407-4983-ad08-6788bdf5efbc",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2d8aa7f3-9ef4-42cf-abde-cf9165a80c52",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "db8ee7d0-96fe-4dd8-9bed-e5577e18a1b9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f24a045b-b2a7-40dd-b46a-e84df1011eb7",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7c6620b3-c2e3-4fcb-b721-9088527d4116",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4148cfb5-18c2-4b66-9278-e9c19b161473",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8ec24e11-fd69-422a-8cb8-1c2896afa40d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4604b0a0-9d52-4937-ae4e-6d720119460f",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "30b78865-90a9-4279-b532-fe7d5894b6e5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3edea80b-e8bc-4acf-af54-b53642c66d71",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "441813f5-044c-4dfb-baab-c379a9a4a908",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b1e6c05b-d1a0-4bc6-bc56-a8dcf9875caf",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "df83741c-fd04-454b-bcc3-46bc43ba7062",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -8607,18 +8937,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Usuários registrados têm acesso a um espaço no ",
-                                "format_id": "409eb958-0f70-402c-9c41-26109eef7188"
+                                "level": 1,
+                                "elements": "Usuários registrados têm acesso a um espaço no site para publicar seus documentos.",
+                                "format_id": "a55a4345-6acd-4f41-a931-7dabdaf8445a"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -8627,30 +8961,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "O registro do usuário é feito na caixa de diálogo de registro inserindo seus dados. Uma carta com um código será enviada para ",
-                                "format_id": "409eb958-0f70-402c-9c41-26109eef7188"
+                                "level": 1,
+                                "elements": "O cadastro do usuário é concluído por meio da caixa de diálogo de registro, inserindo seus dados. Um e-mail contendo um código será enviado para o endereço de e-mail especificado, que deverá ser inserido para confirmar o cadastro.",
+                                "format_id": "a55a4345-6acd-4f41-a931-7dabdaf8445a"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "email especificado, que deve ser inserido para confirmar o registro.",
-                                "format_id": "409eb958-0f70-402c-9c41-26109eef7188"
-                            }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -8659,18 +8985,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
-                                "format_id": "65a96a7f-33df-4c4e-964c-1a0bd71a1982"
+                                "format_id": "a55a4345-6acd-4f41-a931-7dabdaf8445a"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -8679,14 +9009,17 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "<- Edição/Números",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "../Edição/Números.yut"
@@ -8694,17 +9027,20 @@
                             {
                                 "id": "0,3,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,3,0,2",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "Documentos de usuário ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Documentos de usuário.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",

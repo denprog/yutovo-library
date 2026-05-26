@@ -4,15 +4,7 @@
         "language": 3,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -81,6 +73,118 @@
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "7a5968de-c620-410d-90cd-17a4ff328ed5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d6b5a1b6-7f5d-4e81-b115-1af6ba925c28",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7cc4832c-6d81-4b5b-9b1e-ae9f12f474bb",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f232300c-1c7a-40c1-8ada-19d56f7d8a32",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "34468bdf-7d36-4a70-8396-c89bd698a88c",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0fe44102-f2ff-4a2c-9dbc-d0dbcffe762b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "20abfa09-2bb6-4440-b089-4269b8f5f853",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fc29d8a5-f6a0-4c63-a25a-3b4b7678d785",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "760c9356-641b-428f-bfaf-79c967cdd869",
             "family": "Arial",
@@ -7612,11 +7716,25 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "396fbeaf-b664-4247-9b8a-3de1b8226fc0",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
         {
-            "name": "Cuerpo de texto",
+            "name": "Text body",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7628,7 +7746,7 @@
             "default_string_format": "83d7c457-5757-4c0b-bf63-ea2c105f683d"
         },
         {
-            "name": "Encabezado 1",
+            "name": "Header 1",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7640,7 +7758,7 @@
             "default_string_format": "a7eb343b-c0c5-43ca-a942-d6ba0476b0f8"
         },
         {
-            "name": "Encabezado 2",
+            "name": "Header 2",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7652,7 +7770,7 @@
             "default_string_format": "12871223-d923-43d4-8f55-cb07794dd05a"
         },
         {
-            "name": "Encabezado 3",
+            "name": "Header 3",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7664,7 +7782,7 @@
             "default_string_format": "ea5acabf-5617-4892-bb52-8090728b097c"
         },
         {
-            "name": "Encabezado 4",
+            "name": "Header 4",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7676,7 +7794,7 @@
             "default_string_format": "6f5397a9-ee0e-4a6d-9f24-725296b87753"
         },
         {
-            "name": "Ejemplo",
+            "name": "Example",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7688,7 +7806,7 @@
             "default_string_format": "a06403ed-dedb-47cc-b9c7-11cb30e77ec7"
         },
         {
-            "name": "Monoespaciado",
+            "name": "Monospace",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7700,7 +7818,7 @@
             "default_string_format": "5f29012f-3c24-4795-8568-7c3e011d38e8"
         },
         {
-            "name": "Código",
+            "name": "Code",
             "alignment": 0,
             "word_wrap": 0,
             "line_spacing": 2,
@@ -7727,25 +7845,26 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Los usuarios registrados tienen acceso a un espacio en el sitio para colocar sus documentos. El registro se realiza en el cuadro de diálogo de registro, ingresando sus datos. Se enviará un correo ",
-                                "format_id": "760c9356-641b-428f-bfaf-79c967cdd869"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
+                                "elements": "Los usuarios registrados tienen acceso a un espacio en el ",
+                                "format_id": "7a5968de-c620-410d-90cd-17a4ff328ed5"
+                            },
                             {
-                                "id": "0,0,1,0",
+                                "id": "0,0,0,1",
+                                "type": 39,
+                                "elements": "sitio",
+                                "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
+                                "url": "https://yutovo.com"
+                            },
+                            {
+                                "id": "0,0,0,2",
                                 "type": 4,
-                                "elements": "electrónico con un código a la dirección de correo electrónico especificada, que deberá ingresar para confirmar el registro.",
-                                "format_id": "760c9356-641b-428f-bfaf-79c967cdd869"
+                                "elements": " web para publicar sus documentos. Actualmente, solo se puede acceder a ellos a través del sitio web.",
+                                "format_id": "7a5968de-c620-410d-90cd-17a4ff328ed5"
                             }
                         ]
                     }
                 ],
-                "format_name": "Cuerpo de texto",
+                "format_name": "Text body",
                 "format_alignment": 0
             },
             {
@@ -7759,13 +7878,25 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "",
-                                "format_id": "6746e00d-d628-484e-9a1c-393da9b1ee0f"
+                                "elements": "El registro se realiza en el cuadro de diálogo de registro, ingresando sus datos. Se enviará un correo electrónico con un código a la dirección de correo electrónico especificada, que deberá ingresar para ",
+                                "format_id": "760c9356-641b-428f-bfaf-79c967cdd869"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,1,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,1,1,0",
+                                "type": 4,
+                                "elements": "confirmar el registro.",
+                                "format_id": "760c9356-641b-428f-bfaf-79c967cdd869"
                             }
                         ]
                     }
                 ],
-                "format_name": "Cuerpo de texto",
+                "format_name": "Text body",
                 "format_alignment": 0
             },
             {
@@ -7778,19 +7909,39 @@
                         "elements": [
                             {
                                 "id": "0,2,0,0",
+                                "type": 4,
+                                "elements": "",
+                                "format_id": "6746e00d-d628-484e-9a1c-393da9b1ee0f"
+                            }
+                        ]
+                    }
+                ],
+                "format_name": "Text body",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,3",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,3,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,3,0,0",
                                 "type": 39,
                                 "elements": "<- Edición/Números",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "../Edición/Números.yut"
                             },
                             {
-                                "id": "0,2,0,1",
+                                "id": "0,3,0,1",
                                 "type": 4,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
-                                "id": "0,2,0,2",
+                                "id": "0,3,0,2",
                                 "type": 39,
                                 "elements": "Documentos de usuario ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
@@ -7799,7 +7950,7 @@
                         ]
                     }
                 ],
-                "format_name": "Cuerpo de texto",
+                "format_name": "Text body",
                 "format_alignment": 0
             }
         ]

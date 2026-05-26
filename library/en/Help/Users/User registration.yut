@@ -36,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,13 +71,32 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
         {
-            "id": "7174883a-1af4-4bc2-938f-1d87e2ed431b",
+            "id": "789314f8-f386-4175-b3f8-4eb707120e35",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -88,7 +110,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "09e3f4c2-4e28-4670-a534-8678d558b07c",
+            "id": "bb3e044b-5f1e-4521-b730-0c554c34f8ef",
             "family": "Arial",
             "size": 30,
             "bold": true,
@@ -102,7 +124,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "0e3c3a6a-db53-4fb5-a8ce-019fd2ac1678",
+            "id": "603f429c-e550-44b3-93f4-c8f52a71e8c6",
             "family": "Arial",
             "size": 26,
             "bold": true,
@@ -116,7 +138,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "2535d406-dab5-41b1-b750-1a21d87c87e6",
+            "id": "f0e7db8e-7e6d-4dc7-8089-0cb02895d050",
             "family": "Arial",
             "size": 22,
             "bold": true,
@@ -130,7 +152,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "1e557d41-cb96-4641-87a3-9519ed5a5041",
+            "id": "0c6e3f96-174d-40f0-8c0c-4c9c270ecec2",
             "family": "Arial",
             "size": 16,
             "bold": true,
@@ -144,7 +166,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "8428792b-775b-41dd-b92c-cbf9dd76d16a",
+            "id": "819adcac-2529-45e4-986a-48818fc38a61",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -158,7 +180,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "3494aaaf-9cbc-4989-a93d-586dce0c8b42",
+            "id": "475381e7-1dae-47f4-9cb2-22c081a3142e",
             "family": "Courier New",
             "size": 12,
             "bold": false,
@@ -172,7 +194,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "e21bb36b-b13f-4025-8bb3-a1deaff16ea0",
+            "id": "4eafc00f-0df3-4c19-a7c1-c3fd47a61777",
             "family": "FreeMono",
             "size": 14,
             "bold": false,
@@ -8614,7 +8636,21 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "c4e69609-41f6-49c6-ae39-13186d50083f",
+            "id": "2853ecf7-0715-4930-95b2-a7707854881b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "958c2640-0ef7-4b0e-8941-331c7ba7ef29",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -8733,31 +8769,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Registered users have access to a space on the ",
-                                "format_id": "7174883a-1af4-4bc2-938f-1d87e2ed431b"
-                            },
-                            {
-                                "id": "0,0,0,1",
-                                "type": 39,
-                                "elements": "website",
-                                "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "https://yutovo.com"
-                            },
-                            {
-                                "id": "0,0,0,2",
-                                "type": 4,
-                                "elements": " to post their documents. Currently, these documents can only be accessed on the website.",
-                                "format_id": "7174883a-1af4-4bc2-938f-1d87e2ed431b"
+                                "level": 1,
+                                "elements": "Registered users have access to the space on the site to place their documents.",
+                                "format_id": "409eb958-0f70-402c-9c41-26109eef7188"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8766,18 +8793,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "User registration is done in the registration dialog by entering their data. A letter with a code will be sent to the specified email, which must be entered to confirm registration.",
                                 "format_id": "409eb958-0f70-402c-9c41-26109eef7188"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8786,18 +8817,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "65a96a7f-33df-4c4e-964c-1a0bd71a1982"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8806,32 +8841,38 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "<- Editing/Numbers",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "../Editing/Numbers.yut"
+                                "url": "../Editing/Numbers"
                             },
                             {
                                 "id": "0,3,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,3,0,2",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "User documents ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "./User documents.yut"
+                                "url": "./User documents"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

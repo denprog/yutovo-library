@@ -36,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,13 +71,32 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
         {
-            "id": "32b5a83e-2f55-467e-af44-84d26bffafdc",
+            "id": "08eafa5a-33ce-47d8-9e7c-9a298259050d",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -88,7 +110,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "c96ca1cd-1059-4189-b488-cd9b03073172",
+            "id": "9ef7b81c-d842-464e-bee9-2e087369c017",
             "family": "Arial",
             "size": 30,
             "bold": true,
@@ -102,7 +124,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "22ec91cd-75da-4880-989b-252b6d0d5f8d",
+            "id": "79b3545b-2817-4271-a56f-b97683e96aac",
             "family": "Arial",
             "size": 26,
             "bold": true,
@@ -116,7 +138,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "63a00875-19fd-481f-8310-993ab9376283",
+            "id": "66acbca5-1ffd-4595-a6d3-1efebabc358c",
             "family": "Arial",
             "size": 22,
             "bold": true,
@@ -130,7 +152,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "48868cc9-f37b-4ba2-a911-23b399721078",
+            "id": "d5974d03-8ee5-43a3-965a-d0dbbabd6ec4",
             "family": "Arial",
             "size": 16,
             "bold": true,
@@ -144,7 +166,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "ed5f8557-e925-4e74-a508-4bd8692b692d",
+            "id": "213d1142-9cba-4580-9938-c13dc6349635",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -158,7 +180,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "3c177d35-3967-4816-92e8-9775ddd179f6",
+            "id": "59c195ed-d398-41b3-8bad-d6a06cf066ec",
             "family": "Courier New",
             "size": 12,
             "bold": false,
@@ -172,7 +194,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "65fe4c62-1d04-416a-8d61-888e614b44a6",
+            "id": "a061eb84-abbe-40cb-b66c-1862e822e18b",
             "family": "FreeMono",
             "size": 14,
             "bold": false,
@@ -8614,7 +8636,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "c4e69609-41f6-49c6-ae39-13186d50083f",
+            "id": "fe8a62ec-647e-4546-9c9e-189f821ad3ab",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -8733,31 +8755,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Registered users on the ",
-                                "format_id": "32b5a83e-2f55-467e-af44-84d26bffafdc"
-                            },
-                            {
-                                "id": "0,0,0,1",
-                                "type": 39,
-                                "elements": "website",
-                                "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "https://yutovo.com"
-                            },
-                            {
-                                "id": "0,0,0,2",
-                                "type": 4,
-                                "elements": " have access to the following features upon successful login, which are located in the dialog box that opens when clicking on the login:",
-                                "format_id": "32b5a83e-2f55-467e-af44-84d26bffafdc"
+                                "level": 1,
+                                "elements": "Upon successful login, the user has access to the following options, which are in the dialog box, that is called up when clicking on the login:",
+                                "format_id": "3afdab91-3cc0-4be0-9da7-df0a74fab15e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8766,18 +8779,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• log out of the account;",
                                 "format_id": "3afdab91-3cc0-4be0-9da7-df0a74fab15e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8786,18 +8803,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• changing the name that was entered during registration (not the login - it cannot be changed);",
                                 "format_id": "3afdab91-3cc0-4be0-9da7-df0a74fab15e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8806,18 +8827,22 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• changing the email;",
                                 "format_id": "3afdab91-3cc0-4be0-9da7-df0a74fab15e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8826,18 +8851,22 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• changing the password.",
                                 "format_id": "3afdab91-3cc0-4be0-9da7-df0a74fab15e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8846,18 +8875,22 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "17417dc4-1002-43e7-a835-5acce26e2b52"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -8866,19 +8899,23 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "<- User documents",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "./User documents.yut"
+                                "url": "./User documents"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

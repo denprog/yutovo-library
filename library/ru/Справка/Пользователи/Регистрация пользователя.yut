@@ -4,7 +4,15 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "scale": 1.0,
+        "code_block_border_color": -16776961,
+        "numbers_color": -16776961,
+        "variables_color": -16755456,
+        "functions_color": -43776,
+        "units_color": -16755456,
+        "shapes_color": -16777216,
+        "error_marks_color": -65536,
+        "formula_bg_color": -1,
+        "bg_selection_color": -16776961,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -35,8 +43,7 @@
                 1,
                 2,
                 3,
-                4,
-                6
+                4
             ],
             "real_config": {
                 "precision": 3,
@@ -61,130 +68,11 @@
                 "show_angle_measure": true,
                 "form": 0,
                 "max_count": 10
-            },
-            "array_real_config": {
-                "precision": 3,
-                "exp": 10,
-                "default_angle_measure": 0,
-                "result_angle_measure": 0,
-                "show_angle_measure": true
             }
         },
         "include_documents": []
     },
     "string_formats": [
-        {
-            "id": "0cde504d-f3b4-4f08-b065-71474aebe830",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "4d740c64-b707-4055-b33b-18a57d5664a9",
-            "family": "Arial",
-            "size": 30,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "e23315d5-5c3b-4508-89cc-ff5d24a9a16a",
-            "family": "Arial",
-            "size": 26,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "27bd1af2-406a-4a85-88c0-96d0dbb61f99",
-            "family": "Arial",
-            "size": 22,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "30aae25f-5f22-49bf-bed0-8c5fb3d9f392",
-            "family": "Arial",
-            "size": 16,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "1bb5dd86-4b34-4eca-8371-a5500f91c9df",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": true,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "304168b9-6c4a-46ef-af1a-aef138363966",
-            "family": "Courier New",
-            "size": 12,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "d6230f7b-418f-4d19-b060-2684723db41c",
-            "family": "FreeMono",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
         {
             "id": "83d7c457-5757-4c0b-bf63-ea2c105f683d",
             "family": "Arial",
@@ -7604,25 +7492,11 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "af7d022d-8b60-412e-9691-9a08a6507502",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
         {
-            "name": "Text body",
+            "name": "Основной текст",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7634,7 +7508,7 @@
             "default_string_format": "83d7c457-5757-4c0b-bf63-ea2c105f683d"
         },
         {
-            "name": "Header 1",
+            "name": "Заголовок 1",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7646,7 +7520,7 @@
             "default_string_format": "a7eb343b-c0c5-43ca-a942-d6ba0476b0f8"
         },
         {
-            "name": "Header 2",
+            "name": "Заголовок 2",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7658,7 +7532,7 @@
             "default_string_format": "12871223-d923-43d4-8f55-cb07794dd05a"
         },
         {
-            "name": "Header 3",
+            "name": "Заголовок 3",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7670,7 +7544,7 @@
             "default_string_format": "ea5acabf-5617-4892-bb52-8090728b097c"
         },
         {
-            "name": "Header 4",
+            "name": "Заголовок 4",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7682,7 +7556,7 @@
             "default_string_format": "6f5397a9-ee0e-4a6d-9f24-725296b87753"
         },
         {
-            "name": "Example",
+            "name": "Пример",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7694,7 +7568,7 @@
             "default_string_format": "a06403ed-dedb-47cc-b9c7-11cb30e77ec7"
         },
         {
-            "name": "Monospace",
+            "name": "Моноширинный",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7706,7 +7580,7 @@
             "default_string_format": "5f29012f-3c24-4795-8568-7c3e011d38e8"
         },
         {
-            "name": "Code",
+            "name": "Код",
             "alignment": 0,
             "word_wrap": 0,
             "line_spacing": 2,
@@ -7733,38 +7607,13 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Зарегистрированным на ",
-                                "format_id": "6e477ec9-8b4f-42a8-89c0-f063982cfd52"
-                            },
-                            {
-                                "id": "0,0,0,1",
-                                "type": 39,
-                                "elements": "сайте",
-                                "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "https://yutovo.ru"
-                            },
-                            {
-                                "id": "0,0,0,2",
-                                "type": 4,
-                                "elements": " пользователям доступно пространство на сайте для размещения своих документов. На данный момент с этими документами можно взаимодействовать только на ",
-                                "format_id": "6e477ec9-8b4f-42a8-89c0-f063982cfd52"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "сайте.",
+                                "elements": "Зарегистрированным пользователям доступно пространство на сайте для размещения своих документов.",
                                 "format_id": "6e477ec9-8b4f-42a8-89c0-f063982cfd52"
                             }
                         ]
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Основной текст",
                 "format_alignment": 0
             },
             {
@@ -7778,13 +7627,25 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "Регистрация пользователя производится в диалоге регистрации вводом его данных. На указанную почту придёт письмо с кодом, которое необходимо ввести для подтверждения регистрации.",
+                                "elements": "Регистрация пользователя производится в диалоге регистрации вводом его данных. На указанную почту ",
+                                "format_id": "6e477ec9-8b4f-42a8-89c0-f063982cfd52"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "0,1,1",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,1,1,0",
+                                "type": 4,
+                                "elements": "придёт письмо с кодом, которое необходимо ввести для подтверждения регистрации.",
                                 "format_id": "6e477ec9-8b4f-42a8-89c0-f063982cfd52"
                             }
                         ]
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Основной текст",
                 "format_alignment": 0
             },
             {
@@ -7804,7 +7665,7 @@
                         ]
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Основной текст",
                 "format_alignment": 0
             },
             {
@@ -7838,7 +7699,7 @@
                         ]
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Основной текст",
                 "format_alignment": 0
             }
         ]

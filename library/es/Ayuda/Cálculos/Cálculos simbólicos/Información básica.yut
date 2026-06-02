@@ -3119,9 +3119,9 @@
                                 "id": "0,3,0,1",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "упрощение",
+                                "elements": "simplificación",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Упрощение.yut"
+                                "url": "./Simplificación.yut"
                             },
                             {
                                 "id": "0,3,0,2",
@@ -3134,9 +3134,9 @@
                                 "id": "0,3,0,3",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "evalf - получение численного значения",
+                                "elements": "evalf - evaluación numérica",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Получение численного значения.yut"
+                                "url": "./Evaluación numérica.yut"
                             },
                             {
                                 "id": "0,3,0,4",
@@ -3149,9 +3149,9 @@
                                 "id": "0,3,0,5",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "expand - раскрытие выражения",
+                                "elements": "expand - expansión de expresiones",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Раскрытие выражения.yut"
+                                "url": "./Expansión de expresiones.yut"
                             },
                             {
                                 "id": "0,3,0,6",
@@ -3164,9 +3164,9 @@
                                 "id": "0,3,0,7",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "diff - дифференцирование",
+                                "elements": "diff - diferenciación",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Дифференцирование.yut"
+                                "url": "./Diferenciación.yut"
                             },
                             {
                                 "id": "0,3,0,8",
@@ -3179,9 +3179,9 @@
                                 "id": "0,3,0,9",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "subs - подстановка",
+                                "elements": "subs - sustitución",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Подстановка.yut"
+                                "url": "./Sustitución.yut"
                             },
                             {
                                 "id": "0,3,0,10",
@@ -3195,6 +3195,60 @@
                     }
                 ],
                 "format_name": "Основной текст",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,4",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,4,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,4,0,0",
+                                "type": 4,
+                                "elements": "",
+                                "format_id": "1a907898-100d-49d0-a29b-93df3437a47a"
+                            }
+                        ]
+                    }
+                ],
+                "format_name": "Text body",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,5",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,5,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,5,0,0",
+                                "type": 39,
+                                "elements": "<- Gráficas/Gráfica lineal de la función",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "../Gráficas/Gráfica lineal de la función.yut"
+                            },
+                            {
+                                "id": "0,5,0,1",
+                                "type": 4,
+                                "elements": "  ",
+                                "format_id": "1a907898-100d-49d0-a29b-93df3437a47a"
+                            },
+                            {
+                                "id": "0,5,0,2",
+                                "type": 39,
+                                "elements": "Simplificación ->",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "./Simplificación.yut"
+                            }
+                        ]
+                    }
+                ],
+                "format_name": "Text body",
                 "format_alignment": 0
             }
         ]

@@ -3119,9 +3119,9 @@
                                 "id": "0,3,0,1",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "упрощение",
+                                "elements": "simplification",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Упрощение.yut"
+                                "url": "./Simplification.yut"
                             },
                             {
                                 "id": "0,3,0,2",
@@ -3134,9 +3134,9 @@
                                 "id": "0,3,0,3",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "evalf - получение численного значения",
+                                "elements": "evalf - numerical evaluation",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Получение численного значения.yut"
+                                "url": "./Numerical evaluation.yut"
                             },
                             {
                                 "id": "0,3,0,4",
@@ -3149,9 +3149,9 @@
                                 "id": "0,3,0,5",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "expand - раскрытие выражения",
+                                "elements": "expand - expression expansion",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Раскрытие выражения.yut"
+                                "url": "./Expression expansion.yut"
                             },
                             {
                                 "id": "0,3,0,6",
@@ -3164,9 +3164,9 @@
                                 "id": "0,3,0,7",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "diff - дифференцирование",
+                                "elements": "diff - differentiation",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Дифференцирование.yut"
+                                "url": "./Differentiation.yut"
                             },
                             {
                                 "id": "0,3,0,8",
@@ -3179,9 +3179,9 @@
                                 "id": "0,3,0,9",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "subs - подстановка",
+                                "elements": "subs - substitution",
                                 "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
-                                "url": "./Подстановка.yut"
+                                "url": "./Substitution.yut"
                             },
                             {
                                 "id": "0,3,0,10",
@@ -3195,6 +3195,60 @@
                     }
                 ],
                 "format_name": "Основной текст",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,4",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,4,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,4,0,0",
+                                "type": 4,
+                                "elements": "",
+                                "format_id": "1a907898-100d-49d0-a29b-93df3437a47a"
+                            }
+                        ]
+                    }
+                ],
+                "format_name": "Text body",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,5",
+                "type": 2,
+                "elements": [
+                    {
+                        "id": "0,5,0",
+                        "type": 3,
+                        "elements": [
+                            {
+                                "id": "0,5,0,0",
+                                "type": 39,
+                                "elements": "<- Graphs/Linear graph of the function",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "../Graphs/Linear graph of the function.yut"
+                            },
+                            {
+                                "id": "0,5,0,1",
+                                "type": 4,
+                                "elements": "  ",
+                                "format_id": "1a907898-100d-49d0-a29b-93df3437a47a"
+                            },
+                            {
+                                "id": "0,5,0,2",
+                                "type": 39,
+                                "elements": "Simplification ->",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "./Simplification.yut"
+                            }
+                        ]
+                    }
+                ],
+                "format_name": "Text body",
                 "format_alignment": 0
             }
         ]

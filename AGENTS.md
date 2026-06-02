@@ -50,12 +50,13 @@ Each directory may contain a `.order` file listing folder/document names in disp
 
 ## Translation Rules
 
-1. **Only translate `type: 4` text elements.**
+1. **Translate `type: 4` text elements.**
 2. **Preserve JSON structure, IDs, formats, and all numeric values exactly.**
 3. **Update `config.language`** to match the target language code.
 4. **Generate a new `file_guid`** for every translated file — never reuse the Russian UUID.
 5. **Translate navigation paths:** type 39 `url` fields must point to the translated document names.
 6. **Navigation text** (type 39 `elements`) must also be translated.
+7. **Translate `paragraph_formats` names** and corresponding `format_name` values in `text.elements` to the target language.
 
 ## Navigation Style
 
@@ -67,6 +68,19 @@ Navigation links are `type: 39` elements appended at the end of `text.elements` 
 Navigation text format:
 - Previous doc: `<- Document name` or `<- Section/Document name`
 - Next doc: `Document name ->` or `Section/Document name ->`
+
+### Paragraph Format Translations
+
+| Russian | English | Spanish | Portuguese (pt_BR) |
+|---------|---------|---------|-------------------|
+| Основной текст | Text body | Cuerpo de texto | Corpo do texto |
+| Заголовок 1 | Header 1 | Encabezado 1 | Cabeçalho 1 |
+| Заголовок 2 | Header 2 | Encabezado 2 | Cabeçalho 2 |
+| Заголовок 3 | Header 3 | Encabezado 3 | Cabeçalho 3 |
+| Заголовок 4 | Header 4 | Encabezado 4 | Cabeçalho 4 |
+| Пример | Example | Ejemplo | Exemplo |
+| Моноширинный | Monospace | Monoespaciado | Monoespaçado |
+| Код | Code | Código | Código |
 
 ## Workflow Rules
 

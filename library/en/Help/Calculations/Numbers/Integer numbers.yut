@@ -36,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                9,
+                8
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "52a8a338-a3ec-4b5e-8756-cd4ff0b9a905",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ded864b6-08f1-4c3d-891d-c64eca18d07c",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5e9055f5-4e96-4a3f-9e29-8606ead26006",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4a3278a3-e68b-4d8c-aebb-88ab7c896bde",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3d4af50e-0e69-4dca-a383-66d17f9b222d",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "93541de1-0742-45e0-b630-7eb47f3ce4f1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "282fe8f3-32fd-4632-a160-3073a20341c8",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1f40662f-3489-4cf5-b32f-b150202924a9",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "18911727-eef9-436f-b6f3-bd2023846739",
             "family": "Arial",
@@ -11804,6 +11938,90 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d74ec7f2-cc56-4a2e-8266-4836a7d2ca50",
+            "family": "Noto Mono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f42db60c-7adb-404b-9ea5-6966f52b9fc1",
+            "family": "DejaVu Serif",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "beb2e9e9-34c3-48be-9936-9c5488267642",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "59b323ea-3079-4d15-a682-6c6721481e01",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "777142c2-4045-402f-b924-04328982d54a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a78a9e46-dce1-49e8-b6de-3490f6791579",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -11911,18 +12129,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Integers are entered without a decimal point.",
                                 "format_id": "7e841f15-e810-4f7e-a0e7-a25ea0f20929"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11931,18 +12153,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Four number systems are supported, which are entered using the following symbols:",
                                 "format_id": "7e841f15-e810-4f7e-a0e7-a25ea0f20929"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11951,18 +12177,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• binary - digits \"0\", \"1\";",
                                 "format_id": "dd33cfb9-1bf4-44bf-b3c2-d89a3be6db3e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11971,18 +12201,22 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• octal - digits \"0\" ... \"7\";",
                                 "format_id": "dd33cfb9-1bf4-44bf-b3c2-d89a3be6db3e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -11991,18 +12225,22 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• decimal - digits \"0\" ... \"9\";",
                                 "format_id": "dd33cfb9-1bf4-44bf-b3c2-d89a3be6db3e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12011,18 +12249,22 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• hexadecimal - digits \"0\" ... \"9\" and letters \"A\" ... \"F\".",
                                 "format_id": "dd33cfb9-1bf4-44bf-b3c2-d89a3be6db3e"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12031,30 +12273,36 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "You can enter the number system using a symbol ",
                                 "format_id": "7e841f15-e810-4f7e-a0e7-a25ea0f20929"
                             },
                             {
                                 "id": "0,6,0,1",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAYAAACJfM0wAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAZElEQVQ4jWP8////fwYaACZaGDpqMApgwSbY2NiIIVZfX0+5wQwMDAwODg5w9oEDB0gylIFhKIbxqMFwgDNV4ALoSRFXMsRpML4kBkuK+NRgNZjUzIANjIDIY2AgLoszDrkaBADygBooiiGchQAAAABJRU5ErkJggg=="
                             },
                             {
                                 "id": "0,6,0,2",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " (keys [Ctrl+Shift+S]) with one of the number system designations (bin, oct, dec, hex).",
                                 "format_id": "7e841f15-e810-4f7e-a0e7-a25ea0f20929"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12063,18 +12311,22 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Built-in operators:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -12083,24 +12335,29 @@
             {
                 "id": "0,8",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,8,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,8,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAaUlEQVQ4jWP8////fwYqAyZqGzhqKAMLjNHY2IghWV9fj1MjPvUsyIIODg5w9oEDBwi6CJd6or3PyMhIrFIahykugOxCGJtQfiFoKMwARkZGgobBwMCmU1KKCBTvE5OMiFHPOFpKjWBDAUb5JKlcNKbvAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,8,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - addition and unary plus;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12109,24 +12366,29 @@
             {
                 "id": "0,9",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,9,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,9,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAV0lEQVQ4jWP8////fwYqAyZqGzhqKAMLjNHY2IghWV9fj1MjPvUsyIIODg5w9oEDBwi6CJf6IRimuAAjIyOGGKH8QtBQcjLcEA1TYpIRMeoZR0upEWwoAFCIHqakwSSCAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,9,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - subtraction and unary minus;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12135,24 +12397,29 @@
             {
                 "id": "0,10",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,10,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,10,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAVUlEQVQ4jWP8////fwYqASZqGTSCDGOBMRobGzEk6+vrMcTwqWNBFnRwcICzDxw4gNMFuNQN3jAjyjBGRkbqGUZsJhm8YYaSNPAlB2LUMY6WGsPIMACGphulkbD7hwAAAABJRU5ErkJggg=="
                             },
                             {
                                 "id": "0,10,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - multiplication;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12161,24 +12428,29 @@
             {
                 "id": "0,11",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,11,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,11,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAYUlEQVQ4je2SQQqAQAwDE9mH9WelP+vP6mk9rMsqWqEHcwx0SEMYEYEEbRkQAGijYWa3DlV1DQIAEVlC3P3kpb1WDzTtaNbBlZi1oyMRyUeAnqONxutEXf8gvwPVG2S9jnZo3SKn6IQXuAAAAABJRU5ErkJggg=="
                             },
                             {
                                 "id": "0,11,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - division.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12187,18 +12459,22 @@
             {
                 "id": "0,12",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,12,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,12,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Arithmetic functions:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -12207,24 +12483,29 @@
             {
                 "id": "0,13",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,13,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,13,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAUCAYAAABSx2cSAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAZUlEQVQ4jdWTUQ7AIAhD67KD9WaEm3Ez9rcFp47MD2P/MLxgSyju7vipM9OkqqEWEQDAkZ1CEiTDWxpuaQq+Pde+gMfbJwwgeDKz0FjXL7in3g/WBbYpHNJurWOkMnNVmwa2Dr4AvU4YpmQLVwYAAAAASUVORK5CYII="
                             },
                             {
                                 "id": "0,13,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - raising to a power;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12233,24 +12514,29 @@
             {
                 "id": "0,14",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,14,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,14,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAh0lEQVQ4jc3UwQ2AIAwF0P8Ng7EZYTM2qycICkiFmthTMfJoaANFRGAYhyX2CehyQnL6s+Z2XL142qA5EABYN4WkqooYY/MthNCvUIt670ueUip505SMrka3yzvocGxW0SGovUsVuIp1wR0MuI3NG6welYuRB3uGaQ9rKtyNAlo9i/9/D83BE2mGQWM4M9NsAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,14,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - sum by index;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12259,24 +12545,29 @@
             {
                 "id": "0,15",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,15,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,15,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAcklEQVQ4je2UwQ3AIAwD46qDZbOIzdjMfRGhFkQLefCoX1YEJyAxIEkJ0hEFCoedxQAYLh69iMNICoDmhl69C3urlNKjZmZzMBERVXWfc3a/bzd/2HdNjUY9DrVQ/xqrCfBrlmzeM9qrD0+2qn27GQq7AO4wJm0Wsr/jAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,15,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - product by index;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12285,24 +12576,29 @@
             {
                 "id": "0,16",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,16,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,16,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAWUlEQVQ4jWP8////fwYyABM5muinkZGRkc42IgMWZE5jYyOGgvr6esIaGRgYGBwcHODsAwcO4LRxkEcH/TUiJ2vqxCMDA/4oQAaMpGQrRkZGuHOHUOCQrREA27oZYqHey78AAAAASUVORK5CYII="
                             },
                             {
                                 "id": "0,16,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - factorial.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12311,18 +12607,22 @@
             {
                 "id": "0,17",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,17,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,17,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Logical operations:",
                                 "format_id": "366b8444-c308-4442-b52f-7b811291c2a4"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -12331,18 +12631,29 @@
             {
                 "id": "0,18",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,18,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,18,0,0",
                                 "type": 4,
-                                "elements": "& - logical AND;",
+                                "level": 1,
+                                "elements": "∧",
+                                "format_id": "1f40662f-3489-4cf5-b32f-b150202924a9"
+                            },
+                            {
+                                "id": "0,18,0,1",
+                                "type": 4,
+                                "level": 1,
+                                "elements": " - logical AND;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12351,18 +12662,29 @@
             {
                 "id": "0,19",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,19,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,19,0,0",
                                 "type": 4,
-                                "elements": "| - logical OR;",
+                                "level": 1,
+                                "elements": "∨",
+                                "format_id": "1f40662f-3489-4cf5-b32f-b150202924a9"
+                            },
+                            {
+                                "id": "0,19,0,1",
+                                "type": 4,
+                                "level": 1,
+                                "elements": " - logical OR;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12371,18 +12693,29 @@
             {
                 "id": "0,20",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,20,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,20,0,0",
                                 "type": 4,
-                                "elements": "^ - exclusive OR;",
+                                "level": 1,
+                                "elements": "⊕",
+                                "format_id": "1f40662f-3489-4cf5-b32f-b150202924a9"
+                            },
+                            {
+                                "id": "0,20,0,1",
+                                "type": 4,
+                                "level": 1,
+                                "elements": " - exclusive OR;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12391,18 +12724,22 @@
             {
                 "id": "0,21",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,21,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,21,0,0",
                                 "type": 4,
-                                "elements": "! - logical NOT.",
+                                "level": 1,
+                                "elements": "¬ - logical NOT.",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12411,18 +12748,22 @@
             {
                 "id": "0,22",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,22,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,22,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Other functions:",
                                 "format_id": "366b8444-c308-4442-b52f-7b811291c2a4"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -12431,24 +12772,29 @@
             {
                 "id": "0,23",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,23,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,23,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAUCAYAAACJfM0wAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAZElEQVQ4jWP8////fwYaACZaGDpqMApgwSbY2NiIIVZfX0+5wQwMDAwODg5w9oEDB0gylIFhKIbxqMFwgDNV4ALoSRFXMsRpML4kBkuK+NRgNZjUzIANjIDIY2AgLoszDrkaBADygBooiiGchQAAAABJRU5ErkJggg=="
                             },
                             {
                                 "id": "0,23,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - input of the number system;",
                                 "format_id": "c5c7e36f-e15a-493a-bbdf-5eca3e83a795"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -12457,18 +12803,22 @@
             {
                 "id": "0,24",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,24,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,24,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"abs\" - absolute value;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Header 4"
                     }
                 ],
                 "format_name": "Header 4",
@@ -12477,18 +12827,22 @@
             {
                 "id": "0,25",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,25,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,25,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"int\" - integer part;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12497,18 +12851,22 @@
             {
                 "id": "0,26",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,26,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,26,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"fract\" - fraction part;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12517,18 +12875,22 @@
             {
                 "id": "0,27",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,27,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,27,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"round\" - rounding to the nearest integer;",
                                 "format_id": "74ed87c1-3787-40e7-a057-c7d6d8e52caa"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12537,18 +12899,22 @@
             {
                 "id": "0,28",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,28,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,28,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"reminder\" - taking the remainder from division.",
                                 "format_id": "18911727-eef9-436f-b6f3-bd2023846739"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12557,18 +12923,22 @@
             {
                 "id": "0,29",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,29,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,29,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "f7d77e9b-b255-4707-b2d9-30e70a55c27b"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",
@@ -12577,14 +12947,17 @@
             {
                 "id": "0,30",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,30,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,30,0,0",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "<- Rational numbers",
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "./Rational numbers.yut"
@@ -12592,17 +12965,20 @@
                             {
                                 "id": "0,30,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,30,0,2",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "Complex numbers ->",
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "./Complex numbers.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Text body"
                     }
                 ],
                 "format_name": "Text body",

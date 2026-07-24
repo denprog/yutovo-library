@@ -1,10 +1,18 @@
 {
     "file_guid": "6a8730e4-bda2-4f6e-8283-42991abbeca1",
     "config": {
-        "language": 2,
+        "language": 3,
         "use_tabs": true,
         "tab_spaces": 4,
-        "scale": 1.0,
+        "code_block_border_color": -16776961,
+        "numbers_color": -16776961,
+        "variables_color": -16755456,
+        "functions_color": -43776,
+        "units_color": -16755456,
+        "shapes_color": -16777216,
+        "error_marks_color": -65536,
+        "formula_bg_color": -1,
+        "bg_selection_color": -16776961,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -36,10 +44,7 @@
                 2,
                 3,
                 4,
-                6,
-                7,
-                8,
-                9
+                6
             ],
             "real_config": {
                 "precision": 3,
@@ -71,32 +76,13 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
-            },
-            "symbolic_real_config": {
-                "precision": 3,
-                "exp": 10,
-                "default_angle_measure": 0,
-                "result_angle_measure": 0,
-                "show_angle_measure": true
-            },
-            "symbolic_rational_config": {
-                "fraction_form": 0
-            },
-            "symbolic_complex_config": {
-                "precision": 3,
-                "exp": 10,
-                "default_angle_measure": 0,
-                "result_angle_measure": 0,
-                "show_angle_measure": true,
-                "form": 0,
-                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
         {
-            "id": "b5d7720d-42db-4245-b7a4-68ae2e1b7329",
+            "id": "6c5be3ed-5feb-4df0-9edd-f72a737e95d1",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -110,7 +96,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "9f2af874-2534-4d8d-935d-419fdfb926f9",
+            "id": "9d2f68cc-8c54-4b78-a5f4-ab93e70d5617",
             "family": "Arial",
             "size": 30,
             "bold": true,
@@ -124,7 +110,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "36003ca8-cdce-4a91-a93e-6a933da6c2bb",
+            "id": "673827dc-91de-4b81-8d14-8e5258d49b1b",
             "family": "Arial",
             "size": 26,
             "bold": true,
@@ -138,7 +124,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "38955a09-6b60-475d-abfc-b94faf5bdf79",
+            "id": "23383867-4b9a-4e4d-85fa-7f72188c9aad",
             "family": "Arial",
             "size": 22,
             "bold": true,
@@ -152,7 +138,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "a64d13d8-d501-4885-be04-faf7c85b2659",
+            "id": "04870cf5-8ba7-47a0-a343-56c122f2181c",
             "family": "Arial",
             "size": 16,
             "bold": true,
@@ -166,7 +152,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "abbde6cf-dba9-4a2b-b1f2-9d0fcb988881",
+            "id": "02013c39-d1af-4f4e-820a-d1a77cc54375",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -180,120 +166,8 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "c7ea4b92-02af-4307-acf7-a50b96a1b7f2",
-            "family": "Courier New",
-            "size": 12,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "0af1afd0-7e34-4a43-b93b-3e421d200bcd",
+            "id": "4d98f2ed-d172-43a5-bae4-285325cabbb2",
             "family": "FreeMono",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "e6eea970-b196-4a0d-b083-905b3185f2ec",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "9d6fea71-5b38-4f98-92c3-88972b37a762",
-            "family": "Arial",
-            "size": 30,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "54e1a1f4-34db-4039-8baa-14435480b019",
-            "family": "Arial",
-            "size": 26,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "19c0bc09-add1-4db3-a57f-21ab9cba5e34",
-            "family": "Arial",
-            "size": 22,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "646c8d6f-e101-4220-a01e-c889c8147a3e",
-            "family": "Arial",
-            "size": 16,
-            "bold": true,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "e6e2c8e9-bd63-415d-8120-c815e1b4e5a1",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": true,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "e86e36f3-2099-464d-8f12-7fc940941c74",
-            "family": "Courier New",
             "size": 12,
             "bold": false,
             "italic": false,
@@ -306,7 +180,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "61b0f6b9-85e7-4c6b-950d-3f2beb9a3295",
+            "id": "1af26244-2bc2-4acb-8ec7-bf82942094b0",
             "family": "FreeMono",
             "size": 14,
             "bold": false,
@@ -7738,81 +7612,11 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "6e477ec9-8b4f-42a8-89c0-f063982cfd52",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "061afa18-7ccd-4d99-89e4-f74aa67306f0",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "68166a67-d0da-4a14-a6df-390941940ae6",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "0a239d14-abd1-43df-b1b5-ff49c63b85b9",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
-        },
-        {
-            "id": "a6991989-41a6-4086-9e4f-e78db68b98a2",
-            "family": "Arial",
-            "size": 14,
-            "bold": false,
-            "italic": false,
-            "underline": false,
-            "strikethrough": false,
-            "subscript": false,
-            "superscript": false,
-            "text_color": 4278190080,
-            "text_bg_color": 4294967295,
-            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
         {
-            "name": "Основной текст",
+            "name": "Cuerpo de texto",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7824,7 +7628,7 @@
             "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982"
         },
         {
-            "name": "Заголовок 1",
+            "name": "Encabezado 1",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7836,7 +7640,7 @@
             "default_string_format": "8f3872f3-1d9b-4fc6-8e8e-b1cc1d69237d"
         },
         {
-            "name": "Заголовок 2",
+            "name": "Encabezado 2",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7848,7 +7652,7 @@
             "default_string_format": "d85ce736-b3b1-4fae-a880-89461a112a19"
         },
         {
-            "name": "Заголовок 3",
+            "name": "Encabezado 3",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7860,7 +7664,7 @@
             "default_string_format": "f77036dc-c205-4da9-bcfb-e9b536a15b78"
         },
         {
-            "name": "Заголовок 4",
+            "name": "Encabezado 4",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7872,7 +7676,7 @@
             "default_string_format": "65bf006d-dcab-4102-b7ac-b88730f4ab06"
         },
         {
-            "name": "Пример",
+            "name": "Ejemplo",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7884,7 +7688,7 @@
             "default_string_format": "ef3b2b6a-f5ee-4ed6-97cf-a799399e0d96"
         },
         {
-            "name": "Моноширинный",
+            "name": "Monoespaciado",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -7896,7 +7700,7 @@
             "default_string_format": "8555d919-b2a5-47e7-b488-12ceaa67cd6c"
         },
         {
-            "name": "Код",
+            "name": "Código",
             "alignment": 0,
             "word_wrap": 0,
             "line_spacing": 2,
@@ -7906,96 +7710,13 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "925af661-ab11-45a2-9a3a-dcd2cee1df64"
-        },
-        {
-            "name": "Основной текст",
-            "alignment": 0,
-            "word_wrap": 1,
-            "line_spacing": 5,
-            "indent_before": 10,
-            "indent_after": 10,
-            "indent_first_line": 0,
-            "spacing_before": 10,
-            "spacing_after": 10,
-            "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982"
-        },
-        {
-            "name": "Основной текст",
-            "alignment": 0,
-            "word_wrap": 1,
-            "line_spacing": 5,
-            "indent_before": 10,
-            "indent_after": 10,
-            "indent_first_line": 0,
-            "spacing_before": 10,
-            "spacing_after": 10,
-            "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982"
-        },
-        {
-            "name": "Основной текст",
-            "alignment": 0,
-            "word_wrap": 1,
-            "line_spacing": 5,
-            "indent_before": 10,
-            "indent_after": 10,
-            "indent_first_line": 0,
-            "spacing_before": 10,
-            "spacing_after": 10,
-            "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982"
-        },
-        {
-            "name": "Основной текст",
-            "alignment": 0,
-            "word_wrap": 1,
-            "line_spacing": 5,
-            "indent_before": 10,
-            "indent_after": 10,
-            "indent_first_line": 0,
-            "spacing_before": 10,
-            "spacing_after": 10,
-            "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982"
-        },
-        {
-            "name": "Основной текст",
-            "alignment": 0,
-            "word_wrap": 1,
-            "line_spacing": 5,
-            "indent_before": 10,
-            "indent_after": 10,
-            "indent_first_line": 0,
-            "spacing_before": 10,
-            "spacing_after": 10,
-            "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982"
-        },
-        {
-            "name": "Основной текст",
-            "alignment": 0,
-            "word_wrap": 1,
-            "line_spacing": 5,
-            "indent_before": 10,
-            "indent_after": 10,
-            "indent_first_line": 0,
-            "spacing_before": 10,
-            "spacing_after": 10,
-            "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982"
-        },
-        {
-            "name": "Основной текст",
-            "alignment": 0,
-            "word_wrap": 1,
-            "line_spacing": 5,
-            "indent_before": 10,
-            "indent_after": 10,
-            "indent_first_line": 0,
-            "spacing_before": 10,
-            "spacing_after": 10,
-            "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982"
         }
     ],
     "text": {
         "id": "0",
         "type": 1,
         "elements": [
+#ifdef WEB
             {
                 "id": "0,0",
                 "type": 2,
@@ -8010,174 +7731,176 @@
                                 "id": "0,0,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "Зарегистрированным на ",
+                                "elements": "Tras iniciar sesión correctamente, el usuario tiene acceso a las siguientes opciones, que se encuentran en el cuadro de diálogo que aparece al hacer clic en el botón de inicio de sesión:",
+                                "format_id": "846c7ced-52d5-4c34-890c-0ed2736b7ba7"
+                            }
+                        ],
+                        "format_name": "Cuerpo de texto"
+                    }
+                ],
+                "format_name": "Cuerpo de texto",
+                "format_alignment": 0
+            },
+#else
+            {
+                "id": "0,0",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,0,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,0,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Los usuarios registrados en el ",
                                 "format_id": "846c7ced-52d5-4c34-890c-0ed2736b7ba7"
                             },
                             {
                                 "id": "0,0,0,1",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "сайте",
+                                "elements": "sitio",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "https://yutovo.ru"
+                                "url": "https://yutovo.com"
                             },
                             {
                                 "id": "0,0,0,2",
                                 "type": 4,
                                 "level": 1,
-                                "elements": " пользователям при успешном логине доступны следующие возможности, находящиеся в диалоге, вызываемом при клике на логине:",
+                                "elements": " tienen acceso a las siguientes funciones una vez que hayan iniciado sesión correctamente, las cuales se encuentran en el cuadro de diálogo que se abre al hacer clic en \"Iniciar sesión\":",
                                 "format_id": "846c7ced-52d5-4c34-890c-0ed2736b7ba7"
                             }
                         ],
-                        "format_name": "Основной текст"
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
-                "format_name": "Основной текст",
+                "format_name": "Cuerpo de texto",
                 "format_alignment": 0
             },
+#endif
             {
                 "id": "0,1",
                 "type": 2,
-                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
-                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "level": 1,
-                                "elements": "• выйти из учетной записи;",
-                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
+                                "elements": "• Cerrar sesión;",
+                                "format_id": "6c5be3ed-5feb-4df0-9edd-f72a737e95d1"
                             }
-                        ],
-                        "format_name": "Основной текст"
+                        ]
                     }
                 ],
-                "format_name": "Основной текст",
+                "format_name": "Cuerpo de texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,2",
                 "type": 2,
-                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
-                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "level": 1,
-                                "elements": "• сменить имя, которое было введено при регистрации (не логин - его сменить нельзя);",
-                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
+                                "elements": "• Cambiar el nombre introducido durante el registro (no el nombre de usuario, ya que no se puede cambiar);",
+                                "format_id": "6c5be3ed-5feb-4df0-9edd-f72a737e95d1"
                             }
-                        ],
-                        "format_name": "Основной текст"
+                        ]
                     }
                 ],
-                "format_name": "Основной текст",
+                "format_name": "Cuerpo de texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,3",
                 "type": 2,
-                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
-                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "level": 1,
-                                "elements": "• сменить почту;",
-                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
+                                "elements": "• Cambiar el correo electrónico;",
+                                "format_id": "6c5be3ed-5feb-4df0-9edd-f72a737e95d1"
                             }
-                        ],
-                        "format_name": "Основной текст"
+                        ]
                     }
                 ],
-                "format_name": "Основной текст",
+                "format_name": "Cuerpo de texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,4",
                 "type": 2,
-                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
-                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "level": 1,
-                                "elements": "• сменить пароль.",
-                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
+                                "elements": "• Cambiar la contraseña.",
+                                "format_id": "6c5be3ed-5feb-4df0-9edd-f72a737e95d1"
                             }
-                        ],
-                        "format_name": "Основной текст"
+                        ]
                     }
                 ],
-                "format_name": "Основной текст",
+                "format_name": "Cuerpo de texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,5",
                 "type": 2,
-                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
-                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "level": 1,
                                 "elements": "",
                                 "format_id": "bead7eda-82a9-4cc8-bb99-d6984ef3c226"
                             }
-                        ],
-                        "format_name": "Основной текст"
+                        ]
                     }
                 ],
-                "format_name": "Основной текст",
+                "format_name": "Cuerpo de texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,6",
                 "type": 2,
-                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
-                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 39,
-                                "level": 1,
-                                "elements": "<- Документы пользователя",
+                                "elements": "<- Documentos de usuario",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "./Документы пользователя"
+                                "url": "./Documentos de usuario.yut"
                             }
-                        ],
-                        "format_name": "Основной текст"
+                        ]
                     }
                 ],
-                "format_name": "Основной текст",
+                "format_name": "Cuerpo de texto",
                 "format_alignment": 0
             }
         ]

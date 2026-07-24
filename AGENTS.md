@@ -272,6 +272,40 @@ Navigation text format:
 | Моноширинный | Monospace | Monoespaciado | Monoespaçado |
 | Код | Code | Código | Código |
 
+## `.in` Preprocessor Files
+
+When merging documents from the `web` branch into `library`, use `.yut.in` files to keep both variants in a single file. A `.yut.in` file is a plain-text JSON document with C-style preprocessor directives (`#ifdef WEB`, `#else`, `#endif`). The consumer chooses one branch at build/load time and removes the other.
+
+### Rules for creating `.yut.in` files
+
+1. **Base the file on the `library` version.**
+   - `file_guid` comes from `library` (differences in `file_guid` are ignored).
+   - `config`, `string_formats`, `paragraph_formats`, `caret`, and `selection` come from `library`.
+2. **Wrap only paragraph-level differences.**
+   - Compare `text.elements` paragraph by paragraph (ignoring element `id` values).
+   - For each paragraph that differs, replace it with:
+     ```json
+     #ifdef WEB
+     { ... paragraph as it appears in web ... }
+     #else
+     { ... paragraph as it appears in library ... }
+     #endif
+     ```
+   - Paragraphs that are identical (ignoring `id`) are kept unchanged from `library`.
+3. **Different paragraph counts.**
+   - If `web` and `library` have a different number of paragraphs in `text.elements`, wrap the whole `text.elements` array as a single block instead of individual paragraphs.
+4. **Broken JSON in `web`.**
+   - If a file in `web` is not valid JSON (e.g. duplicated lines), repair it before generating the `.in` file.
+5. **Replace the original `.yut`.**
+   - The original `File.yut` is removed and replaced by `File.yut.in`.
+
+### Preprocessor semantics
+
+- `#ifdef WEB` keeps the block that follows when building for `web`.
+- `#else` keeps the block that follows for any non-web build (i.e. `library`).
+- `#endif` ends the conditional block.
+- The resulting file after preprocessing must be valid JSON.
+
 ## Workflow Rules
 
 - **Never run `git commit`, `git push`, `git reset`, `git rebase` or any git mutations unless explicitly asked to do so.** Always ask for confirmation before committing.

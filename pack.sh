@@ -7,10 +7,10 @@ find ./library -type f -name "*.yut" -print0 | while IFS= read -r -d '' file; do
 
     tmp="${file}.tmp_gzip"
 
-    # упаковка
+    # pack
     gzip -c "$file" > "$tmp"
 
-    # заменяем исходный файл
+    # replace source file
     mv "$tmp" "$file"
 done
 

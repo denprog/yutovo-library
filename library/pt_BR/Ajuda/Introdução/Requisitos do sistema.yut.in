@@ -1,7 +1,7 @@
 {
-    "file_guid": "60ea3f38-62f0-470e-a82b-5b7588f936a9",
+    "file_guid": "0fe05c20-2f27-4b96-a6e6-ce30c12fc9fc",
     "config": {
-        "language": 1,
+        "language": 4,
         "use_tabs": true,
         "tab_spaces": 4,
         "scale": 1.0,
@@ -36,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,13 +71,32 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
         {
-            "id": "a4d0ad99-1a9a-486e-8a18-4753215084d2",
+            "id": "463af8c6-ebc9-4936-a34f-a80bcc3f6f43",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -88,7 +110,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "02554608-c7fe-4d22-9b60-ec6b0dcce117",
+            "id": "d240ff63-1e47-406f-abdf-f153ae29f019",
             "family": "Arial",
             "size": 30,
             "bold": true,
@@ -102,7 +124,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "f910d91d-6476-40d7-9028-01c7d8a960b4",
+            "id": "f7995aa3-e07e-4478-8042-8fd69bfdb581",
             "family": "Arial",
             "size": 26,
             "bold": true,
@@ -116,7 +138,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "eecbf63f-01f0-43ee-a02f-d609949783e8",
+            "id": "009ab9f5-6e7d-47c3-a29d-b585f6b87ffb",
             "family": "Arial",
             "size": 22,
             "bold": true,
@@ -130,7 +152,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "33443db4-b31f-4e23-b69f-455f2ae22d0e",
+            "id": "93a81390-78e2-43b3-947a-2b7f9ee2da21",
             "family": "Arial",
             "size": 16,
             "bold": true,
@@ -144,7 +166,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "12694900-4863-4751-80cc-c610fecb93c9",
+            "id": "8b91b2cf-b16b-4db2-880b-cf38914a0552",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -158,7 +180,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "a15f5dd8-387c-4953-b18d-21b7b6bbf6fe",
+            "id": "2a4455f8-6f85-4d78-b1aa-790acbb5b226",
             "family": "Courier New",
             "size": 12,
             "bold": false,
@@ -172,7 +194,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "76979918-547f-4111-a5dc-9c2c4bd5ec94",
+            "id": "4a15cfc1-2314-4880-a580-963649150036",
             "family": "FreeMono",
             "size": 14,
             "bold": false,
@@ -186,7 +208,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "c9d7cd8b-aa54-4dee-b72e-7f854857c871",
+            "id": "b236b3f9-7852-4abb-b141-c4671487e9c1",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -200,7 +222,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "534d0907-4c1f-46a0-ad8d-49d4fc3f97b3",
+            "id": "98c64138-1de6-4271-b71d-fd44bcc5f57b",
             "family": "Arial",
             "size": 30,
             "bold": true,
@@ -214,7 +236,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "88134fa4-fcbf-47c3-8d87-b280bc7c8847",
+            "id": "04abe4de-7680-448b-8e0c-72817499d270",
             "family": "Arial",
             "size": 26,
             "bold": true,
@@ -228,7 +250,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "da6706e0-378a-4bac-a7a6-c644fe7f678f",
+            "id": "4743eeae-baac-4086-b038-8cdfe6ab74bd",
             "family": "Arial",
             "size": 22,
             "bold": true,
@@ -242,7 +264,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "5bca5118-171d-4cd4-8848-286181c6b5dd",
+            "id": "7178d106-e6a4-4b49-ad39-3c48a829bf16",
             "family": "Arial",
             "size": 16,
             "bold": true,
@@ -256,7 +278,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "a9957f34-009d-45b3-a6b6-970dd9da60a8",
+            "id": "729caaa8-b6ad-4b8a-be9c-b21cc62a5a37",
             "family": "Arial",
             "size": 14,
             "bold": false,
@@ -270,7 +292,7 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "5625a7e7-0ea4-4f0d-908a-66157c954593",
+            "id": "550fbeb3-d160-400b-b66e-421e5c97327e",
             "family": "Courier New",
             "size": 12,
             "bold": false,
@@ -284,7 +306,119 @@
             "text_bg_selection_color": 4278190335
         },
         {
-            "id": "82ab1b8b-8b5b-405c-8a99-91f5805afb7c",
+            "id": "9cc08044-0e09-450f-9883-b75a2654d5ec",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cb2bc6af-8747-477f-a802-0b6e3eaa642b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "298822ad-4fcb-45f0-ace7-c72705d5dfe2",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c8fc6b63-e5ac-4914-8a0b-9d86793c08f9",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "93ea397a-7247-4363-8e72-8bbba4722545",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dc19ee45-6cd3-485d-a06f-b0cda6b66e02",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b8c1f438-83c6-43cf-ad0a-9bc49c1694d5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a5c857a0-45a1-430b-8347-a228d7220563",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "40bbe327-6ae0-4aff-8448-f867e3892f66",
             "family": "FreeMono",
             "size": 14,
             "bold": false,
@@ -3110,11 +3244,95 @@
             "text_color": 4294928820,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "837cf661-c8cd-458e-86c8-9bf8d7e9999e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1587c17c-ec00-4bfb-95fc-82e8276b47c8",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9c57af23-44a0-4358-9504-9d8d4e67fb2e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9ed50edc-594f-41d4-acaa-a5e65683e3d0",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d4d88e3f-9319-47dd-aba9-4d2f35ca2619",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "441c90f2-798b-4de0-b9da-f5627b6af980",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
         {
-            "name": "Text body",
+            "name": "Corpo do texto",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -3126,7 +3344,7 @@
             "default_string_format": "91cd3d97-4803-4df0-a40b-ccaaa40343d0"
         },
         {
-            "name": "Header 1",
+            "name": "Cabeçalho 1",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -3138,7 +3356,7 @@
             "default_string_format": "20e9cca7-2cb1-4d39-90d8-4d4667147e6e"
         },
         {
-            "name": "Header 2",
+            "name": "Cabeçalho 2",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -3150,7 +3368,7 @@
             "default_string_format": "884dce7d-9326-46a8-9978-9b596e82def3"
         },
         {
-            "name": "Header 3",
+            "name": "Cabeçalho 3",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -3162,7 +3380,7 @@
             "default_string_format": "d23a7ca7-7ddf-4700-b9ba-b55b4bca0863"
         },
         {
-            "name": "Header 4",
+            "name": "Cabeçalho 4",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -3174,7 +3392,7 @@
             "default_string_format": "15ebbbc4-d373-4e40-9065-cc467baf6f41"
         },
         {
-            "name": "Example",
+            "name": "Exemplo",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -3186,7 +3404,7 @@
             "default_string_format": "189c604e-42b0-4084-ada3-0fec2a9e91fb"
         },
         {
-            "name": "Monospace",
+            "name": "Monoespaçado",
             "alignment": 0,
             "word_wrap": 1,
             "line_spacing": 5,
@@ -3198,7 +3416,7 @@
             "default_string_format": "114c0e43-b23b-4148-b0b1-585e7e9b9d4b"
         },
         {
-            "name": "Code",
+            "name": "Código",
             "alignment": 0,
             "word_wrap": 0,
             "line_spacing": 2,
@@ -3217,183 +3435,283 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "• Operating system Ubuntu 22.04 and above (or other Linux-based OS when using FlatPak); Windows 10 and above.",
-                                "format_id": "02842461-b378-4cfe-ab8e-88113b4e1663"
+                                "level": 1,
+                                "elements": "• Sistema operacional Ubuntu 22.04 e superior (ou outro sistema operacional baseado em Linux ao usar FlatPak); Windows 10 e superior.",
+                                "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ],
-                        "format_name": "Text body"
+                        "format_name": "Corpo do texto"
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Corpo do texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "• 2 GHz processor with 2 cores.",
+                                "level": 1,
+                                "elements": "• Processador de 2 GHz com 2 núcleos.",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ],
-                        "format_name": "Text body"
+                        "format_name": "Corpo do texto"
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Corpo do texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "• RAM from 4 GB.",
+                                "level": 1,
+                                "elements": "• RAM a partir de 4 GB.",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ],
-                        "format_name": "Text body"
+                        "format_name": "Corpo do texto"
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Corpo do texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Video adapter and monitor: VGA/HDMI(720 x 1280).",
+                                "level": 1,
+                                "elements": "• Adaptador de vídeo e monitor: VGA/HDMI(720 x 1280).",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ],
-                        "format_name": "Text body"
+                        "format_name": "Corpo do texto"
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Corpo do texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• Free space on the recording device: 4 GB.",
+                                "level": 1,
+                                "elements": "• Espaço livre no dispositivo de gravação: 4 GB.",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ],
-                        "format_name": "Text body"
+                        "format_name": "Corpo do texto"
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Corpo do texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Keyboard and mouse.",
+                                "level": 1,
+                                "elements": "• Teclado e mouse.",
                                 "format_id": "45ccffcb-5970-48bc-ab5b-6c0e28ba8550"
                             }
                         ],
-                        "format_name": "Text body"
+                        "format_name": "Corpo do texto"
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Corpo do texto",
                 "format_alignment": 0
             },
+#ifdef WEB
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "",
-                                "format_id": "6b785ef3-f665-43ec-9169-32ae22695332"
+                                "level": 1,
+                                "elements": "• Navegadores compatíveis: Google Chrome versão 57 ou posterior, Mozilla Firefox versão 52 ou posterior.",
+                                "format_id": "463af8c6-ebc9-4936-a34f-a80bcc3f6f43"
                             }
                         ],
-                        "format_name": "Text body"
+                        "format_name": "Corpo do texto"
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Corpo do texto",
                 "format_alignment": 0
             },
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Suporte a Javascript.",
+                                "format_id": "463af8c6-ebc9-4936-a34f-a80bcc3f6f43"
+                            }
+                        ],
+                        "format_name": "Corpo do texto"
+                    }
+                ],
+                "format_name": "Corpo do texto",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,8",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,8,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,8,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Suporte a cookies.",
+                                "format_id": "463af8c6-ebc9-4936-a34f-a80bcc3f6f43"
+                            }
+                        ],
+                        "format_name": "Corpo do texto"
+                    }
+                ],
+                "format_name": "Corpo do texto",
+                "format_alignment": 0
+            },
+#endif
+            {
+                "id": "0,9",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,9,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,9,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "",
+                                "format_id": "6b785ef3-f665-43ec-9169-32ae22695332"
+                            }
+                        ],
+                        "format_name": "Corpo do texto"
+                    }
+                ],
+                "format_name": "Corpo do texto",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,10",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,10,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,10,0,0",
                                 "type": 39,
-                                "elements": "<- About",
+                                "level": 1,
+                                "elements": "<- Sobre",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
-                                "url": "./About"
+                                "url": "./Sobre.yut"
                             },
                             {
-                                "id": "0,7,0,1",
+                                "id": "0,10,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
-                                "id": "0,7,0,2",
+                                "id": "0,10,0,2",
                                 "type": 39,
-                                "elements": "Terms of use ->",
+                                "level": 1,
+                                "elements": "Termos de uso ->",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
-                                "url": "./Terms of use"
+                                "url": "./Termos de uso.yut"
                             }
                         ],
-                        "format_name": "Text body"
+                        "format_name": "Corpo do texto"
                     }
                 ],
-                "format_name": "Text body",
+                "format_name": "Corpo do texto",
                 "format_alignment": 0
             }
         ]

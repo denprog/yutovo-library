@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -44,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -76,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "df8cedf1-e4f0-4d3e-b2ef-f49b3f118c13",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "38cc44b8-e740-421b-9120-24a0cff0b505",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8fd40975-a7da-4d9b-bd41-5eef992f7354",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2978d78d-c62b-4b9a-ab9f-c3ff42478673",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "06122c5f-4489-43f9-b977-10265688c235",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b01d5fc2-1bcd-4f33-a507-a3ecfbeb9a02",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8fe0907f-2a1e-45ea-9ffd-2d1682599999",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bca9b8a7-47c2-4edf-b3b9-ee8da88d0eea",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "d01ca8c7-44d3-4b60-b6b9-dd61e42f8904",
             "family": "Arial",
@@ -2866,6 +2992,286 @@
             "text_color": 4294928820,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2f54330d-f655-4e66-a116-c4ab115caeb4",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c30d9c17-fa6c-470d-a0fd-ec620690cf76",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a6e74126-060b-4216-b8fe-7e5dbe78078d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "467f9e9e-f9d9-45ea-a5c5-fa1db1be3c9f",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "edf369a7-4cea-4ea4-823d-5b878b98e3c9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "88f979e6-17c4-4620-9ded-fcf6be3633ef",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fa89263a-4e56-443c-865e-0944a28b4bf5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d9ee8f48-c4ae-49d1-8a82-e8994893665e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a40258a3-8cde-4a05-a4d5-e87eee870f69",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b5c7563b-fc2d-4887-87c2-310c1723ddd2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1f49d20e-a11e-46cd-a471-24226530dcba",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "037881e5-a48f-4c64-a7af-45024f9cdcc3",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1e21f4f3-5738-46a8-891b-3321c19c9199",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "aad7ada4-8bd6-4137-973c-012a46dcb36d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "95c988c4-371a-4eb0-b568-db415c75ec33",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c48943fe-3337-410e-a9c3-7f3474869789",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2335d7af-19e9-4c26-82bb-4861d19a984a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "95096e32-922b-48aa-9b70-20bc94b199c0",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e0161c80-0ce1-4b55-8e28-15013ca7df05",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5a409adc-9f2b-43af-8cde-15df05528dff",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -2973,18 +3379,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "El servicio yutovo.ru, yutovo.com (en adelante, Yutovo) y la aplicación de escritorio no ofrecen garantías, expresas ni implícitas, de ningún tipo.",
                                 "format_id": "d01ca8c7-44d3-4b60-b6b9-dd61e42f8904"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -2993,30 +3403,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "El proveedor del servicio y la aplicación de escritorio Yutovo no se responsabiliza, financiera ni de ningún otro tipo, por ningún daño o pérdida ",
+                                "level": 1,
+                                "elements": "El proveedor del servicio y la aplicación de escritorio Yutovo no se responsabiliza, financiera ni de ningún otro tipo, por ningún daño o pérdida causados ​​por el uso del servicio o la aplicación de escritorio Yutovo, incluyendo, entre otros, daños al hardware y software del Usuario.",
                                 "format_id": "d01ca8c7-44d3-4b60-b6b9-dd61e42f8904"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "causados ​​por el uso del servicio o la aplicación de escritorio Yutovo, incluyendo, entre otros, daños al hardware y software del Usuario.",
-                                "format_id": "d01ca8c7-44d3-4b60-b6b9-dd61e42f8904"
-                            }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -3025,18 +3427,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Los documentos guardados en la cuenta de Yutovo son personales de los usuarios registrados.",
                                 "format_id": "d01ca8c7-44d3-4b60-b6b9-dd61e42f8904"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -3045,30 +3451,22 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "El proveedor del servicio Yutovo se reserva el derecho a utilizar todos los documentos, registros de programa, resultados de cálculo y datos de ",
+                                "level": 1,
+                                "elements": "El proveedor del servicio Yutovo se reserva el derecho a utilizar todos los documentos, registros de programa, resultados de cálculo y datos de entrada cargados en el servicio Yutovo con el fin de brindar soporte, desarrollar y probar el servicio.",
                                 "format_id": "d01ca8c7-44d3-4b60-b6b9-dd61e42f8904"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,3,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,1,0",
-                                "type": 4,
-                                "elements": "entrada cargados en el servicio Yutovo con el fin de brindar soporte, desarrollar y probar el servicio.",
-                                "format_id": "d01ca8c7-44d3-4b60-b6b9-dd61e42f8904"
-                            }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -3077,18 +3475,22 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "El proveedor del servicio Yutovo se reserva el derecho a modificar estas Condiciones de Uso en cualquier momento.",
                                 "format_id": "d01ca8c7-44d3-4b60-b6b9-dd61e42f8904"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -3097,18 +3499,22 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "6928c936-c589-44e2-ab5b-def1b058dc5b"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -3117,32 +3523,38 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 39,
-                                "elements": "<- Requisitos del sistema",
+                                "level": 1,
+                                "elements": "<- Acerca de Yutovo",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
-                                "url": "./Requisitos del sistema.yut"
+                                "url": "./Acerca de Yutovo.yut"
                             },
                             {
                                 "id": "0,6,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,6,0,2",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "Política de privacidad ->",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "./Política de privacidad.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",

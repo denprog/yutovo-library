@@ -36,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "2d9c2fcc-c36f-4b87-9dc4-222b2f8f89cf",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "22d55d89-e7ca-4c12-9510-a58cac9cc909",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "89591a9c-9f02-4591-a41d-d5ad191002e6",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a6fd31bf-e5cb-4150-bda5-e5fa4b158b37",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "95eee196-7544-446a-848b-92537e35921a",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ce73644d-3f14-4e1e-83ce-5f241a113035",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3831ff7c-952c-414f-9dfe-b19a8162a568",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "759fcbf9-453d-4feb-945c-6c25a4a74b1a",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "b61218b1-f4fe-4c5a-803d-54e0c3da2c31",
             "family": "Arial",
@@ -2046,6 +2180,398 @@
             "text_color": 4294928820,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "26fcffe9-f6e2-4c76-99ec-6645f06b3bf9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "73591c35-199a-41f5-a274-1e9d28f0bc3d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a98a1e1e-bae8-48f6-86da-914c81f29c88",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3a71d2d2-c128-4ae9-808c-e3501c871dd6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ca18b43c-9900-46c5-954e-3aae898c2352",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "80d1a457-deae-4d98-b862-cbb6b921a432",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "394bb195-f2fe-48e3-868e-30c55694bbfb",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d1e06b7b-d4cc-4cfe-80c1-4c4796b55e35",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2a3ddf54-5ce5-486c-8111-1f49a188da57",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "34ea6b14-cd7a-4ff2-a0e9-49fdcf622147",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "44bcb01b-2837-464c-a4bd-408ffa266e1a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "19269a6c-6f2f-4451-a3a1-29164dd6ef0b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1afa1c95-1bf9-4b19-bf11-6b9900c30179",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "840e407f-e0dd-4d8c-90f5-b41070a0e00c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f587715b-5be0-49f5-b266-209d67b2e729",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a6453486-0965-4a46-86df-61a2e7eb5c75",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f514e3c8-e17e-4e21-b0df-ca4361b84ded",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a93fba45-0858-4496-a05c-ca9e99d55574",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "058a5b99-0732-49ee-9fa6-f574514237cf",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "eb27394b-d4b7-432f-a3b6-839b341ca449",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "80cca05f-9572-4361-bc3e-bccd775f0193",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0a7c125f-7465-4aab-b659-1cb3109dd8d0",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8da9a534-8873-4a32-a90a-18802b5558e8",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9856acc5-1f4d-4dfd-9352-5b3088545bcc",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "97d9df4b-a7de-4d62-a53d-d616d68c1fa9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "db9084c8-8142-49ff-8c96-1c416e79bc9e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "41b4c52c-3575-454c-ae9c-4a068f134ed2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "173fc92a-edbc-4f87-aeef-9f13ad5be7c3",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -2153,54 +2679,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Ютово - это приложение для решения различных математических задач. Ютово имеет наглядный \"бумажный\" вид ",
+                                "level": 1,
+                                "elements": "Ютово - это приложение для решения различных математических задач. Ютово имеет наглядный \"бумажный\" вид для вычислений. Оно использует общепризнанный математический синтаксис для отображения формул. Ютово предназначено для решения как повседневных, так и инженерных задач и подходит для широкого круга пользователей в самых разных сферах деятельности.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "для вычислений. Оно использует общепризнанный математический синтаксис для отображения формул. Ютово ",
-                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,2,0",
-                                "type": 4,
-                                "elements": "предназначено для решения как повседневных, так и инженерных задач и подходит для широкого круга ",
-                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,3,0",
-                                "type": 4,
-                                "elements": "пользователей в самых разных сферах деятельности.",
-                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2209,18 +2703,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Ютово использует графическое предствление математических формул.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2229,20 +2727,24 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Результаты вычислений могут иметь любое количество цифр и ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             },
                             {
                                 "id": "0,2,0,1",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "точность",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Вычисления/Изменение точности результата.yut"
@@ -2250,10 +2752,12 @@
                             {
                                 "id": "0,2,0,2",
                                 "type": 4,
+                                "level": 1,
                                 "elements": ".",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2262,20 +2766,24 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Ютово работает со следующими типами чисел: ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             },
                             {
                                 "id": "0,3,0,1",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "вещественные",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Вычисления/Числа/Вещественные числа.yut"
@@ -2283,12 +2791,14 @@
                             {
                                 "id": "0,3,0,2",
                                 "type": 4,
+                                "level": 1,
                                 "elements": ", ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             },
                             {
                                 "id": "0,3,0,3",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "целые",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Вычисления/Числа/Целые числа.yut"
@@ -2296,12 +2806,14 @@
                             {
                                 "id": "0,3,0,4",
                                 "type": 4,
+                                "level": 1,
                                 "elements": ", ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             },
                             {
                                 "id": "0,3,0,5",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "дробные",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Вычисления/Числа/Дробные числа.yut"
@@ -2309,12 +2821,14 @@
                             {
                                 "id": "0,3,0,6",
                                 "type": 4,
+                                "level": 1,
                                 "elements": ", ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             },
                             {
                                 "id": "0,3,0,7",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "комплексные",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Вычисления/Числа/Комплексные числа.yut"
@@ -2322,10 +2836,12 @@
                             {
                                 "id": "0,3,0,8",
                                 "type": 4,
+                                "level": 1,
                                 "elements": ".",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2334,20 +2850,24 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Меру угла можно ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             },
                             {
                                 "id": "0,4,0,1",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "изменять",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Вычисления/Изменение меры угла.yut"
@@ -2355,10 +2875,12 @@
                             {
                                 "id": "0,4,0,2",
                                 "type": 4,
+                                "level": 1,
                                 "elements": ".",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2367,18 +2889,22 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Поддерживаются общеупотребимые математические функции и константы.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2387,20 +2913,24 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Поддерживаются пользовательские ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             },
                             {
                                 "id": "0,6,0,1",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "переменные и функции",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Вычисления/Переменные и функции/Пользовательские переменные и функции.yut"
@@ -2408,10 +2938,12 @@
                             {
                                 "id": "0,6,0,2",
                                 "type": 4,
+                                "level": 1,
                                 "elements": ".",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2420,20 +2952,24 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Ютово использует ",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             },
                             {
                                 "id": "0,7,0,1",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "размерности",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Вычисления/Размерности/Основные сведения.yut"
@@ -2441,10 +2977,12 @@
                             {
                                 "id": "0,7,0,2",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " и системы размерностей и может переводить значения между ними.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2453,30 +2991,22 @@
             {
                 "id": "0,8",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,8,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
-                                "elements": "• Автоматический пересчет выражений помогает пользователям наблюдать за результатами вычислений при ",
+                                "level": 1,
+                                "elements": "• Автоматический пересчет выражений помогает пользователям наблюдать за результатами вычислений при редактировании формул.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,8,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,8,1,0",
-                                "type": 4,
-                                "elements": "редактировании формул.",
-                                "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2485,18 +3015,22 @@
             {
                 "id": "0,9",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,9,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Подсветка синтаксиса.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2505,18 +3039,22 @@
             {
                 "id": "0,10",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,10,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Библиотека примеров и наглядная документация.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2525,18 +3063,22 @@
             {
                 "id": "0,11",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,11,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "4f7d311f-4cbd-4d2b-afa7-8fb8543d2cab"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2545,32 +3087,38 @@
             {
                 "id": "0,12",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,12,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,12,0,0",
                                 "type": 39,
-                                "elements": "<- Ютово",
+                                "level": 1,
+                                "elements": "<- ../Ютово",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "../Ютово.yut"
                             },
                             {
                                 "id": "0,12,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " ",
-                                "format_id": "c59917cc-f16e-429b-a9d7-c34604178035"
+                                "format_id": "b25c6bcd-777f-4984-8ef8-e1ffb884f7c1"
                             },
                             {
                                 "id": "0,12,0,2",
                                 "type": 39,
-                                "elements": "Системные требования ->",
+                                "level": 1,
+                                "elements": "Правила использования ->",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
-                                "url": "./Системные требования.yut"
+                                "url": "./Правила использования.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

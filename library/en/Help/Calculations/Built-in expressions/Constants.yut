@@ -36,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "b20e2a97-8daa-426f-a3bd-3fab45cde98e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ad09763b-86b4-42d8-8ee1-81d3bd8e3080",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "260bd720-da57-49ee-8da0-a9153de386d8",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a5883caf-06b3-43ba-93dd-bb071f23432d",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "359653f0-a4f1-44f1-abc1-9e9d8e013e3f",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fc09c92a-31b0-4409-960f-0d0ae8d69184",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a766d350-67db-4c8b-8e0d-1e366b5e3e5f",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7ab10423-33a3-44e9-9b99-324053f1dae0",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "b7149ea7-b202-4ed0-8c27-06fce0d8b79b",
             "family": "Arial",
@@ -8710,6 +8844,62 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "254504f8-2183-482c-aca9-b0a1c0de2cfb",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "45bf295d-192b-4671-8251-0bd93ced54f1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3d7116ba-f47b-40f5-b1ed-7dbb6b2478f8",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "caaa1002-bf68-447a-bf38-2444735bf089",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -8817,14 +9007,17 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "These custom symbols are called \"constants\" because of their physical meaning. However, they can also be redefined.",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -8838,14 +9031,17 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Mathematical constants",
                                 "format_id": "2cd1026f-eeba-49e8-b25f-f67eb5419692"
                             }
@@ -8859,14 +9055,17 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• pi - pi",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -8880,14 +9079,17 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• e - Euler number",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -8901,14 +9103,17 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• i - imaginary number",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -8922,14 +9127,17 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Physical constants",
                                 "format_id": "2cd1026f-eeba-49e8-b25f-f67eb5419692"
                             }
@@ -8943,14 +9151,17 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• c - speed of light",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -8964,14 +9175,17 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• G - gravitational constant",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -8985,14 +9199,17 @@
             {
                 "id": "0,8",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,8,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• h - Planck constant",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -9006,14 +9223,17 @@
             {
                 "id": "0,9",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,9,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• e_c - elementary charge",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -9027,14 +9247,17 @@
             {
                 "id": "0,10",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,10,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• k - Boltzmann constant",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -9048,14 +9271,17 @@
             {
                 "id": "0,11",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,11,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• g_a - Gravitational acceleration",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
@@ -9069,14 +9295,17 @@
             {
                 "id": "0,12",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,12,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,12,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "d80f5013-c9ef-46ad-a2f3-6aae6e357620"
                             }
@@ -9090,27 +9319,32 @@
             {
                 "id": "0,13",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,13,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,13,0,0",
                                 "type": 39,
-                                "elements": "<- Variables and functions/Automatic expression recalculation",
+                                "level": 1,
+                                "elements": "<- ../Variables and functions/Automatic expression recalculation",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "../Variables and functions/Automatic expression recalculation.yut"
                             },
                             {
                                 "id": "0,13,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,13,0,2",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "Functions ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Functions.yut"

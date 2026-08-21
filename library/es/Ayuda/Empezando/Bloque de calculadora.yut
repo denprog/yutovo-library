@@ -4,15 +4,7 @@
         "language": 3,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -44,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -76,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "c2ac4512-696f-460f-b28d-4ec532f6b3f5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7faa4d02-b43c-4daf-a55f-6f0821332478",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c7eefe01-a8c3-4eec-bf4f-56d5f52b14b2",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fda66209-9411-429d-aa79-28f221003bd8",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f2b8ee85-6ae3-438f-b4d3-599bc9997267",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9d096fb8-600d-4d88-8b6b-6a993f8927c6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "792cf8bd-8ef2-4bdf-9316-43812c485ba7",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "cbbb791c-3d30-4cb8-b5a9-0685db642045",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "90bb333e-9b2e-406d-9420-4515e8e2fcdd",
             "family": "Arial",
@@ -8158,6 +8284,62 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fb916bbc-92db-4faf-86f0-5d234b9a725f",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a787a9ad-7053-4ef6-ae83-9d9d11aa0eff",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bde19537-5176-411e-96da-fd30ed0d19bb",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0ea08f8d-4c49-4b03-8cd9-e4490ed8f259",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -8265,42 +8447,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Un bloque de calculadora es un rectángulo en el texto para realizar cálculos. Aparece al principio de un documento vacío y puede añadirse en cualquier parte del documento (excepto dentro de un bloque de ",
+                                "level": 1,
+                                "elements": "Un bloque de calculadora es un rectángulo en el texto para realizar cálculos. Aparece al principio de un documento vacío y puede añadirse en cualquier parte del documento (excepto dentro de un bloque de código) mediante el botón \"Insertar calculadora\" o la combinación de teclas [Ctrl+Mayús+C]. También aparece al empezar a escribir código con los botones del panel matemático, si el cursor no está en el código en ese momento.",
                                 "format_id": "2aefdf1a-bd01-4f3a-aa39-aa5f04c200d5"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "código) mediante el botón \"Insertar calculadora\" o la combinación de teclas [Ctrl+Mayús+C]. También aparece al empezar a escribir código con los botones del panel matemático, si el cursor no está en el ",
-                                "format_id": "2aefdf1a-bd01-4f3a-aa39-aa5f04c200d5"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,2,0",
-                                "type": 4,
-                                "elements": "código en ese momento.",
-                                "format_id": "2aefdf1a-bd01-4f3a-aa39-aa5f04c200d5"
-                            }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8309,30 +8471,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "Puede haber tantos bloques de calculadora como desee y forman un único espacio para los cálculos. Esto significa, en particular, que las variables y funciones declaradas en el bloque superior pueden ",
+                                "level": 1,
+                                "elements": "Puede haber tantos bloques de calculadora como desee y forman un único espacio para los cálculos. Esto significa, en particular, que las variables y funciones declaradas en el bloque superior pueden utilizarse en el bloque inferior.",
                                 "format_id": "2aefdf1a-bd01-4f3a-aa39-aa5f04c200d5"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "utilizarse en el bloque inferior.",
-                                "format_id": "2aefdf1a-bd01-4f3a-aa39-aa5f04c200d5"
-                            }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8341,18 +8495,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Estos bloques se pueden copiar al portapapeles como cualquier otro símbolo. Si se copia una expresión matemática de un bloque al texto, aparecerá automáticamente un nuevo bloque de calculadora.",
                                 "format_id": "2aefdf1a-bd01-4f3a-aa39-aa5f04c200d5"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8361,18 +8519,22 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "El texto fuera de estos bloques no afecta a los cálculos en absoluto.",
                                 "format_id": "2aefdf1a-bd01-4f3a-aa39-aa5f04c200d5"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8381,18 +8543,22 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "8a525e27-12e3-44c6-b6cc-b6b6d9062a01"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8401,14 +8567,17 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "<- Interfaz de usuario",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Interfaz de usuario.yut"
@@ -8416,17 +8585,20 @@
                             {
                                 "id": "0,5,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,5,0,2",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "Cursor ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Cursor.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",

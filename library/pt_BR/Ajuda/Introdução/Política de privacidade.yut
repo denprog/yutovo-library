@@ -36,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "8b5bc1fe-0723-4ab1-9600-f091461b7e5c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0f166a2a-8163-4dbb-a4a7-429f530b6a8c",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a61c9d20-4c37-4165-b497-b4ee6d98896c",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4a09cba9-40bf-4668-99b2-3a69769932d7",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d95dab4f-ffc0-483d-80b4-6d37126b719f",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8c397da7-04fc-4b43-adb0-9ad06903fd97",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8bb8b579-1d0d-43a9-b615-8e65267a69da",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a90c2751-95b1-44d6-82a3-182cb97670a6",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "d2e273af-935a-4352-add4-a8b90ab25478",
             "family": "Arial",
@@ -3852,6 +3986,566 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ccc0c9fd-0c0d-481a-8e9f-a3b279164157",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dd2cb5f5-ff77-4a31-9c59-c3938bf27964",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ba9e9ce3-0163-4d7b-a4da-49fd525e7fbd",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b65979e7-0c30-423c-bb42-69b262457569",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2622e7ee-dd0c-4db9-9e66-c1f6ce9adfc9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8cf54d3d-ae6b-42b4-b1d3-cf7f6e8d7529",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b4393888-219c-4c08-be1f-ff5cf89727eb",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ab65f5dc-648e-454f-9bbe-0d96b6b0164c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c9e605aa-5c8f-41f5-b975-809fab4fb056",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "475b3d10-7188-4da2-9062-7a16563c5cf2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0fb78694-ba42-4be3-8794-53aaaf616aa5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "30986bb4-0e09-4311-90c8-8f78dfb21603",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d0edb48b-2b32-4579-b98f-f147f0c81568",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "40036488-03a8-40f6-9fe6-85c8f9f743d9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "074e3e93-0811-446d-bc53-5946e10f4b22",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a37b53bb-3fc4-45de-bdbc-61dd9f277f4d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1c964064-5be7-463c-a3bc-e9955914b447",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e434f5bf-5a74-4c71-92a5-7bed2fe2f878",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6cd4a36b-c012-4152-a903-c8a341eaa236",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "37489de3-2cfe-48ad-9b47-c334b47791f4",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5dc500a9-73f3-41ff-854c-13af0427fb35",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ec0a3919-711f-4c8e-944e-dbf8a74d5308",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "842dcd65-ca04-4bd4-8016-8ff49d0cf14a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a59a0550-3ff7-4f0e-b079-21d99c1477be",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "098a187c-5376-4e9c-816b-ee8403e5693a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1950d6fd-ef56-444a-8b63-b12c64699d1b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b0904658-a1da-4248-9018-16e7a4767efd",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c17543e9-d3b4-4eff-907b-7d7ff08e39f9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ca976bec-4cec-4984-aa0e-ebed8490362b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "32711db9-7fd6-4f7c-a739-571314969c7e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fbe7d8fc-a055-4344-8af4-3ca9101192a1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "85ade16f-d31a-4e5d-8b2e-1c77657f9f6f",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6a09eb75-4d91-4080-b6be-a2b408a27ba5",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b1b3f1cc-275d-4af5-8ad9-9521d1e42d7b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8226c58a-c652-4e1f-ac82-9cced4f06e09",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b557b534-65e8-4696-9a54-d161d077f53c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8e2f91c9-8850-4d58-ad24-785dba02848c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ed328ff9-d697-4660-842f-8daa392d7c4e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a260c8b3-e712-4cac-8654-7d2a03c0ce2e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5e8103e4-2e76-405a-823b-d5cd8e3e35a1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -3959,14 +4653,17 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "1. Tipos de informação a coletar",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -3980,14 +4677,17 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Podemos coletar informações pessoais do usuário, como nome, e-mail, endereço IP e outras informações.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4001,14 +4701,17 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "2. Maneiras de coletar informações",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4022,14 +4725,17 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Podemos coletar informações quando o usuário se registra, cancela registro, faz login ou logout no site. Podemos coletar informações pessoais quando o usuário usa ndo o usuário usa qualquer um dos",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4043,14 +4749,17 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "3. Uso das informações",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4064,14 +4773,17 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Podemos usar informações para verificar sua conta no site enviando um email de verificação para seu endereço de email registrado.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4085,14 +4797,17 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Podemos usar informações pessoais para responder às solicitações do usuário. Podemos usar informações pessoais para melhorar os serviços, o site e o aplicativo desktop. Podemos usar informações pessoais para fins de segurança para proteger usuários e o site. Podemos usar informações como  o aplicativo d",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4106,14 +4821,17 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "4. Direitos do usuário sobre seus dados",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4127,14 +4845,17 @@
             {
                 "id": "0,8",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,8,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Você pode solicitar que excluamos quaisquer dados pessoais que mantemos sobre você. Isso não inclui dados que somos obrigados a manter para administrativos, legais ou de segurança. Você pode enviar sua solicitação de exclusão de dados para: support@yutovo.ru.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4148,14 +4869,17 @@
             {
                 "id": "0,9",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,9,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "5. Isenção de responsabilidade",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4169,14 +4893,17 @@
             {
                 "id": "0,10",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,10,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Você assume toda a responsabilidade e risco em relação ao uso do site, que é fornecido \"como está\" sem garantias, representações ou condições de qualquer tipo, expressas ou implícitas, no que diz respeito a informações acessadas do ou através do site, incluindo sem limitação, todas conteúdos e materiais, e funções e serviços fornecidos em nosso site, todos os quais são fornecidos sem garantia de qualquer tipo, incluindo mas não se limitando a garantias relativas à disponibilidade, precisão, integridade ou utilidade de conteúdo ou informações, acesso ininterrupto, e quaisquer garantias de título, não violação, comercialização ou adequação a um fim específico.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4190,14 +4917,17 @@
             {
                 "id": "0,11",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,11,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Não garantimos que nosso site ou seu funcionamento ou o conteúdo e material dos serviços disponibilizados serão pontuais, seguros, ininterrupto ou livre de erros, que defeitos serão corrigidos, ou que nossos sites ou os servidores que disponibilizam nosso site estão livres de vírus ou outros componentes prejudiciais. O uso de nosso site é por sua conta e risco e você assume total responsabilidade por quaisquer custos associados com o uso do site. Não seremos responsáveis por quaisquer danos de qualquer tipo relacionados ao uso de nosso site.",
                                 "format_id": "530682d4-c835-46f5-a7f0-7d69b3e26b6d"
                             }
@@ -4211,14 +4941,17 @@
             {
                 "id": "0,12",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,12,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,12,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "75627732-8030-4c55-a49d-e97df2fd5417"
                             }
@@ -4232,30 +4965,35 @@
             {
                 "id": "0,13",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,13,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,13,0,0",
                                 "type": 39,
-                                "elements": "<- Termos de uso",
-                                "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
-                                "url": "./Termos de uso.yut"
+                                "level": 1,
+                                "elements": "<- Requisitos do sistema",
+                                "format_id": "4fcada90-3427-40c4-b8d4-f5463e42ea04",
+                                "url": "./Requisitos do sistema.yut"
                             },
                             {
                                 "id": "0,13,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,13,0,2",
                                 "type": 39,
-                                "elements": "Começando/Interface de usuário ->",
+                                "level": 1,
+                                "elements": "Termos de uso ->",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
-                                "url": "../Começando/Interface de usuário.yut"
+                                "url": "./Termos de uso.yut"
                             }
                         ],
                         "format_name": "Corpo do texto"

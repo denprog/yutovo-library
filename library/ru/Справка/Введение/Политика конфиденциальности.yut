@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,11 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +64,149 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "cea38e6b-606d-4abb-bd01-6471cb4fabe9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6f2e8d7b-6032-4387-bca7-2c3cc8cd5a27",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "76b5b960-5e9d-4dc3-ae75-51f41b768343",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e1fe83ec-5502-4d2b-8b71-2568d77d21b5",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8a548e60-b792-40d1-8d2e-574f081ce878",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "136f8a80-1543-4a1c-8849-de2cf4f3443b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a1a9d577-2ddd-45c7-a6c4-2e2aba464763",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4548571a-cd40-4253-8237-2ed40788fcde",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "b78d6eb7-eaae-4fb9-a2ed-024a45ba5df7",
             "family": "Arial",
@@ -3068,6 +3202,104 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "157f6f33-191c-4fcd-80d2-adfe70ac96c6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d6d194d9-c86d-480d-b34c-2220e667ad66",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4e10dd05-bcd7-44f8-a285-68e27ef91ec3",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "226a91e0-6f72-4ae5-ae39-06948feee0b3",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0b352487-6567-460c-9c64-9cd1321d6142",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c3a4b2fd-fdd3-44c8-8a12-023fe2ce61be",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "56c57ff2-4bb9-4490-a9bf-e8df02f03b38",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -3175,18 +3407,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "1. Информация для сбора",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3195,30 +3431,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "Мы можем собирать личную информацию пользователя, такую как имя, адрес электронной почты, IP-адрес и ",
+                                "level": 1,
+                                "elements": "Мы можем собирать личную информацию пользователя, такую как имя, адрес электронной почты, IP-адрес и другую информацию.",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "другую информацию.",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3227,18 +3455,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "2. Способы сбора информации",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3247,30 +3479,22 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "Мы можем собирать информацию, когда пользователь регистрируется, отменяет регистрацию, входит или ",
+                                "level": 1,
+                                "elements": "Мы можем собирать информацию, когда пользователь регистрируется, отменяет регистрацию, входит или выходит из системы на сайте.",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,3,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,3,1,0",
-                                "type": 4,
-                                "elements": "выходит из системы на сайте.",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3279,18 +3503,22 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Мы можем собирать личную информацию, когда пользователь использует любую из услуг сайта.",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3299,18 +3527,22 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "3. Использование информации",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3319,30 +3551,22 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "Мы можем использовать информацию для проверки вашей учетной записи на веб-сайте, отправив письмо с ",
+                                "level": 1,
+                                "elements": "Мы можем использовать информацию для проверки вашей учетной записи на веб-сайте, отправив письмо с подтверждением на ваш зарегистрированный адрес электронной почты.",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,6,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,6,1,0",
-                                "type": 4,
-                                "elements": "подтверждением на ваш зарегистрированный адрес электронной почты.",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3351,54 +3575,22 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "Мы можем использовать личную информацию для ответа на запросы пользователей. Мы можем использовать ",
+                                "level": 1,
+                                "elements": "Мы можем использовать личную информацию для ответа на запросы пользователей. Мы можем использовать личную информацию для улучшения услуг, веб-сайта и настольного приложения. Мы можем использовать личную информацию в целях безопасности для защиты пользователей и веб-сайта. Мы можем использовать информацию, если это разрешено законом.",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,7,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,7,1,0",
-                                "type": 4,
-                                "elements": "личную информацию для улучшения услуг, веб-сайта и настольного приложения. Мы можем использовать ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,7,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,7,2,0",
-                                "type": 4,
-                                "elements": "личную информацию в целях безопасности для защиты пользователей и веб-сайта. Мы можем использовать ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,7,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,7,3,0",
-                                "type": 4,
-                                "elements": "информацию, если это разрешено законом.",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3407,18 +3599,22 @@
             {
                 "id": "0,8",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,8,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "4. Права пользователя на свои данные",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3427,42 +3623,22 @@
             {
                 "id": "0,9",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,9,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
-                                "elements": "Вы можете потребовать, чтобы мы удалили любые личные данные, которые мы храним о вас. Сюда не входят ",
+                                "level": 1,
+                                "elements": "Вы можете потребовать, чтобы мы удалили любые личные данные, которые мы храним о вас. Сюда не входят данные, которые мы обязаны хранить в административных, юридических целях или целях безопасности. Отправить запрос на удаление данных можно на сайте support@yutovo.ru.",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,9,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,1,0",
-                                "type": 4,
-                                "elements": "данные, которые мы обязаны хранить в административных, юридических целях или целях безопасности. ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,2,0",
-                                "type": 4,
-                                "elements": "Отправить запрос на удаление данных можно на сайте support@yutovo.ru.",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3471,18 +3647,22 @@
             {
                 "id": "0,10",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,10,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "5. Отказ от ответственности",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3491,162 +3671,22 @@
             {
                 "id": "0,11",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,11,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
-                                "elements": "Вы принимаете на себя всю ответственность и риск в отношении использования вами веб-сайта, который ",
+                                "level": 1,
+                                "elements": "Вы принимаете на себя всю ответственность и риск в отношении использования вами веб-сайта, который предоставляется «как есть» без каких-либо гарантий. Информация, доступ к которой осуществляется с помощью веб-сайта, включая, помимо прочего, весь контент и материалы, а также функции и услуги, представленные на нашем веб-сайте, все они представляются без каких-либо гарантий, включая, помимо прочего, гарантии относительно доступности, точности, полноты или полезности контента или информации, бесперебойности доступа и любые гарантии прав собственности, ненарушения прав, коммерческой пригодности или пригодности для определенной цели. Мы не гарантируем, что наш веб-сайт или его функционирование, а также содержимое и материалы предоставляемых через него услуг будут своевременными, безопасными, бесперебойными и не содержать ошибок, что дефекты будут исправлены или что наши веб-сайты или серверы, обеспечивающие доступ к нашему веб-сайту, не содержат вирусов или другие вредные компоненты. Вы используете наш веб-сайт на свой страх и риск, и вы принимаете на себя полную ответственность за любые расходы, связанные с использование вами веб-сайта. Мы не несем ответственности за любой ущерб, связанный с использованием нашего веб-сайта.",
                                 "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,11,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,1,0",
-                                "type": 4,
-                                "elements": "предоставляется «как есть» без каких-либо гарантий. Информация, доступ к которой осуществляется с ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,2,0",
-                                "type": 4,
-                                "elements": "помощью веб-сайта, включая, помимо прочего, весь контент и материалы, а также функции и услуги, ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,3,0",
-                                "type": 4,
-                                "elements": "представленные на нашем веб-сайте, все они представляются без каких-либо гарантий, включая, помимо ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,4",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,4,0",
-                                "type": 4,
-                                "elements": "прочего, гарантии относительно доступности, точности, полноты или полезности контента или информации, ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,5",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,5,0",
-                                "type": 4,
-                                "elements": "бесперебойности доступа и любые гарантии прав собственности, ненарушения прав, коммерческой ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,6",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,6,0",
-                                "type": 4,
-                                "elements": "пригодности или пригодности для определенной цели. Мы не гарантируем, что наш веб-сайт или его ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,7",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,7,0",
-                                "type": 4,
-                                "elements": "функционирование, а также содержимое и материалы предоставляемых через него услуг будут ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,8",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,8,0",
-                                "type": 4,
-                                "elements": "своевременными, безопасными, бесперебойными и не содержать ошибок, что дефекты будут исправлены или ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,9",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,9,0",
-                                "type": 4,
-                                "elements": "что наши веб-сайты или серверы, обеспечивающие доступ к нашему веб-сайту, не содержат вирусов или ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,10",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,10,0",
-                                "type": 4,
-                                "elements": "другие вредные компоненты. Вы используете наш веб-сайт на свой страх и риск, и вы принимаете на себя ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,11",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,11,0",
-                                "type": 4,
-                                "elements": "полную ответственность за любые расходы, связанные с использование вами веб-сайта. Мы не несем ",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,11,12",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,11,12,0",
-                                "type": 4,
-                                "elements": "ответственности за любой ущерб, связанный с использованием нашего веб-сайта.",
-                                "format_id": "d5a9ba87-de17-411b-a45a-36a44c60bcf3"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3655,18 +3695,22 @@
             {
                 "id": "0,12",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,12,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,12,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "0e779cb2-68cf-4d64-aa28-989e531928ab"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -3675,14 +3719,17 @@
             {
                 "id": "0,13",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,13,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,13,0,0",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "<- Правила использования",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
                                 "url": "./Правила использования.yut"
@@ -3690,17 +3737,20 @@
                             {
                                 "id": "0,13,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,13,0,2",
                                 "type": 39,
-                                "elements": "Начало работы/Пользовательский интерфейс ->",
+                                "level": 1,
+                                "elements": "../Начало работы/Блок калькулятора ->",
                                 "format_id": "c2b4bd97-3c13-4720-8d04-be7c0766fd5d",
-                                "url": "../Начало работы/Пользовательский интерфейс.yut"
+                                "url": "../Начало работы/Блок калькулятора.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

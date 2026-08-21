@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -44,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -76,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "aa3b1503-d000-4536-858d-44535e1816cf",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "fd0ff5b0-07f1-4d0d-b44a-c1e5743e1f85",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "bfe8d8ff-9933-40aa-bd07-f5079eea200e",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "45b4a574-ddb6-446b-9a8e-51cc2a3953ac",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "139385db-eb19-45d6-9354-b8243e814f26",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2bc3e455-9822-45b3-9d90-a5f3e506ced4",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "716cc517-96f3-4cab-a9de-d1d88cf87c00",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ab9597dd-438f-4033-8e00-4aa4049d78b7",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "b1039e9d-5d5e-4a16-8c17-5941857a38cf",
             "family": "Arial",
@@ -1228,6 +1354,132 @@
             "text_color": 4278190080,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5434132a-7736-4f99-bd3d-e566dc1478d2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190335,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9f752560-a9c4-4f90-8732-9a299601978a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a19961b1-4658-40cc-b54d-e16b34e8f94b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dd99fb9f-f2d3-4376-92bc-cb8c585f6fc6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "978a2ec4-9166-40e4-adf2-117b7eaf90f9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "87c50277-02f9-434b-80c0-8adcce837b12",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a58574a8-98eb-4dfa-bb26-53d43ccae8ad",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7fac5208-cc25-4f50-ae88-4712dde3e8ce",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3737afaa-084a-4a69-a0f4-59e3e5f03a72",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -1335,54 +1587,36 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Для построения линейного графика функции кликните на кнопку ",
                                 "format_id": "60c7a8af-d45e-452e-b5e7-c9da4063f1a6"
                             },
                             {
                                 "id": "0,0,0,1",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAACwAAAAkCAIAAAB9tU87AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAB70lEQVRYhe3WP8uqUBwHcI/ewCCKgigsbBIJi6KhhugPTg0RUUH4CqKxF9AU9Soa3YJoa3GzXGtqySkIiRxqKSLxPEPcO5jUvfchdXi+kxzP8Xz4Hc9RACFE7A5qNwBBHIrodruLxcJmBIQQRa0ujwnCYoEJQtd1AIDNCEdUAkL4U4nfiJ/d4SiEI15M6xG/nhGPi/v9LgjCcrlUFAVBkEAgQFFUMplMp9Nut/vjCADA6XQaDAbhcJjjuFgshqKoqqqyLEuSNB6PU6kUy7KJROKDCE3ThsNhqVSq1Wp/2kmSJEmSZdnr9SpJEs/zl8ulWq0Wi0Ucx7+JAIbt0G63c7kcAKDX670eud1u5/P5er3O5/OVSiUSibzufzwep9Npp9N5vmWsxO12KxQKmUzmLZ+iKIqizuezIAij0cjr9ZbL5Ww26/f7DT11XRdFked5juNMH2VEIAjicrkwDHuLeMTn8zWbzUajsdlsRFGcTCYej4em6VAohOO4pmn7/X61WkWj0X6/T5Lk3yL+IwAAhmEYhoEQKooiy/LhcFBVFcMwmqZbrVYwGHwx3ATxnXMCAEAQBEEQ/zTK5Ftl/4lpS5yKcMRyOAJhfZxaCUcgrI8jECbH9m63+9yKxOPx50bj/0S9Xv/Q9I/MZrP3CFvyBarNvaxmCwx1AAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,0,0,2",
                                 "type": 4,
-                                "elements": " панели Графики, затем введите крайние точки осей, выражение ",
+                                "level": 1,
+                                "elements": " панели Графики, затем введите крайние точки осей, выражение функции для оси y и параметр оси x. Выражение для функции может быть любым в рамках принятого синтаксиса. Выражение для аргумента - любое имя переменной.",
                                 "format_id": "60c7a8af-d45e-452e-b5e7-c9da4063f1a6"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "функции для оси y и параметр оси x. Выражение для функции может быть любым в рамках принятого синтаксиса. Выражение для ",
-                                "format_id": "60c7a8af-d45e-452e-b5e7-c9da4063f1a6"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,2,0",
-                                "type": 4,
-                                "elements": "аргумента - любое имя переменной.",
-                                "format_id": "60c7a8af-d45e-452e-b5e7-c9da4063f1a6"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -1391,36 +1625,44 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 5,
+                                "level": 1,
                                 "elements": [
                                     {
                                         "id": "0,1,0,0,0",
                                         "type": 6,
+                                        "level": 1,
                                         "elements": [
                                             {
                                                 "id": "0,1,0,0,0,0",
                                                 "type": 7,
+                                                "level": 1,
                                                 "elements": [
                                                     {
                                                         "id": "0,1,0,0,0,0,0",
                                                         "type": 43,
+                                                        "level": 1,
                                                         "elements": [
                                                             {
                                                                 "id": "0,1,0,0,0,0,0,0",
                                                                 "type": 7,
+                                                                "level": 2,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,1,0,0,0,0,0,0,0",
                                                                         "type": 8,
+                                                                        "level": 2,
                                                                         "elements": "3.2",
-                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                         "can_merge": true
                                                                     }
                                                                 ]
@@ -1428,18 +1670,22 @@
                                                             {
                                                                 "id": "0,1,0,0,0,0,0,1",
                                                                 "type": 44,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,1,0,0,0,0,0,1,0",
                                                                         "type": 6,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,1,0,0,0,0,0,1,0,0",
                                                                                 "type": 7,
+                                                                                "level": 1,
                                                                                 "elements": [
                                                                                     {
                                                                                         "id": "0,1,0,0,0,0,0,1,0,0,0",
                                                                                         "type": 8,
+                                                                                        "level": 1,
                                                                                         "elements": "cos",
                                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                                         "can_merge": true
@@ -1447,50 +1693,66 @@
                                                                                     {
                                                                                         "id": "0,1,0,0,0,0,0,1,0,0,1",
                                                                                         "type": 19,
+                                                                                        "level": 1,
                                                                                         "elements": [
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,1,0",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,1,1",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,1,2",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,1,3",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,1,4",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,1,5",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,1,6",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,1,7",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,1,8",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,0,0,0,1,0,0,1,9",
+                                                                                                "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             }
                                                                                         ],
@@ -1499,14 +1761,17 @@
                                                                                     {
                                                                                         "id": "0,1,0,0,0,0,0,1,0,0,2",
                                                                                         "type": 15,
+                                                                                        "level": 1,
                                                                                         "elements": [
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,2,0",
                                                                                                 "type": 7,
+                                                                                                "level": 1,
                                                                                                 "elements": [
                                                                                                     {
                                                                                                         "id": "0,1,0,0,0,0,0,1,0,0,2,0,0",
                                                                                                         "type": 8,
+                                                                                                        "level": 1,
                                                                                                         "elements": "x",
                                                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                                                         "can_merge": true
@@ -1516,17 +1781,20 @@
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,2,1",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,2,2",
                                                                                                 "type": 7,
+                                                                                                "level": 2,
                                                                                                 "elements": [
                                                                                                     {
                                                                                                         "id": "0,1,0,0,0,0,0,1,0,0,2,2,0",
                                                                                                         "type": 8,
+                                                                                                        "level": 2,
                                                                                                         "elements": "2",
-                                                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                                                         "can_merge": true
                                                                                                     }
                                                                                                 ]
@@ -1536,50 +1804,66 @@
                                                                                     {
                                                                                         "id": "0,1,0,0,0,0,0,1,0,0,3",
                                                                                         "type": 20,
+                                                                                        "level": 1,
                                                                                         "elements": [
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,3,0",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,3,1",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,3,2",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,3,3",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,3,4",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,3,5",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,3,6",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,3,7",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,1,0,0,0,0,0,1,0,0,3,8",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,1,0,0,0,0,0,1,0,0,3,9",
+                                                                                                "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             }
                                                                                         ],
@@ -1591,31 +1875,42 @@
                                                                         "format_name": "Код",
                                                                         "format_alignment": 0,
                                                                         "marker": "█",
-                                                                        "marker_format_id": "40ec515f-0a58-4f95-92f1-44e786bcb943"
+                                                                        "marker_format_id": "8824f685-bab8-4c7a-a370-25f3b05b7fa6"
                                                                     }
                                                                 ]
                                                             },
                                                             {
                                                                 "id": "0,1,0,0,0,0,0,2",
                                                                 "type": 7,
+                                                                "level": 2,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,1,0,0,0,0,0,2,0",
                                                                         "type": 12,
+                                                                        "level": 2,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,1,0,0,0,0,0,2,0,0",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,1,0,0,0,0,0,2,0,1",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,1,0,0,0,0,0,2,0,2",
                                                                                 "type": 10,
+                                                                                "level": 2,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,0,0,0,2,0,3",
+                                                                                "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -1624,8 +1919,9 @@
                                                                     {
                                                                         "id": "0,1,0,0,0,0,0,2,1",
                                                                         "type": 8,
+                                                                        "level": 2,
                                                                         "elements": "3.2",
-                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                         "can_merge": true
                                                                     }
                                                                 ]
@@ -1633,24 +1929,35 @@
                                                             {
                                                                 "id": "0,1,0,0,0,0,0,3",
                                                                 "type": 7,
+                                                                "level": 2,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,1,0,0,0,0,0,3,0",
                                                                         "type": 12,
+                                                                        "level": 2,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,1,0,0,0,0,0,3,0,0",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,1,0,0,0,0,0,3,0,1",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,1,0,0,0,0,0,3,0,2",
                                                                                 "type": 10,
+                                                                                "level": 2,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,1,0,0,0,0,0,3,0,3",
+                                                                                "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -1659,8 +1966,9 @@
                                                                     {
                                                                         "id": "0,1,0,0,0,0,0,3,1",
                                                                         "type": 8,
+                                                                        "level": 2,
                                                                         "elements": "2.8",
-                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                         "can_merge": true
                                                                     }
                                                                 ]
@@ -1668,10 +1976,12 @@
                                                             {
                                                                 "id": "0,1,0,0,0,0,0,4",
                                                                 "type": 7,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,1,0,0,0,0,0,4,0",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "x",
                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                         "can_merge": true
@@ -1681,12 +1991,14 @@
                                                             {
                                                                 "id": "0,1,0,0,0,0,0,5",
                                                                 "type": 7,
+                                                                "level": 2,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,1,0,0,0,0,0,5,0",
                                                                         "type": 8,
+                                                                        "level": 2,
                                                                         "elements": "5.6",
-                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                         "can_merge": true
                                                                     }
                                                                 ]
@@ -1694,6 +2006,7 @@
                                                             {
                                                                 "id": "0,1,0,0,0,0,0,6",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             }
                                                         ],
@@ -1721,7 +2034,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -1730,18 +2044,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Можно строить графики нескольких функций на одной области.",
                                 "format_id": "2b32e022-66df-41b9-bb87-06ea5f968239"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -1750,18 +2068,22 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Выражение функции может быть пользовательской функцией:",
                                 "format_id": "60c7a8af-d45e-452e-b5e7-c9da4063f1a6"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -1770,34 +2092,42 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 5,
+                                "level": 1,
                                 "elements": [
                                     {
                                         "id": "0,4,0,0,0",
                                         "type": 6,
+                                        "level": 1,
                                         "elements": [
                                             {
                                                 "id": "0,4,0,0,0,0",
                                                 "type": 7,
+                                                "level": 1,
                                                 "elements": [
                                                     {
                                                         "id": "0,4,0,0,0,0,0",
                                                         "type": 27,
+                                                        "level": 1,
                                                         "elements": [
                                                             {
                                                                 "id": "0,4,0,0,0,0,0,0",
                                                                 "type": 7,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,0,0",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "f",
                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                         "can_merge": true
@@ -1805,25 +2135,36 @@
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,0,1",
                                                                         "type": 19,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,0,1,0",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,0,1,1",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,0,1,2",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,0,1,3",
                                                                                 "type": 10,
+                                                                                "level": 1,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,0,0,0,0,1,4",
+                                                                                "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -1832,6 +2173,7 @@
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,0,2",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "x",
                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                         "can_merge": true
@@ -1839,25 +2181,36 @@
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,0,3",
                                                                         "type": 20,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,0,3,0",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,0,3,1",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,0,3,2",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,0,3,3",
                                                                                 "type": 10,
+                                                                                "level": 1,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,0,0,0,0,3,4",
+                                                                                "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -1868,15 +2221,18 @@
                                                             {
                                                                 "id": "0,4,0,0,0,0,0,1",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,4,0,0,0,0,0,2",
                                                                 "type": 7,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,2,0",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "x",
                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                         "can_merge": true
@@ -1884,25 +2240,36 @@
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,2,1",
                                                                         "type": 13,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,1,0",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,1,1",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,1,2",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,1,3",
                                                                                 "type": 10,
+                                                                                "level": 1,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,0,0,0,2,1,4",
+                                                                                "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -1911,6 +2278,7 @@
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,2,2",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "sin",
                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                         "can_merge": true
@@ -1918,25 +2286,36 @@
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,2,3",
                                                                         "type": 19,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,3,0",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,3,1",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,3,2",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,3,3",
                                                                                 "type": 10,
+                                                                                "level": 1,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,0,0,0,2,3,4",
+                                                                                "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -1945,6 +2324,7 @@
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,2,4",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "x",
                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                         "can_merge": true
@@ -1952,25 +2332,36 @@
                                                                     {
                                                                         "id": "0,4,0,0,0,0,0,2,5",
                                                                         "type": 20,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,5,0",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,5,1",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,5,2",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,0,0,0,2,5,3",
                                                                                 "type": 10,
+                                                                                "level": 1,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,0,0,0,2,5,4",
+                                                                                "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -1990,22 +2381,27 @@
                                     {
                                         "id": "0,4,0,0,1",
                                         "type": 6,
+                                        "level": 1,
                                         "elements": [
                                             {
                                                 "id": "0,4,0,0,1,0",
                                                 "type": 7,
+                                                "level": 1,
                                                 "elements": [
                                                     {
                                                         "id": "0,4,0,0,1,0,0",
                                                         "type": 27,
+                                                        "level": 1,
                                                         "elements": [
                                                             {
                                                                 "id": "0,4,0,0,1,0,0,0",
                                                                 "type": 7,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,1,0,0,0,0",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "y",
                                                                         "format_id": "506a8b83-40ac-4cba-b8d5-6db447900682",
                                                                         "can_merge": true
@@ -2013,15 +2409,24 @@
                                                                     {
                                                                         "id": "0,4,0,0,1,0,0,0,1",
                                                                         "type": 19,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,1,0,0,0,1,0",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,1,0,0,0,1,1",
                                                                                 "type": 10,
+                                                                                "level": 1,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,1,0,0,0,1,2",
+                                                                                "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -2030,6 +2435,7 @@
                                                                     {
                                                                         "id": "0,4,0,0,1,0,0,0,2",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "x",
                                                                         "format_id": "506a8b83-40ac-4cba-b8d5-6db447900682",
                                                                         "can_merge": true
@@ -2037,15 +2443,24 @@
                                                                     {
                                                                         "id": "0,4,0,0,1,0,0,0,3",
                                                                         "type": 20,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,1,0,0,0,3,0",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,1,0,0,0,3,1",
                                                                                 "type": 10,
+                                                                                "level": 1,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,1,0,0,0,3,2",
+                                                                                "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -2056,23 +2471,28 @@
                                                             {
                                                                 "id": "0,4,0,0,1,0,0,1",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,4,0,0,1,0,0,2",
                                                                 "type": 7,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,1,0,0,2,0",
                                                                         "type": 15,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,1,0,0,2,0,0",
                                                                                 "type": 7,
+                                                                                "level": 1,
                                                                                 "elements": [
                                                                                     {
                                                                                         "id": "0,4,0,0,1,0,0,2,0,0,0",
                                                                                         "type": 8,
+                                                                                        "level": 1,
                                                                                         "elements": "e",
                                                                                         "format_id": "506a8b83-40ac-4cba-b8d5-6db447900682",
                                                                                         "can_merge": true
@@ -2082,17 +2502,20 @@
                                                                             {
                                                                                 "id": "0,4,0,0,1,0,0,2,0,1",
                                                                                 "type": 10,
+                                                                                "level": 1,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,1,0,0,2,0,2",
                                                                                 "type": 7,
+                                                                                "level": 2,
                                                                                 "elements": [
                                                                                     {
                                                                                         "id": "0,4,0,0,1,0,0,2,0,2,0",
                                                                                         "type": 8,
+                                                                                        "level": 2,
                                                                                         "elements": "x",
-                                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                                         "can_merge": true
                                                                                     }
                                                                                 ]
@@ -2113,24 +2536,29 @@
                                     {
                                         "id": "0,4,0,0,2",
                                         "type": 6,
+                                        "level": 1,
                                         "elements": [
                                             {
                                                 "id": "0,4,0,0,2,0",
                                                 "type": 7,
+                                                "level": 1,
                                                 "elements": [
                                                     {
                                                         "id": "0,4,0,0,2,0,0",
                                                         "type": 43,
+                                                        "level": 1,
                                                         "elements": [
                                                             {
                                                                 "id": "0,4,0,0,2,0,0,0",
                                                                 "type": 7,
+                                                                "level": 2,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,2,0,0,0,0",
                                                                         "type": 8,
+                                                                        "level": 2,
                                                                         "elements": "9",
-                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                         "can_merge": true
                                                                     }
                                                                 ]
@@ -2138,18 +2566,22 @@
                                                             {
                                                                 "id": "0,4,0,0,2,0,0,1",
                                                                 "type": 44,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,2,0,0,1,0",
                                                                         "type": 6,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,1,0,0",
                                                                                 "type": 7,
+                                                                                "level": 1,
                                                                                 "elements": [
                                                                                     {
                                                                                         "id": "0,4,0,0,2,0,0,1,0,0,0",
                                                                                         "type": 8,
+                                                                                        "level": 1,
                                                                                         "elements": "f",
                                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                                         "can_merge": true
@@ -2157,30 +2589,42 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,2,0,0,1,0,0,1",
                                                                                         "type": 19,
+                                                                                        "level": 1,
                                                                                         "elements": [
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,1,0",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,1,1",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,1,2",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,1,3",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,1,4",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,4,0,0,2,0,0,1,0,0,1,5",
+                                                                                                "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             }
                                                                                         ],
@@ -2189,6 +2633,7 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,2,0,0,1,0,0,2",
                                                                                         "type": 8,
+                                                                                        "level": 1,
                                                                                         "elements": "x",
                                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                                         "can_merge": true
@@ -2196,30 +2641,42 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,2,0,0,1,0,0,3",
                                                                                         "type": 20,
+                                                                                        "level": 1,
                                                                                         "elements": [
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,3,0",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,3,1",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,3,2",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,3,3",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,0,0,3,4",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,4,0,0,2,0,0,1,0,0,3,5",
+                                                                                                "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             }
                                                                                         ],
@@ -2231,19 +2688,22 @@
                                                                         "format_name": "Код",
                                                                         "format_alignment": 0,
                                                                         "marker": "█",
-                                                                        "marker_format_id": "40ec515f-0a58-4f95-92f1-44e786bcb943"
+                                                                        "marker_format_id": "8824f685-bab8-4c7a-a370-25f3b05b7fa6"
                                                                     },
                                                                     {
                                                                         "id": "0,4,0,0,2,0,0,1,1",
                                                                         "type": 6,
+                                                                        "level": 1,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,1,1,0",
                                                                                 "type": 7,
+                                                                                "level": 1,
                                                                                 "elements": [
                                                                                     {
                                                                                         "id": "0,4,0,0,2,0,0,1,1,0,0",
                                                                                         "type": 8,
+                                                                                        "level": 1,
                                                                                         "elements": "y",
                                                                                         "format_id": "506a8b83-40ac-4cba-b8d5-6db447900682",
                                                                                         "can_merge": true
@@ -2251,15 +2711,24 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,2,0,0,1,1,0,1",
                                                                                         "type": 19,
+                                                                                        "level": 1,
                                                                                         "elements": [
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,1,0,1,0",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,1,0,1,1",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,4,0,0,2,0,0,1,1,0,1,2",
+                                                                                                "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             }
                                                                                         ],
@@ -2268,6 +2737,7 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,2,0,0,1,1,0,2",
                                                                                         "type": 8,
+                                                                                        "level": 1,
                                                                                         "elements": "x",
                                                                                         "format_id": "506a8b83-40ac-4cba-b8d5-6db447900682",
                                                                                         "can_merge": true
@@ -2275,15 +2745,24 @@
                                                                                     {
                                                                                         "id": "0,4,0,0,2,0,0,1,1,0,3",
                                                                                         "type": 20,
+                                                                                        "level": 1,
                                                                                         "elements": [
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,1,0,3,0",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             },
                                                                                             {
                                                                                                 "id": "0,4,0,0,2,0,0,1,1,0,3,1",
                                                                                                 "type": 10,
+                                                                                                "level": 1,
+                                                                                                "elements": []
+                                                                                            },
+                                                                                            {
+                                                                                                "id": "0,4,0,0,2,0,0,1,1,0,3,2",
+                                                                                                "type": 10,
+                                                                                                "level": 1,
                                                                                                 "elements": []
                                                                                             }
                                                                                         ],
@@ -2295,41 +2774,54 @@
                                                                         "format_name": "Код",
                                                                         "format_alignment": 0,
                                                                         "marker": "█",
-                                                                        "marker_format_id": "55704248-854a-40f6-b085-8e78a34bd9d4"
+                                                                        "marker_format_id": "3e381d89-9bd4-4b21-9084-50d701bf676a"
                                                                     }
                                                                 ]
                                                             },
                                                             {
                                                                 "id": "0,4,0,0,2,0,0,2",
                                                                 "type": 7,
+                                                                "level": 2,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,2,0,0,2,0",
                                                                         "type": 12,
+                                                                        "level": 2,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,2,0,0",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,2,0,1",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,2,0,2",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,2,0,3",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,2,0,4",
                                                                                 "type": 10,
+                                                                                "level": 2,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,2,0,0,2,0,5",
+                                                                                "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -2338,8 +2830,9 @@
                                                                     {
                                                                         "id": "0,4,0,0,2,0,0,2,1",
                                                                         "type": 8,
+                                                                        "level": 2,
                                                                         "elements": "9",
-                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                         "can_merge": true
                                                                     }
                                                                 ]
@@ -2347,34 +2840,47 @@
                                                             {
                                                                 "id": "0,4,0,0,2,0,0,3",
                                                                 "type": 7,
+                                                                "level": 2,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,2,0,0,3,0",
                                                                         "type": 12,
+                                                                        "level": 2,
                                                                         "elements": [
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,3,0,0",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,3,0,1",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,3,0,2",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,3,0,3",
                                                                                 "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             },
                                                                             {
                                                                                 "id": "0,4,0,0,2,0,0,3,0,4",
                                                                                 "type": 10,
+                                                                                "level": 2,
+                                                                                "elements": []
+                                                                            },
+                                                                            {
+                                                                                "id": "0,4,0,0,2,0,0,3,0,5",
+                                                                                "type": 10,
+                                                                                "level": 2,
                                                                                 "elements": []
                                                                             }
                                                                         ],
@@ -2383,8 +2889,9 @@
                                                                     {
                                                                         "id": "0,4,0,0,2,0,0,3,1",
                                                                         "type": 8,
+                                                                        "level": 2,
                                                                         "elements": "10",
-                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                         "can_merge": true
                                                                     }
                                                                 ]
@@ -2392,10 +2899,12 @@
                                                             {
                                                                 "id": "0,4,0,0,2,0,0,4",
                                                                 "type": 7,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,2,0,0,4,0",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "x",
                                                                         "format_id": "70483a5e-c11f-4ad7-8a76-249f2efccd35",
                                                                         "can_merge": true
@@ -2405,12 +2914,14 @@
                                                             {
                                                                 "id": "0,4,0,0,2,0,0,5",
                                                                 "type": 7,
+                                                                "level": 2,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,4,0,0,2,0,0,5,0",
                                                                         "type": 8,
+                                                                        "level": 2,
                                                                         "elements": "15",
-                                                                        "format_id": "7c670e94-e85e-4230-aeef-67068e38ee3b",
+                                                                        "format_id": "f41d6733-305c-43a7-a831-dcdd9b10d4fa",
                                                                         "can_merge": true
                                                                     }
                                                                 ]
@@ -2418,6 +2929,7 @@
                                                             {
                                                                 "id": "0,4,0,0,2,0,0,6",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             }
                                                         ],
@@ -2451,7 +2963,8 @@
                                 ],
                                 "code_id": 1
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2460,42 +2973,22 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "С помощью мыши график можно двигать и масштабировать. При клике правой кнопкой и выборе меню График есть возможность ",
+                                "level": 1,
+                                "elements": "С помощью мыши график можно двигать и масштабировать. При клике правой кнопкой и выборе меню График есть возможность изменить цвет и его размеры. Размеры также можно менять захватывая мышью за границы графика. При клике на цветной прямоугольник около выражения функции можно изменить цвет и толщину соответствующего графика.",
                                 "format_id": "60c7a8af-d45e-452e-b5e7-c9da4063f1a6"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,5,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,1,0",
-                                "type": 4,
-                                "elements": "изменить цвет и его размеры. Размеры также можно менять захватывая мышью за границы графика. При клике на цветной ",
-                                "format_id": "60c7a8af-d45e-452e-b5e7-c9da4063f1a6"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,5,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,5,2,0",
-                                "type": 4,
-                                "elements": "прямоугольник около выражения функции можно изменить цвет и толщину соответствующего графика.",
-                                "format_id": "60c7a8af-d45e-452e-b5e7-c9da4063f1a6"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2504,18 +2997,22 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "b1039e9d-5d5e-4a16-8c17-5941857a38cf"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -2524,32 +3021,38 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 39,
-                                "elements": "<- Размерности/Перевод размерностей",
-                                "format_id": "b1039e9d-5d5e-4a16-8c17-5941857a38cf",
+                                "level": 1,
+                                "elements": "<- ../Размерности/Перевод размерностей",
+                                "format_id": "5434132a-7736-4f99-bd3d-e566dc1478d2",
                                 "url": "../Размерности/Перевод размерностей.yut"
                             },
                             {
                                 "id": "0,7,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "b1039e9d-5d5e-4a16-8c17-5941857a38cf"
                             },
                             {
                                 "id": "0,7,0,2",
                                 "type": 39,
-                                "elements": "Символьные вычисления/Основные сведения ->",
-                                "format_id": "b1039e9d-5d5e-4a16-8c17-5941857a38cf",
+                                "level": 1,
+                                "elements": "../Символьные вычисления/Основные сведения ->",
+                                "format_id": "5434132a-7736-4f99-bd3d-e566dc1478d2",
                                 "url": "../Символьные вычисления/Основные сведения.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,11 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +64,149 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "fd684a32-24e8-46ea-91f2-83d86dcfa7bc",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0e6033bc-b2c9-4f53-9ccc-5eadf60b5a27",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f29870ad-7ce2-4feb-a571-d44ea24483f9",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e7d41f09-23be-486f-a383-9441a635a901",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ed1f0fed-5557-44b4-8341-9fd500d75289",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6e2e2ab4-e387-4d3b-b141-a7cce58e89d7",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "edfd3ab9-5882-48c5-84f9-b167efc5590a",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ddf81d47-d6ff-4923-ba0f-1cf238543586",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "72af00ac-944c-4355-9d84-f0f349f8eb27",
             "family": "Arial",
@@ -8262,6 +8396,62 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0af09550-0080-41e3-bb8f-64d62ffdaa15",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "81588c08-61ca-4884-9ca1-1a20efea5266",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ac6636e6-8d69-40b5-9ad0-f6f39ca2115e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "59a36d33-a4c9-4e73-b588-b93e11a3d40e",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -8369,30 +8559,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Эти пользовательские символы названы \"константами\" учитывая их физическое значение. Однако, они также ",
+                                "level": 1,
+                                "elements": "Эти пользовательские символы названы \"константами\" учитывая их физическое значение. Однако, они также могут быть переопределены.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "могут быть переопределены.",
-                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8401,18 +8583,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Математические константы",
                                 "format_id": "39d8d686-ea60-41ff-8db5-327402fddad6"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -8421,18 +8607,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• pi - число пи",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8441,18 +8631,22 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• e - число Эйлера",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8461,18 +8655,22 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• j - мнимое число",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8481,18 +8679,22 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Физические константы",
                                 "format_id": "39d8d686-ea60-41ff-8db5-327402fddad6"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -8501,18 +8703,22 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• ск_св - скорость света",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8521,18 +8727,22 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• G - гравитационная постоянная",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8541,18 +8751,22 @@
             {
                 "id": "0,8",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,8,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• h - постоянная Планка",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8561,18 +8775,22 @@
             {
                 "id": "0,9",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,9,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• e_c - элементарный заряд",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8581,18 +8799,22 @@
             {
                 "id": "0,10",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,10,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• k - постоянная Больцмана",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8601,18 +8823,22 @@
             {
                 "id": "0,11",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,11,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• g_a - ускорение свободного падения",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8621,18 +8847,22 @@
             {
                 "id": "0,12",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,12,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,12,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "b777f885-1ac6-4752-98ff-85cc9ea64b52"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8641,32 +8871,38 @@
             {
                 "id": "0,13",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,13,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,13,0,0",
                                 "type": 39,
-                                "elements": "<- Переменные и функции/Автоматический пересчет выражения",
+                                "level": 1,
+                                "elements": "<- ../Переменные и функции/Автоматический пересчет выражения",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "../Переменные и функции/Автоматический пересчет выражения.yut"
                             },
                             {
                                 "id": "0,13,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,13,0,2",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "Функции ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Функции.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

@@ -4,15 +4,7 @@
         "language": 4,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16770754,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -44,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -76,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "c5bb342e-ce1d-46cc-93ab-694f377e3dfd",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "355da2b9-ed0b-4b62-b5dd-003b30e59ba6",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "caffc2d2-7898-479d-b6d8-802023cd9304",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "72f7f314-c496-43cc-8cd3-490a23b9520e",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b4ffb45b-5858-4e71-8230-f2c57db461f7",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "76b1ddba-68c0-4c29-a9b0-40a0f1d5ce53",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dddea048-eb75-4e38-93af-411c16ec96d8",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "64ba51df-fe82-44e9-8faf-8234b72f83b5",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "dbcbb2c9-7651-45b4-b0f0-15ba8b03751a",
             "family": "Arial",
@@ -12918,6 +13044,62 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f6afe7e1-35be-4d11-a18e-a3341567de27",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3fedebaf-5ada-4e3e-a034-fa03c5e86344",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8e206c40-1e5e-485a-925b-b1a6fe35d5e0",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ad3b3756-f9b4-4a55-90df-e9625455077d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -13025,42 +13207,36 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Yutovo suporta unidades de números e sistemas de unidades. Existem unidades integradas e definidas pelo usuário. Uma unidade é definida pelo símbolo ",
                                 "format_id": "003cf8d8-5209-45fe-a03f-766f27c94c31"
                             },
                             {
                                 "id": "0,0,0,1",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAIAAACUZLgLAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABOElEQVQokd2SscqCYBiFv+/tM8ghS3IIbHHNrSVxaGiPvIAGr6EraesGugKHLsBNjQZxi0AMdHAQScjy620o/n/+/7EzHQ48HHjfQxGR/F3wD+bLMfbjELEsy8PhkCQJAKiqOh6PB4MBABBCHo9HVVV1XSuKAgC/2O12c113u916ntdqtSaTyXK5NAxjNBoxxi6Xy/l87na7siwDAH3/jXOeZZllWXEcN03zfD7rugYAy7JWq5UkSfv9PgiC9Xptmma73SaIiIjX69V1XV3XN5uN7/uO49i2LYpip9Pp9/uyLCuKslgs8jznnCPip62qqtPpFEXRdDodDof3+z1JkiAIdrtdGIaU0tlsZtv2fD5njBFCPljTNGVZcs57vZ4gCO+kKIrj8ZimKaVU0zRd1yVJeh+CfvEmX8yEmyifipn1AAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,0,0,2",
                                 "type": 4,
-                                "elements": " (tecla \"~\"). Uma unidade deve ser definida antes de seu primeiro uso. Você pode definir ",
+                                "level": 1,
+                                "elements": " (tecla \"~\"). Uma unidade deve ser definida antes de seu primeiro uso. Você pode definir eu primeiro uso. Você pode definir quaisquer unidades compostas atribuindo nomes a elas. No futuro, se unidades fo",
                                 "format_id": "003cf8d8-5209-45fe-a03f-766f27c94c31"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "eu primeiro uso. Você pode definir quaisquer unidades compostas atribuindo nomes a elas. No futuro, se unidades fo",
-                                "format_id": "003cf8d8-5209-45fe-a03f-766f27c94c31"
-                            }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -13069,18 +13245,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Unidades são apresentadas para números reais, racionais e complexos. Não há unidades para números inteiros.",
                                 "format_id": "003cf8d8-5209-45fe-a03f-766f27c94c31"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -13089,18 +13269,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Unidades integradas são definidas para os seguintes sistemas: SI, russo, americano e não sistemático.",
                                 "format_id": "003cf8d8-5209-45fe-a03f-766f27c94c31"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -13109,30 +13293,36 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "O uso de certas unidades depende da localidade atual do documento, configurada nas configurações clicando no botão ",
                                 "format_id": "3b225f42-fd38-47aa-a93e-cc4d500ef1a2"
                             },
                             {
                                 "id": "0,3,0,1",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABsAAAAbCAIAAAACtmMCAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABM0lEQVRIie2VPW6EMBCFvVEOQEmHO0rmBvgGcARzLw4BJwBkkKCDjgIJu6Kho6Nxik0sMD9hI4ot8qphPP5svdGYxzzP6FY9pJT3Ej/uxb0HMY5jzvmdxCiKzomrzmRZlqbpbh0AeJ6HEAqCACGEMX7mCSGu6y4rP5cflmVpy0qmaarYcRwAUFu0yhURY6wOPxEAEEIOl+WLYowNw3BScEgchiHP81fPk1Ie9rpt2zAMf3Vgq5WPTdPUda2IKl8URdd1u/sBwHGcQ+K3ET/xbl7TTv7IjiRJKKV/8PGsM4yxO4lL5Xk+TdNF4qW5DsNwHMcrlXpnhBDLV8A0Tdu2n3FVVUKI7X6MsTaIKyLnfPlSAIAilmVpGMaWSAjRR/uKNZTSvu/v9NH3/d0L7ur/z/WuxC8I5z2x/wRBvQAAAABJRU5ErkJggg=="
                             },
                             {
                                 "id": "0,3,0,2",
                                 "type": 4,
+                                "level": 1,
                                 "elements": ".",
                                 "format_id": "3b225f42-fd38-47aa-a93e-cc4d500ef1a2"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -13141,18 +13331,22 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "02bc3276-7f5d-4a5f-954c-d8e76665c148"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -13161,32 +13355,38 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 39,
-                                "elements": "<- Expressões integradas/Unidades/Outros",
+                                "level": 1,
+                                "elements": "<- ../Expressões integradas/Unidades/Outros",
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "../Expressões integradas/Unidades/Outros.yut"
                             },
                             {
                                 "id": "0,5,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,5,0,2",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "Regras para usar unidades ->",
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "./Regras para usar unidades.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Corpo do texto"
                     }
                 ],
                 "format_name": "Corpo do texto",

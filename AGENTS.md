@@ -241,12 +241,14 @@ Each directory may contain a `.order` file listing folder/document names in disp
 2. **Preserve JSON structure, IDs, formats, and all numeric values exactly.**
 3. **Update `config.language`** to match the target language code.
 4. **Generate a new `file_guid`** for every translated file — never reuse the source UUID.
+   - Place the translated file into the corresponding language directory (`en/`, `ru/`, `es/`, `pt_BR/`) and update `config.language` accordingly.
 5. **Translate navigation paths:** type 39 `url` fields must point to the translated document names.
    - Leave external URLs (starting with `http://`, `https://`) unchanged; only translate their link text.
 6. **Translate `paragraph_formats` names** and corresponding `format_name` values in `text.elements` to the target language.
    - The canonical English names are translated by the editor on load, but the JSON must contain the localized name for the target `config.language`.
 7. **Keep `format_id` values unchanged.** They reference `string_formats` entries by UUID.
 8. **Preserve `caret` and `selection` fields** as-is or reset them to a simple empty state if the source has active selections.
+9. **Use the correct imaginary unit symbol.** In Russian documents the imaginary unit is written as `j`; in non-Russian documents (`en`, `es`, `pt_BR`) it must be changed to `i`. Update any literal `j` in `CODE_STRING` or text content that represents the imaginary unit when translating.
 
 ## Navigation Style
 
@@ -258,6 +260,16 @@ Navigation links are `type: 39` elements appended at the end of `text.elements` 
 Navigation text format:
 - Previous doc: `<- Document name` or `<- Section/Document name`
 - Next doc: `Document name ->` or `Section/Document name ->`
+
+### Navigation rules
+
+1. **Link order must follow `.order`.** The previous link must point to the document listed immediately before the current document in the containing directory's `.order` file, and the next link must point to the document listed immediately after it.
+2. **Middle documents must have two navigation links** (previous and next). Only the first and the last document in a section may have a single link — the first has only "next", the last has only "previous".
+3. **All help documents must be reachable through navigation links.** Every help article must link to its predecessor and successor (except section boundaries), forming a connected navigation chain through the whole help tree. There must be no gaps in the chain.
+4. **Preserve formatting when editing navigation links.** When updating navigation link text or `url`, keep the original `format_id`, `level`, `format_name`, paragraph alignment, and the exact spacing (whitespace) between links. Change only the `elements` text and the `url` of the `type: 39` link elements.
+5. **Special order consistency.** If `.order` lists `Terms of use` before `Privacy policy` (or their localized equivalents), the navigation links between them must reflect that order: `Terms of use` is the previous document and `Privacy policy` is the next.
+6. **Middle documents always have two links.** A document that is neither the first nor the last in its section (for example, `Calculator block`) must have both a previous and a next navigation link.
+7. **Internal links must target ordered documents.** Any internal `type: 39` link (not starting with `http://` or `https://`) should point to a document that is listed in the `.order` file of the target directory. Documents that are not listed in `.order` should be removed or added to `.order` after review.
 
 ### Paragraph Format Translations
 
@@ -309,6 +321,8 @@ When merging documents from the `web` branch into `library`, use `.yut.in` files
 ## Workflow Rules
 
 - **Never run `git commit`, `git push`, `git reset`, `git rebase` or any git mutations unless explicitly asked to do so.** Always ask for confirmation before committing.
+- **After modifying documents, verify all internal links.** Any `type: 39` (`LINK`) element whose `url` does not start with `http://` or `https://` must point to an existing `.yut` file (or `.yut.in` file) relative to the document's location. Report or fix broken links before finishing.
+- **Internal links must target documents that are listed in the corresponding `.order` file.** When adding or updating a link, ensure the destination document appears in the `.order` file of its containing directory. If a referenced document is missing from `.order`, report it.
 
 ## Language Codes Reference
 

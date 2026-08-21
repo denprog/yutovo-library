@@ -4,15 +4,7 @@
         "language": 3,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -44,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -76,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "58fd58a0-037e-45ea-aa4e-6ffe727dc958",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "dee1fc87-1396-4746-85d9-f66c23d13ef0",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a91104c3-cce3-402a-a0a9-6b6ee2f5f8b3",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e5645245-3209-4076-b649-5befcb9af0ca",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "78baf55c-dfbd-4b82-be4b-841cf9d8714b",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "99c7fe0d-21da-401d-b2f7-ff5db3dacd08",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "87530625-836d-4a1f-abe5-b43f52879596",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0f87ec03-662d-4126-a96f-93f6bd027173",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "5bd09a40-7fe5-42e8-a601-eee279e05405",
             "family": "Arial",
@@ -8046,6 +8172,62 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "22642de9-11b8-462f-8fd9-7061fdcdd121",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5dda189a-3095-40dc-a9b7-5a8d7a8806f7",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "377b4a0a-20e3-499c-8f64-83c5e2a0ae11",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "24bd63b3-7094-4f96-93d8-4700d4886af1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -8153,18 +8335,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Una variable o función debe declararse antes de usarse por primera vez.",
                                 "format_id": "d48be26c-83d6-405c-a3c9-af99d0f62e30"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8173,18 +8359,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Una variable o función puede definirse más de una vez. Esto se denomina redefinición.",
                                 "format_id": "d48be26c-83d6-405c-a3c9-af99d0f62e30"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8193,18 +8383,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Al redefinir una variable o función, se aplica la regla de orden del documento: se utiliza en la expresión la definición de la variable o función más cercana al principio.",
                                 "format_id": "d48be26c-83d6-405c-a3c9-af99d0f62e30"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8213,18 +8407,22 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Una función puede tener cualquier número de parámetros, separados por comas.",
                                 "format_id": "d48be26c-83d6-405c-a3c9-af99d0f62e30"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8233,18 +8431,22 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Las variables y funciones integradas se pueden redefinir.",
                                 "format_id": "d48be26c-83d6-405c-a3c9-af99d0f62e30"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8253,18 +8455,22 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "• Una función puede redefinirse para un número diferente de argumentos.",
                                 "format_id": "d48be26c-83d6-405c-a3c9-af99d0f62e30"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8273,18 +8479,22 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "d48be26c-83d6-405c-a3c9-af99d0f62e30"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",
@@ -8293,32 +8503,38 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 39,
-                                "elements": "<- Conceptos básicos rules",
+                                "level": 1,
+                                "elements": "<- ../Números/Números complejos",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "./Conceptos básicos rules.yut"
+                                "url": "../Números/Números complejos.yut"
                             },
                             {
                                 "id": "0,7,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,7,0,2",
                                 "type": 39,
-                                "elements": "Variables y funciones de usuario ->",
-                                "format_id": "4fcada90-3427-40c4-b8d4-f5463e42ea04",
-                                "url": "./Variables y funciones de usuario.yut"
+                                "level": 1,
+                                "elements": "Conceptos básicos rules ->",
+                                "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
+                                "url": "./Conceptos básicos rules.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Cuerpo de texto"
                     }
                 ],
                 "format_name": "Cuerpo de texto",

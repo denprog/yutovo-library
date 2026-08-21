@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,11 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +64,149 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "def4c0fe-d34b-4b98-84af-5711c6cf8c28",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d38c0129-759a-4a08-a11f-71cfd0d184d4",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "37eeb70d-c95d-4687-bac1-3e9a2ea99f50",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9f53e563-8d20-4eaa-b3d6-62815bb243e9",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "44759f3b-f6da-4487-a194-906093ec86d4",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "81257cda-4e2b-444d-94c8-1774943fb135",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9f00c54a-0cde-4f9f-bb2e-f403832dd17e",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8c16da45-d996-4f80-b0f5-236de1a2bd2a",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "87183ed5-c7e2-44ef-95e6-0eca1b5df09d",
             "family": "Arial",
@@ -8192,6 +8326,90 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "343e1a4b-27cb-47cd-9a6b-5f1478b2bf6b",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b45e56b9-a529-49da-944a-e39a4275d7b9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1d2e0243-47a0-445b-87cd-2f84c0a87d96",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2bc3f59d-5444-44d9-a023-60969260c605",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c5e6e2ef-2cfa-4183-84de-dcaa06a64a61",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e36ca20e-228c-403d-9231-8143223c3bd2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -8299,18 +8517,22 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Комплексные числа представлены действительной и мнимой частью. Это особый класс чисел.",
                                 "format_id": "876e9e13-4116-4619-b084-a939cdf777a7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8319,18 +8541,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Арифметические операции:",
                                 "format_id": "33cfc2eb-60c3-41ee-b057-cc4146d30707"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -8339,24 +8565,29 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAaUlEQVQ4jWP8////fwYqAyZqGzhqKAMLjNHY2IghWV9fj1MjPvUsyIIODg5w9oEDBwi6CJd6or3PyMhIrFIahykugOxCGJtQfiFoKMwARkZGgobBwMCmU1KKCBTvE5OMiFHPOFpKjWBDAUb5JKlcNKbvAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,2,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - сложение и унарный плюс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8365,24 +8596,29 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAUCAYAAABiS3YzAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAV0lEQVQ4jWP8////fwYqAyZqGzhqKAMLjNHY2IghWV9fj1MjPvUsyIIODg5w9oEDBwi6CJf6IRimuAAjIyOGGKH8QtBQcjLcEA1TYpIRMeoZR0upEWwoAFCIHqakwSSCAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,3,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - вычитание и унарный минус;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8391,24 +8627,29 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAVUlEQVQ4jWP8////fwYqASZqGTSCDGOBMRobGzEk6+vrMcTwqWNBFnRwcICzDxw4gNMFuNQN3jAjyjBGRkbqGUZsJhm8YYaSNPAlB2LUMY6WGsPIMACGphulkbD7hwAAAABJRU5ErkJggg=="
                             },
                             {
                                 "id": "0,4,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - умножение;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8417,24 +8658,29 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABIAAAAUCAYAAACAl21KAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAYUlEQVQ4je2SQQqAQAwDE9mH9WelP+vP6mk9rMsqWqEHcwx0SEMYEYEEbRkQAGijYWa3DlV1DQIAEVlC3P3kpb1WDzTtaNbBlZi1oyMRyUeAnqONxutEXf8gvwPVG2S9jnZo3SKn6IQXuAAAAABJRU5ErkJggg=="
                             },
                             {
                                 "id": "0,5,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - деление.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8443,18 +8689,22 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Арифметические функции:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -8463,24 +8713,29 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAAA8AAAAUCAYAAABSx2cSAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAZUlEQVQ4jdWTUQ7AIAhD67KD9WaEm3Ez9rcFp47MD2P/MLxgSyju7vipM9OkqqEWEQDAkZ1CEiTDWxpuaQq+Pde+gMfbJwwgeDKz0FjXL7in3g/WBbYpHNJurWOkMnNVmwa2Dr4AvU4YpmQLVwYAAAAASUVORK5CYII="
                             },
                             {
                                 "id": "0,7,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - возведение в степень;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8489,24 +8744,29 @@
             {
                 "id": "0,8",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,8,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,8,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAfklEQVQ4jdWUXQrAIAyDm7GDeTPxZt4se7J0G9afCdvyJEQ/MA0FScoibatAy2F7zyUArl+S6oLZB56aMAAKSind/BhjP+yqEIKec84n77vTdGE2r2FYqwJDsKdAhdkvzQK1GgVEUgBU87rWwQq1rTEavogzzZnN9NPSvgo7AI7PLmknmsAzAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,8,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - корень квадратный;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8515,24 +8775,29 @@
             {
                 "id": "0,9",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,9,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,9,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAjklEQVQ4jc2USw6AIAxEZ4wH42aEm3GzuqqhqBX5JM6KT3gwHVKKiGCitpmwJcBdByklsxFjNHOSLkgrt5eLIQQAQM7ZPdT0Qk8kT1jtBLBumoC11AlwdbMulLvbhoB1qqqyfi26WH77Hp+Bo1ADLO31Qk0oChMRkHysnxcevW7zNRDg5R/2dLb/t6//Aw9ZOjgqIs2NIAAAAABJRU5ErkJggg=="
                             },
                             {
                                 "id": "0,9,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - корень степени;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8541,24 +8806,29 @@
             {
                 "id": "0,10",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,10,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,10,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAh0lEQVQ4jc3UwQ2AIAwF0P8Ng7EZYTM2qycICkiFmthTMfJoaANFRGAYhyX2CehyQnL6s+Z2XL142qA5EABYN4WkqooYY/MthNCvUIt670ueUip505SMrka3yzvocGxW0SGovUsVuIp1wR0MuI3NG6welYuRB3uGaQ9rKtyNAlo9i/9/D83BE2mGQWM4M9NsAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,10,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - сумма по индексу;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8567,24 +8837,29 @@
             {
                 "id": "0,11",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,11,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,11,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAcklEQVQ4je2UwQ3AIAwD46qDZbOIzdjMfRGhFkQLefCoX1YEJyAxIEkJ0hEFCoedxQAYLh69iMNICoDmhl69C3urlNKjZmZzMBERVXWfc3a/bzd/2HdNjUY9DrVQ/xqrCfBrlmzeM9qrD0+2qn27GQq7AO4wJm0Wsr/jAAAAAElFTkSuQmCC"
                             },
                             {
                                 "id": "0,11,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - произведение по индексу;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8593,24 +8868,29 @@
             {
                 "id": "0,12",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,12,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,12,0,0",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAUCAYAAAC9BQwsAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAWUlEQVQ4jWP8////fwYyABM5muinkZGRkc42IgMWZE5jYyOGgvr6esIaGRgYGBwcHODsAwcO4LRxkEcH/TUiJ2vqxCMDA/4oQAaMpGQrRkZGuHOHUOCQrREA27oZYqHey78AAAAASUVORK5CYII="
                             },
                             {
                                 "id": "0,12,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": " - факториал;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8619,18 +8899,22 @@
             {
                 "id": "0,13",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,13,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,13,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Функции:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -8639,18 +8923,22 @@
             {
                 "id": "0,14",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,14,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,14,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"exp\" - экспонента;",
                                 "format_id": "b49d3e97-a764-41dc-8ad8-8dfe03f289b7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8659,18 +8947,22 @@
             {
                 "id": "0,15",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,15,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,15,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"ln\" - натуральный логарифм;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8679,18 +8971,22 @@
             {
                 "id": "0,16",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,16,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,16,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"lg\" - десятичный логарифм;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8699,18 +8995,22 @@
             {
                 "id": "0,17",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,17,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,17,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"log\" - логарифм по основанию;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8719,18 +9019,22 @@
             {
                 "id": "0,18",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,18,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,18,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"abs\" - абсолютное значение;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8739,18 +9043,22 @@
             {
                 "id": "0,19",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,19,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,19,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"int\" - целая часть;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8759,18 +9067,22 @@
             {
                 "id": "0,20",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,20,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,20,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"fract\" - дробная часть;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8779,18 +9091,22 @@
             {
                 "id": "0,21",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,21,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,21,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"round\" - округление до ближайшего целого;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8799,18 +9115,22 @@
             {
                 "id": "0,22",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,22,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,22,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"re\" - действительная часть комплексного числа;",
                                 "format_id": "876e9e13-4116-4619-b084-a939cdf777a7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8819,18 +9139,22 @@
             {
                 "id": "0,23",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,23,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,23,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"im\" - мнимая часть комплексного числа.",
                                 "format_id": "876e9e13-4116-4619-b084-a939cdf777a7"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8839,18 +9163,22 @@
             {
                 "id": "0,24",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,24,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,24,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Тригонометрические функции:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -8859,18 +9187,22 @@
             {
                 "id": "0,25",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,25,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,25,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"sin\" - синус;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8879,18 +9211,22 @@
             {
                 "id": "0,26",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,26,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,26,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"cos\" - косинус;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8899,18 +9235,22 @@
             {
                 "id": "0,27",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,27,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,27,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"tg\" - тангенс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8919,18 +9259,22 @@
             {
                 "id": "0,28",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,28,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,28,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"ctg\" - котангенс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8939,18 +9283,22 @@
             {
                 "id": "0,29",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,29,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,29,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"sec\" - секанс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8959,18 +9307,22 @@
             {
                 "id": "0,30",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,30,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,30,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"cosec\" - косеканс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8979,18 +9331,22 @@
             {
                 "id": "0,31",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,31,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,31,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arcsin\" - арксинус;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8999,18 +9355,22 @@
             {
                 "id": "0,32",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,32,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,32,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arccos\" - арккосинус;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9019,18 +9379,22 @@
             {
                 "id": "0,33",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,33,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,33,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arctg\" - арктангенс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9039,18 +9403,22 @@
             {
                 "id": "0,34",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,34,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,34,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arcctg\" - арккотангенс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9059,18 +9427,22 @@
             {
                 "id": "0,35",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,35,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,35,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arcsec\" - арксеканс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9079,18 +9451,22 @@
             {
                 "id": "0,36",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,36,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,36,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arccosec\" - арккосеканс.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9099,18 +9475,22 @@
             {
                 "id": "0,37",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,37,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,37,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Гиперболические функции:",
                                 "format_id": "4112ae68-1aae-4780-b4bf-eb8aa4b90aa2"
                             }
-                        ]
+                        ],
+                        "format_name": "Заголовок 4"
                     }
                 ],
                 "format_name": "Заголовок 4",
@@ -9119,18 +9499,22 @@
             {
                 "id": "0,38",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,38,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,38,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"sh\" - гиперболический синус;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9139,18 +9523,22 @@
             {
                 "id": "0,39",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,39,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,39,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"ch\" - гиперболический косинус;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9159,18 +9547,22 @@
             {
                 "id": "0,40",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,40,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,40,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"th\" - гиперболический тангенс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9179,18 +9571,22 @@
             {
                 "id": "0,41",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,41,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,41,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"cth\" - гиперболический котангенс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9199,18 +9595,22 @@
             {
                 "id": "0,42",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,42,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,42,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"sch\" - гиперболический секанс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9219,18 +9619,22 @@
             {
                 "id": "0,43",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,43,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,43,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"csch\" - гиперболический косеканс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9239,18 +9643,22 @@
             {
                 "id": "0,44",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,44,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,44,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arsh\" - гиперболический ареасинус;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9259,18 +9667,22 @@
             {
                 "id": "0,45",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,45,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,45,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arch\" - гиперболический ареакосинус;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9279,18 +9691,22 @@
             {
                 "id": "0,46",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,46,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,46,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arth\" - гиперболический ареатангенс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9299,18 +9715,22 @@
             {
                 "id": "0,47",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,47,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,47,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arcth\" - гиперболический ареакотангенс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9319,18 +9739,22 @@
             {
                 "id": "0,48",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,48,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,48,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arsch\" - гиперболический ареасеканс;",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9339,18 +9763,22 @@
             {
                 "id": "0,49",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,49,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,49,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "\"arcsch\" - гиперболический ареакосеканс.",
                                 "format_id": "0d9a2784-7c12-4485-bbe1-dd715231d611"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9359,18 +9787,22 @@
             {
                 "id": "0,50",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,50,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,50,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "02c69b84-4b07-4ed5-9559-2b319ac0744f"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -9379,14 +9811,17 @@
             {
                 "id": "0,51",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,51,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,51,0,0",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "<- Целые числа",
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "./Целые числа.yut"
@@ -9394,17 +9829,20 @@
                             {
                                 "id": "0,51,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,51,0,2",
                                 "type": 39,
-                                "elements": "Переменные и функции/Общие правила ->",
+                                "level": 1,
+                                "elements": "../Переменные и функции/Общие правила ->",
                                 "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
                                 "url": "../Переменные и функции/Общие правила.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

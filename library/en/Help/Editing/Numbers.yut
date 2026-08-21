@@ -36,7 +36,10 @@
                 2,
                 3,
                 4,
-                6
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +71,142 @@
                 "default_angle_measure": 0,
                 "result_angle_measure": 0,
                 "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "1a44de99-ad2a-4b8b-96bc-22ada1913b0a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "98227046-4be1-4220-8eb5-222362f98daa",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0e2d5ad1-1170-45b5-b803-151b6b5277ec",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8f89085a-9b52-4261-8ec1-350a90b192ca",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9b0d748c-17a6-4504-9531-ed72590c266e",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c733ec77-1330-4851-a08d-c3a6bfc13594",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a2591a83-ed7b-4e3f-afcf-2d65b7e1a5a7",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4f90adc3-273c-45e6-90db-a4ebb7070926",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "41935756-dca1-490f-8252-14cbb36e4eb7",
             "family": "Arial",
@@ -8710,6 +8844,104 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "f59abff6-fa67-48bc-b251-3ce4721aaf62",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "05e216cd-9fa5-434c-bf77-6ccb7f0b20ad",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e9ce74f9-6127-48af-9853-8f51c5e7f244",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "73f784fd-efdf-462a-ad78-b29dda5edcd9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "4b7c02b9-b345-42aa-8120-d06dd62a9baf",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1ef185d8-bdf0-4d57-bb03-b179ba2b8aa6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "767fee81-d003-43d9-9d2d-d93e45014834",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -8817,14 +9049,17 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Real (exponential) numbers",
                                 "format_id": "e014183e-e310-44b1-85bc-3692071233e6"
                             }
@@ -8838,14 +9073,17 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Real numbers consist of digits and a decimal point.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -8859,14 +9097,17 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
@@ -8880,14 +9121,17 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Enter sequentially: \"12345.678\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -8901,32 +9145,39 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Result: ",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             },
                             {
                                 "id": "0,4,0,1",
                                 "type": 5,
+                                "level": 1,
                                 "elements": [
                                     {
                                         "id": "0,4,0,1,0",
                                         "type": 6,
+                                        "level": 1,
                                         "elements": [
                                             {
                                                 "id": "0,4,0,1,0,0",
                                                 "type": 7,
+                                                "level": 1,
                                                 "elements": [
                                                     {
                                                         "id": "0,4,0,1,0,0,0",
                                                         "type": 8,
+                                                        "level": 1,
                                                         "elements": "12345.678",
                                                         "format_id": "ca158a04-cbf4-4a93-bda8-97782109d38f",
                                                         "can_merge": true
@@ -8950,14 +9201,17 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Spaces between digits are added for readability.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -8971,14 +9225,17 @@
             {
                 "id": "0,6",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,6,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Real numbers in scientific notation are entered by multiplying by the order.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -8992,14 +9249,17 @@
             {
                 "id": "0,7",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,7,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
@@ -9013,14 +9273,17 @@
             {
                 "id": "0,8",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,8,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Enter: \"7.89*10[Ctrl+Shift+^]5\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -9034,32 +9297,39 @@
             {
                 "id": "0,9",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,9,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,9,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Result: ",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             },
                             {
                                 "id": "0,9,0,1",
                                 "type": 5,
+                                "level": 1,
                                 "elements": [
                                     {
                                         "id": "0,9,0,1,0",
                                         "type": 6,
+                                        "level": 1,
                                         "elements": [
                                             {
                                                 "id": "0,9,0,1,0,0",
                                                 "type": 7,
+                                                "level": 1,
                                                 "elements": [
                                                     {
                                                         "id": "0,9,0,1,0,0,0",
                                                         "type": 8,
+                                                        "level": 1,
                                                         "elements": "7.89",
                                                         "format_id": "0893dea8-b6d1-4e57-a58a-31f5175b00ed",
                                                         "can_merge": true
@@ -9067,55 +9337,72 @@
                                                     {
                                                         "id": "0,9,0,1,0,0,1",
                                                         "type": 13,
+                                                        "level": 1,
                                                         "elements": [
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,0",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,1",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,2",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,3",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,4",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,5",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,6",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,7",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,8",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,1,9",
                                                                 "type": 10,
+                                                                "level": 1,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,9,0,1,0,0,1,10",
+                                                                "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             }
                                                         ],
@@ -9124,14 +9411,17 @@
                                                     {
                                                         "id": "0,9,0,1,0,0,2",
                                                         "type": 15,
+                                                        "level": 1,
                                                         "elements": [
                                                             {
                                                                 "id": "0,9,0,1,0,0,2,0",
                                                                 "type": 7,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,9,0,1,0,0,2,0,0",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "10",
                                                                         "format_id": "0893dea8-b6d1-4e57-a58a-31f5175b00ed",
                                                                         "can_merge": true
@@ -9141,15 +9431,18 @@
                                                             {
                                                                 "id": "0,9,0,1,0,0,2,1",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,9,0,1,0,0,2,2",
                                                                 "type": 7,
+                                                                "level": 2,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,9,0,1,0,0,2,2,0",
                                                                         "type": 8,
+                                                                        "level": 2,
                                                                         "elements": "5",
                                                                         "format_id": "c7270dd0-849d-419b-89c9-6163d077a0e2",
                                                                         "can_merge": true
@@ -9177,14 +9470,17 @@
             {
                 "id": "0,10",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,10,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,10,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Integer numbers",
                                 "format_id": "e014183e-e310-44b1-85bc-3692071233e6"
                             }
@@ -9198,14 +9494,17 @@
             {
                 "id": "0,11",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,11,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,11,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Integer numbers do not have a fractional part. They can be in binary, decimal, octal, or hexadecimal notation. Logical operations can be performed on them.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -9219,14 +9518,17 @@
             {
                 "id": "0,12",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,12,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,12,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "A notation is assigned to a number by an operation (the [Ctrl+Shift+S] keys), or by selecting it in the math panel.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -9240,14 +9542,17 @@
             {
                 "id": "0,13",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,13,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,13,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
@@ -9261,14 +9566,17 @@
             {
                 "id": "0,14",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,14,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,14,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Enter: \"10101110[Ctrl+Shift+S]bin\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -9282,14 +9590,17 @@
             {
                 "id": "0,15",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,15,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,15,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Result: bin[10101110]",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -9303,14 +9614,17 @@
             {
                 "id": "0,16",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,16,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,16,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Rational numbers",
                                 "format_id": "3c6aace5-c69a-4e80-b09e-62bed6ee6a7b"
                             }
@@ -9324,14 +9638,17 @@
             {
                 "id": "0,17",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,17,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,17,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Rational numbers are represented by fraction. They are entered using the division symbol (the \"/\" key), or by selecting this symbol in the math panel. The integer part of the fraction, if any, can be entered together with the fraction itself, as shown in the following example, or through the addition symbol.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -9345,14 +9662,17 @@
             {
                 "id": "0,18",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,18,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,18,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
@@ -9366,14 +9686,17 @@
             {
                 "id": "0,19",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,19,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,19,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Type: \"5672[Space]37/100\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -9387,32 +9710,39 @@
             {
                 "id": "0,20",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,20,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,20,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Result: ",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             },
                             {
                                 "id": "0,20,0,1",
                                 "type": 5,
+                                "level": 1,
                                 "elements": [
                                     {
                                         "id": "0,20,0,1,0",
                                         "type": 6,
+                                        "level": 1,
                                         "elements": [
                                             {
                                                 "id": "0,20,0,1,0,0",
                                                 "type": 7,
+                                                "level": 1,
                                                 "elements": [
                                                     {
                                                         "id": "0,20,0,1,0,0,0",
                                                         "type": 8,
+                                                        "level": 1,
                                                         "elements": "5672",
                                                         "format_id": "f94aa786-a69f-467b-a48b-1ce45ec1f8e1",
                                                         "can_merge": true
@@ -9420,14 +9750,17 @@
                                                     {
                                                         "id": "0,20,0,1,0,0,1",
                                                         "type": 14,
+                                                        "level": 1,
                                                         "elements": [
                                                             {
                                                                 "id": "0,20,0,1,0,0,1,0",
                                                                 "type": 7,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,20,0,1,0,0,1,0,0",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "37",
                                                                         "format_id": "f94aa786-a69f-467b-a48b-1ce45ec1f8e1",
                                                                         "can_merge": false
@@ -9437,15 +9770,18 @@
                                                             {
                                                                 "id": "0,20,0,1,0,0,1,1",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,20,0,1,0,0,1,2",
                                                                 "type": 7,
+                                                                "level": 1,
                                                                 "elements": [
                                                                     {
                                                                         "id": "0,20,0,1,0,0,1,2,0",
                                                                         "type": 8,
+                                                                        "level": 1,
                                                                         "elements": "100",
                                                                         "format_id": "f94aa786-a69f-467b-a48b-1ce45ec1f8e1",
                                                                         "can_merge": true
@@ -9473,14 +9809,17 @@
             {
                 "id": "0,21",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,21,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,21,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Complex numbers",
                                 "format_id": "3c6aace5-c69a-4e80-b09e-62bed6ee6a7b"
                             }
@@ -9494,14 +9833,17 @@
             {
                 "id": "0,22",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,22,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,22,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Complex numbers have a real and imaginary part. The constant \"i\" is used to denote the imaginary part. The \"i\" symbol, like any variable, must be entered by explicit multiplication by a number, or through a space - implicit multiplication.",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -9515,14 +9857,17 @@
             {
                 "id": "0,23",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,23,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,23,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Example:",
                                 "format_id": "e3181869-a9b6-4cc3-91f7-ad5af5fdde41"
                             }
@@ -9536,14 +9881,17 @@
             {
                 "id": "0,24",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,24,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,24,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Enter: \"23.56+1.56[Space]j\".",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             }
@@ -9557,32 +9905,39 @@
             {
                 "id": "0,25",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,25,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,25,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Result: ",
                                 "format_id": "3693af25-cacf-4d9f-a08d-684117ed881e"
                             },
                             {
                                 "id": "0,25,0,1",
                                 "type": 5,
+                                "level": 1,
                                 "elements": [
                                     {
                                         "id": "0,25,0,1,0",
                                         "type": 6,
+                                        "level": 1,
                                         "elements": [
                                             {
                                                 "id": "0,25,0,1,0,0",
                                                 "type": 7,
+                                                "level": 1,
                                                 "elements": [
                                                     {
                                                         "id": "0,25,0,1,0,0,0",
                                                         "type": 8,
+                                                        "level": 1,
                                                         "elements": "23.56",
                                                         "format_id": "f94aa786-a69f-467b-a48b-1ce45ec1f8e1",
                                                         "can_merge": true
@@ -9590,50 +9945,66 @@
                                                     {
                                                         "id": "0,25,0,1,0,0,1",
                                                         "type": 11,
+                                                        "level": 1,
                                                         "elements": [
                                                             {
                                                                 "id": "0,25,0,1,0,0,1,0",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,25,0,1,0,0,1,1",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,25,0,1,0,0,1,2",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,25,0,1,0,0,1,3",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,25,0,1,0,0,1,4",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,25,0,1,0,0,1,5",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,25,0,1,0,0,1,6",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,25,0,1,0,0,1,7",
                                                                 "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             },
                                                             {
                                                                 "id": "0,25,0,1,0,0,1,8",
                                                                 "type": 10,
+                                                                "level": 1,
+                                                                "elements": []
+                                                            },
+                                                            {
+                                                                "id": "0,25,0,1,0,0,1,9",
+                                                                "type": 10,
+                                                                "level": 1,
                                                                 "elements": []
                                                             }
                                                         ],
@@ -9642,6 +10013,7 @@
                                                     {
                                                         "id": "0,25,0,1,0,0,2",
                                                         "type": 8,
+                                                        "level": 1,
                                                         "elements": "1.56",
                                                         "format_id": "f94aa786-a69f-467b-a48b-1ce45ec1f8e1",
                                                         "can_merge": true
@@ -9649,6 +10021,7 @@
                                                     {
                                                         "id": "0,25,0,1,0,0,3",
                                                         "type": 8,
+                                                        "level": 1,
                                                         "elements": "j",
                                                         "format_id": "f94aa786-a69f-467b-a48b-1ce45ec1f8e1",
                                                         "can_merge": false
@@ -9672,14 +10045,17 @@
             {
                 "id": "0,26",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,26,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,26,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "c2d2f6f1-31a1-48de-b5f4-da6a30244f04"
                             }
@@ -9693,14 +10069,17 @@
             {
                 "id": "0,27",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,27,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,27,0,0",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "<- Expressions editing",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Expressions editing.yut"
@@ -9708,13 +10087,15 @@
                             {
                                 "id": "0,27,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,27,0,2",
                                 "type": 39,
-                                "elements": "Users/User registration ->",
+                                "level": 1,
+                                "elements": "../Users/User registration ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "../Users/User registration.yut"
                             }

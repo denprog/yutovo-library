@@ -4,15 +4,7 @@
         "language": 2,
         "use_tabs": true,
         "tab_spaces": 4,
-        "code_block_border_color": -16776961,
-        "numbers_color": -16776961,
-        "variables_color": -16755456,
-        "functions_color": -43776,
-        "units_color": -16755456,
-        "shapes_color": -16777216,
-        "error_marks_color": -65536,
-        "formula_bg_color": -1,
-        "bg_selection_color": -16776961,
+        "scale": 1.0,
         "real_result": {
             "precision": 3,
             "exp": 10,
@@ -43,7 +35,11 @@
                 1,
                 2,
                 3,
-                4
+                4,
+                6,
+                7,
+                8,
+                9
             ],
             "real_config": {
                 "precision": 3,
@@ -68,11 +64,149 @@
                 "show_angle_measure": false,
                 "form": 0,
                 "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
             }
         },
         "include_documents": []
     },
     "string_formats": [
+        {
+            "id": "677c4bf8-226a-48ab-a20f-c11da0fb12e6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "c378a0b9-0b09-4974-b7ae-bfa58f19b7cd",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8dff59d0-79db-404f-8cdf-c33139e9d8ec",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ea1ea00d-8b38-4c37-8e14-956174565ea3",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9c9c193e-a5dd-41f9-b617-be044b7f2c52",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2a28112a-8ef2-4291-9433-9e3fb1e89efe",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8c4402bc-b673-47dc-b14f-3e488464c20e",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b4559535-2e9c-47ed-a644-69655a45bfce",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
         {
             "id": "e3d9138e-3031-4463-8ad8-2fe0c503edc2",
             "family": "Arial",
@@ -7926,6 +8060,90 @@
             "text_color": 4278190335,
             "text_bg_color": 4294967295,
             "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "95fab96b-aae0-486f-acc5-339300d69654",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a5250265-920b-4a19-b894-d146234c07fc",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6ed24a1e-95e0-411e-9e7b-81d1533bc7c9",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e813ad56-4437-4406-8c59-b675cca3f7fc",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "189b1b98-c5cb-49a4-89b4-6e73eae59eb1",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "12c3ea16-fa9a-45ab-9662-9467817255eb",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
         }
     ],
     "paragraph_formats": [
@@ -8033,78 +8251,36 @@
             {
                 "id": "0,0",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,0,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "Блок калькулятора - это прямоугольник в тексте для проведения вычислений. Он появляется в начале пустого ",
-                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,1,0",
-                                "type": 4,
-                                "elements": "документа и далее может быть добавлен в любом месте документа (кроме места внутри блока кода) с ",
-                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,2,0",
-                                "type": 4,
-                                "elements": "помощью кнопки \"Вставить калькулятор\" ",
+                                "level": 1,
+                                "elements": "Блок калькулятора - это прямоугольник в тексте для проведения вычислений. Он появляется в начале пустого документа и далее может быть добавлен в любом месте документа (кроме места внутри блока кода) с помощью кнопки \"Вставить калькулятор\" ",
                                 "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
                             },
                             {
-                                "id": "0,0,2,1",
+                                "id": "0,0,0,1",
                                 "type": 34,
+                                "level": 1,
                                 "elements": [],
                                 "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAcCAIAAADqTdgKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABkElEQVQ4jd2UMa+CMBDHX1USJhtdNE4MJiSwMWji4mT6KeAbEL+JDvhpTBwEB0KiE3Rx0cXoop4OJTD0DSo8HAzv4WDef2qvvd9de+0hxthXMVXK5XJBBOKcF0SUCvq/B1FJRpzz3W43n88PhwPnnBCiqmqy6vv+dDpFCDUajX6/32q1EELPWVBKdV23bRsArtfr+Xz+GepmBADHcXRdp5Sma/yh0WhkmiZjjL8UY8w0zfF4nFjSLC6XiyRJoii+PrkoipIkAUBi+YyK3BFxHANAvV7P41Or1QAgjuMMYrlcUko7nU4eRLfbpZSuVqv73LZtwzBkWZ5MJlEUvS7HTVEUWZYly7JhGI7jlNBDv/0sqdcN7LouISQIgjxZ+L5PCHFdN/MuNE1TFMXzvDzxPc9TVVXTtMx1CoKAMT4ej3kQp9OpWq0KgpBBFNFbERjj7XYbhuFrhzAMN5sNxjixpLUMgmA4HLbb7WaziRAaDAa9Xi/Zt1gsZrMZ53y/36/Xa8uyFEV5Rvy55fyb9vsZiG+RqFJs5gkWrQAAAABJRU5ErkJggg=="
                             },
                             {
-                                "id": "0,0,2,2",
+                                "id": "0,0,0,2",
                                 "type": 4,
-                                "elements": " или комбинацией клавиш [Ctrl+Shift+C]. Также блок калькулятора ",
+                                "level": 1,
+                                "elements": " или комбинацией клавиш [Ctrl+Shift+C]. Также блок калькулятора появляется при начале ввода кода кнопками математической панели, если курсор в этот момент не находится в коде.",
                                 "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,0,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,3,0",
-                                "type": 4,
-                                "elements": "появляется при начале ввода кода кнопками математической панели, если курсор в этот момент не находится ",
-                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,0,4",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,0,4,0",
-                                "type": 4,
-                                "elements": "в коде.",
-                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8113,42 +8289,22 @@
             {
                 "id": "0,1",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,1,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "Блоков калькулятора может быть сколько угодно и между собой они образуют единое пространство для ",
+                                "level": 1,
+                                "elements": "Блоков калькулятора может быть сколько угодно и между собой они образуют единое пространство для вычислений. Это в частности означает, что переменные и функции, объявленные в блоке выше могут быть использованы в блоке ниже.",
                                 "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,1,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,1,0",
-                                "type": 4,
-                                "elements": "вычислений. Это в частности означает, что переменные и функции, объявленные в блоке выше могут быть ",
-                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,1,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,1,2,0",
-                                "type": 4,
-                                "elements": "использованы в блоке ниже.",
-                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8157,30 +8313,22 @@
             {
                 "id": "0,2",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,2,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "Эти блоки можно копировать в буфер обмена как любые другие символы. Если математическое выражение из ",
+                                "level": 1,
+                                "elements": "Эти блоки можно копировать в буфер обмена как любые другие символы. Если математическое выражение из блока будет скопировано в текст, то автоматически возникнет новый блок калькулятора.",
                                 "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
                             }
-                        ]
-                    },
-                    {
-                        "id": "0,2,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,2,1,0",
-                                "type": 4,
-                                "elements": "блока будет скопировано в текст, то автоматически возникнет новый блок калькулятора.",
-                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
-                            }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8189,18 +8337,22 @@
             {
                 "id": "0,3",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,3,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "Текст вне этих блоков никак не влияет на вычисления.",
                                 "format_id": "5695a9fc-bfb2-400e-9cf7-a97c96761c88"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8209,18 +8361,22 @@
             {
                 "id": "0,4",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,4,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "",
                                 "format_id": "8a525e27-12e3-44c6-b6cc-b6b6d9062a01"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",
@@ -8229,32 +8385,38 @@
             {
                 "id": "0,5",
                 "type": 2,
+                "level": 1,
                 "elements": [
                     {
                         "id": "0,5,0",
                         "type": 3,
+                        "level": 1,
                         "elements": [
                             {
                                 "id": "0,5,0,0",
                                 "type": 39,
-                                "elements": "<- Пользовательский интерфейс",
+                                "level": 1,
+                                "elements": "<- ../Введение/Политика конфиденциальности",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "./Пользовательский интерфейс.yut"
+                                "url": "../Введение/Политика конфиденциальности.yut"
                             },
                             {
                                 "id": "0,5,0,1",
                                 "type": 4,
+                                "level": 1,
                                 "elements": "  ",
                                 "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
                             },
                             {
                                 "id": "0,5,0,2",
                                 "type": 39,
+                                "level": 1,
                                 "elements": "Курсор ->",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
                                 "url": "./Курсор.yut"
                             }
-                        ]
+                        ],
+                        "format_name": "Основной текст"
                     }
                 ],
                 "format_name": "Основной текст",

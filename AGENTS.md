@@ -163,6 +163,8 @@ When creating or editing `.yut` files by hand (e.g., for library articles), foll
 
 Use hierarchical IDs: `"0"`, `"0,0"`, `"0,0,0"`, etc. They must reflect the actual tree position. After regenerating a tree, reassign all IDs from the root. `caret.id` must point to an existing element.
 
+Paragraph indices start at `0`. Exception: documents with `config.include_documents` — the included documents' paragraphs are prepended to the document, so the numbering of the document's own paragraphs starts at the total paragraph count of all included documents (e.g. a document that includes one 10-paragraph document numbers its own paragraphs `0,10`, `0,11`, …). Only the second id component (the paragraph index) is affected; deeper components are numbered within the paragraph as usual.
+
 ### String and code elements
 
 - `type: 4` (`STRING`) `elements` must be a single string, not an array of characters.

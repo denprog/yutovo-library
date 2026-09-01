@@ -4,6 +4,8 @@
 
 Yutovo library is a documentation system consisting of `.yut` files — a JSON-based document format. The library provides help articles, scientific articles, calculators, examples and other info for the Yutovo calculator app.
 
+**Creating or editing `.yut` documents:** use the `yutovo-doc` skill (`.agents/skills/yutovo-doc/`). It contains the authoring workflow, template documents, verbatim element examples, formula child layouts, and procedures for `.order`/navigation updates. This file remains the schema reference (type tables, field meanings, translation rules).
+
 ## File Format: `.yut`
 
 - `.yut` files are **JSON documents** with a specific schema.
@@ -12,7 +14,7 @@ Yutovo library is a documentation system consisting of `.yut` files — a JSON-b
   - `config`: document-specific settings
   - `string_formats`: text formatting definitions
   - `paragraph_formats`: paragraph formatting definitions
-  - `block_formats`: legacy field, usually an empty array
+  - `block_formats`: legacy field — never present in this repository's files; omit it entirely
   - `text`: document body (root element)
   - `caret`: caret state
   - `selection`: selection state
@@ -33,6 +35,8 @@ Document-specific part of the editor config:
 | `complex_result` | Default complex result settings |
 | `auto_result` | Auto-result settings and the ordered list of result types |
 | `include_documents` | List of included documents (`{ file_name: "..." }`) |
+
+Optional fields (both variants occur in help articles and calculators — copy `config` from a template document of the same type): `scale` (UI scale factor) and the syntax-highlight colors `code_block_border_color`, `numbers_color`, `variables_color`, `functions_color`, `units_color`, `shapes_color`, `error_marks_color`, `formula_bg_color`, `bg_selection_color` (signed 32-bit ints).
 
 ### `string_formats`
 
@@ -81,14 +85,16 @@ The `text.elements` array contains paragraphs (`type: 2`). Each paragraph has `e
 
 | Type | Enum name | Meaning |
 |------|-----------|---------|
+| `type: 0` | `NONE` | Unused placeholder value |
 | `type: 1` | `TEXT` | Document root element |
 | `type: 2` | `PARAGRAPH` | Paragraph; has `format_name` (and optionally `format_alignment`, `marker`, `marker_format_id`) |
 | `type: 3` | `ROW` | Inline group / span; may have `format_name` |
 | `type: 4` | `STRING` | Plain text — `elements` is a **single string** (not an array of characters); this is the only text that should be translated |
-| `type: 5` | `CODE_BLOCK` | Block of code paragraphs |
+| `type: 5` | `CODE_BLOCK` | Block of code paragraphs; has integer `code_id` (see "Code blocks and formulas") |
 | `type: 6` | `CODE_PARAGRAPH` | A line inside a code block |
 | `type: 7` | `CODE_ROW` | Row inside a code paragraph |
-| `type: 8` | `CODE_STRING` | Literal characters inside code |
+| `type: 8` | `CODE_STRING` | Literal characters inside code; has `can_merge` flag |
+| `type: 9` | `CODE_COLUMN` | Column inside code (rare) |
 | `type: 10` | `SHAPE` | Empty placeholder / shape element |
 | `type: 11` | `PLUS` | Plus operator |
 | `type: 12` | `MINUS` | Minus operator |
@@ -97,41 +103,54 @@ The `text.elements` array contains paragraphs (`type: 2`). Each paragraph has `e
 | `type: 15` | `POWER` | Superscript (power) |
 | `type: 16` | `SQUARE_ROOT` | Square root |
 | `type: 17` | `NTH_ROOT` | N-th root |
-| `type: 18` | `EQUATION` | Equation / result container |
+| `type: 18` | `EQUATION` | Equation / result container; has `result_type` |
 | `type: 19` | `OPEN_ROUND_BRACKET` | Opening round bracket `(` |
 | `type: 20` | `CLOSE_ROUND_BRACKET` | Closing round bracket `)` |
-| `type: 25` | `AUTO_RESULT` | Auto result marker (`=`) |
-| `type: 27` | `ASSIGNMENT` | Assignment operator |
+| `type: 21` | `REAL_RESULT` | Real-number result |
+| `type: 22` | `INTEGER_RESULT` | Integer result |
+| `type: 23` | `RATIONAL_RESULT` | Rational result |
+| `type: 24` | `COMPLEX_RESULT` | Complex result |
+| `type: 25` | `AUTO_RESULT` | Auto result marker (`=`); carries inline result configs |
+| `type: 26` | `ERROR_RESULT` | Error result |
+| `type: 27` | `ASSIGNMENT` | Assignment operator; may have `auto_solve` |
 | `type: 28` | `SUBSCRIPT` | Subscript |
+| `type: 29` | `EXCLAMATION` | Factorial `!` |
+| `type: 30` | `AND` | Logical AND `∧` |
+| `type: 31` | `OR` | Logical OR `∨` |
+| `type: 32` | `XOR` | Logical XOR `⊕` |
+| `type: 33` | `PERCENT` | Percent `%` |
+| `type: 34` | `IMAGE` | Inline image; `elements: []` plus `image_base64` (PNG) |
 | `type: 35` | `SUM` | Summation |
 | `type: 36` | `PRODUCT` | Product (∏) |
-| `type: 37` | `UNIT` | Unit element |
+| `type: 37` | `UNIT` | Unit element; may have `auto_solve` |
 | `type: 38` | `COMMA` | Comma separator |
 | `type: 39` | `LINK` | Hyperlink (`url` field contains the target path) |
 | `type: 40` | `OPEN_SQUARE_BRACKET` | Opening square bracket `[` |
 | `type: 41` | `CLOSE_SQUARE_BRACKET` | Closing square bracket `]` |
+| `type: 42` | `ARRAY_REAL_RESULT` | Array-of-reals result |
 | `type: 43` | `GRAPH_LINE` | Graph line element |
 | `type: 44` | `CODE_PARAGRAPHS_BLOCK` | Multi-paragraph code block |
 | `type: 45` | `SYMBOLIC_REAL_RESULT` | Symbolic real result |
 | `type: 46` | `SYMBOLIC_RATIONAL_RESULT` | Symbolic rational result |
-| `type: 47` | `NOT` | Logical NOT |
+| `type: 47` | `SYMBOLIC_COMPLEX_RESULT` | Symbolic complex result |
+| `type: 48` | `NOT` | Logical NOT `¬` |
 | `type: 49` | `DEFINITE_INTEGRAL` | Definite integral |
 | `type: 50` | `INDEFINITE_INTEGRAL` | Indefinite integral |
+| `type: 51` | `CODE_ROW_ASSIGNMENT` | Assignment row variant inside nested code constructs (rare) |
+| `type: 52` | `CODE_PARAGRAPH_ASSIGNMENT` | Assignment paragraph variant (rare) |
+| `type: 53` | `CODE_PARAGRAPHS_BLOCK_ASSIGNMENT` | Assignment block variant (rare) |
+| `type: 54` | `EVALUATION_BAR_SUBSCRIPT` | Evaluation bar with subscript (e.g. derivative at a point) |
 
-### Formula element child counts
+The authoritative source is `enum class ElementType` in `yutovo-editor/src/editor_utils.h` (sibling repo `../yutovo-editor`).
 
-When building formula elements by hand, use these child layouts:
+Notes:
+- Operators and brackets (`PLUS`, `MINUS`, `MULTIPLY`, `COMMA`, brackets) contain an array of `SHAPE` placeholders plus a `symbol` string field. `MINUS` and `MULTIPLY` carry 3 `SHAPE`s; `PLUS`, `COMMA` and brackets carry 1.
+- The `marker` field on `CODE_PARAGRAPH`s (`"█"`) is a cursor placeholder from saved editor state — do not add it by hand.
+- `level` (superscript/subscript level) is optional per element; whole documents omit it.
 
-- `DIVISION` (14): `[CODE_ROW numerator, SHAPE, CODE_ROW denominator]`
-- `POWER` (15): `[CODE_ROW base, SHAPE, CODE_ROW exponent]`
-- `SQUARE_ROOT` (16): `[SHAPE, CODE_ROW radicand]`
-- `SUBSCRIPT` (28): `[CODE_ROW base, SHAPE, CODE_ROW subscript]`
-- `SUM` (35): `[ASSIGNMENT lower, SHAPE, CODE_ROW upper, CODE_ROW body]`
-- `PRODUCT` (36): same layout as `SUM`
-- `DEFINITE_INTEGRAL` (49): `[CODE_ROW lower, SHAPE, CODE_ROW upper, CODE_ROW integrand, CODE_STRING "d", CODE_ROW variable]`
-- `INDEFINITE_INTEGRAL` (50): `[SHAPE, CODE_ROW integrand, CODE_STRING "d", CODE_ROW variable]`
+### Formula element child layouts
 
-`PLUS`/`MINUS`/`MULTIPLY`/`COMMA` and bracket elements contain arrays of `SHAPE` placeholders plus a `symbol` field.
+Child layouts for building formula elements by hand, with verbatim examples, are in the `yutovo-doc` skill: `references/document-format.md`.
 
 `CODE_STRING` (`type: 8`) must always be placed inside a `CODE_BLOCK` (`type: 5`) hierarchy so the editor can resolve its code context.
 
@@ -147,17 +166,17 @@ When creating or editing `.yut` files by hand (e.g., for library articles), foll
   "config": { "language": 2, ... },
   "string_formats": [...],
   "paragraph_formats": [...],
-  "block_formats": [],
   "text": { "id": "0", "type": 1, "elements": [...] },
   "caret": { "id": "0,0,0,0" },
   "selection": []
 }
 ```
 
-- `file_guid` must be unique per file. Never reuse it across translations.
+- `file_guid` must be unique per file. Never reuse it across translations. UUIDs inside `string_formats` are document-local and **may** be copied between documents.
 - `config.language` must match the folder language (`English = 1`, `Russian = 2`, `Spanish = 3`, `BrazilianPortuguese = 4`).
-- `block_formats` is legacy. Keep it as an empty array `[]` or omit it entirely.
+- `block_formats` is legacy — omit it entirely.
 - The root `text` element must have `type: 1` and must **not** have a `level` field.
+- There is **no title paragraph**: the app shows the file name as the title, and documents start with ordinary body text. Use `Заголовок 4` for in-document section headings; `Заголовок 1`–`Заголовок 3` are declared but unused. Paragraph alignment in the library is always `0`.
 
 ### Element IDs
 
@@ -184,18 +203,34 @@ Paragraph indices start at `0`. Exception: documents with `config.include_docume
 
 ### Code blocks and formulas
 
-- `CODE_BLOCK` (`type: 5`) must have a unique `code_id` integer per block.
+- `CODE_BLOCK` (`type: 5`) must have an integer `code_id`. Blocks with the **same** `code_id` form one calculation space: assignments are shared between them and a change re-solves all blocks of that id. Use `code_id: 1` for all blocks in a document unless calculations must be isolated (then use a new id).
 - `CODE_BLOCK` must be placed inside a `ROW` (`type: 3`) inside a `PARAGRAPH` (`type: 2`).
 - `CODE_PARAGRAPH` (`type: 6`) must have `format_name` pointing to the code paragraph format.
 - `CODE_ROW` (`type: 7`) contains `CODE_STRING` and/or formula elements.
+- `CODE_STRING` (`type: 8`) has a `can_merge` flag: `true` for numbers and identifiers, `false` for unit suffixes (`"ч"`, `"Гц"`, `"мм"`, …).
 - Do not mix `type: 4` (`STRING`) and code/formula elements in the same `ROW`.
 
 ### Equations with results
 
 - `EQUATION` (`type: 18`) must have `result_type`.
 - Structure: `[CODE_ROW left, SHAPE, CODE_ROW right]`.
-- The right `CODE_ROW` must contain a result element (`REAL_RESULT`, `INTEGER_RESULT`, `RATIONAL_RESULT`, `COMPLEX_RESULT`, `AUTO_RESULT`, etc.).
+- The right `CODE_ROW` must contain exactly one result element.
 - `EQUATION` must be inside a `CODE_BLOCK` so the result element can resolve its `code_id`.
+- `result_type` uses the solver's `ResultType` enum — the values are **not** element type numbers:
+
+| `result_type` | Meaning | Result element |
+|---------------|---------|----------------|
+| 1 | REAL | `REAL_RESULT` (21) |
+| 2 | INTEGER | `INTEGER_RESULT` (22) |
+| 3 | RATIONAL | `RATIONAL_RESULT` (23) |
+| 4 | COMPLEX | `COMPLEX_RESULT` (24) |
+| 5 | AUTO | `AUTO_RESULT` (25) — the default |
+| 6 | ARRAY_REAL | `ARRAY_REAL_RESULT` (42) |
+| 7 | SYMBOLIC_REAL | `SYMBOLIC_REAL_RESULT` (45) |
+| 8 | SYMBOLIC_RATIONAL | `SYMBOLIC_RATIONAL_RESULT` (46) |
+| 9 | SYMBOLIC_COMPLEX | `SYMBOLIC_COMPLEX_RESULT` (47) |
+
+- `AUTO_RESULT` carries a full inline copy of the result configs (`real_config`, `integer_config`, `rational_config`, `complex_config`, `results_order`, `result_auto_advance`) overriding the document defaults — see `references/document-format.md` in the `yutovo-doc` skill for a verbatim example.
 - If you only need to display a formula (without solving), use a `CODE_BLOCK` with `CODE_ROW` directly instead of `EQUATION`.
 
 ### Validation workflow
@@ -220,12 +255,32 @@ library/
 └── pt_BR/       # Portuguese (Brazil) (language=4)
 ```
 
-Each language directory mirrors the same logical structure:
-- `Help/Calculations/` — help articles about calculations
-- `Calculators/` — calculator documents
-- `Others/` — misc documents like "First page"
+Each language directory mirrors the same logical structure (7 top-level sections):
 
-Directory and file names are localized, e.g. Russian `Справка/` corresponds to English `Help/`.
+| Russian | English | Spanish | Portuguese (pt_BR) | Content |
+|---------|---------|---------|--------------------|---------|
+| Справка | Help | Ayuda | Ajuda | Help articles (with subsections: Введение, Начало работы, Вычисления, Редактирование, Пользователи) |
+| Калькуляторы | Calculators | Calculadoras | Calculadoras | Calculator documents (Алгебра, Финансы, Электротехника) |
+| Математика | Mathematics | Matemáticas | Matemática | Scientific articles (Планиметрия, Стереометрия) |
+| Физика | Physics | Física | Física | Physics articles (Динамика, Термодинамика, Электричество, Электродинамика) |
+| Финансы | Finance | Finanzas | Finanças | Deposit/bond calculators |
+| Размерности | Units | Unidades | Unidades | Unit reference documents |
+| Другое | Others | Otros | Outros | "First page" and misc documents |
+
+Directory and file names are localized — file names are human-readable document titles (spaces, commas allowed).
+
+Structure notes:
+
+- New documents are added to `ru/` first; translations into other languages are separate tasks.
+- Finance sections are **not** duplicates: `Финансы/Вклады|Облигации` hold the source articles (description + formulas), and `Калькуляторы/Финансы/Вклады|Облигации` hold thin calculator documents that include the corresponding article via `config.include_documents: [{ "file_name": "/Финансы/<sub>/<Name>.yut" }]` (path is absolute from the language tree root). A new finance calculator therefore consists of a pair: the article in `Финансы` and the including calculator in `Калькуляторы/Финансы` (name-for-name, own `file_guid` each).
+- 24 `.yut.in` files exist (6 per language: First page, System requirements, User interface, and the three Users documents) — see "`.in` Preprocessor Files".
+- Some folders have no `.order` (e.g. `Другое`, `Размерности`, `Физика/Динамика`); their children are unordered in the app.
+
+## Build and Packing Scripts
+
+- `make_library.sh <output_dir> [WEB] [ZIP]` — generates the deployable library: recursively copies `library/`, preprocessing `*.in` files with `cpp -P -x c` (`-DWEB` when `WEB` is passed) into their `.in`-less names, and optionally gzips every `.yut` (`ZIP`).
+- `pack.sh` / `pack.bat` — gzip all `library/**/*.yut` in place. `unpack.sh` — reverse (skips files that are not gzip).
+- The editor loads both plain JSON and gzipped `.yut`. The repository keeps plain JSON for git diffability; never commit gzipped files.
 
 ## `.order` Files
 
@@ -254,7 +309,7 @@ Each directory may contain a `.order` file listing folder/document names in disp
 
 ## Navigation Style
 
-Navigation links are `type: 39` elements appended at the end of `text.elements` (after an empty paragraph):
+Navigation links are `type: 39` elements appended at the end of `text.elements` (after an empty paragraph). The verbatim JSON shape of the navigation paragraph, the insertion procedure for a new document, and link-verification commands are in the `yutovo-doc` skill: `references/navigation.md`.
 
 - **Within-section links**: use `./Document.yut` or `./Folder/Document.yut`
 - **Cross-section links**: use `../Section/Document.yut`

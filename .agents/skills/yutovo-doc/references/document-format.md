@@ -280,3 +280,22 @@ renumbering rule.
 per-plot `plot_format`; children are `[CODE_ROW, CODE_PARAGRAPHS_BLOCK, CODE_ROW,
 CODE_ROW, CODE_ROW, CODE_ROW, SHAPE]`. Copy from an existing graph document
 when needed.
+
+`GRAPH_SURFACE` (58) is the 3D surface graph of a function of two variables
+(see `Справка/Вычисления/Графики/График поверхности.yut`). Same `graph_format`
+as `GRAPH_LINE`, plus `rot_x`/`rot_z` (view rotation angles, doubles).
+`plots` holds one entry per expression paragraph; each `plot_format` is
+`{ "width", "color", "style" }` where `style` selects the surface rendering:
+`0` color by height, `1` solid color, `2` color by height with mesh,
+`3` wireframe, `4` points. Children — exactly 8, validated on load:
+
+```
+[CODE_ROW y_top, CODE_PARAGRAPHS_BLOCK expressions, CODE_ROW y_var,
+ CODE_ROW y_bottom, CODE_ROW x_left, CODE_ROW x_var, CODE_ROW x_right, SHAPE]
+```
+
+`level` is 2 on the bound rows and the y-variable row, 1 on the expressions
+block, the x-variable row and the SHAPE. Each expression paragraph may carry
+the colored `marker` + `marker_format_id` matching the plot color. Expressions
+use the two axis variables, which must be distinct identifiers. The element
+must sit inside a `CODE_BLOCK` (like all solved code).

@@ -299,3 +299,23 @@ block, the x-variable row and the SHAPE. Each expression paragraph may carry
 the colored `marker` + `marker_format_id` matching the plot color. Expressions
 use the two axis variables, which must be distinct identifiers. The element
 must sit inside a `CODE_BLOCK` (like all solved code).
+
+`GRAPH_HISTOGRAM` (59) is the histogram graph of arrays of values
+(see `Справка/Вычисления/Графики/Гистограмма.yut`). Same `graph_format` as
+`GRAPH_LINE`, plus `plots` with one entry per expression paragraph; **no**
+`rot_x`/`rot_z` (the view is fixed — bars are placed by their indices and the
+graph cannot be panned or zoomed with the mouse). Each expression must
+evaluate to an array (`[1, 5, 3, 2]`, a variable holding an array, a function
+call, …). Children — exactly 2, validated on load:
+
+```
+[CODE_PARAGRAPHS_BLOCK expressions, SHAPE]
+```
+
+`level` is 1 on both children. Each expression paragraph (one array of bars)
+may carry the colored `marker` + `marker_format_id` matching the plot color;
+the editor also sets these markers automatically on load. `plot_format.style`
+stores `HistogramStyle` values, interpreted by the graph type (the numeric
+range overlaps the surface styles): `0` bars, `1` bars with line, `2` bars
+without gaps, `3` stems, `4` area, `5` step, `6` marks — the plot-format
+dialog writes these directly.

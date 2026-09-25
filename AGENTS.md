@@ -144,12 +144,13 @@ The `text.elements` array contains paragraphs (`type: 2`). Each paragraph has `e
 | `type: 56` | `TEXT_EQUATION` | Equation inside a `TEXT_BLOCK` (not solved) |
 | `type: 57` | `TEXT_ASSIGNMENT` | Assignment inside a `TEXT_BLOCK`; identifiers are not registered in the solver |
 | `type: 58` | `GRAPH_SURFACE` | 3D surface graph; carries `graph_format`, per-surface `plots` (with `style`), `rot_x`, `rot_z` |
+| `type: 59` | `GRAPH_HISTOGRAM` | Histogram graph; carries `graph_format` and per-array `plots` (with `style`); no rotation |
 
 The authoritative source is `enum class ElementType` in `yutovo-editor/src/editor_utils.h` (sibling repo `../yutovo-editor`).
 
 Notes:
 - Operators and brackets (`PLUS`, `MINUS`, `MULTIPLY`, `COMMA`, brackets) contain an array of `SHAPE` placeholders plus a `symbol` string field. `MINUS` and `MULTIPLY` carry 3 `SHAPE`s; `PLUS` and brackets carry 1. `COMMA` is rendered from its glyph and the number of `SHAPE`s varies in saved files (5–15) — copy a comma from an existing document.
-- The `marker` field on ordinary `CODE_PARAGRAPH`s (`"█"`) is a cursor placeholder from saved editor state — do not add it by hand. Exception: expression paragraphs inside graph elements (`GRAPH_LINE`, `GRAPH_SURFACE`) carry a colored `marker` + `marker_format_id` matching the plot color (the click target for the plot-format dialog).
+- The `marker` field on ordinary `CODE_PARAGRAPH`s (`"█"`) is a cursor placeholder from saved editor state — do not add it by hand. Exception: expression paragraphs inside graph elements (`GRAPH_LINE`, `GRAPH_SURFACE`, `GRAPH_HISTOGRAM`) carry a colored `marker` + `marker_format_id` matching the plot color (the click target for the plot-format dialog).
 - `level` (superscript/subscript level) is optional per element; whole documents omit it.
 
 ### Formula element child layouts

@@ -545,42 +545,6 @@
                                 "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
                             }
                         ]
-                    },
-                    {
-                        "id": "0,4,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,4,1,0",
-                                "type": 4,
-                                "elements": "sequencialmente de fórmula em fórmula. Ao mover para cima ([Up Arrow]) e para baixo ([Down Arrow]), o cursor salta para o elemento superior",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,4,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,4,2,0",
-                                "type": 4,
-                                "elements": "superior ou inferior mais próximo. As teclas [Ctrl]-[Left Arrow] e [Ctrl]-[Right Arrow] podem ser usadas para mover o cursor sem entrar ",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,4,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,4,3,0",
-                                "type": 4,
-                                "elements": "em elementos aninhados. A tecla [Home] é usada para mover o cursor para um elemento mais comum, ou para o início da linha.",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
                     }
                 ],
                 "format_name": "Corpo do texto",
@@ -700,30 +664,6 @@
                                 "id": "0,9,0,0",
                                 "type": 4,
                                 "elements": "Ao digitar um número (string), o cursor move para a posição \"dentro da string\" e assume a forma do cursor de texto. O cursor pode ser movido para outra posição dentro da string usando as teclas de cursor. Pressione: [Left][Left][Left][Left][Left]. O cursor se moverá cinco caracteres para a esquerda. Agora a string será digitada na nova posição. Digite: \"90\".",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,1,0",
-                                "type": 4,
-                                "elements": "pode ser movido para outra posição dentro da string usando as teclas de cursor. Pressione: [Left][Left][Left][Left][Left]. O cursor se moverá",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,9,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,9,2,0",
-                                "type": 4,
-                                "elements": "moverá cinco caracteres para a esquerda. Agora a string será digitada na nova posição. Digite: \"90\".",
                                 "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
                             }
                         ]
@@ -2506,19 +2446,7 @@
                             {
                                 "id": "0,38,1,0",
                                 "type": 4,
-                                "elements": "foi excluído. Você pode excluir o símbolo de divisão de forma semelhante. Da posição anterior, pressione [Up] para mover o cursor para o ",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,38,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,38,2,0",
-                                "type": 4,
-                                "elements": "oi excluída. Você pode ",
+                                "elements": "excluída. Você pode excluir o símbolo de divisão de forma semelhante. Da posição anterior, pressione [Up] para mover o cursor para a posição antes do símbolo de divisão e a exclua:",
                                 "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
                             }
                         ]
@@ -2780,19 +2708,7 @@
                             {
                                 "id": "0,44,0,0",
                                 "type": 4,
-                                "elements": "Os parâmetros da operação podem usar uma expressão contendo outras operações. Para digitar tais operações, é conveniente usar as ",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,44,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,44,1,0",
-                                "type": 4,
-                                "elements": "niente usar a seleção de partes",
+                                "elements": "Os parâmetros da operação podem usar uma expressão contendo outras operações. Para digitar tais operações, é conveniente usar a seleção de partes da fórmula.",
                                 "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
                             }
                         ]
@@ -2856,7 +2772,7 @@
                             {
                                 "id": "0,46,2,0",
                                 "type": 4,
-                                "elements": "expressão é selecionada. Em seguida, pressione \"/\" para inserir a operação de divisão.",
+                                "elements": "é selecionada. Em seguida, pressione \"/\" para inserir a operação de divisão.",
                                 "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
                             }
                         ]
@@ -3477,30 +3393,6 @@
                                 "id": "0,51,0,0",
                                 "type": 4,
                                 "elements": "Agora vamos extrair a raiz quadrada da expressão no denominador. Aqui novamente, a seleção ajudará. Agora o cursor está na posição mais à direita, então para selecionar o denominador, você precisa pressionar [Shift+Left] até que esta expressão esteja totalmente selecionada, ou [Shift+Home] para selecionar toda a linha. Em seguida, digite a operação de extração de raiz pressionando [Shift+Ctrl+Q].",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,51,1",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,51,1,0",
-                                "type": 4,
-                                "elements": "direita, então para selecionar o denominador, você precisa pressionar [Shift+Left] até que esta expressão esteja totalmente selecionada, ou [Shift+Home] para",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,51,2",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,51,2,0",
-                                "type": 4,
-                                "elements": "para selecionar toda a linha. Em seguida, digite a operação de extração de raiz pressionando [Shift+Ctrl+Q].",
                                 "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
                             }
                         ]
@@ -4435,7 +4327,7 @@
                             {
                                 "id": "0,60,0,0",
                                 "type": 4,
-                                "elements": "Então, o cursor está em uma nova fórmula, atualmente representada apenas por uma linha vazia. Mova o cursor para a fórmula superior e ",
+                                "elements": "Então, o cursor está em uma nova fórmula, atualmente representada apenas por uma linha vazia. Mova o cursor para a fórmula superior e selecione a operação de exponenciação. Para isso, posicione o cursor (usando as teclas ou o mouse) antes de toda a operação de exponenciação e pressione ",
                                 "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
                             }
                         ]
@@ -4447,7 +4339,7 @@
                             {
                                 "id": "0,60,1,0",
                                 "type": 4,
-                                "elements": "a, atualmente representada apenas por ",
+                                "elements": "[Shift+Right]. Em seguida, copie a expressão selecionada para a área de transferência pressionando [Ctrl+Ins] ou o botão na barra de ferramentas.",
                                 "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
                             }
                         ]
@@ -4459,31 +4351,7 @@
                             {
                                 "id": "0,60,2,0",
                                 "type": 4,
-                                "elements": "[Shift+Right]. Em seguida, copie a expressão selecionada para a área de transferência pressionando [Ctrl+Ins] ou o botão na barra de ferramentas. Em seguida, mova ",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,60,3",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,60,3,0",
-                                "type": 4,
-                                "elements": "ferramentas. Em seguida, mova o cursor para a fórmula inferior e cole a expressão copiada lá pressionando [Shift+Ins] ou o botão colar na barra de ferramentas.",
-                                "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0,60,4",
-                        "type": 3,
-                        "elements": [
-                            {
-                                "id": "0,60,4,0",
-                                "type": 4,
-                                "elements": "xpone",
+                                "elements": "Em seguida, mova o cursor para a fórmula inferior e cole a expressão copiada lá pressionando [Shift+Ins] ou o botão colar na barra de ferramentas. O resultado é:",
                                 "format_id": "e2346a87-7e1e-4242-a86b-73062467c98c"
                             }
                         ]

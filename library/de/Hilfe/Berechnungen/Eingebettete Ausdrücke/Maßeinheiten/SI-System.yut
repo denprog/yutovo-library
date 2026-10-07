@@ -1,0 +1,4067 @@
+{
+    "file_guid": "057bca5c-8a29-4583-a6d9-831fb08b7c99",
+    "config": {
+        "language": 5,
+        "use_tabs": true,
+        "tab_spaces": 4,
+        "scale": 1.0,
+        "real_result": {
+            "precision": 3,
+            "exp": 10,
+            "default_angle_measure": 0,
+            "result_angle_measure": 0,
+            "show_angle_measure": true
+        },
+        "integer_result": {
+            "result_notation": 2,
+            "default_notation": 2,
+            "show_notation": true
+        },
+        "rational_result": {
+            "fraction_form": 0
+        },
+        "complex_result": {
+            "precision": 3,
+            "exp": 10,
+            "default_angle_measure": 0,
+            "result_angle_measure": 0,
+            "show_angle_measure": false,
+            "form": 0,
+            "max_count": 10
+        },
+        "auto_result": {
+            "result_auto_advance": true,
+            "results_order": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+            ],
+            "real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "integer_config": {
+                "result_notation": 2,
+                "default_notation": 2,
+                "show_notation": true
+            },
+            "rational_config": {
+                "fraction_form": 0
+            },
+            "complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": false,
+                "form": 0,
+                "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
+            }
+        },
+        "include_documents": []
+    },
+    "string_formats": [
+        {
+            "id": "97d4e9bb-2beb-455b-bd8f-73edc2409e82",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6927c692-06b4-48b8-8d38-b3751bae89f4",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "79b7133e-002c-40e8-b102-921b0d9edaaa",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "687352a1-aecd-4a7a-9b99-ca8266cb8525",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a1d30a6b-2e26-490a-b7d7-5440c17a964a",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a9be65c0-4da7-4f86-a7c3-3e6d1dfb5219",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b820042e-961e-460c-813c-83bc10be4126",
+            "family": "FreeMono",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "83df09de-5eb7-475a-bd13-dd346f3d4d6c",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "14da2b8a-cae3-4ab5-8de9-5f3bd83288d8",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5f78129c-8e2f-4396-9523-4b0151d81f85",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "76c67feb-e6fd-414a-a36f-3926bf595ee7",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6777ae47-44cf-4281-84d0-e33c9e095d2d",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190335,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d7dbc119-d4ee-4a78-8699-7002385c3e62",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        }
+    ],
+    "paragraph_formats": [
+        {
+            "name": "Standardtext",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "97d4e9bb-2beb-455b-bd8f-73edc2409e82"
+        },
+        {
+            "name": "Überschrift 1",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "6927c692-06b4-48b8-8d38-b3751bae89f4"
+        },
+        {
+            "name": "Überschrift 2",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "79b7133e-002c-40e8-b102-921b0d9edaaa"
+        },
+        {
+            "name": "Überschrift 3",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "687352a1-aecd-4a7a-9b99-ca8266cb8525"
+        },
+        {
+            "name": "Überschrift 4",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "a1d30a6b-2e26-490a-b7d7-5440c17a964a"
+        },
+        {
+            "name": "Beispiel",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "a9be65c0-4da7-4f86-a7c3-3e6d1dfb5219"
+        },
+        {
+            "name": "Monospace",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "b820042e-961e-460c-813c-83bc10be4126"
+        },
+        {
+            "name": "Code",
+            "alignment": 0,
+            "word_wrap": 0,
+            "line_spacing": 2,
+            "indent_before": 2,
+            "indent_after": 2,
+            "indent_first_line": 0,
+            "spacing_before": 2,
+            "spacing_after": 2,
+            "default_string_format": "83df09de-5eb7-475a-bd13-dd346f3d4d6c"
+        }
+    ],
+    "text": {
+        "id": "0",
+        "type": 1,
+        "elements": [
+            {
+                "id": "0,0",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,0,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,0,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Die aufgeführten Maßeinheiten werden bei Berechnungen verwendet, wenn die Sprache des Dokuments auf Deutsch gesetzt ist.",
+                                "format_id": "5f78129c-8e2f-4396-9523-4b0151d81f85"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,1",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,1,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,1,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Entfernung",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,2",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,2,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,2,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• m - Meter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,3",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,3,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,3,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• ang - Angström",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,4",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,4,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,4,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• nm - Nanometer",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,5",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,5,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,5,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcm - Mikrometer",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,6",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,6,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,6,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mm - Millimeter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,7",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,7,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,7,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• cm - Zentimeter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,8",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,8,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,8,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• dm - Dezimeter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,9",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,9,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,9,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• km - Kilometer",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,10",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,10,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,10,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Masse",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,11",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,11,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,11,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kg - Kilogramm \teingebaute",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,12",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,12,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,12,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcg - Mikrogramm",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,13",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,13,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,13,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mg - Milligramm",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,14",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,14,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,14,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• g - Gramm",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,15",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,15,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,15,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• ton - Tonne",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,16",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,16,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,16,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Temperatur",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,17",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,17,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,17,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• K - Kelvin",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,18",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,18,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,18,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• °C - Grad Celsius",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,19",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,19,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,19,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Zeit",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,20",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,20,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,20,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• s - Sekunde",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,21",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,21,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,21,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• ps - Pikosekunde",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,22",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,22,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,22,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• ns - Nanosekunde",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,23",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,23,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,23,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mks - Mikrosekunde",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,24",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,24,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,24,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• ms - Millisekunde",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,25",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,25,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,25,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• min - Minute",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,26",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,26,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,26,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• stunde - Stunde",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,27",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,27,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,27,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• tag - Tag",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,28",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,28,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,28,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• woche - Woche",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,29",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,29,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,29,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Elektrische Stromstärke",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,30",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,30,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,30,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• A - Ampere",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,31",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,31,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,31,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcA - Mikroampere",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,32",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,32,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,32,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mA - Milliampere",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,33",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,33,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,33,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kA - Kiloampere",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,34",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,34,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,34,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MA - Megaampere",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,35",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,35,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,35,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Lichtstärke",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,36",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,36,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,36,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• cd - Candela",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,37",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,37,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,37,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mkcd - Mikrocandela",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,38",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,38,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,38,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcd - Millicandela",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,39",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,39,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,39,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kcd - Kilocandela",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,40",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,40,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,40,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Mcd - Megacandela",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,41",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,41,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,41,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Stoffmenge",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,42",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,42,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,42,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mol - Mol",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,43",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,43,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,43,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Frequenz",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,44",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,44,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,44,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Hz - Hertz",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,45",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,45,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,45,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kHz - Kilohertz",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,46",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,46,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,46,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MHz - Megahertz",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,47",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,47,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,47,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• GHz - Gigahertz",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,48",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,48,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,48,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Kraft",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,49",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,49,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,49,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• N - Newton",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,50",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,50,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,50,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcN - Mikronewton",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,51",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,51,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,51,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mN - Millinewton",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,52",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,52,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,52,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kN - Kilonewton",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,53",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,53,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,53,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MN - Meganewton",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,54",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,54,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,54,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Energie",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,55",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,55,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,55,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• J - Joule",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,56",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,56,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,56,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcJ - Mikrojoule",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,57",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,57,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,57,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mJ - Millijoule",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,58",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,58,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,58,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kJ - Kilojoule",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,59",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,59,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,59,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MJ - Megajoule",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,60",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,60,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,60,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Leistung",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,61",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,61,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,61,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• W - Watt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,62",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,62,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,62,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcW - Mikrowatt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,63",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,63,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,63,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mW - Milliwatt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,64",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,64,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,64,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kW - Kilowatt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,65",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,65,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,65,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MW - Megawatt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,66",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,66,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,66,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Druck",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,67",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,67,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,67,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Pa - Pascal",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,68",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,68,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,68,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcPa - Mikropascal",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,69",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,69,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,69,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mPa - Millipascal",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,70",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,70,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,70,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kPa - Kilopascal",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,71",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,71,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,71,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MPa - Megapascal",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,72",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,72,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,72,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Lichtstrom",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,73",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,73,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,73,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• lm - Lumen",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,74",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,74,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,74,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mclm - Mikrolumen",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,75",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,75,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,75,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mlm - Millilumen",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,76",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,76,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,76,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• klm - Kilolumen",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,77",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,77,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,77,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Mlm - Megalumen",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,78",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,78,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,78,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Beleuchtungsstärke",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,79",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,79,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,79,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• lx - Lux",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,80",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,80,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,80,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mclx - Mikrolux",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,81",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,81,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,81,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mlx - Millilux",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,82",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,82,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,82,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• klx - Kilolux",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,83",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,83,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,83,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Mlx - Megalux",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,84",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,84,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,84,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Elektrische Ladung",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,85",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,85,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,85,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• C - Coulomb",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,86",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,86,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,86,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcC - Mikrocoulomb",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,87",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,87,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,87,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mC - Millicoulomb",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,88",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,88,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,88,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kC - Kilocoulomb",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,89",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,89,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,89,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MC - Megacoulomb",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,90",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,90,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,90,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Elektrische Spannung",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,91",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,91,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,91,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• V - Volt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,92",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,92,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,92,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• pV - Pikovolt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,93",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,93,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,93,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• nV - Nanovolt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,94",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,94,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,94,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcV - Mikrovolt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,95",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,95,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,95,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mV - Millivolt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,96",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,96,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,96,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kV - Kilovolt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,97",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,97,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,97,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MV - Megavolt",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,98",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,98,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,98,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Elektrischer Widerstand",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,99",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,99,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,99,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Ohm - Ohm",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,100",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,100,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,100,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcOhm - Mikroohm",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,101",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,101,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,101,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mOhm - Milliohm",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,102",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,102,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,102,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kOhm - Kiloohm",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,103",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,103,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,103,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MOhm - Megaohm",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,104",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,104,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,104,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Elektrische Kapazität",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,105",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,105,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,105,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• F - Farad",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,106",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,106,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,106,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• pF - Pikofarad",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,107",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,107,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,107,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• nF - Nanofarad",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,108",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,108,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,108,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcF - Mikrofarad",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,109",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,109,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,109,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mF - Millifarad",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,110",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,110,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,110,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Magnetischer Fluss",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,111",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,111,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,111,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Wb - Weber",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,112",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,112,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,112,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcWb - Mikroweber",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,113",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,113,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,113,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mWb - Milliweber",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,114",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,114,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,114,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kWb - Kiloweber",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,115",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,115,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,115,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MWb - Megaweber",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,116",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,116,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,116,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Magnetische Flussdichte",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,117",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,117,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,117,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• T - Tesla",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,118",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,118,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,118,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcT - Mikrotesla",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,119",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,119,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,119,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mT - Millitesla",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,120",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,120,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,120,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kT - Kilotesla",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,121",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,121,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,121,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MT - Megatesla",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,122",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,122,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,122,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Induktivität",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,123",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,123,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,123,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• H - Henry",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,124",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,124,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,124,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• pH - Pikohenry",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,125",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,125,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,125,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• nH - Nanohenry",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,126",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,126,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,126,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcH - Mikrohenry",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,127",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,127,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,127,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mH - Millihenry",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,128",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,128,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,128,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Elektrischer Leitwert",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,129",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,129,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,129,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• S - Siemens",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,130",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,130,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,130,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcS - Mikrosiemens",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,131",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,131,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,131,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mS - Millisiemens",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,132",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,132,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,132,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kS - Kilosiemens",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,133",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,133,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,133,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MS - Megasiemens",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,134",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,134,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,134,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Ionendosis",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,135",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,135,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,135,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Gy - Gray",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,136",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,136,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,136,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcGy - Mikrogray",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,137",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,137,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,137,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mGy - Milligray",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,138",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,138,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,138,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• kGy - Kilogray",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,139",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,139,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,139,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• MGy - Megagray",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,140",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,140,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,140,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Fläche",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,141",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,141,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,141,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• a - Ar",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,142",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,142,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,142,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• ha - Hektar",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,143",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,143,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,143,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Volumen",
+                                "format_id": "6777ae47-44cf-4281-84d0-e33c9e095d2d"
+                            }
+                        ],
+                        "format_name": "Überschrift 4"
+                    }
+                ],
+                "format_name": "Überschrift 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,144",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,144,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,144,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• l - Liter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,145",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,145,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,145,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• mcl - Mikroliter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,146",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,146,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,146,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• ml - Milliliter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,147",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,147,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,147,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• dl - Deziliter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,148",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,148,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,148,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• dal - Dekaliter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,149",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,149,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,149,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• hl - Hektoliter",
+                                "format_id": "76c67feb-e6fd-414a-a36f-3926bf595ee7"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,150",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,150,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,150,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "",
+                                "format_id": "14da2b8a-cae3-4ab5-8de9-5f3bd83288d8"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,151",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,151,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,151,0,0",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "<- ../Funktionen",
+                                "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
+                                "url": "../Funktionen.yut"
+                            },
+                            {
+                                "id": "0,151,0,1",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "  ",
+                                "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
+                            },
+                            {
+                                "id": "0,151,0,2",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "Russisches Maßsystem ->",
+                                "format_id": "9e664d7a-7e52-4cd3-b25e-af162480ccf3",
+                                "url": "./Russisches Maßsystem.yut"
+                            }
+                        ],
+                        "format_name": "Standardtext"
+                    }
+                ],
+                "format_name": "Standardtext",
+                "format_alignment": 0
+            }
+        ]
+    },
+    "caret": {
+        "id": "0,0,0,0"
+    },
+    "selection": []
+}

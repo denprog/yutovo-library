@@ -1,6 +1,6 @@
 ---
 name: yutovo-doc
-description: Create, edit, translate and validate Yutovo `.yut` documents (help articles, calculators) in the yutovo-library repository. Use whenever the task involves creating a new document or calculator, editing paragraphs/formulas/navigation links inside a .yut or .yut.in file, adding a document to a .order file, or translating documents between library languages (ru/en/es/pt_BR) — even if the user just says "add an article", "add a calculator" or "fix the links".
+description: Create, edit, translate and validate Yutovo `.yut` documents (help articles, calculators) in the yutovo-library repository. Use whenever the task involves creating a new document or calculator, editing paragraphs/formulas/navigation links inside a .yut or .yut.in file, adding a document to a .order file, or translating documents between library languages (ru/en/es/pt_BR/de) — even if the user just says "add an article", "add a calculator" or "fix the links".
 ---
 
 # Yutovo document authoring
@@ -21,7 +21,7 @@ construction knowledge: templates, verbatim examples, procedures.
    `paragraph_formats`. Generate a fresh `file_guid` (the only UUID that must be
    unique per file — `string_formats` UUIDs are document-local and may be copied
    verbatim). Set `config.language` to match the target folder
-   (ru=2, en=1, es=3, pt_BR=4).
+   (ru=2, en=1, es=3, pt_BR=4, de=5).
 3. **Write the body** following the conventions in "Conventions" below.
    For formulas, code blocks and equations, read `references/document-format.md`.
 4. **Add navigation links** if this is a help article, and update the section's

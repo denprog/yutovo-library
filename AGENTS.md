@@ -178,7 +178,7 @@ When creating or editing `.yut` files by hand (e.g., for library articles), foll
 ```
 
 - `file_guid` must be unique per file. Never reuse it across translations. UUIDs inside `string_formats` are document-local and **may** be copied between documents.
-- `config.language` must match the folder language (`English = 1`, `Russian = 2`, `Spanish = 3`, `BrazilianPortuguese = 4`).
+- `config.language` must match the folder language (`English = 1`, `Russian = 2`, `Spanish = 3`, `BrazilianPortuguese = 4`, `German = 5`).
 - `block_formats` is legacy — omit it entirely.
 - The root `text` element must have `type: 1` and must **not** have a `level` field.
 - There is **no title paragraph**: the app shows the file name as the title, and documents start with ordinary body text. Use `Заголовок 4` for in-document section headings; `Заголовок 1`–`Заголовок 3` are declared but unused. Paragraph alignment in the library is always `0`.
@@ -244,6 +244,9 @@ Paragraph indices start at `0`. Exception: documents with `config.include_docume
 2. Validate it with any JSON parser.
 3. Open it with `yutovo-desktop` (or `yutovo-editor`) to confirm it loads without `document not parsed`.
 4. Check the log for `Parser exception` — those are formula/solver errors, not loading errors.
+5. For whole language trees run `python3 test/validate_library.py <locale>` (JSON validity,
+   `config.language`, `file_guid` uniqueness, no source-language leftovers, link/`.order`
+   consistency, tree shape parity with `ru`).
 
 ### Storage
 
@@ -257,20 +260,21 @@ library/
 ├── ru/          # Russian (language=2)
 ├── en/          # English (language=1)
 ├── es/          # Spanish (language=3)
-└── pt_BR/       # Portuguese (Brazil) (language=4)
+├── pt_BR/       # Portuguese (Brazil) (language=4)
+└── de/          # German (language=5)
 ```
 
 Each language directory mirrors the same logical structure (7 top-level sections):
 
-| Russian | English | Spanish | Portuguese (pt_BR) | Content |
-|---------|---------|---------|--------------------|---------|
-| Справка | Help | Ayuda | Ajuda | Help articles (with subsections: Введение, Начало работы, Вычисления, Редактирование, Пользователи) |
-| Калькуляторы | Calculators | Calculadoras | Calculadoras | Calculator documents (Алгебра, Финансы, Электротехника) |
-| Математика | Mathematics | Matemáticas | Matemática | Scientific articles (Планиметрия, Стереометрия) |
-| Физика | Physics | Física | Física | Physics articles (Динамика, Термодинамика, Электричество, Электродинамика) |
-| Финансы | Finance | Finanzas | Finanças | Deposit/bond calculators |
-| Размерности | Units | Unidades | Unidades | Unit reference documents |
-| Другое | Others | Otros | Outros | "First page" and misc documents |
+| Russian | English | Spanish | Portuguese (pt_BR) | German | Content |
+|---------|---------|---------|--------------------|--------|---------|
+| Справка | Help | Ayuda | Ajuda | Hilfe | Help articles (with subsections: Введение, Начало работы, Вычисления, Редактирование, Пользователи) |
+| Калькуляторы | Calculators | Calculadoras | Calculadoras | Rechner | Calculator documents (Алгебра, Финансы, Электротехника) |
+| Математика | Mathematics | Matemáticas | Matemática | Mathematik | Scientific articles (Планиметрия, Стереометрия) |
+| Физика | Physics | Física | Física | Physik | Physics articles (Динамика, Термодинамика, Электричество, Электродинамика) |
+| Финансы | Finance | Finanzas | Finanças | Finanzen | Deposit/bond calculators |
+| Размерности | Units | Unidades | Unidades | Maßeinheiten | Unit reference documents |
+| Другое | Others | Otros | Outros | Sonstiges | "First page" and misc documents |
 
 Directory and file names are localized — file names are human-readable document titles (spaces, commas allowed).
 
@@ -278,7 +282,7 @@ Structure notes:
 
 - New documents are added to `ru/` first; translations into other languages are separate tasks.
 - Finance sections are **not** duplicates: `Финансы/Вклады|Облигации` hold the source articles (description + formulas), and `Калькуляторы/Финансы/Вклады|Облигации` hold thin calculator documents that include the corresponding article via `config.include_documents: [{ "file_name": "/Финансы/<sub>/<Name>.yut" }]` (path is absolute from the language tree root). A new finance calculator therefore consists of a pair: the article in `Финансы` and the including calculator in `Калькуляторы/Финансы` (name-for-name, own `file_guid` each).
-- 24 `.yut.in` files exist (6 per language: First page, System requirements, User interface, and the three Users documents) — see "`.in` Preprocessor Files".
+- 30 `.yut.in` files exist (6 per language: First page, System requirements, User interface, and the three Users documents) — see "`.in` Preprocessor Files".
 - Some folders have no `.order` (e.g. `Другое`, `Размерности`, `Физика/Динамика`); their children are unordered in the app.
 
 ## Build and Packing Scripts
@@ -303,14 +307,14 @@ Each directory may contain a `.order` file listing folder/document names in disp
 2. **Preserve JSON structure, IDs, formats, and all numeric values exactly.**
 3. **Update `config.language`** to match the target language code.
 4. **Generate a new `file_guid`** for every translated file — never reuse the source UUID.
-   - Place the translated file into the corresponding language directory (`en/`, `ru/`, `es/`, `pt_BR/`) and update `config.language` accordingly.
+   - Place the translated file into the corresponding language directory (`en/`, `ru/`, `es/`, `pt_BR/`, `de/`) and update `config.language` accordingly.
 5. **Translate navigation paths:** type 39 `url` fields must point to the translated document names.
    - Leave external URLs (starting with `http://`, `https://`) unchanged; only translate their link text.
 6. **Translate `paragraph_formats` names** and corresponding `format_name` values in `text.elements` to the target language.
    - The canonical English names are translated by the editor on load, but the JSON must contain the localized name for the target `config.language`.
 7. **Keep `format_id` values unchanged.** They reference `string_formats` entries by UUID.
 8. **Preserve `caret` and `selection` fields** as-is or reset them to a simple empty state if the source has active selections.
-9. **Use the correct imaginary unit symbol.** In Russian documents the imaginary unit is written as `j`; in non-Russian documents (`en`, `es`, `pt_BR`) it must be changed to `i`. Update any literal `j` in `CODE_STRING` or text content that represents the imaginary unit when translating.
+9. **Use the correct imaginary unit symbol.** In Russian documents the imaginary unit is written as `j`; in non-Russian documents (`en`, `es`, `pt_BR`, `de`) it must be changed to `i`. Update any literal `j` in `CODE_STRING` or text content that represents the imaginary unit when translating.
 
 ## Navigation Style
 
@@ -335,16 +339,16 @@ Navigation text format:
 
 ### Paragraph Format Translations
 
-| Russian | English | Spanish | Portuguese (pt_BR) |
-|---------|---------|---------|-------------------|
-| Основной текст | Text body | Cuerpo de texto | Corpo do texto |
-| Заголовок 1 | Header 1 | Encabezado 1 | Cabeçalho 1 |
-| Заголовок 2 | Header 2 | Encabezado 2 | Cabeçalho 2 |
-| Заголовок 3 | Header 3 | Encabezado 3 | Cabeçalho 3 |
-| Заголовок 4 | Header 4 | Encabezado 4 | Cabeçalho 4 |
-| Пример | Example | Ejemplo | Exemplo |
-| Моноширинный | Monospace | Monoespaciado | Monoespaçado |
-| Код | Code | Código | Código |
+| Russian | English | Spanish | Portuguese (pt_BR) | German |
+|---------|---------|---------|-------------------|--------|
+| Основной текст | Text body | Cuerpo de texto | Corpo do texto | Standardtext |
+| Заголовок 1 | Header 1 | Encabezado 1 | Cabeçalho 1 | Überschrift 1 |
+| Заголовок 2 | Header 2 | Encabezado 2 | Cabeçalho 2 | Überschrift 2 |
+| Заголовок 3 | Header 3 | Encabezado 3 | Cabeçalho 3 | Überschrift 3 |
+| Заголовок 4 | Header 4 | Encabezado 4 | Cabeçalho 4 | Überschrift 4 |
+| Пример | Example | Ejemplo | Exemplo | Beispiel |
+| Моноширинный | Monospace | Monoespaciado | Monoespaçado | Monospace |
+| Код | Code | Código | Código | Code |
 
 ## `.in` Preprocessor Files
 

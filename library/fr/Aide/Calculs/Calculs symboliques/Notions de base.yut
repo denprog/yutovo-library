@@ -1,0 +1,596 @@
+{
+    "file_guid": "b2d2272c-fbf5-40aa-b634-b9f826bc9394",
+    "config": {
+        "language": 6,
+        "use_tabs": true,
+        "tab_spaces": 4,
+        "scale": 1.0,
+        "real_result": {
+            "precision": 3,
+            "exp": 10,
+            "default_angle_measure": 0,
+            "result_angle_measure": 0,
+            "show_angle_measure": false
+        },
+        "integer_result": {
+            "result_notation": 2,
+            "default_notation": 2,
+            "show_notation": true
+        },
+        "rational_result": {
+            "fraction_form": 0
+        },
+        "complex_result": {
+            "precision": 3,
+            "exp": 10,
+            "default_angle_measure": 0,
+            "result_angle_measure": 0,
+            "show_angle_measure": false,
+            "form": 0,
+            "max_count": 10
+        },
+        "auto_result": {
+            "result_auto_advance": true,
+            "results_order": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+            ],
+            "real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": false
+            },
+            "integer_config": {
+                "result_notation": 2,
+                "default_notation": 2,
+                "show_notation": true
+            },
+            "rational_config": {
+                "fraction_form": 0
+            },
+            "complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": false,
+                "form": 0,
+                "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
+            }
+        },
+        "include_documents": []
+    },
+    "string_formats": [
+        {
+            "id": "1a907898-100d-49d0-a29b-93df3437a47a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a1e148dd-1cc5-4565-a22f-966a695e2340",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "193a841a-3f3b-44c3-b14b-1a252da5a042",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "96d753f2-6877-4dbc-8333-c7d285fc73eb",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ddb8d9dc-ffaa-4b00-a3e3-7b8f97854916",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "3f6e6d6f-3826-4bcc-9e27-379cfbe4824e",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "a9a68351-4bf3-4e7c-bc63-309080807375",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9c0df159-1077-4009-ab8e-598da2300544",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "555b080d-72b3-4979-9e10-c8a6269ab4d0",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "2c7c05f0-b667-440c-9a0a-55e631afe279",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "780404af-7b15-4d77-ba74-bc95954d4090",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190335,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        }
+    ],
+    "paragraph_formats": [
+        {
+            "name": "Corps de texte",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "193a841a-3f3b-44c3-b14b-1a252da5a042"
+        },
+        {
+            "name": "Titre 1",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "96d753f2-6877-4dbc-8333-c7d285fc73eb"
+        },
+        {
+            "name": "Titre 2",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "ddb8d9dc-ffaa-4b00-a3e3-7b8f97854916"
+        },
+        {
+            "name": "Titre 3",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "3f6e6d6f-3826-4bcc-9e27-379cfbe4824e"
+        },
+        {
+            "name": "Titre 4",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "a9a68351-4bf3-4e7c-bc63-309080807375"
+        },
+        {
+            "name": "Exemple",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "9c0df159-1077-4009-ab8e-598da2300544"
+        },
+        {
+            "name": "Monospace",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "555b080d-72b3-4979-9e10-c8a6269ab4d0"
+        },
+        {
+            "name": "Code",
+            "alignment": 0,
+            "word_wrap": 0,
+            "line_spacing": 2,
+            "indent_before": 2,
+            "indent_after": 2,
+            "indent_first_line": 0,
+            "spacing_before": 2,
+            "spacing_after": 2,
+            "default_string_format": "2c7c05f0-b667-440c-9a0a-55e631afe279"
+        }
+    ],
+    "text": {
+        "id": "0",
+        "type": 1,
+        "elements": [
+            {
+                "id": "0,0",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,0,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,0,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Yutovo permet de calculer des expressions sous leur forme symbolique formelle. Le calcul symbolique est le domaine des mathématiques informatiques où les programmes travaillent non pas avec des nombres, mais avec des expressions mathématiques sous leur forme symbolique exacte. Si les calculs numériques ordinaires donnent un résultat sous forme de nombre, en calcul symbolique, au lieu de valeurs approchées, vous obtenez un résultat analytique — une formule que l'on peut analyser, simplifier ou substituer dans d'autres expressions.",
+                                "format_id": "193a841a-3f3b-44c3-b14b-1a252da5a042"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,1",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,1,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,1,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Cette approche permet d'éviter les erreurs d'arrondi à chaque étape des calculs. Le résultat reste mathématiquement exact tout au long du travail, et le passage au nombre décimal n'a lieu que sur votre demande, avec la précision que vous définissez.",
+                                "format_id": "a1e148dd-1cc5-4565-a22f-966a695e2340"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,2",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,2,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,2,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Dans Yutovo, les calculs symboliques sont implémentés à l'aide de la bibliothèque SymEngine. Vous pouvez effectuer des calculs dans trois domaines : avec des nombres réels, avec des fractions rationnelles exactes et avec des nombres complexes, où l'unité imaginaire est utilisée.",
+                                "format_id": "a1e148dd-1cc5-4565-a22f-966a695e2340"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,3",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,3,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,3,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Les opérations symboliques suivantes sont actuellement prises en charge : ",
+                                "format_id": "a1e148dd-1cc5-4565-a22f-966a695e2340"
+                            },
+                            {
+                                "id": "0,3,0,1",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "simplification",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "./Simplification.yut"
+                            },
+                            {
+                                "id": "0,3,0,2",
+                                "type": 4,
+                                "level": 1,
+                                "elements": ", ",
+                                "format_id": "a1e148dd-1cc5-4565-a22f-966a695e2340"
+                            },
+                            {
+                                "id": "0,3,0,3",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "evalf - obtention d'une valeur numérique",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "./Obtention d'une valeur numérique.yut"
+                            },
+                            {
+                                "id": "0,3,0,4",
+                                "type": 4,
+                                "level": 1,
+                                "elements": ", ",
+                                "format_id": "193a841a-3f3b-44c3-b14b-1a252da5a042"
+                            },
+                            {
+                                "id": "0,3,0,5",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "expand - développement d'une expression",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "./Développement d'une expression.yut"
+                            },
+                            {
+                                "id": "0,3,0,6",
+                                "type": 4,
+                                "level": 1,
+                                "elements": ", ",
+                                "format_id": "a1e148dd-1cc5-4565-a22f-966a695e2340"
+                            },
+                            {
+                                "id": "0,3,0,7",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "diff - différenciation",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "./Différenciation.yut"
+                            },
+                            {
+                                "id": "0,3,0,8",
+                                "type": 4,
+                                "level": 1,
+                                "elements": ", ",
+                                "format_id": "a1e148dd-1cc5-4565-a22f-966a695e2340"
+                            },
+                            {
+                                "id": "0,3,0,9",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "subs - substitution",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "./Substitution.yut"
+                            },
+                            {
+                                "id": "0,3,0,10",
+                                "type": 4,
+                                "level": 1,
+                                "elements": ".",
+                                "format_id": "a1e148dd-1cc5-4565-a22f-966a695e2340"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,4",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,4,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,4,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "",
+                                "format_id": "1a907898-100d-49d0-a29b-93df3437a47a"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,5",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,5,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,5,0,0",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "<- ../Graphiques/Histogramme",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "../Graphiques/Histogramme.yut"
+                            },
+                            {
+                                "id": "0,5,0,1",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "  ",
+                                "format_id": "1a907898-100d-49d0-a29b-93df3437a47a"
+                            },
+                            {
+                                "id": "0,5,0,2",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "Simplification ->",
+                                "format_id": "780404af-7b15-4d77-ba74-bc95954d4090",
+                                "url": "./Simplification.yut"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            }
+        ]
+    },
+    "caret": {
+        "id": "0,0,0,0"
+    },
+    "selection": []
+}

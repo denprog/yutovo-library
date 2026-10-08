@@ -1,0 +1,563 @@
+{
+    "file_guid": "34eee732-1743-45d1-b462-11682cc9ff37",
+    "config": {
+        "language": 6,
+        "use_tabs": true,
+        "tab_spaces": 4,
+        "scale": 1.0,
+        "real_result": {
+            "precision": 3,
+            "exp": 10,
+            "default_angle_measure": 0,
+            "result_angle_measure": 0,
+            "show_angle_measure": false
+        },
+        "integer_result": {
+            "result_notation": 2,
+            "default_notation": 2,
+            "show_notation": true
+        },
+        "rational_result": {
+            "fraction_form": 0
+        },
+        "complex_result": {
+            "precision": 3,
+            "exp": 10,
+            "default_angle_measure": 0,
+            "result_angle_measure": 0,
+            "show_angle_measure": false,
+            "form": 0,
+            "max_count": 10
+        },
+        "auto_result": {
+            "result_auto_advance": true,
+            "results_order": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+            ],
+            "real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": false
+            },
+            "integer_config": {
+                "result_notation": 2,
+                "default_notation": 2,
+                "show_notation": true
+            },
+            "rational_config": {
+                "fraction_form": 0
+            },
+            "complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": false,
+                "form": 0,
+                "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
+            }
+        },
+        "include_documents": []
+    },
+    "string_formats": [
+        {
+            "id": "e3d9138e-3031-4463-8ad8-2fe0c503edc2",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "7178b42e-509b-4ebc-a0c6-4ad64925d66a",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "0060cff4-2254-44ae-9ef7-00d13643c025",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "31ba504a-a838-41e8-974f-a71cd94a913b",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "75faaec3-d7ef-4d89-954e-8277ae67b996",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "61d0e291-c57b-48b6-9a85-2aaa638bc260",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e3ae5a74-a35a-4263-a954-a8f15fbef5b8",
+            "family": "FreeMono",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "6694eca7-c3c0-40f8-8c07-17cb9b91febc",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "8a525e27-12e3-44c6-b6cc-b6b6d9062a01",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "5695a9fc-bfb2-400e-9cf7-a97c96761c88",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "49520608-29db-4690-a828-188d80b6c2ab",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190335,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d7dbc119-d4ee-4a78-8699-7002385c3e62",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        }
+    ],
+    "paragraph_formats": [
+        {
+            "name": "Corps de texte",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "e3d9138e-3031-4463-8ad8-2fe0c503edc2"
+        },
+        {
+            "name": "Titre 1",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "7178b42e-509b-4ebc-a0c6-4ad64925d66a"
+        },
+        {
+            "name": "Titre 2",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "0060cff4-2254-44ae-9ef7-00d13643c025"
+        },
+        {
+            "name": "Titre 3",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "31ba504a-a838-41e8-974f-a71cd94a913b"
+        },
+        {
+            "name": "Titre 4",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "75faaec3-d7ef-4d89-954e-8277ae67b996"
+        },
+        {
+            "name": "Exemple",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "61d0e291-c57b-48b6-9a85-2aaa638bc260"
+        },
+        {
+            "name": "Monospace",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "e3ae5a74-a35a-4263-a954-a8f15fbef5b8"
+        },
+        {
+            "name": "Code",
+            "alignment": 0,
+            "word_wrap": 0,
+            "line_spacing": 2,
+            "indent_before": 2,
+            "indent_after": 2,
+            "indent_first_line": 0,
+            "spacing_before": 2,
+            "spacing_after": 2,
+            "default_string_format": "6694eca7-c3c0-40f8-8c07-17cb9b91febc"
+        }
+    ],
+    "text": {
+        "id": "0",
+        "type": 1,
+        "elements": [
+            {
+                "id": "0,0",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,0,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,0,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Le bloc de calcul est un rectangle dans le texte pour effectuer des calculs. Il apparaît au début d'un document vide et peut ensuite être ajouté à n'importe quel endroit du document (sauf à l'intérieur d'un bloc de code) à l'aide du bouton « Insérer un calculateur » ",
+                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
+                            },
+                            {
+                                "id": "0,0,0,1",
+                                "type": 34,
+                                "level": 1,
+                                "elements": [],
+                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABYAAAAcCAIAAADqTdgKAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABkElEQVQ4jd2UMa+CMBDHX1USJhtdNE4MJiSwMWji4mT6KeAbEL+JDvhpTBwEB0KiE3Rx0cXoop4OJTD0DSo8HAzv4WDef2qvvd9de+0hxthXMVXK5XJBBOKcF0SUCvq/B1FJRpzz3W43n88PhwPnnBCiqmqy6vv+dDpFCDUajX6/32q1EELPWVBKdV23bRsArtfr+Xz+GepmBADHcXRdp5Sma/yh0WhkmiZjjL8UY8w0zfF4nFjSLC6XiyRJoii+PrkoipIkAUBi+YyK3BFxHANAvV7P41Or1QAgjuMMYrlcUko7nU4eRLfbpZSuVqv73LZtwzBkWZ5MJlEUvS7HTVEUWZYly7JhGI7jlNBDv/0sqdcN7LouISQIgjxZ+L5PCHFdN/MuNE1TFMXzvDzxPc9TVVXTtMx1CoKAMT4ej3kQp9OpWq0KgpBBFNFbERjj7XYbhuFrhzAMN5sNxjixpLUMgmA4HLbb7WaziRAaDAa9Xi/Zt1gsZrMZ53y/36/Xa8uyFEV5Rvy55fyb9vsZiG+RqFJs5gkWrQAAAABJRU5ErkJggg=="
+                            },
+                            {
+                                "id": "0,0,0,2",
+                                "type": 4,
+                                "level": 1,
+                                "elements": " ou par la combinaison de touches [Ctrl+Shift+C]. Le bloc de calcul apparaît également au début de la saisie de code avec les boutons du panneau mathématique, si le curseur ne se trouve pas à ce moment-là dans le code.",
+                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,1",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,1,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,1,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Il peut y avoir autant de blocs de calcul que souhaité et ils forment ensemble un espace de calcul unique. Cela signifie en particulier que les variables et fonctions déclarées dans un bloc supérieur peuvent être utilisées dans un bloc inférieur.",
+                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,2",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,2,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,2,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Ces blocs peuvent être copiés dans le presse-papiers comme n'importe quels autres symboles. Si une expression mathématique du bloc est copiée dans le texte, un nouveau bloc de calcul apparaît automatiquement.",
+                                "format_id": "49520608-29db-4690-a828-188d80b6c2ab"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,3",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,3,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,3,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Le texte en dehors de ces blocs n'a aucune influence sur les calculs.",
+                                "format_id": "5695a9fc-bfb2-400e-9cf7-a97c96761c88"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,4",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,4,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,4,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "",
+                                "format_id": "8a525e27-12e3-44c6-b6cc-b6b6d9062a01"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,5",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,5,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,5,0,0",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "<- Interface utilisateur",
+                                "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
+                                "url": "./Interface utilisateur.yut"
+                            },
+                            {
+                                "id": "0,5,0,1",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "  ",
+                                "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
+                            },
+                            {
+                                "id": "0,5,0,2",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "Curseur ->",
+                                "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
+                                "url": "./Curseur.yut"
+                            }
+                        ],
+                        "format_name": "Corps de texte"
+                    }
+                ],
+                "format_name": "Corps de texte",
+                "format_alignment": 0
+            }
+        ]
+    },
+    "caret": {
+        "id": "0,0,0,0"
+    },
+    "selection": []
+}

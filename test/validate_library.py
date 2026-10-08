@@ -25,7 +25,7 @@ import subprocess
 import sys
 
 LANG = sys.argv[1] if len(sys.argv) > 1 else 'de'
-LANG_CODE = {'en': 1, 'ru': 2, 'es': 3, 'pt_BR': 4, 'de': 5}[LANG]
+LANG_CODE = {'en': 1, 'ru': 2, 'es': 3, 'pt_BR': 4, 'de': 5, 'fr': 6}[LANG]
 
 LIB = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'library')
 SRC = os.path.join(LIB, 'ru')

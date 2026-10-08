@@ -25,7 +25,7 @@ Document-specific part of the editor config:
 
 | Field | Meaning |
 |-------|---------|
-| `language` | `Language` enum value: `English = 1`, `Russian = 2`, `Spanish = 3`, `BrazilianPortuguese = 4` |
+| `language` | `Language` enum value: `English = 1`, `Russian = 2`, `Spanish = 3`, `BrazilianPortuguese = 4`, `German = 5`, `French = 6` |
 | `use_tabs` | Indent with tabs (`true`) or spaces (`false`) |
 | `tab_spaces` | Number of spaces per tab |
 | `scale` | Document UI scale factor |
@@ -178,7 +178,7 @@ When creating or editing `.yut` files by hand (e.g., for library articles), foll
 ```
 
 - `file_guid` must be unique per file. Never reuse it across translations. UUIDs inside `string_formats` are document-local and **may** be copied between documents.
-- `config.language` must match the folder language (`English = 1`, `Russian = 2`, `Spanish = 3`, `BrazilianPortuguese = 4`, `German = 5`).
+- `config.language` must match the folder language (`English = 1`, `Russian = 2`, `Spanish = 3`, `BrazilianPortuguese = 4`, `German = 5`, `French = 6`).
 - `block_formats` is legacy — omit it entirely.
 - The root `text` element must have `type: 1` and must **not** have a `level` field.
 - There is **no title paragraph**: the app shows the file name as the title, and documents start with ordinary body text. Use `Заголовок 4` for in-document section headings; `Заголовок 1`–`Заголовок 3` are declared but unused. Paragraph alignment in the library is always `0`.
@@ -261,7 +261,8 @@ library/
 ├── en/          # English (language=1)
 ├── es/          # Spanish (language=3)
 ├── pt_BR/       # Portuguese (Brazil) (language=4)
-└── de/          # German (language=5)
+├── de/          # German (language=5)
+└── fr/          # French (language=6)
 ```
 
 Each language directory mirrors the same logical structure (7 top-level sections):

@@ -338,6 +338,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "b88b2c35-afcd-41ee-ae6d-ed05f865e863"
+        },
+        {
+            "name": "Corpo do texto",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "d4cad50a-a286-4bf7-9424-a6d917a9d970",
+            "marker": "•"
         }
     ],
     "text": {
@@ -355,14 +368,16 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "• Uma unidade só pode ser usada após ter sido declarada.",
+                                "elements": "Uma unidade só pode ser usada após ter sido declarada.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
                         ]
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "d4cad50a-a286-4bf7-9424-a6d917a9d970"
             },
             {
                 "id": "0,1",
@@ -375,14 +390,16 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "• Se uma unidade não estiver no sistema SI, seu sistema é escrito no índice da unidade quando é definida e usada.",
+                                "elements": "Se uma unidade não estiver no sistema SI, seu sistema é escrito no índice da unidade quando é definida e usada.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
                         ]
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "d4cad50a-a286-4bf7-9424-a6d917a9d970"
             },
             {
                 "id": "0,2",
@@ -395,14 +412,16 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "• O sistema de unidades como tal não é definido explicitamente; é declarado quando é usado pela primeira vez.",
+                                "elements": "O sistema de unidades como tal não é definido explicitamente; é declarado quando é usado pela primeira vez.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
                         ]
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "d4cad50a-a286-4bf7-9424-a6d917a9d970"
             },
             {
                 "id": "0,3",
@@ -415,14 +434,16 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Uma unidade pode ser declarada em qualquer lugar do documento.",
+                                "elements": "Uma unidade pode ser declarada em qualquer lugar do documento.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
                         ]
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "d4cad50a-a286-4bf7-9424-a6d917a9d970"
             },
             {
                 "id": "0,4",
@@ -435,14 +456,16 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• Se uma unidade é escrita sem mencionar o sistema, o sistema SI é usado.",
+                                "elements": "Se uma unidade é escrita sem mencionar o sistema, o sistema SI é usado.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
                         ]
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "d4cad50a-a286-4bf7-9424-a6d917a9d970"
             },
             {
                 "id": "0,5",
@@ -455,7 +478,7 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Para realizar cálculos em um determinado sistema de unidades, todas as unidades usadas em uma determinada expressão devem ser declaradas neste sistema.",
+                                "elements": "Para realizar cálculos em um determinado sistema de unidades, todas as unidades usadas em uma determinada expressão devem ser declaradas neste sistema.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
                         ]
@@ -474,7 +497,9 @@
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "d4cad50a-a286-4bf7-9424-a6d917a9d970"
             },
             {
                 "id": "0,6",
@@ -487,7 +512,7 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "• Se a mesma unidade for definida mais de uma vez (redefinida), então quando for usada em expressões, a regra de sequência é ",
+                                "elements": "Se a mesma unidade for definida mais de uma vez (redefinida), então quando for usada em expressões, a regra de sequência é ",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
                         ]
@@ -506,7 +531,9 @@
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "d4cad50a-a286-4bf7-9424-a6d917a9d970"
             },
             {
                 "id": "0,7",
@@ -519,14 +546,16 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "• Unidades integradas também podem ser redefinidas.",
+                                "elements": "Unidades integradas também podem ser redefinidas.",
                                 "format_id": "84119e37-ba8d-4353-9a85-e07ff823a117"
                             }
                         ]
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "d4cad50a-a286-4bf7-9424-a6d917a9d970"
             },
             {
                 "id": "0,8",

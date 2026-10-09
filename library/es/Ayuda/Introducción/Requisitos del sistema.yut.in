@@ -360,6 +360,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "4c4b1498-b9c9-48e8-8fa3-52ac86d701a7"
+        },
+        {
+            "name": "Cuerpo de texto",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "9397c3f4-7f44-44be-a894-c65f69f8bbed",
+            "marker": "•"
         }
     ],
     "text": {
@@ -380,7 +393,7 @@
                                 "id": "0,0,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Sistema operativo: Ubuntu 22.04 o superior (u otro sistema operativo basado en Linux al usar Flatpak); Windows 10 o superior.",
+                                "elements": "Sistema operativo: Ubuntu 22.04 o superior (u otro sistema operativo basado en Linux al usar Flatpak); Windows 10 o superior.",
                                 "format_id": "7d7c32e8-d780-421c-932b-0992f00be03c"
                             }
                         ],
@@ -388,7 +401,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,1",
@@ -404,7 +419,7 @@
                                 "id": "0,1,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Procesador de doble núcleo de 2 GHz.",
+                                "elements": "Procesador de doble núcleo de 2 GHz.",
                                 "format_id": "7d7c32e8-d780-421c-932b-0992f00be03c"
                             }
                         ],
@@ -412,7 +427,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,2",
@@ -428,7 +445,7 @@
                                 "id": "0,2,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• RAM a partir de 4 GB.",
+                                "elements": "RAM a partir de 4 GB.",
                                 "format_id": "942a8092-40b2-44a5-a6cf-d875713ae5e6"
                             }
                         ],
@@ -436,7 +453,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,3",
@@ -452,7 +471,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Adaptador de vídeo y monitor: VGA/HDMI (720 x 1280).",
+                                "elements": "Adaptador de vídeo y monitor: VGA/HDMI (720 x 1280).",
                                 "format_id": "942a8092-40b2-44a5-a6cf-d875713ae5e6"
                             }
                         ],
@@ -460,7 +479,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,4",
@@ -476,7 +497,7 @@
                                 "id": "0,4,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Espacio libre en el dispositivo de grabación: 4 GB.",
+                                "elements": "Espacio libre en el dispositivo de grabación: 4 GB.",
                                 "format_id": "942a8092-40b2-44a5-a6cf-d875713ae5e6"
                             }
                         ],
@@ -484,7 +505,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,5",
@@ -500,7 +523,7 @@
                                 "id": "0,5,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Teclado y ratón.",
+                                "elements": "Teclado y ratón.",
                                 "format_id": "942a8092-40b2-44a5-a6cf-d875713ae5e6"
                             }
                         ],
@@ -508,7 +531,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
 #ifdef WEB
             {
@@ -525,7 +550,7 @@
                                 "id": "0,6,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Navegadores compatibles: Google Chrome (versión 57 o superior), Mozilla Firefox (versión 52 o superior).",
+                                "elements": "Navegadores compatibles: Google Chrome (versión 57 o superior), Mozilla Firefox (versión 52 o superior).",
                                 "format_id": "942a8092-40b2-44a5-a6cf-d875713ae5e6"
                             }
                         ],
@@ -533,7 +558,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,7",
@@ -549,7 +576,7 @@
                                 "id": "0,7,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Compatibilidad con Javascript.",
+                                "elements": "Compatibilidad con Javascript.",
                                 "format_id": "942a8092-40b2-44a5-a6cf-d875713ae5e6"
                             }
                         ],
@@ -557,7 +584,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,8",
@@ -573,7 +602,7 @@
                                 "id": "0,8,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Compatibilidad con cookies.",
+                                "elements": "Compatibilidad con cookies.",
                                 "format_id": "942a8092-40b2-44a5-a6cf-d875713ae5e6"
                             }
                         ],
@@ -581,7 +610,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
 #endif
             {

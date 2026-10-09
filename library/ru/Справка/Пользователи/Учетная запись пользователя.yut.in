@@ -444,6 +444,19 @@
             "spacing_before": 10,
             "spacing_after": 10,
             "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982"
+        },
+        {
+            "name": "Основной текст",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "ceacf736-20fd-4afc-a501-ba39f35ff982",
+            "marker": "•"
         }
     ],
     "text": {
@@ -530,7 +543,7 @@
                                 "id": "0,1,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• выйти из учетной записи;",
+                                "elements": "выйти из учетной записи;",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ],
@@ -538,7 +551,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "ceacf736-20fd-4afc-a501-ba39f35ff982"
             },
             {
                 "id": "0,2",
@@ -554,7 +569,7 @@
                                 "id": "0,2,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• сменить имя, которое было введено при регистрации (не логин - его сменить нельзя);",
+                                "elements": "сменить имя, которое было введено при регистрации (не логин - его сменить нельзя);",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ],
@@ -562,7 +577,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "ceacf736-20fd-4afc-a501-ba39f35ff982"
             },
             {
                 "id": "0,3",
@@ -578,7 +595,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• сменить почту;",
+                                "elements": "сменить почту;",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ],
@@ -586,7 +603,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "ceacf736-20fd-4afc-a501-ba39f35ff982"
             },
             {
                 "id": "0,4",
@@ -602,7 +621,7 @@
                                 "id": "0,4,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• сменить пароль.",
+                                "elements": "сменить пароль.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ],
@@ -610,7 +629,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "ceacf736-20fd-4afc-a501-ba39f35ff982"
             },
             {
                 "id": "0,5",

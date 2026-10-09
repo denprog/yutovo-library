@@ -360,6 +360,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "40eac00c-033d-4e0f-a0db-c78bee31e2c9"
+        },
+        {
+            "name": "Cuerpo de texto",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "16a8a98c-4046-49bd-9917-93e3b753317a",
+            "marker": "•"
         }
     ],
     "text": {
@@ -466,7 +479,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Reales, Enteros, Racionales, Complejos: estas pestañas muestran los parámetros predeterminados para estos resultados. Se pueden cambiar para cada resultado seleccionándolos en el menú contextual.",
+                                "elements": "Reales, Enteros, Racionales, Complejos: estas pestañas muestran los parámetros predeterminados para estos resultados. Se pueden cambiar para cada resultado seleccionándolos en el menú contextual.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
                         ],
@@ -474,7 +487,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,4",
@@ -514,7 +529,7 @@
                                 "id": "0,5,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Idioma: el idioma del documento actual. Determina el conjunto de unidades y algunas variables. Por ejemplo, en inglés, la unidad imaginaria es \"i\", mientras que en ruso es \"j\". Las unidades se escriben en su propio idioma.",
+                                "elements": "Idioma: el idioma del documento actual. Determina el conjunto de unidades y algunas variables. Por ejemplo, en inglés, la unidad imaginaria es \"i\", mientras que en ruso es \"j\". Las unidades se escriben en su propio idioma.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
                         ],
@@ -522,7 +537,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,6",
@@ -538,7 +555,7 @@
                                 "id": "0,6,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Tabulación: utilice tabulaciones o un número específico de espacios.",
+                                "elements": "Tabulación: utilice tabulaciones o un número específico de espacios.",
                                 "format_id": "b6224706-5fa8-4eea-9bd8-b7069bbc0bc8"
                             }
                         ],
@@ -546,7 +563,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,7",
@@ -664,9 +683,9 @@
                                 "id": "0,10,0,2",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "../Edición/Edición de expresiones ->",
+                                "elements": "../Cálculos/Números/Números reales ->",
                                 "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
-                                "url": "../Edición/Edición de expresiones.yut"
+                                "url": "../Cálculos/Números/Números reales.yut"
                             }
                         ],
                         "format_name": "Cuerpo de texto"

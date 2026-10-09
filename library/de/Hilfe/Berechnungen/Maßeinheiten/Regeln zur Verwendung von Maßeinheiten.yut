@@ -338,6 +338,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "2d0eb6e9-176e-4746-8a7e-6c8fe4e3a9bf"
+        },
+        {
+            "name": "Standardtext",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "08055922-b485-477b-9c67-cfc65290d77f",
+            "marker": "•"
         }
     ],
     "text": {
@@ -355,14 +368,16 @@
                             {
                                 "id": "0,0,0,0",
                                 "type": 4,
-                                "elements": "• Eine Maßeinheit kann erst nach ihrer Deklaration verwendet werden.",
+                                "elements": "Eine Maßeinheit kann erst nach ihrer Deklaration verwendet werden.",
                                 "format_id": "2d34e459-818b-4487-a1ba-7b6da48430cb"
                             }
                         ]
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "08055922-b485-477b-9c67-cfc65290d77f"
             },
             {
                 "id": "0,1",
@@ -375,7 +390,7 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "• Ist die Maßeinheit nicht Teil des SI-Systems, muss bei ihrer Definition und bei ihrer Verwendung im Index der Maßeinheit ",
+                                "elements": "Ist die Maßeinheit nicht Teil des SI-Systems, muss bei ihrer Definition und bei ihrer Verwendung im Index der Maßeinheit ",
                                 "format_id": "2d34e459-818b-4487-a1ba-7b6da48430cb"
                             }
                         ]
@@ -394,7 +409,9 @@
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "08055922-b485-477b-9c67-cfc65290d77f"
             },
             {
                 "id": "0,2",
@@ -407,14 +424,16 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "• Das System einer Maßeinheit wird als solches nicht ausdrücklich festgelegt, es wird bei ihrer ersten Verwendung deklariert.",
+                                "elements": "Das System einer Maßeinheit wird als solches nicht ausdrücklich festgelegt, es wird bei ihrer ersten Verwendung deklariert.",
                                 "format_id": "2d34e459-818b-4487-a1ba-7b6da48430cb"
                             }
                         ]
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "08055922-b485-477b-9c67-cfc65290d77f"
             },
             {
                 "id": "0,3",
@@ -427,14 +446,16 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Die Deklaration einer Maßeinheit kann an einer beliebigen Stelle des Dokuments erfolgen.",
+                                "elements": "Die Deklaration einer Maßeinheit kann an einer beliebigen Stelle des Dokuments erfolgen.",
                                 "format_id": "2d34e459-818b-4487-a1ba-7b6da48430cb"
                             }
                         ]
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "08055922-b485-477b-9c67-cfc65290d77f"
             },
             {
                 "id": "0,4",
@@ -447,14 +468,16 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• Wird eine Maßeinheit ohne Erwähnung des Systems geschrieben, wird das SI-System verwendet.",
+                                "elements": "Wird eine Maßeinheit ohne Erwähnung des Systems geschrieben, wird das SI-System verwendet.",
                                 "format_id": "2d34e459-818b-4487-a1ba-7b6da48430cb"
                             }
                         ]
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "08055922-b485-477b-9c67-cfc65290d77f"
             },
             {
                 "id": "0,5",
@@ -467,7 +490,7 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Um in einem bestimmten Maßsystem zu rechnen, müssen in diesem System ",
+                                "elements": "Um in einem bestimmten Maßsystem zu rechnen, müssen in diesem System ",
                                 "format_id": "2d34e459-818b-4487-a1ba-7b6da48430cb"
                             }
                         ]
@@ -486,7 +509,9 @@
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "08055922-b485-477b-9c67-cfc65290d77f"
             },
             {
                 "id": "0,6",
@@ -499,7 +524,7 @@
                             {
                                 "id": "0,6,0,0",
                                 "type": 4,
-                                "elements": "• Wenn dieselbe Maßeinheit mehrmals definiert ist (neu definiert), gilt bei ihrer Verwendung in ",
+                                "elements": "Wenn dieselbe Maßeinheit mehrmals definiert ist (neu definiert), gilt bei ihrer Verwendung in ",
                                 "format_id": "2d34e459-818b-4487-a1ba-7b6da48430cb"
                             }
                         ]
@@ -530,7 +555,9 @@
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "08055922-b485-477b-9c67-cfc65290d77f"
             },
             {
                 "id": "0,7",
@@ -543,14 +570,16 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "• Eingebaute Maßeinheiten können ebenfalls neu definiert werden.",
+                                "elements": "Eingebaute Maßeinheiten können ebenfalls neu definiert werden.",
                                 "format_id": "2d34e459-818b-4487-a1ba-7b6da48430cb"
                             }
                         ]
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "08055922-b485-477b-9c67-cfc65290d77f"
             },
             {
                 "id": "0,8",

@@ -360,6 +360,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "40eac00c-033d-4e0f-a0db-c78bee31e2c9"
+        },
+        {
+            "name": "Corpo do texto",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "16a8a98c-4046-49bd-9917-93e3b753317a",
+            "marker": "•"
         }
     ],
     "text": {
@@ -466,7 +479,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Real, Inteiro, Racional, Complexo - estas abas exibem os parâmetros padrão para estes resultados. Eles podem ser alterados para cada resultado eles pelo menu de contexto.",
+                                "elements": "Real, Inteiro, Racional, Complexo - estas abas exibem os parâmetros padrão para estes resultados. Eles podem ser alterados para cada resultado eles pelo menu de contexto.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
                         ],
@@ -474,7 +487,9 @@
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,4",
@@ -514,7 +529,7 @@
                                 "id": "0,5,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Localidade - O idioma atual do documento. Determina o conjunto de unidades e algumas variáveis. Por exemplo, em inglês, a unidade imaginária é \"i,\" enquanto no russo, é \"j\". As unidades são escritas em seu próprio idioma.",
+                                "elements": "Localidade - O idioma atual do documento. Determina o conjunto de unidades e algumas variáveis. Por exemplo, em inglês, a unidade imaginária é \"i,\" enquanto no russo, é \"j\". As unidades são escritas em seu próprio idioma.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
                         ],
@@ -522,7 +537,9 @@
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,6",
@@ -586,7 +603,7 @@
                                 "id": "0,8,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Tabulação - use caracteres de tabulação ou um número especificado de espaços ",
+                                "elements": "Tabulação - use caracteres de tabulação ou um número especificado de espaços ",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             },
                             {
@@ -609,7 +626,9 @@
                     }
                 ],
                 "format_name": "Corpo do texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,9",

@@ -352,6 +352,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "79ae4391-393b-4450-9a05-4380c04ee9ac"
+        },
+        {
+            "name": "Text body",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "00acf64b-f271-4a99-bac1-21a1a506181d",
+            "marker": "•"
         }
     ],
     "text": {
@@ -390,7 +403,7 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "• inside a line, in which case it is no different from the cursor of a regular text editor;",
+                                "elements": "inside a line, in which case it is no different from the cursor of a regular text editor;",
                                 "format_id": "4189a81e-58dd-4a1a-8d10-fa98f5b23122"
                             }
                         ],
@@ -398,7 +411,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "00acf64b-f271-4a99-bac1-21a1a506181d"
             },
             {
                 "id": "0,2",
@@ -411,7 +426,7 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "• before a mathematical operation, which can consist of a single symbol (\"+\", \"-\"), or a compound one (division, root);",
+                                "elements": "before a mathematical operation, which can consist of a single symbol (\"+\", \"-\"), or a compound one (division, root);",
                                 "format_id": "4189a81e-58dd-4a1a-8d10-fa98f5b23122"
                             }
                         ],
@@ -419,7 +434,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "00acf64b-f271-4a99-bac1-21a1a506181d"
             },
             {
                 "id": "0,3",
@@ -432,7 +449,7 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• after the last operation;",
+                                "elements": "after the last operation;",
                                 "format_id": "4189a81e-58dd-4a1a-8d10-fa98f5b23122"
                             }
                         ],
@@ -440,7 +457,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "00acf64b-f271-4a99-bac1-21a1a506181d"
             },
             {
                 "id": "0,4",
@@ -453,7 +472,7 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• before the compound operation symbol (for division - a horizontal line, for exponentiation - an empty rectangle).",
+                                "elements": "before the compound operation symbol (for division - a horizontal line, for exponentiation - an empty rectangle).",
                                 "format_id": "4189a81e-58dd-4a1a-8d10-fa98f5b23122"
                             }
                         ],
@@ -461,7 +480,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "00acf64b-f271-4a99-bac1-21a1a506181d"
             },
             {
                 "id": "0,5",

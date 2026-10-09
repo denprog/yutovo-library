@@ -360,6 +360,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "40eac00c-033d-4e0f-a0db-c78bee31e2c9"
+        },
+        {
+            "name": "Corpo del testo",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "16a8a98c-4046-49bd-9917-93e3b753317a",
+            "marker": "•"
         }
     ],
     "text": {
@@ -466,7 +479,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Selezione automatica del risultato - al momento del calcolo di un’espressione, le varianti di tipi di risultato elencate nella tabella sottostante saranno provate in successione finché l’espressione non sia calcolata con successo. Se tutte le varianti danno errori, sarà restituito l’errore della prima variante di calcolo.",
+                                "elements": "Selezione automatica del risultato - al momento del calcolo di un’espressione, le varianti di tipi di risultato elencate nella tabella sottostante saranno provate in successione finché l’espressione non sia calcolata con successo. Se tutte le varianti danno errori, sarà restituito l’errore della prima variante di calcolo.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -474,7 +487,9 @@
                     }
                 ],
                 "format_name": "Corpo del testo",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,4",
@@ -490,7 +505,7 @@
                                 "id": "0,4,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Ordine di selezione del risultato - in quest’ordine saranno provate le varianti di calcolo dell’espressione corrente. Il più delle volte le espressioni sono calcolate con numeri reali, quindi questa variante è la prima per impostazione predefinita. Ad esempio, per rappresentare l’espressione innanzitutto come frazione propria, mettete Frazionari al primo posto.",
+                                "elements": "Ordine di selezione del risultato - in quest’ordine saranno provate le varianti di calcolo dell’espressione corrente. Il più delle volte le espressioni sono calcolate con numeri reali, quindi questa variante è la prima per impostazione predefinita. Ad esempio, per rappresentare l’espressione innanzitutto come frazione propria, mettete Frazionari al primo posto.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -498,7 +513,9 @@
                     }
                 ],
                 "format_name": "Corpo del testo",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,5",
@@ -514,7 +531,7 @@
                                 "id": "0,5,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Reali, Interi, Frazionari, Complessi - in queste schede sono riportati i parametri predefiniti di questi risultati. In seguito essi possono essere modificati per ogni risultato tramite il menu contestuale.",
+                                "elements": "Reali, Interi, Frazionari, Complessi - in queste schede sono riportati i parametri predefiniti di questi risultati. In seguito essi possono essere modificati per ogni risultato tramite il menu contestuale.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -522,7 +539,9 @@
                     }
                 ],
                 "format_name": "Corpo del testo",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,6",
@@ -562,7 +581,7 @@
                                 "id": "0,7,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Lingua - la lingua corrente del documento. Da essa dipendono l’insieme delle unità e di alcune variabili. Ad esempio, per l’inglese l’unità immaginaria è « i », mentre per il russo « j ». Le unità si scrivono nella loro lingua.",
+                                "elements": "Lingua - la lingua corrente del documento. Da essa dipendono l’insieme delle unità e di alcune variabili. Ad esempio, per l’inglese l’unità immaginaria è « i », mentre per il russo « j ». Le unità si scrivono nella loro lingua.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -570,7 +589,9 @@
                     }
                 ],
                 "format_name": "Corpo del testo",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,8",
@@ -586,7 +607,7 @@
                                 "id": "0,8,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Tabulazione - usare caratteri di tabulazione o un numero determinato di spazi al loro posto.",
+                                "elements": "Tabulazione - usare caratteri di tabulazione o un numero determinato di spazi al loro posto.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -594,7 +615,9 @@
                     }
                 ],
                 "format_name": "Corpo del testo",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,9",

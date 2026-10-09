@@ -352,6 +352,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "5ceb32d4-da80-416a-b625-306c4118ebde"
+        },
+        {
+            "name": "Corpo del testo",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "fb6c1cab-773e-4d39-b627-7f5f34fdf012",
+            "marker": "•"
         }
     ],
     "text": {
@@ -390,7 +403,7 @@
                             {
                                 "id": "0,1,0,0",
                                 "type": 4,
-                                "elements": "• dentro una stringa, nel qual caso non differisce in nulla dal cursore di un normale editor di testo;",
+                                "elements": "dentro una stringa, nel qual caso non differisce in nulla dal cursore di un normale editor di testo;",
                                 "format_id": "136734a7-3892-430d-986d-c27d227fbd30"
                             }
                         ],
@@ -398,7 +411,9 @@
                     }
                 ],
                 "format_name": "Corpo del testo",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "fb6c1cab-773e-4d39-b627-7f5f34fdf012"
             },
             {
                 "id": "0,2",
@@ -411,7 +426,7 @@
                             {
                                 "id": "0,2,0,0",
                                 "type": 4,
-                                "elements": "• prima di un'operazione matematica, che può consistere in un solo simbolo (« + », « - ») o essere composta (divisione, radice);",
+                                "elements": "prima di un'operazione matematica, che può consistere in un solo simbolo (« + », « - ») o essere composta (divisione, radice);",
                                 "format_id": "136734a7-3892-430d-986d-c27d227fbd30"
                             }
                         ],
@@ -419,7 +434,9 @@
                     }
                 ],
                 "format_name": "Corpo del testo",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "fb6c1cab-773e-4d39-b627-7f5f34fdf012"
             },
             {
                 "id": "0,3",
@@ -432,7 +449,7 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• dopo l'ultima operazione;",
+                                "elements": "dopo l'ultima operazione;",
                                 "format_id": "136734a7-3892-430d-986d-c27d227fbd30"
                             }
                         ],
@@ -440,7 +457,9 @@
                     }
                 ],
                 "format_name": "Corpo del testo",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "fb6c1cab-773e-4d39-b627-7f5f34fdf012"
             },
             {
                 "id": "0,4",
@@ -453,7 +472,7 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• prima del simbolo di un'operazione composta (per la divisione - una linea orizzontale, per l'elevamento a potenza - un rettangolo vuoto).",
+                                "elements": "prima del simbolo di un'operazione composta (per la divisione - una linea orizzontale, per l'elevamento a potenza - un rettangolo vuoto).",
                                 "format_id": "136734a7-3892-430d-986d-c27d227fbd30"
                             }
                         ],
@@ -461,7 +480,9 @@
                     }
                 ],
                 "format_name": "Corpo del testo",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "fb6c1cab-773e-4d39-b627-7f5f34fdf012"
             },
             {
                 "id": "0,5",

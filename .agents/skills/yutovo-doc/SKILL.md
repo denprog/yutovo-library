@@ -67,9 +67,14 @@ These come from how every existing document is built; follow them for new ones.
   in every document but never used. Use `Заголовок 4` for in-document section
   headings.
 - **Alignment is always `0`** (left) on every paragraph in the library.
-- **No list markers.** Documents use plain paragraphs; the `"marker"` field only
-  appears as a cursor placeholder (`"█"`) on `CODE_PARAGRAPH`s in saved files —
-  do not add it by hand.
+- **Unordered lists use paragraph markers.** A list item is an ordinary
+  paragraph carrying `"marker": "•"` (valid glyphs: `•`, `●`, `♦`, `■`) and
+  `"marker_format_id"` — normally the same UUID as the paragraph format's
+  `default_string_format`. The bullet glyph must NOT be repeated in the text.
+  `paragraph_formats` holds a marker variant of the format (same localized
+  `name`, same fields, plus `"marker": "•"`). Do not confuse these with the
+  `"█"` cursor placeholder on `CODE_PARAGRAPH`s in saved files — never add
+  that one by hand.
 - **"Пример" paragraphs** are ordinary paragraphs with format `Пример` whose
   text starts with `Пример:` (localized).
 - **One paragraph usually has one `ROW`** with all its strings. Multiple `ROW`s

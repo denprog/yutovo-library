@@ -410,6 +410,32 @@
             "spacing_before": 10,
             "spacing_after": 10,
             "default_string_format": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
+        },
+        {
+            "name": "Основной текст",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "9397c3f4-7f44-44be-a894-c65f69f8bbed",
+            "marker": "•"
+        },
+        {
+            "name": "Моноширинный",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "0b486777-488c-4561-9767-27f5c1416ec0",
+            "marker": "•"
         }
     ],
     "text": {
@@ -430,7 +456,7 @@
                                 "id": "0,0,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Операционная система: Ubuntu 22.04 и выше (или другая ОС на базе Linux при использовании FlatPak); Windows 10 и выше.",
+                                "elements": "Операционная система: Ubuntu 22.04 и выше (или другая ОС на базе Linux при использовании FlatPak); Windows 10 и выше.",
                                 "format_id": "d3a90028-85a0-49ae-8e26-fe9f1fee836c"
                             }
                         ],
@@ -438,7 +464,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,1",
@@ -454,7 +482,7 @@
                                 "id": "0,1,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Процессор 2 ГГц с 2 ядрами.",
+                                "elements": "Процессор 2 ГГц с 2 ядрами.",
                                 "format_id": "d3a90028-85a0-49ae-8e26-fe9f1fee836c"
                             }
                         ],
@@ -462,7 +490,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,2",
@@ -478,7 +508,7 @@
                                 "id": "0,2,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Оперативная память от 4 Гб.",
+                                "elements": "Оперативная память от 4 Гб.",
                                 "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ],
@@ -486,7 +516,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,3",
@@ -502,7 +534,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Видеоадаптер и монитор: VGA/HDMI(720 x 1280).",
+                                "elements": "Видеоадаптер и монитор: VGA/HDMI(720 x 1280).",
                                 "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ],
@@ -510,7 +542,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,4",
@@ -526,7 +560,7 @@
                                 "id": "0,4,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Свободное место на записывающем устройстве: 4 Гб.",
+                                "elements": "Свободное место на записывающем устройстве: 4 Гб.",
                                 "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ],
@@ -534,7 +568,9 @@
                     }
                 ],
                 "format_name": "Моноширинный",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "0b486777-488c-4561-9767-27f5c1416ec0"
             },
             {
                 "id": "0,5",
@@ -550,7 +586,7 @@
                                 "id": "0,5,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Клавиатура и мышь.",
+                                "elements": "Клавиатура и мышь.",
                                 "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ],
@@ -558,7 +594,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
 #ifdef WEB
             {
@@ -575,7 +613,7 @@
                                 "id": "0,6,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Поддерживаемые браузеры: Google Chrome начиная с версии 57, Mozilla Firefox - начиная с версии 52.",
+                                "elements": "Поддерживаемые браузеры: Google Chrome начиная с версии 57, Mozilla Firefox - начиная с версии 52.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ],
@@ -583,7 +621,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,7",
@@ -599,7 +639,7 @@
                                 "id": "0,7,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Поддержка Javascript.",
+                                "elements": "Поддержка Javascript.",
                                 "format_id": "3e4a8e44-74f8-4c15-ac0b-e8d3a2f8bf9d"
                             }
                         ],
@@ -607,7 +647,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
             {
                 "id": "0,8",
@@ -623,7 +665,7 @@
                                 "id": "0,8,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Поддержка cookies.",
+                                "elements": "Поддержка cookies.",
                                 "format_id": "3b585091-a336-403a-9c4a-2bbdaf2b1a80"
                             }
                         ],
@@ -631,7 +673,9 @@
                     }
                 ],
                 "format_name": "Основной текст",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "9397c3f4-7f44-44be-a894-c65f69f8bbed"
             },
 #endif
             {

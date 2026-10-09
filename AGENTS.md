@@ -67,6 +67,7 @@ Each entry defines a reusable paragraph style. The editor recognizes the canonic
 | `indent_first_line` | First-line indent |
 | `spacing_before`, `spacing_after` | Spacing before/after paragraph |
 | `default_string_format` | UUID of the default `string_format` for this paragraph style |
+| `marker` | Optional unordered-list marker glyph (`•`, `●`, `♦`, `■`); an entry with a `marker` is a list variant of the same-named format |
 
 ### `text`
 
@@ -150,7 +151,7 @@ The authoritative source is `enum class ElementType` in `yutovo-editor/src/edito
 
 Notes:
 - Operators and brackets (`PLUS`, `MINUS`, `MULTIPLY`, `COMMA`, brackets) contain an array of `SHAPE` placeholders plus a `symbol` string field. `MINUS` and `MULTIPLY` carry 3 `SHAPE`s; `PLUS` and brackets carry 1. `COMMA` is rendered from its glyph and the number of `SHAPE`s varies in saved files (5–15) — copy a comma from an existing document.
-- The `marker` field on ordinary `CODE_PARAGRAPH`s (`"█"`) is a cursor placeholder from saved editor state — do not add it by hand. Exception: expression paragraphs inside graph elements (`GRAPH_LINE`, `GRAPH_SURFACE`, `GRAPH_HISTOGRAM`) carry a colored `marker` + `marker_format_id` matching the plot color (the click target for the plot-format dialog).
+- The `marker` field has three distinct uses. (1) **Unordered list markers** on `PARAGRAPH`s (`type: 2`): `"marker": "•"` (valid glyphs `•`, `●`, `♦`, `■`) plus `marker_format_id` (normally the `default_string_format` UUID of the paragraph format); the bullet glyph is not repeated in the text, and `paragraph_formats` carries a variant of the format with the same localized `name` and a `"marker"` field. (2) A cursor placeholder (`"█"`) on ordinary `CODE_PARAGRAPH`s from saved editor state — do not add it by hand. (3) Colored `marker` + `marker_format_id` on expression paragraphs inside graph elements (`GRAPH_LINE`, `GRAPH_SURFACE`, `GRAPH_HISTOGRAM`) matching the plot color (the click target for the plot-format dialog).
 - `level` (superscript/subscript level) is optional per element; whole documents omit it.
 
 ### Formula element child layouts

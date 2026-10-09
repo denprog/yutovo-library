@@ -374,6 +374,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "e0341c61-db90-47cd-b250-482eeea92692"
+        },
+        {
+            "name": "Text body",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a",
+            "marker": "•"
         }
     ],
     "text": {
@@ -442,7 +455,7 @@
                                 "id": "0,2,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• pi - pi",
+                                "elements": "pi - pi",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
                         ],
@@ -450,7 +463,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a"
             },
             {
                 "id": "0,3",
@@ -466,7 +481,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• e - Euler number",
+                                "elements": "e - Euler number",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
                         ],
@@ -474,7 +489,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a"
             },
             {
                 "id": "0,4",
@@ -490,7 +507,7 @@
                                 "id": "0,4,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• i - imaginary number",
+                                "elements": "i - imaginary number",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
                         ],
@@ -498,7 +515,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a"
             },
             {
                 "id": "0,5",
@@ -538,7 +557,7 @@
                                 "id": "0,6,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• c - speed of light",
+                                "elements": "c - speed of light",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
                         ],
@@ -546,7 +565,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a"
             },
             {
                 "id": "0,7",
@@ -562,7 +583,7 @@
                                 "id": "0,7,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• G - gravitational constant",
+                                "elements": "G - gravitational constant",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
                         ],
@@ -570,7 +591,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a"
             },
             {
                 "id": "0,8",
@@ -586,7 +609,7 @@
                                 "id": "0,8,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• h - Planck constant",
+                                "elements": "h - Planck constant",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
                         ],
@@ -594,7 +617,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a"
             },
             {
                 "id": "0,9",
@@ -610,7 +635,7 @@
                                 "id": "0,9,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• e_c - elementary charge",
+                                "elements": "e_c - elementary charge",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
                         ],
@@ -618,7 +643,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a"
             },
             {
                 "id": "0,10",
@@ -634,7 +661,7 @@
                                 "id": "0,10,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• k - Boltzmann constant",
+                                "elements": "k - Boltzmann constant",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
                         ],
@@ -642,7 +669,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a"
             },
             {
                 "id": "0,11",
@@ -658,7 +687,7 @@
                                 "id": "0,11,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• g_a - Gravitational acceleration",
+                                "elements": "g_a - Gravitational acceleration",
                                 "format_id": "49b93c00-ae4c-4ac9-a193-f0a3e766c4b2"
                             }
                         ],
@@ -666,7 +695,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "6e457c99-9aa1-4032-bfe6-22bdd7c9583a"
             },
             {
                 "id": "0,12",

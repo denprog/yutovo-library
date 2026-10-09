@@ -838,6 +838,19 @@
             "spacing_before": 10,
             "spacing_after": 10,
             "default_string_format": "9b44ffea-b73b-4c86-94ec-784b0ffc37da"
+        },
+        {
+            "name": "Cuerpo de texto",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "487143ea-2ac5-4e82-8ad7-7a4ca0ddc08e",
+            "marker": "•"
         }
     ],
     "text": {
@@ -906,7 +919,7 @@
                                 "id": "0,2,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• binario: dígitos \"0\" y \"1\";",
+                                "elements": "binario: dígitos \"0\" y \"1\";",
                                 "format_id": "2722a8b0-be9e-4bd1-aa9b-eb1f3d15c921"
                             }
                         ],
@@ -914,7 +927,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "487143ea-2ac5-4e82-8ad7-7a4ca0ddc08e"
             },
             {
                 "id": "0,3",
@@ -930,7 +945,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• octal: dígitos \"0\" a \"7\";",
+                                "elements": "octal: dígitos \"0\" a \"7\";",
                                 "format_id": "2722a8b0-be9e-4bd1-aa9b-eb1f3d15c921"
                             }
                         ],
@@ -938,7 +953,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "487143ea-2ac5-4e82-8ad7-7a4ca0ddc08e"
             },
             {
                 "id": "0,4",
@@ -954,7 +971,7 @@
                                 "id": "0,4,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• decimal: dígitos \"0\" a \"9\";",
+                                "elements": "decimal: dígitos \"0\" a \"9\";",
                                 "format_id": "2722a8b0-be9e-4bd1-aa9b-eb1f3d15c921"
                             }
                         ],
@@ -962,7 +979,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "487143ea-2ac5-4e82-8ad7-7a4ca0ddc08e"
             },
             {
                 "id": "0,5",
@@ -978,7 +997,7 @@
                                 "id": "0,5,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• hexadecimal: dígitos \"0\" a \"9\" y letras \"A\" a \"F\".",
+                                "elements": "hexadecimal: dígitos \"0\" a \"9\" y letras \"A\" a \"F\".",
                                 "format_id": "2722a8b0-be9e-4bd1-aa9b-eb1f3d15c921"
                             }
                         ],
@@ -986,7 +1005,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "487143ea-2ac5-4e82-8ad7-7a4ca0ddc08e"
             },
             {
                 "id": "0,6",

@@ -360,6 +360,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "57776d6d-ee03-4486-bdf5-58e423dd920a"
+        },
+        {
+            "name": "Cuerpo de texto",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "83d7c457-5757-4c0b-bf63-ea2c105f683d",
+            "marker": "•"
         }
     ],
     "text": {
@@ -438,7 +451,7 @@
                                 "id": "0,1,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Cerrar sesión;",
+                                "elements": "Cerrar sesión;",
                                 "format_id": "63b3c418-5f54-46e4-8a02-e6444cfa4cf2"
                             }
                         ],
@@ -446,7 +459,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "83d7c457-5757-4c0b-bf63-ea2c105f683d"
             },
             {
                 "id": "0,2",
@@ -462,7 +477,7 @@
                                 "id": "0,2,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Cambiar el nombre de usuario que ingresaron durante el registro (no el nombre de usuario, ya que no se puede cambiar);",
+                                "elements": "Cambiar el nombre de usuario que ingresaron durante el registro (no el nombre de usuario, ya que no se puede cambiar);",
                                 "format_id": "63b3c418-5f54-46e4-8a02-e6444cfa4cf2"
                             }
                         ],
@@ -470,7 +485,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "83d7c457-5757-4c0b-bf63-ea2c105f683d"
             },
             {
                 "id": "0,3",
@@ -486,7 +503,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Cambiar su dirección de correo electrónico;",
+                                "elements": "Cambiar su dirección de correo electrónico;",
                                 "format_id": "63b3c418-5f54-46e4-8a02-e6444cfa4cf2"
                             }
                         ],
@@ -494,7 +511,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "83d7c457-5757-4c0b-bf63-ea2c105f683d"
             },
             {
                 "id": "0,4",
@@ -510,7 +529,7 @@
                                 "id": "0,4,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Cambiar su contraseña.",
+                                "elements": "Cambiar su contraseña.",
                                 "format_id": "63b3c418-5f54-46e4-8a02-e6444cfa4cf2"
                             }
                         ],
@@ -518,7 +537,9 @@
                     }
                 ],
                 "format_name": "Cuerpo de texto",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "83d7c457-5757-4c0b-bf63-ea2c105f683d"
             },
             {
                 "id": "0,5",
@@ -558,9 +579,9 @@
                                 "id": "0,6,0,0",
                                 "type": 39,
                                 "level": 1,
-                                "elements": "<- Cálculos/Arreglos",
+                                "elements": "<- Edición/Números",
                                 "format_id": "d338b315-a9b4-4a00-8a75-7f4d6e02c9b0",
-                                "url": "../Cálculos/Arreglos.yut"
+                                "url": "../Edición/Números.yut"
                             },
                             {
                                 "id": "0,6,0,1",

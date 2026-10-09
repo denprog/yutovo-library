@@ -352,6 +352,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "40eac00c-033d-4e0f-a0db-c78bee31e2c9"
+        },
+        {
+            "name": "Text body",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "16a8a98c-4046-49bd-9917-93e3b753317a",
+            "marker": "•"
         }
     ],
     "text": {
@@ -444,7 +457,7 @@
                             {
                                 "id": "0,3,0,0",
                                 "type": 4,
-                                "elements": "• Auto-Select Result - When evaluating an expression, the result types listed in the table below will be tried sequentially until the expression is successfully evaluated. If all the results return errors, an error will be returned for the first calculation option.",
+                                "elements": "Auto-Select Result - When evaluating an expression, the result types listed in the table below will be tried sequentially until the expression is successfully evaluated. If all the results return errors, an error will be returned for the first calculation option.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
                         ],
@@ -452,7 +465,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,4",
@@ -465,7 +480,7 @@
                             {
                                 "id": "0,4,0,0",
                                 "type": 4,
-                                "elements": "• Result Selection Order - This is the order in which the calculation options for the current expression will be tried. Expressions are most often evaluated as real numbers, so this option is first by default. For example, to prioritize the expression as a proper fraction, set Rational first.",
+                                "elements": "Result Selection Order - This is the order in which the calculation options for the current expression will be tried. Expressions are most often evaluated as real numbers, so this option is first by default. For example, to prioritize the expression as a proper fraction, set Rational first.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
                         ],
@@ -473,7 +488,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,5",
@@ -486,7 +503,7 @@
                             {
                                 "id": "0,5,0,0",
                                 "type": 4,
-                                "elements": "• Real, Integer, Rational, Complex - these tabs display the default parameters for these results. They can be changed for each result by selecting them from the context menu.",
+                                "elements": "Real, Integer, Rational, Complex - these tabs display the default parameters for these results. They can be changed for each result by selecting them from the context menu.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
                         ],
@@ -494,7 +511,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,6",
@@ -528,7 +547,7 @@
                             {
                                 "id": "0,7,0,0",
                                 "type": 4,
-                                "elements": "• Locale - The current document language. It determines the set of units and some variables. For example, in English, the imaginary unit is \"i,\" while in Russian, it's \"j.\" Units are written in their own language.",
+                                "elements": "Locale - The current document language. It determines the set of units and some variables. For example, in English, the imaginary unit is \"i,\" while in Russian, it's \"j.\" Units are written in their own language.",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
                         ],
@@ -536,7 +555,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,8",
@@ -549,7 +570,7 @@
                             {
                                 "id": "0,8,0,0",
                                 "type": 4,
-                                "elements": "• Tabulation - use tab characters or a specified number of spaces ",
+                                "elements": "Tabulation - use tab characters or a specified number of spaces ",
                                 "format_id": "7a0e63cc-8b71-483f-a401-89e17085ef7a"
                             }
                         ],
@@ -557,7 +578,9 @@
                     }
                 ],
                 "format_name": "Text body",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,9",

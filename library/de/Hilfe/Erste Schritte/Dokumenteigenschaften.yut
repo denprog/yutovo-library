@@ -360,6 +360,19 @@
             "spacing_before": 2,
             "spacing_after": 2,
             "default_string_format": "40eac00c-033d-4e0f-a0db-c78bee31e2c9"
+        },
+        {
+            "name": "Standardtext",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "16a8a98c-4046-49bd-9917-93e3b753317a",
+            "marker": "•"
         }
     ],
     "text": {
@@ -466,7 +479,7 @@
                                 "id": "0,3,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Automatische Ergebnisauswahl – bei der Berechnung eines Ausdrucks werden die unten in der Tabelle aufgeführten Ergebnistypen nacheinander durchprobiert, bis der Ausdruck erfolgreich berechnet ist. Liefern alle Varianten Fehler, wird der Fehler der ersten Berechnungsvariante zurückgegeben.",
+                                "elements": "Automatische Ergebnisauswahl – bei der Berechnung eines Ausdrucks werden die unten in der Tabelle aufgeführten Ergebnistypen nacheinander durchprobiert, bis der Ausdruck erfolgreich berechnet ist. Liefern alle Varianten Fehler, wird der Fehler der ersten Berechnungsvariante zurückgegeben.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -474,7 +487,9 @@
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,4",
@@ -490,7 +505,7 @@
                                 "id": "0,4,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Reihenfolge der Ergebnisauswahl – in dieser Reihenfolge werden die Berechnungsvarianten des aktuellen Ausdrucks durchprobiert. Meistens werden Ausdrücke in reellen Zahlen berechnet, deshalb steht diese Variante standardmäßig an erster Stelle. Um zum Beispiel den Ausdruck in erster Linie als echten Bruch darzustellen, setzen Sie Bruch an die erste Stelle.",
+                                "elements": "Reihenfolge der Ergebnisauswahl – in dieser Reihenfolge werden die Berechnungsvarianten des aktuellen Ausdrucks durchprobiert. Meistens werden Ausdrücke in reellen Zahlen berechnet, deshalb steht diese Variante standardmäßig an erster Stelle. Um zum Beispiel den Ausdruck in erster Linie als echten Bruch darzustellen, setzen Sie Bruch an die erste Stelle.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -498,7 +513,9 @@
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,5",
@@ -514,7 +531,7 @@
                                 "id": "0,5,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Reell, Ganzzahl, Bruch, Komplex – auf diesen Registerkarten sind die Standardparameter dieser Ergebnisse dargestellt. Später lassen sie sich für jedes Ergebnis über das Kontextmenü ändern.",
+                                "elements": "Reell, Ganzzahl, Bruch, Komplex – auf diesen Registerkarten sind die Standardparameter dieser Ergebnisse dargestellt. Später lassen sie sich für jedes Ergebnis über das Kontextmenü ändern.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -522,7 +539,9 @@
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,6",
@@ -562,7 +581,7 @@
                                 "id": "0,7,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Sprache – die aktuelle Sprache des Dokuments. Von ihr hängen die Menge der Maßeinheiten und einiger Variablen ab. Zum Beispiel ist für die englische Sprache die imaginäre Einheit \"i\" und für die russische \"j\". Maßeinheiten werden in ihrer jeweiligen Sprache geschrieben.",
+                                "elements": "Sprache – die aktuelle Sprache des Dokuments. Von ihr hängen die Menge der Maßeinheiten und einiger Variablen ab. Zum Beispiel ist für die englische Sprache die imaginäre Einheit \"i\" und für die russische \"j\". Maßeinheiten werden in ihrer jeweiligen Sprache geschrieben.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -570,7 +589,9 @@
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,8",
@@ -586,7 +607,7 @@
                                 "id": "0,8,0,0",
                                 "type": 4,
                                 "level": 1,
-                                "elements": "• Tabulator – Tabulatorzeichen oder stattdessen eine bestimmte Anzahl von Leerzeichen verwenden.",
+                                "elements": "Tabulator – Tabulatorzeichen oder stattdessen eine bestimmte Anzahl von Leerzeichen verwenden.",
                                 "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
                             }
                         ],
@@ -594,7 +615,9 @@
                     }
                 ],
                 "format_name": "Standardtext",
-                "format_alignment": 0
+                "format_alignment": 0,
+                "marker": "•",
+                "marker_format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
             },
             {
                 "id": "0,9",

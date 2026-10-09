@@ -1,0 +1,732 @@
+{
+    "file_guid": "cb1f7429-368f-4a8b-90f9-5f81c62ea598",
+    "config": {
+        "language": 7,
+        "use_tabs": true,
+        "tab_spaces": 4,
+        "scale": 1.0,
+        "real_result": {
+            "precision": 3,
+            "exp": 10,
+            "default_angle_measure": 0,
+            "result_angle_measure": 0,
+            "show_angle_measure": false
+        },
+        "integer_result": {
+            "result_notation": 2,
+            "default_notation": 2,
+            "show_notation": true
+        },
+        "rational_result": {
+            "fraction_form": 0
+        },
+        "complex_result": {
+            "precision": 3,
+            "exp": 10,
+            "default_angle_measure": 0,
+            "result_angle_measure": 0,
+            "show_angle_measure": false,
+            "form": 0,
+            "max_count": 10
+        },
+        "auto_result": {
+            "result_auto_advance": true,
+            "results_order": [
+                1,
+                2,
+                3,
+                4,
+                6,
+                7,
+                8,
+                9
+            ],
+            "real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": false
+            },
+            "integer_config": {
+                "result_notation": 2,
+                "default_notation": 2,
+                "show_notation": true
+            },
+            "rational_config": {
+                "fraction_form": 0
+            },
+            "complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": false,
+                "form": 0,
+                "max_count": 10
+            },
+            "array_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_real_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true
+            },
+            "symbolic_rational_config": {
+                "fraction_form": 0
+            },
+            "symbolic_complex_config": {
+                "precision": 3,
+                "exp": 10,
+                "default_angle_measure": 0,
+                "result_angle_measure": 0,
+                "show_angle_measure": true,
+                "form": 0,
+                "max_count": 10
+            }
+        },
+        "include_documents": []
+    },
+    "string_formats": [
+        {
+            "id": "85d9298a-e02f-449e-8469-2029d4dd374d",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "16a8a98c-4046-49bd-9917-93e3b753317a",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "db2944a5-d927-4ab5-b69c-14b7f502ef45",
+            "family": "Arial",
+            "size": 30,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "b8601816-d637-485d-9286-7e7ac15948f9",
+            "family": "Arial",
+            "size": 26,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "1199d025-d633-4f7c-8c28-94ce43ef4e92",
+            "family": "Arial",
+            "size": 22,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "9a687d97-ef48-4587-91ec-f82063ff8da9",
+            "family": "Arial",
+            "size": 16,
+            "bold": true,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "60355235-6b50-47e7-8ab3-12fe1d4bfa3c",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": true,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e74054d0-cfb9-43bb-a85b-820d8acd1a64",
+            "family": "Courier New",
+            "size": 12,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "40eac00c-033d-4e0f-a0db-c78bee31e2c9",
+            "family": "FreeMono",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": true,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190335,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        },
+        {
+            "id": "d7dbc119-d4ee-4a78-8699-7002385c3e62",
+            "family": "Arial",
+            "size": 14,
+            "bold": false,
+            "italic": false,
+            "underline": false,
+            "strikethrough": false,
+            "subscript": false,
+            "superscript": false,
+            "text_color": 4278190080,
+            "text_bg_color": 4294967295,
+            "text_bg_selection_color": 4278190335
+        }
+    ],
+    "paragraph_formats": [
+        {
+            "name": "Corpo del testo",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "16a8a98c-4046-49bd-9917-93e3b753317a"
+        },
+        {
+            "name": "Titolo 1",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "db2944a5-d927-4ab5-b69c-14b7f502ef45"
+        },
+        {
+            "name": "Titolo 2",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "b8601816-d637-485d-9286-7e7ac15948f9"
+        },
+        {
+            "name": "Titolo 3",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "1199d025-d633-4f7c-8c28-94ce43ef4e92"
+        },
+        {
+            "name": "Titolo 4",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "9a687d97-ef48-4587-91ec-f82063ff8da9"
+        },
+        {
+            "name": "Esempio",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "60355235-6b50-47e7-8ab3-12fe1d4bfa3c"
+        },
+        {
+            "name": "Monospace",
+            "alignment": 0,
+            "word_wrap": 1,
+            "line_spacing": 5,
+            "indent_before": 10,
+            "indent_after": 10,
+            "indent_first_line": 0,
+            "spacing_before": 10,
+            "spacing_after": 10,
+            "default_string_format": "e74054d0-cfb9-43bb-a85b-820d8acd1a64"
+        },
+        {
+            "name": "Codice",
+            "alignment": 0,
+            "word_wrap": 0,
+            "line_spacing": 2,
+            "indent_before": 2,
+            "indent_after": 2,
+            "indent_first_line": 0,
+            "spacing_before": 2,
+            "spacing_after": 2,
+            "default_string_format": "40eac00c-033d-4e0f-a0db-c78bee31e2c9"
+        }
+    ],
+    "text": {
+        "id": "0",
+        "type": 1,
+        "elements": [
+            {
+                "id": "0,0",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,0,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,0,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Ogni documento ha un insieme di impostazioni definite nella finestra Proprietà del documento, richiamata dal pulsante ",
+                                "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
+                            },
+                            {
+                                "id": "0,0,0,1",
+                                "type": 34,
+                                "level": 1,
+                                "elements": [],
+                                "image_base64": "iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAIAAAAmdTLBAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABNUlEQVQ4jWO8dukCAwWAiRLNdNT/7du3vgkTv337Rqb+v//+PXr0+O/fv2jiLHBWT1//w0ePMHXa29mGBAUxMDA8e/G8rLKKhYWFgYFBTk6utKgQRX9JUSF+J0hJSDY31vPy8pLjflYWFj09XVZWVjRxRsz4//vv35MnT2RkZJiZCJuORcW3b9+mTpuOGdRYAcL/x46f+PjxIwMDw/fv39++e8fw/z8DA8O169cfPsQSqPz8/FaWFij6GRgY/jP8x1SKVRCL/RDzGBgYPn/5cuLkSQZGRgYGBi1NTS1NTTz6aRB+zExM8nJyEM3r1m/48OEDafqRwfWbN3/8+IFHAfb0KyEuXlSQz8nJycDAUNfQxM7BjqZNXk6uhMj029RQJyEhQab7pSQlMdMsMsAS/iQBSssfAFdrcpXVOgcnAAAAAElFTkSuQmCC"
+                            },
+                            {
+                                "id": "0,0,0,2",
+                                "type": 4,
+                                "level": 1,
+                                "elements": ".",
+                                "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,1",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,1,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,1,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Scheda Risultato",
+                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
+                            }
+                        ],
+                        "format_name": "Titolo 4"
+                    }
+                ],
+                "format_name": "Titolo 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,2",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,2,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,2,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Qui sono elencate le impostazioni predefinite per il calcolo delle espressioni.",
+                                "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,3",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,3,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,3,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Selezione automatica del risultato - al momento del calcolo di un’espressione, le varianti di tipi di risultato elencate nella tabella sottostante saranno provate in successione finché l’espressione non sia calcolata con successo. Se tutte le varianti danno errori, sarà restituito l’errore della prima variante di calcolo.",
+                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,4",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,4,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,4,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Ordine di selezione del risultato - in quest’ordine saranno provate le varianti di calcolo dell’espressione corrente. Il più delle volte le espressioni sono calcolate con numeri reali, quindi questa variante è la prima per impostazione predefinita. Ad esempio, per rappresentare l’espressione innanzitutto come frazione propria, mettete Frazionari al primo posto.",
+                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,5",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,5,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,5,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Reali, Interi, Frazionari, Complessi - in queste schede sono riportati i parametri predefiniti di questi risultati. In seguito essi possono essere modificati per ogni risultato tramite il menu contestuale.",
+                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,6",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,6,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,6,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Scheda Documento",
+                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
+                            }
+                        ],
+                        "format_name": "Titolo 4"
+                    }
+                ],
+                "format_name": "Titolo 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,7",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,7,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,7,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Lingua - la lingua corrente del documento. Da essa dipendono l’insieme delle unità e di alcune variabili. Ad esempio, per l’inglese l’unità immaginaria è « i », mentre per il russo « j ». Le unità si scrivono nella loro lingua.",
+                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,8",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,8,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,8,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "• Tabulazione - usare caratteri di tabulazione o un numero determinato di spazi al loro posto.",
+                                "format_id": "ff4e2bcb-21f7-4546-96f8-98c892e5a619"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,9",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,9,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,9,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Scheda Documenti inclusi",
+                                "format_id": "9a687d97-ef48-4587-91ec-f82063ff8da9"
+                            }
+                        ],
+                        "format_name": "Titolo 4"
+                    }
+                ],
+                "format_name": "Titolo 4",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,10",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,10,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,10,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "Qui è definito l'elenco dei ",
+                                "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
+                            },
+                            {
+                                "id": "0,10,0,1",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "documenti inclusi",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
+                                "url": "../Calcoli/Documenti inclusi.yut"
+                            },
+                            {
+                                "id": "0,10,0,2",
+                                "type": 4,
+                                "level": 1,
+                                "elements": " utilizzati da questo documento.",
+                                "format_id": "16a8a98c-4046-49bd-9917-93e3b753317a"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,11",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,11,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,11,0,0",
+                                "type": 4,
+                                "level": 1,
+                                "elements": "",
+                                "format_id": "85d9298a-e02f-449e-8469-2029d4dd374d"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            },
+            {
+                "id": "0,12",
+                "type": 2,
+                "level": 1,
+                "elements": [
+                    {
+                        "id": "0,12,0",
+                        "type": 3,
+                        "level": 1,
+                        "elements": [
+                            {
+                                "id": "0,12,0,0",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "<- Cursore",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
+                                "url": "./Cursore.yut"
+                            },
+                            {
+                                "id": "0,12,0,1",
+                                "type": 4,
+                                "level": 1,
+                                "elements": " ",
+                                "format_id": "d7dbc119-d4ee-4a78-8699-7002385c3e62"
+                            },
+                            {
+                                "id": "0,12,0,2",
+                                "type": 39,
+                                "level": 1,
+                                "elements": "../Calcoli/Numeri/Numeri reali ->",
+                                "format_id": "e1c1c7a8-e26c-451b-b297-39cc2fc981b6",
+                                "url": "../Calcoli/Numeri/Numeri reali.yut"
+                            }
+                        ],
+                        "format_name": "Corpo del testo"
+                    }
+                ],
+                "format_name": "Corpo del testo",
+                "format_alignment": 0
+            }
+        ]
+    },
+    "caret": {
+        "id": "0,0,0,0"
+    },
+    "selection": []
+}

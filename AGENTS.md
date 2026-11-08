@@ -214,6 +214,7 @@ Paragraph indices start at `0`. Exception: documents with `config.include_docume
 - `CODE_PARAGRAPH` (`type: 6`) must have `format_name` pointing to the code paragraph format.
 - `CODE_ROW` (`type: 7`) contains `CODE_STRING` and/or formula elements.
 - `CODE_STRING` (`type: 8`) has a `can_merge` flag: `true` for numbers and identifiers, `false` for unit suffixes (`"ч"`, `"Гц"`, `"мм"`, …).
+- Write infinite values with the infinity sign `∞`, never the word `infinity` — e.g. the limit element's value row (`x → ∞`) and the built-in function call `limit(f, x, ∞)`. Negative infinity is a `MINUS` element followed by `∞`.
 - Do not mix `type: 4` (`STRING`) and code/formula elements in the same `ROW`.
 
 ### Equations with results

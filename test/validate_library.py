@@ -16,6 +16,8 @@ Checks:
      target directory's .order file
   6. every directory mirrors the Russian tree (same entry set)
   7. paragraph format names are localized (not Russian)
+  8. .order sequences mirror the Russian tree (name-independent
+     subtree-shape signatures, so reordered sections are caught)
 """
 
 import json
@@ -146,6 +148,78 @@ for root, dirs, files in os.walk(DST):
             de_stale_order += 1
 if de_stale_order != len(ru_stale_order):
     problems.append(f'stale .order entries: {de_stale_order} (ru has {len(ru_stale_order)})')
+
+# 8. .order sequences mirror ru (directory names are localized, so trees are
+#    paired structurally in lockstep from the root; signatures are
+#    name-independent subtree shapes, stale entries are ignored)
+def sub_rel(rel, name):
+    return name if rel == '.' else os.path.join(rel, name)
+
+
+def order_entries(tree_root, rel):
+    """Non-stale .order entries of a directory, or None without .order."""
+    path = os.path.join(tree_root, rel, '.order')
+    if not os.path.exists(path):
+        return None
+    out = []
+    for line in open(path, encoding='utf-8'):
+        line = line.strip()
+        if not line:
+            continue
+        target = os.path.join(tree_root, rel, line)
+        if os.path.exists(target) or os.path.exists(target.replace('.yut', '.yut.in')):
+            out.append(line)
+    return out
+
+
+def dir_sig(tree_root, rel):
+    """Name-independent shape signature of a directory: ('seq', ...) built
+    from its .order entry signatures, or ('set', ...) — a sorted multiset of
+    child signatures — when the directory has no .order (unordered).
+    Docs and other non-directories contribute ('doc',)."""
+    base = os.path.join(tree_root, rel)
+    if not os.path.isdir(base):
+        return ('doc',)
+    entries = order_entries(tree_root, rel)
+    if entries is None:
+        kids = [dir_sig(tree_root, sub_rel(rel, n)) for n in os.listdir(base)
+                if os.path.isdir(os.path.join(base, n)) or n.endswith(('.yut', '.yut.in'))]
+        return ('set', tuple(sorted(kids)))
+    sig = []
+    for e in entries:
+        sig.append(dir_sig(tree_root, sub_rel(rel, e)))
+    return ('seq', tuple(sig))
+
+
+def order_diffs(ru_rel, dst_rel):
+    """Descriptions of .order differences between ru_rel and its
+    structural counterpart dst_rel (both '.' at the root)."""
+    ru_entries = order_entries(SRC, ru_rel)
+    de_entries = order_entries(DST, dst_rel)
+    if (ru_entries is None) != (de_entries is None):
+        return [f'{dst_rel}: .order presence differs from ru']
+    if ru_entries is None:
+        if dir_sig(SRC, ru_rel) != dir_sig(DST, dst_rel):
+            return [f'{dst_rel}: unordered directory shape differs from ru']
+        return []
+    ru_sigs = [dir_sig(SRC, sub_rel(ru_rel, e)) for e in ru_entries]
+    de_sigs = [dir_sig(DST, sub_rel(dst_rel, e)) for e in de_entries]
+    if ru_sigs == de_sigs:
+        return []
+    if sorted(ru_sigs) == sorted(de_sigs):
+        return [f'{dst_rel}: .order sequence differs from ru']
+    ru_kinds = [s == ('doc',) for s in ru_sigs]
+    de_kinds = [s == ('doc',) for s in de_sigs]
+    if len(ru_sigs) != len(de_sigs) or ru_kinds != de_kinds:
+        return [f'{dst_rel}: .order entries differ from ru']
+    out = []
+    for e_ru, e_de, s_ru, s_de in zip(ru_entries, de_entries, ru_sigs, de_sigs):
+        if s_ru != s_de and s_ru != ('doc',):
+            out.extend(order_diffs(sub_rel(ru_rel, e_ru), sub_rel(dst_rel, e_de)))
+    return out
+
+
+problems.extend(order_diffs('.', '.'))
 
 # 5 + 4: links and leftover Cyrillic
 def norm(p):

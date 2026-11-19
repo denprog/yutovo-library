@@ -146,11 +146,26 @@ The `text.elements` array contains paragraphs (`type: 2`). Each paragraph has `e
 | `type: 57` | `TEXT_ASSIGNMENT` | Assignment inside a `TEXT_BLOCK`; identifiers are not registered in the solver |
 | `type: 58` | `GRAPH_SURFACE` | 3D surface graph; carries `graph_format`, per-surface `plots` (with `style`), `rot_x`, `rot_z` |
 | `type: 59` | `GRAPH_HISTOGRAM` | Histogram graph; carries `graph_format` and per-array `plots` (with `style`); no rotation |
+| `type: 60` | `MATRIX` | Matrix |
+| `type: 61` | `DETERMINANT` | Determinant |
+| `type: 62` | `LIMIT` | Limit (`lim` with a `variable → value` condition row) |
+| `type: 63` | `VECTOR_REAL_RESULT` | Vector-of-reals result |
+| `type: 64` | `VECTOR_RATIONAL_RESULT` | Vector-of-rationals result |
+| `type: 65` | `VECTOR_COMPLEX_RESULT` | Vector-of-complexes result |
+| `type: 66` | `VECTOR` | Vector |
+| `type: 67` | `EQUAL` | Comparison "equal" `=` (serialized to the solver as `==`) |
+| `type: 68` | `GREATER` | Comparison "greater" `>` |
+| `type: 69` | `LESS` | Comparison "less" `<` |
+| `type: 70` | `GREATER_EQUAL` | Comparison `⩾` (serialized as `>=`) |
+| `type: 71` | `LESS_EQUAL` | Comparison `⩽` (serialized as `<=`) |
+| `type: 72` | `NOT_EQUAL` | Comparison `≠` (serialized as `<>`) |
 
 The authoritative source is `enum class ElementType` in `yutovo-editor/src/editor_utils.h` (sibling repo `../yutovo-editor`).
 
 Notes:
-- Operators and brackets (`PLUS`, `MINUS`, `MULTIPLY`, `COMMA`, brackets) contain an array of `SHAPE` placeholders plus a `symbol` string field. `MINUS` and `MULTIPLY` carry 3 `SHAPE`s; `PLUS` and brackets carry 1. `COMMA` is rendered from its glyph and the number of `SHAPE`s varies in saved files (5–15) — copy a comma from an existing document.
+- Operators and brackets (`PLUS`, `MINUS`, `MULTIPLY`, `COMMA`, brackets) contain one `SHAPE` placeholder plus a `symbol` string field (`+`, `-`, `·`, `,`, `(`, `)`). Older saved files may carry several `SHAPE`s — the editor trims them to one on load; write one. `MULTIPLY` serializes to the solver as `·` (U+00B7), not `*`; a `*` must not appear inside a `CODE_STRING`.
+- **Formulas in code blocks are native end-to-end**: every bracket, comma, `+`, `-`, `·`, assignment and comparison is an element; `CODE_STRING`s hold only identifiers and numbers (e.g. `f(2)` is `"f"`, `(`, `"2"`, `)`; a negative literal is `MINUS` + `"5"`). Whole-formula strings like `"for(i=1,i<=5,…)"` are the legacy form and a syntax error for the current solver — see `Справка/Вычисления/Управляющие конструкции/` for the native pattern.
+- Comparison elements (`EQUAL`–`NOT_EQUAL`, types 67–72) have the same children as `EQUATION` — `[CODE_ROW left, SHAPE, CODE_ROW right]` — but no `result_type` and no `symbol` field (the sign is drawn from the element type; `EQUAL` is drawn bold). Both operand rows must be non-empty. The serializer wraps every comparison in parentheses and emits the two-character parser sign where needed: `x=5` → `(x==5)`, `x⩾1` → `(x>=1)`, `x≠2` → `(x<>2)` — this is how comparisons must reach the solver; a `<`/`>`/`==`/`<=`/`>=`/`<>` typed inside a `CODE_STRING` is a syntax error for the calculator. In prose (Arial) write comparisons with `≤ ≥ ≠` — the sign glyphs `⩽` (U+2A7D) and `⩾` (U+2A7E) exist in FreeMono (code) but not in Arial.
 - The `marker` field has three distinct uses. (1) **Unordered list markers** on `PARAGRAPH`s (`type: 2`): `"marker": "•"` (valid glyphs `•`, `●`, `♦`, `■`) plus `marker_format_id` (normally the `default_string_format` UUID of the paragraph format); the bullet glyph is not repeated in the text, and `paragraph_formats` carries a variant of the format with the same localized `name` and a `"marker"` field. (2) A cursor placeholder (`"█"`) on ordinary `CODE_PARAGRAPH`s from saved editor state — do not add it by hand. (3) Colored `marker` + `marker_format_id` on expression paragraphs inside graph elements (`GRAPH_LINE`, `GRAPH_SURFACE`, `GRAPH_HISTOGRAM`) matching the plot color (the click target for the plot-format dialog).
 - `level` (superscript/subscript level) is optional per element; whole documents omit it.
 
@@ -214,6 +229,7 @@ Paragraph indices start at `0`. Exception: documents with `config.include_docume
 - `CODE_PARAGRAPH` (`type: 6`) must have `format_name` pointing to the code paragraph format.
 - `CODE_ROW` (`type: 7`) contains `CODE_STRING` and/or formula elements.
 - `CODE_STRING` (`type: 8`) has a `can_merge` flag: `true` for numbers and identifiers, `false` for unit suffixes (`"ч"`, `"Гц"`, `"мм"`, …).
+- Solved code blocks are written **native end-to-end** (see the Notes above): `CODE_STRING`s hold only identifiers and numbers; brackets, commas, `+`/`-`/`·`, assignments and comparisons are elements. Whole-formula strings like `"if(x>0,(x),(-x))"` or `"2*x"` are the legacy form. Display `TEXT_BLOCK`s are exempt — flat operand strings are the corpus style there.
 - Write infinite values with the infinity sign `∞`, never the word `infinity` — e.g. the limit element's value row (`x → ∞`) and the built-in function call `limit(f, x, ∞)`. Negative infinity is a `MINUS` element followed by `∞`.
 - Do not mix `type: 4` (`STRING`) and code/formula elements in the same `ROW`.
 

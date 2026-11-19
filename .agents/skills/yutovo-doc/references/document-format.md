@@ -107,6 +107,32 @@ defaults to 0):
 }
 ```
 
+### Prose typography (learned the hard way)
+
+- **The paragraph's own row is a `ROW` (3).** A `CODE_ROW` (7) as the
+  paragraph's row loads and solves, but the renderer drops the spaces on the
+  first wrapped line — text displays and copies glued
+  («Пределотвечаетнавопрос…»). `CODE_ROW` only inside block hierarchies.
+- **Raised/lowered text = string-format runs.** Superscript in prose is a
+  separate `STRING` whose format is a clone of the body format with
+  `"superscript": true` (subscript analogously). This is what the
+  «Верхний индекс»/«Нижний индекс» buttons create (`Document::SetSuperscript`
+  — a character format, *not* an element). Example: `10⁻⁶` → three strings
+  `10` (body), `−6` (superscript), `.` (body). Unicode superscript/subscript
+  characters (`⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺ⁿ`, `₀₁…`) must be converted this way — the
+  font lacks most of them and they render as boxes.
+- **Indices in prose**: `a_n` / `a_(n+1)` → base string + subscript-format
+  string (`a`, `n`). Never leave underscore notation in visible text.
+- **A `POWER` element must not sit inside a text `ROW`** — the release build
+  segfaults on such a document.
+- **Compound math goes to a `TEXT_BLOCK`**, never into prose: compound
+  fractions `(a)/(b)`, function definitions with a fraction or exponent
+  (`f(x) = …`), inline limits. Pattern: prose announces → block → prose
+  continues. Simple mentions (`x → 0`, `1/2`, `x²` as a run) are fine in
+  prose; when a definition block sits above, prose refers to it («первая
+  последовательность») rather than repeating the formula.
+
+
 Inline image (`type: 34`, PNG as base64, `elements` always `[]`):
 
 ```json
@@ -207,6 +233,11 @@ equation `f = p·ω/2π`:
 Units are plain `CODE_STRING`s written after the value with
 `can_merge: false` (e.g. `"1"` true + `"Гц"` false).
 
+This example is verbatim corpus content in the **legacy** string style
+(`x*x`-style operands). New documents write solved formulas fully native
+(see "Formulas are native end-to-end" below); units stay `CODE_STRING`s
+either way.
+
 ## Assignments and equations
 
 - `ASSIGNMENT` (27): `[CODE_ROW left, SHAPE, CODE_ROW right]`, optional
@@ -257,21 +288,252 @@ Verified against real library documents:
 | `UNIT` (37) | `[CODE_ROW name, SHAPE, CODE_ROW value]`; name is usually `SUBSCRIPT` of identifier + system; optional `auto_solve: true` |
 | `DEFINITE_INTEGRAL` (49) | `[CODE_ROW lower, SHAPE, CODE_ROW upper, CODE_ROW integrand, CODE_STRING "d", CODE_ROW variable]` |
 | `INDEFINITE_INTEGRAL` (50) | `[SHAPE, CODE_ROW integrand, CODE_STRING "d", CODE_ROW variable]` |
+| `EQUAL`…`NOT_EQUAL` (67–72) | `[CODE_ROW left, SHAPE, CODE_ROW right]` — see "Comparison elements" below |
 
 Operators and brackets (`PLUS` 11, `MINUS` 12, `MULTIPLY` 13, `COMMA` 38,
-brackets 19/20/40/41) contain an array of `SHAPE` placeholders plus a `symbol`
-string field. **`MINUS` and `MULTIPLY` carry 3 `SHAPE`s** (the sign glyph is
-composite); `PLUS`, `COMMA` and brackets carry 1:
+brackets 19/20/40/41) are `OnlyShapeFormula` elements: **one `SHAPE` child
+plus a `symbol` string field** (older saved files may carry extra `SHAPE`s —
+`AfterFromJson` trims them to one on load, so one is the canonical form):
 
 ```json
-{ "type": 12, "elements": [ {"type":10,"elements":[]}, {"type":10,"elements":[]}, {"type":10,"elements":[]} ], "symbol": "-" }
 { "type": 11, "elements": [ {"type":10,"elements":[]} ], "symbol": "+" }
+{ "type": 12, "elements": [ {"type":10,"elements":[]} ], "symbol": "-" }
+{ "type": 13, "elements": [ {"type":10,"elements":[]} ], "symbol": "·" }
+{ "type": 38, "elements": [ {"type":10,"elements":[]} ], "symbol": "," }
+{ "type": 19, "elements": [ {"type":10,"elements":[]} ], "symbol": "(" }
+{ "type": 20, "elements": [ {"type":10,"elements":[]} ], "symbol": ")" }
 ```
+
+`symbol` is validated on load (exactly one char, not checked against the
+type — write the correct one). Serialization to the parser is the symbol
+itself; **`MULTIPLY` serializes as `·` (U+00B7), not `*`** — the solver
+accepts `·`, and a `*` may not appear inside a `CODE_STRING`. A unary minus
+is the same `MINUS` element placed before the operand: `-5` → `[MINUS,
+CODE_STRING "5"]`.
+
+## Comparison elements (types 67–72)
+
+`EQUAL` (67), `GREATER` (68), `LESS` (69), `GREATER_EQUAL` (70),
+`LESS_EQUAL` (71), `NOT_EQUAL` (72) — the comparison operators added in
+Nov 2026 editor builds. Children are exactly `[CODE_ROW left, SHAPE,
+CODE_ROW right]` (like `EQUATION`, but **no `result_type` and no `symbol`
+field** — the sign is drawn from the element type; `EQUAL` renders bold).
+Both operand rows must be non-empty, otherwise the equation reports
+`Expression expected`.
+
+| Element | Type | Displays | Parser output |
+|---------|------|----------|---------------|
+| `EQUAL` | 67 | `=` (bold) | `(left==right)` |
+| `GREATER` | 68 | `>` | `(left>right)` |
+| `LESS` | 69 | `<` | `(left<right)` |
+| `GREATER_EQUAL` | 70 | `⩾` (U+2A7E) | `(left>=right)` |
+| `LESS_EQUAL` | 71 | `⩽` (U+2A7D) | `(left<=right)` |
+| `NOT_EQUAL` | 72 | `≠` (U+2260) | `(left<>right)` |
+
+The comparison always wraps itself in parentheses when serialized — "the
+calculator parses a comparison only in parentheses" (`formulas/comparison.cpp`).
+
+## Formulas are native end-to-end
+
+Inside **solved** code blocks (`CODE_BLOCK`) every bracket, comma, `+`,
+`-`, `·`, assignment and comparison is an element; `CODE_STRING`s carry
+only identifiers and numbers (`if`, `for`, `x`, `10`, `0.25`).
+Whole-formula strings (`"for(i=1,i<=5,i=i+1,(f=f*i))"`) are the legacy
+form and a syntax error for the current solver — new documents are fully
+native. Reference implementation:
+`Справка/Вычисления/Управляющие конструкции/` («Условное выражение if»,
+«Цикл for»).
+
+Display `TEXT_BLOCK`s are **exempt**: nothing inside them is serialized
+to the solver, and the shipped corpus (Математика/Производные,
+Математика/Пределы — 71 occurrences) freely mixes native structural
+elements (derivative fractions, `LIMIT`) with flat operand strings
+(`"2*x"`, `"3*x^2"`). Keep that style there; apply full nativization to
+solved code only.
+
+Verbatim — the equation `if(x>0,(x),(-x))` (EQUATION left row; the shape,
+the result row and configs are omitted):
+
+```json
+{ "type": 7, "elements": [
+    { "type": 8, "elements": "if", "format_id": "<code format>", "can_merge": true },
+    { "type": 19, "elements": [ { "type": 10, "elements": [] } ], "symbol": "(" },
+    { "type": 68, "elements": [
+        { "type": 7, "elements": [
+            { "type": 8, "elements": "x", "format_id": "<code format>", "can_merge": true } ] },
+        { "type": 10, "elements": [] },
+        { "type": 7, "elements": [
+            { "type": 8, "elements": "0", "format_id": "<code format>", "can_merge": true } ] }
+      ] },
+    { "type": 38, "elements": [ { "type": 10, "elements": [] } ], "symbol": "," },
+    { "type": 19, "elements": [ { "type": 10, "elements": [] } ], "symbol": "(" },
+    { "type": 8, "elements": "x", "format_id": "<code format>", "can_merge": true },
+    { "type": 20, "elements": [ { "type": 10, "elements": [] } ], "symbol": ")" },
+    { "type": 38, "elements": [ { "type": 10, "elements": [] } ], "symbol": "," },
+    { "type": 19, "elements": [ { "type": 10, "elements": [] } ], "symbol": "(" },
+    { "type": 12, "elements": [ { "type": 10, "elements": [] } ], "symbol": "-" },
+    { "type": 8, "elements": "x", "format_id": "<code format>", "can_merge": true },
+    { "type": 20, "elements": [ { "type": 10, "elements": [] } ], "symbol": ")" },
+    { "type": 20, "elements": [ { "type": 10, "elements": [] } ], "symbol": ")" }
+  ] }
+```
+
+Serializer output of that row: `if((x>0),(x),(-x))`.
+
+**Split rules** when decomposing a written formula (they mirror
+`Comparison::AfterInsert` / `Assignment::AfterInsert` — where the editor
+wraps the typed left part when an operator is inserted):
+
+- An `ASSIGNMENT` (27) or comparison wraps the preceding row elements as
+  its left side, going back until: a comma of the same argument list, the
+  open bracket of the enclosing call (`if(`, `for(`, a function), another
+  assignment/comparison at the same level, or the row start. Balanced call
+  brackets belong to the operand (`f(2)` is the whole left side).
+- The right side runs forward until a comma of the same argument list or
+  the closing bracket of the enclosing call; everything inside nested
+  brackets belongs to the right side.
+- `for(i=1,i<=5,i=i+1,(f=f*i))` decomposes to
+  `["for", (, ASSIGN[i|1], ",", i, LEQ[i|5], ",", ASSIGN[i| i+1], ",", (,
+  ASSIGN[f| f·i], ), )]` — assignments of the head and body sit in the row
+  as siblings between the commas, with no `auto_solve`.
+- In the app, typing `<` / `>` inside a formula inserts the comparison
+  element directly; `Ctrl+=` inserts `EQUAL`, `Ctrl+Shift+=` — `NOT_EQUAL`,
+  `Ctrl+Shift+>`/`Ctrl+Shift+.` — `GREATER_EQUAL`,
+  `Ctrl+Shift+<`/`Ctrl+Shift+,` — `LESS_EQUAL`.
 
 Note: elements inside code (below a `CODE_BLOCK`) are usually written **without
 `id` fields** in saved files — the editor tolerates both; for hand-authored
 documents, giving every element a dense `id` is safest and matches the id
 renumbering rule.
+
+
+## TEXT_BLOCK: display-only formulas (types 55/56/57)
+
+A `TEXT_BLOCK` (55) looks like a code block but never solves: equations and
+assignments inside are not computed, identifiers are not registered in the
+solver, and the right part of every equality stays editable. Use it to *show*
+formulas (definitions, theorems, derivations) instead of computing them.
+First used at scale by `library/ru/Темы/Производные/`.
+
+Hierarchy (identical to a code block, but no `code_id` — the field is absent):
+
+```
+PARAGRAPH (2) → ROW (3) → TEXT_BLOCK (55) → CODE_PARAGRAPH (6) → CODE_ROW (7) → CODE_STRING (8) / formula elements / TEXT_EQUATION (56) / TEXT_ASSIGNMENT (57)
+```
+
+Verbatim minimal example — a definition and an equality:
+
+```json
+{ "type": 55, "elements": [
+  { "type": 6, "format_name": "Код", "format_alignment": 0, "elements": [
+    { "type": 7, "elements": [
+      { "type": 57, "elements": [
+        { "type": 7, "elements": [ { "type": 8, "elements": "y", "format_id": "…", "can_merge": true } ] },
+        { "type": 10, "elements": [] },
+        { "type": 7, "elements": [ { "type": 8, "elements": "x^2", "format_id": "…", "can_merge": false } ] }
+      ] }
+    ] }
+  ] }
+] }
+```
+
+- `TEXT_ASSIGNMENT` (57) — display-only definition (`y = x^2`), children
+  `[CODE_ROW left, SHAPE, CODE_ROW right]`, both sides plain editable rows.
+- `TEXT_EQUATION` (56) — display-only equality, same 3-child layout; there is
+  **no** result element and no `result_type`.
+- Plain display formulas (no equality) are ordinary `CODE_ROW`s with formula
+  elements (`DIVISION`, `POWER`, `SUBSCRIPT`, `SUM`, integrals, …).
+- `CODE_STRING`s inside a text block follow the same rules as in code blocks
+  (single string, `format_id`, `can_merge`) and must contain visible content.
+- Text blocks are **exempt** from the native-end-to-end rule: they never
+  serialize to the solver, so flat operand strings (`"2*x"`, `"x^2"`) next to
+  native structural elements are the established corpus style here.
+
+### Derivative/limit notation for display
+
+The app notation for a derivative is the Leibniz fraction — build it as a
+`DIVISION`, do **not** use prime marks:
+
+- first order: `DIVISION[ [d, expr], , [d, x] ]` (numerator row: `d` then the
+  expression; denominator row: `d` then the variable)
+- higher order: numerator `POWER(d, n)` then the expression; denominator a
+  single `POWER` whose *base row* holds `d` and the variable together and whose
+  exponent is `n` (`can_merge: true` on `d` and the exponent matters for the
+  solver serialization — copy from
+  `Справка/Вычисления/Символьные вычисления/Дифференцирование.yut`)
+- "derivative at a point": append an `EVALUATION_BAR_SUBSCRIPT` (54) after the
+  fraction; its children are `[SHAPE, CODE_PARAGRAPHS_BLOCK_ASSIGNMENT (53) →
+  CODE_PARAGRAPH_ASSIGNMENT (52, format «Код») → CODE_ROW_ASSIGNMENT (51) →
+  ASSIGNMENT (var = value, no auto_solve)]`
+- display limits: the **native `LIMIT` element (type 62)** — the same element
+  the «Предел» toolbar button inserts. Do **not** fake it with `SUBSCRIPT` +
+  `lim`. Verbatim (from `Справка/Вычисления/Пределы.yut`):
+
+```json
+{ "type": 62,
+  "elements": [
+    { "type": 8, "elements": "lim", "format_id": "<code format>", "can_merge": false },
+    { "type": 7, "elements": [
+        { "type": 8, "elements": "x", "format_id": "<condition format>", "can_merge": true } ] },
+    { "type": 8, "elements": "→", "format_id": "<condition format>", "can_merge": false },
+    { "type": 7, "elements": [
+        { "type": 8, "elements": "0", "format_id": "<condition format>", "can_merge": true } ] }
+  ] }
+```
+
+  Facts (editor source: `formulas/limit.cpp`):
+  - Exactly 4 children `[CODE_STRING "lim", CODE_ROW var, CODE_STRING "→",
+    CODE_ROW value]`; `AfterFromJson` rejects anything else. The `lim` and
+    `→` strings are non-editable at runtime (`editable` is not serialized).
+  - The condition strings use a **smaller format** — FreeMono 12 in the help
+    corpus (`f37ecfa8-6343-4fe3-aa2b-9c488bc14fff`) vs FreeMono 14 for code;
+    the "lim" sign itself uses the normal code format. `level` on the element
+    is optional — the editor recalculates it via `UpdateLevel` on load.
+  - A **one-sided limit**: the value row ends with a `POWER` whose exponent
+    row is `"+"` or `"-"` (e.g. value row `[0, POWER(0, +)]` for `x → 0+`);
+    `GetDirection` reads it and the serializer emits the 4th argument.
+  - In a **solved equation** the left `CODE_ROW` is `[LIMIT, body…]` — the
+    body elements follow the element in the same row, and
+    `CodeRow::ToParserString` wraps them into `limit(body, var, value[, ±1])`.
+    Do not hand-write `limit(...)` as a `CODE_STRING`; build the element pair
+    and let the serializer produce the call. Do not put two such limit
+    equations in one `code_id`.
+  - Compatibility: builds before Nov 2026 do not parse type 62 at all
+    (`document not parsed`). The library corpus already ships type 62
+    (help «Пределы» in every language), so new documents target the newer
+    builds and must not be "downgraded" to lim+subscript.
+
+## Compatibility notes for solved blocks (learned the hard way)
+
+Verified on the release `deploy/bin/yutovo-desktop` (Oct 2026 build) and the
+then-current debug build; re-check when the solver evolves:
+
+- The d/dx fraction (with `EVALUATION_BAR_SUBSCRIPT` for points) solves fine,
+  including symbolic results (`result_type` 7). Prefer it over `derivative()`.
+- `result_type` 8 (SYMBOLIC_RATIONAL) fails on a d/dx fraction whose expression
+  calls a user function (`d f(x)/dx` with `f(x)=…` assigned) — use 7 there.
+- INTEGER result (2) for a *numeric derivative at a point* fails; integers work
+  for plain integer-valued expressions.
+- Two solved derivative equations in **one** `code_id` — one "at point" plus one
+  symbolic/nested — can produce `Incorrect operation` (order-dependent solver
+  bug). Keep one derivative equation per code block, or keep a block's
+  derivative equations of one kind.
+- `if(cond,(a),(b))` with a **native comparison element** as the condition is
+  the correct form (see `Справка/Вычисления/Управляющие конструкции/`); with
+  comparison operators left in strings the equations are syntax errors. As of
+  19 Nov 2026 the *evaluation* of if/for calls still fails in the newest
+  debug build (`Unknown identifier` / `Syntax error` on every if/for equation,
+  reproduced block-by-block — while standalone comparison equations solve,
+  variables included, all 9 `SolverAutoTest.comparison*` tests pass): the
+  solver support is work in progress in the editor repo. The documents are
+  structurally final; re-check solving once the if/for solver lands.
+- Definite/indefinite integrals and π in limits solve fine; partial-derivative
+  (∂) blocks need the newest solver. A solved limit built as `[LIMIT, body]`
+  (see the display-notation section) solves in Nov 2026+ builds; a
+  hand-written `limit(...)` `CODE_STRING` does not solve — and never mix the
+  two spellings.
+- Units: values with unit suffixes and unit arithmetic solve; a derivative over
+  a unit-valued *variable* does not.
 
 ## Graphs
 
